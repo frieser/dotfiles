@@ -1,0 +1,16 @@
+{
+    "window.zoomLevel": 1.8,
+    "editor.fontSize": 18,
+    "workbench.editor.showTabs": "none",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "none",
+    "zenMode.centerLayout": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "files.autoSave": "afterDelay",
+    "windsurf.enableSupercomplete": false,
+    "editor.lineNumbers": "relative"
+}
