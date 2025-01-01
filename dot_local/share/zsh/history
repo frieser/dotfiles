@@ -1,0 +1,5406 @@
+cd Documents/dev/launcher
+git pull origin master
+make
+distrobox enter toolbox
+launcher
+home-manager switch
+distrobox enter toolbox
+rpm-ostree override reset firefox firefox-langpacks
+rpm-ostree status
+printf '[Desktop Entry]\nNoDisplay=true\n' >~/.local/share/applications/firefox.desktop
+flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install firefox
+cd /var/home/frieser/.mozilla/firefox/n0q1ok6r.default-release
+cd /var/home/frieser/.var/app/org.mozilla.firefox/cache/mozilla/firefox/n0q1ok6r.default-release
+git clone https://github.com/khuedoan/one-line-firefox chrome
+ls
+ls chrome
+cd /var/home/frieser/.var/app/org.mozilla.firefox/cache/mozilla/firefox/58bfl5o9.default
+git clone https://github.com/khuedoan/one-line-firefox chrome
+/var/home/frieser/.var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline
+cd /var/home/frieser/.var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline
+git clone https://github.com/khuedoan/one-line-firefox chrome
+ls
+cd /var/home/frieser/.var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline
+ls
+ls chrome
+rm -rf chrome
+ls chrome
+ls
+git clone https://github.com/khuedoan/one-line-firefox chrome
+ls
+ls chrome
+killall firefox
+ps aux | grep firefox
+flatpak install flatseal
+ls ~/.var/app/org.mozilla.firefox
+ls
+ls /var/home/frieser/.mozilla/firefox
+rm -rf /var/home/frieser/.mozilla/firefox
+rm -rf /var/home/frieser/.mozilla
+htop
+cd Documents/dev/kmonad
+ls
+cat README.md
+distrobox enter toolbox
+d
+cd
+vim ~/.config/systemd/user/kmonad.service
+systemctl daemon-reload
+systemctl --user daemon-reload
+systemctl --user start kmonad
+systemctl --user status kmonad
+kmonad
+ls /home/frieser/.config/kmonad/trackpointII.kbd
+cat /home/frieser/.config/kmonad/trackpointII.kbd
+systemctl --user status kmonad
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+sudo vim /etc/udev/rules.d/90-kmonad.rules
+sudo vi /etc/udev/rules.d/90-kmonad.rules
+udevadm info /dev/input/by-id/usb-MosArt_USB_Keyboard-event-kbd | grep ID_SERIAL
+udevadm info /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+ls -l /dev/lenovo_trackpoint_keyboard
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+vim /home/frieser/.config/kmonad/trackpointII.kbd
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+vim /home/frieser/.config/kmonad/trackpointII.kbd
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+systemctl reboot
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+ls -l /dev/lenovo_trackpoint_keyboard
+udevadm info /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd
+groups
+ls -l /dev/lenovo_trackpoint_keyboard
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+ls -l /dev/lenovo_trackpoint_keyboard
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+sudo udevadm test /dev/input/event6
+ls -l /dev/lenovo_trackpoint_keyboard
+ls /dev/input/event6
+ls /dev/input/event6 -la
+ls /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd -la
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+vim /home/frieser/.config/kmonad/trackpointII.kbd
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+vim /home/frieser/.config/kmonad/trackpointII.kbd
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+vim /home/frieser/.config/kmonad/trackpointII.kbd
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+ls -l /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+systemctl --user restart kmonad
+systemctl --user status kmonad
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+journalctl -u kmonad.service
+journalctl --user -u kmonad.service
+journalctl --user -xu kmonad.service
+journalctl --user -u kmonad.service
+vim ~/.config/systemd/user/kmonad.service
+systemctl --user daemon-reload
+systemctl --user status kmonad
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+groups
+ls -l /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd
+udevadm info /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd
+sudo udevadm test /dev/input/event6
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+ls -l /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd
+sudo udevadm test /dev/input/event6
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+ls /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd -la
+ls /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+sudo udevadm trigger
+ls /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd -la
+ls /dev/input/event6 -la
+sudo nano /etc/udev/rules.d/99-kmonad.rules
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+ls /dev/input/by-id/usb-Lenovo_TrackPoint_Keyboard_II-event-kbd -la
+kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+systemctl reboot
+vim ~/.config/kitty/kitty.conf
+ls
+flatpak update
+git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+cd ~/.config/kitty
+vim ~/.config/kitty/kitty.conf
+ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
+ls
+cd ~/.config/kitty
+ln -s ./kitty-themes/themes/3024_Night.conf ~/.config/kitty/theme.conf
+ls
+rm ~/.config/kitty/theme.conf
+ln -s ./kitty-themes/themes/3024_Night.conf ~/.config/kitty/theme.conf
+ls
+rm ~/.config/kitty/theme.conf
+ln -s ./kitty-themes/themes/Afterglow.conf ~/.config/kitty/theme.conf
+ls
+rm ~/.config/kitty/theme.conf
+ln -s ./kitty-themes/themes/Lavandula.conf ~/.config/kitty/theme.conf
+ls
+vim ~/.config/kitty/kitty.conf
+ls
+htop
+ls
+htop
+home-manager edit
+vim
+vim ~/.config/home-manager/home.nix
+vim ~/.vimrc
+nvim
+ls
+cd Documents/work/bbva/deployment/deployment
+git status
+git checkout develop
+cat README.md
+vim README.md
+cd Documents/work/bbva/deployment/deployment
+podman build -t deployment-toolbox .
+cd Documents/work/bbva/tools/bbva-vpn
+cat README.md
+podman build -t bbva-vpn:latest -f Dockerfile .
+cat README.md
+distrobox create -n deployment-toolbox -i deployment-toolbox --volume /opt/deployment --volume /etc/pki/ca-trust/source/anchors/ --pre-init-hooks "dnf -y install tzdata"\
+
+distrobox enter deployment-toolbox
+proxy
+git pull origin develop
+cd Documents/work/bbva/tools/bbva-vpn
+cat README.md 
+cp -pv /etc/systemd/resolved.conf /etc/systemd/resolved.conf.bck
+git pull origin develop
+sudo touch /etc/systemd/resolved.conf
+sudo vim /etc/systemd/resolved.conf
+sudo vi /etc/systemd/resolved.conf
+systemctl restart systemd-resolved
+proxy
+git pull origin develop
+proxy
+vpn
+vpn
+
+
+proxy
+cat integration/scripts/env.sh
+cat integration/scripts/run.sh
+sh integration/scripts/run.sh
+cat integration/README.md
+rpm-ostree install podman-docker
+systemctl reboot
+flatpak update
+cd Documents/work/bbva/deployment/deployment
+ls
+sh integration/scripts/run.sh
+mkdir ~/.cache/bazel
+sh integration/scripts/run.sh
+mkdir ~/.kube
+sh integration/scripts/run.sh
+rpm-ostree remove podman-docker
+rpm-ostree install docker
+systemctl reboot
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+docker ps
+ls /var/run/docker.sock
+ls /var/run/docker.sock -ll
+id -u
+whoami
+grep ^$(whoami): /etc/subuid
+systemctl status docker
+sudo systemctl disable --now docker.service docker.socket
+sudo rm /var/run/docker.sock
+grep -E '^docker:' /usr/lib/group | sudo tee -a /etc/group
+sudo usermod -aG docker $USER
+groups
+docker ps
+groups
+sudo systemctl start docker
+docker ps
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+kind list cluster  
+kind cluster list  
+kind cluster
+cat integration/README.md
+kind get clusters
+kind delete cluster -n integration
+rm /var/home/frieser/.kube/config
+touch ~/.kube/config
+rpm-ostree update --check --preview
+rpm-ostree status
+sudo ostree admin pin 0
+rpm-ostree update --check --preview
+cat integration/scripts/env.sh
+cat integration/integration.yaml
+vpn
+cd Documents/work/bbva/deployment/deployment
+proxy
+sh integration/scripts/run.sh
+sudo systemctl start docker
+sh integration/scripts/run.sh
+kind delete cluster -n integration
+flatpak update
+rpm-ostree update --check --preview
+ostree status
+rpm-ostree status
+rpm-ostree 
+rpm-ostree cleanup
+rpm-ostree cleanup -h
+rpm-ostree cleanup -p
+rpm-ostree cleanup -r
+rpm-ostree cleanup -b
+rpm-ostree status
+hop
+htop
+cd .local/share/gnome-shell/extensions/focus@scaryrawr.github.io
+ls
+vim metadata.json
+htop
+cd .local/share/gnome-shell/extensions/mousefollowsfocus@matthes.biz
+vim metadata.json
+flatpak update
+firefox 
+flatpak list 
+flatpak run org.mozilla.firefox
+flatpak run org.mozilla.firefox google.es
+flatpak run org.mozilla.firefox -h
+a
+l
+vim ~/.local/share/applications/cursor.desktop
+chmod +x ~/.local/share/applications/cursor-launcher.desktop
+chmod +x ~/.local/share/applications/cursor.desktop
+vim ~/.local/share/applications/cursor.desktop
+flatpak update
+rpm-ostree status
+rpm-ostree update --check --preview
+vpn
+proxy
+vim ~/.confighome-manager/home.nix
+vim ~/.config/home-managerhome.nix
+vim ~/.config/home-manager/home.nix
+home-manager switch
+cd .config
+git clone https://github.com/bazelbuild/buildtools/releases nvim
+git clone git@github.com:frieser/kickstart-modular.nvim.git nvim
+cd
+vim
+flatpak update
+rpm-ostree update --check --preview
+flatpak update
+distrobox enter deployment-toolbox
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+sudo systemctl start docker
+sh integration/scripts/run.sh
+a
+flatpak update
+rpm-ostree update --check --preview
+a
+rpm-ostree status
+ls .kube/config
+ls .kube/config -la
+chmod 551
+chmod 551 .kube/config
+ls .kube/config -la
+chmod 444 .kube/config
+ls .kube/config -la
+chmod 660 .kube/config
+ls .kube/config -la
+sh integration/scripts/run.sh
+rm .kube/config
+sh integration/scripts/run.sh
+ostree remote refs fedora
+sh integration/scripts/run.sh
+cd Documents/work/bbva/deployment/deployment
+git checkout -b fix/redoing-deployer-logs
+fl
+flatpak update
+k get pods
+systemctl reboot
+a
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+sudo systemctl start docker
+sh integration/scripts/run.sh
+kind delete cluster -n integration
+git status
+git add deployer-gitops
+git status
+git add integration
+git add lib
+git status
+git commit
+distrobox enter deployment-toolbox
+git commit
+vim ~/.config/home-manager/home.nix
+ls $HOME/go/bin
+go install golang.org/x/tools/cmd/goimports@latest
+ls $HOME/go/bin
+exit
+cd Documents/work/bbva/deployment/deployment
+git commit
+distrobox enter deployment-toolbox
+python3 -m pip install --user qmk
+python -m pip install --user qmk
+vim ~/.config/home-manager/home.nix
+home-manager switch
+qmk
+qmk setup
+sudo cp /var/home/frieser/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
+qmk setup
+qmk
+qmk list-keyboards
+qmk
+qmk flash
+ls Downloads/idank_sweeq_layout_split_3x5_2_mine.hex
+qmk flash -kb idank/sweeq -km ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.hex
+qmk json2c ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.json -o keymap.c
+qmk compile ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.json
+ls
+ls qmk_firmware
+qmk flash
+cp ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.json ~/qmk_firmware/keyboards/idank/sweeq/keymaps
+rm keymap.c
+qmk json2c -o keymap.c idank_sweeq_layout_split_3x5_2_mine.json
+qmk json2c ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.json -o keymap.c
+qmk flash
+sudo udevadm control --reload-rules
+sudo udevadm trigger 
+rm Downloads/idank_sweeq_layout_split_3x5_2_mine.*
+cp ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.json ~/qmk_firmware/keyboards/idank/sweeq/keymaps
+rm ~/qmk_firmware/keyboards/idank/sweeq/keymaps/idank_sweeq_layout_split_3x5_2_mine.json
+systemctl --user restart kmonad
+systemctl --user stop kmonad
+systemctl --user restart kmonad
+flatpak update
+vpn
+proxy
+cd Documents/work/bbva/deployment/deployment
+git status
+git push origin fix/redoing-deployer-logs
+distrobox enter deployment-toolbox
+proxy
+vpn
+proxy
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+sudo systemctl start docker
+sh integration/scripts/run.sh
+sh integration/scripts/test.sh
+curl http://localhost:30081
+curl https://localhost:30081
+curl -k https://localhost:30081
+curl -k https://localhost:30080
+curl http://localhost:30080
+curl http://localhost:30081
+sh integration/scripts/run.sh
+cd Documents/work/bbva/deployment/deployment
+ls
+sh integration/scripts/run.sh
+curl http://localhost:30081
+sh integration/scripts/run.sh
+curl http://localhost:30081
+sh integration/scripts/run.sh
+sh integration/scripts/test.sh
+sh integration/scripts/run.sh
+cd Documents/dev
+git clone https://github.com/glennraya/vscode-settings-json.git
+cd vscode-settings-json
+ls
+pwd
+cat settings.json
+pwd
+ls
+flatpak install vscode
+flatpak install code
+flatpak search code
+flatpak search vscode
+flatpak install com.visualstudio.code
+kind delete cluster -n integration
+vim ~/.config/home-manager/home.nix
+home-manager switch
+qmk flash
+qmk
+qmk flash
+qmk list-keyboards
+qmk list-keyboards| grep sweep
+qmk list-keymaps
+qmk list-keymaps -kb ferris/sweep
+qmk list-keymaps -kb idank/sweeq
+qmk compile
+qmk compile -kb idank/sweeq -km default_split_3x5_2
+qmk flash -kb idank/sweeq -km default_split_3x5_2
+lsusb
+qmk flash -kb idank/sweeq -km default_split_3x5_2
+qmk
+qmk setup
+qmk config
+qmk console
+qmk flash -kb idank/sweeq -km default_split_3x5_2
+qmk flash -kb idank/sweeq -km default
+dfu-programmer
+dfu-programmer --targets
+cat /etc/udev/rules.d/50-qmk.rules
+dfu-programmer atmega32u4 get
+dfu-programmer 
+dfu-programmer --targets
+cd Documents/dev
+git clone https://github.com/idank/qmk_firmware.git
+ls
+cd qmk_firmware
+ls
+git checkout holykeebs-master
+cd ..
+rm -rf qmk_firmware
+git clone --recurse-submodules https://github.com/idank/qmk_firmware -b holykeebs-master
+cd qmk_firmware
+make
+make 	idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+cd
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+     -j8 \\
+    -kb idank/sweeq -km via
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km via
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km default
+flatpak update
+cd Documents/workbbva/deployment/deployment
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+rpm-ostree update --check --preview
+sudo systemctl start docker
+rpm-ostree update --check --preview
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+rpm-ostree update --check --preview
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+rm /var/home/frieser/.var/app/com.jetbrains.GoLand/config/JetBrains/GoLand2024.2/.lock
+kind delete cluster -n integration
+rm /var/home/frieser/.kube/config
+kind delete cluster -n integration
+systemctl reboot
+cd Documents/dev/shell
+git pull origin master_noble
+cd
+cd Documents/work/bbva/deployment/deployment
+sh integration/scripts/run.sh
+sudo systemctl start docker
+sh integration/scripts/run.sh
+rm /var/home/frieser/.var/app/com.jetbrains.GoLand/config/JetBrains/GoLand2024.2/.lock
+flatpak update
+mkdir /opt/deployment/certs
+sudo mkdir /opt/deployment/certs
+chmod 777 -R /opt/deployment
+sudo chmod 777 -R /opt/deployment
+cp ~/Documents/work/bbva/certs/technical-deployment-server_clientcert.* /opt/deployment/certs
+cp ~/Documents/work/bbva/certs/lra-technical-deployment-server* /opt/deployment/certs
+sh integration/scripts/run.sh
+git checkout -b fix/spand-api-deployer
+git status
+git diff lib
+git add li 
+git add li b
+git add lib
+git status
+git diff integration
+git add integration
+git status
+git diff deployer-gitops
+git add deployer-gitops
+git status
+git diff api/test
+git add api/test/http-client.env.json
+git status
+git diff api/internal/deployment
+git status
+git add api/internal/deployment/client
+git diff
+git status
+git commit
+distrobox enter deployment-toolbox
+vpn
+proxy
+kind delete cluster -n integration
+proxy
+vpn
+proxy
+cd Documents/work/bbva/bbva-vpn
+cd Documents/work/bbva/tools/bbva-vpn
+cd
+cd Documents/work/bbva/tools/bbva-vpn
+git status
+rm podman-data/id_rsa*
+cat RE
+cat README.md
+ssh-keygen -t rsa -b 4096 -f ./podman-data/id_rsa -N ''
+vpn
+proxy
+sudo systemctl stop docker
+sudo systemctl status docker
+vpn
+proxy
+systemctl reboot
+vpn
+proxy
+distrobox enter deployment-toolbox
+a
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km default
+flatpak update
+lsusb
+qmk
+qmk console
+cd Documents/dev/qmk_firmware
+make 	idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+distrobox enter toolbox
+qmk setup
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km default
+ls
+ls keyboards/idank/sweeq
+qmk
+qmk new-keymap
+ls keyboards/idank/sweeq/keymaps/frieser/keymap.json
+cat keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+systemctl reboot
+a
+flatpak update
+rpm-ostree update --check --preview
+cd Documents/work/bbva/deployment/deployment   
+ls
+cd
+cd Documents/dev/qmk_firmware
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+%
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+flatpak update 
+rpm-ostree update --check --preview
+cd Documents/dev/qmk_firmware
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+flatpak update 
+rpm-ostree update --check --preview
+flatpak update 
+distrobox enter deployment-toolbox
+cd Documents/work/bbva/deployment/deployment   
+sh integration/scripts/run.sh
+sudo systemctl status docker
+sudo systemctl restart docker
+sh integration/scripts/run.sh
+kind delete cluster -n integration
+fvpn
+vp
+vpn
+git status
+git add deployer-gitops
+git diff
+git status
+git commit
+distrobox enter deployment-toolbox
+proxy
+sysl
+systemctl reboot
+vpn
+proxy
+vpn
+proxy
+cd Documents/work/bbva/deployment/deployment   
+distrobox enter deployment-toolbox
+flatpak update 
+rpm-ostree update --check --preview
+rpm-ostree status
+rpm-ostree log
+rpm-ostree status
+ostree log fedora:fedora/41/x86_64/silverblue
+ostree remote refs fedora
+ostree log fedora:fedora/41/x86_64/silverblue -h
+ostree log fedora:fedora/41/x86_64/silverblue --raw
+ostree log fedora:fedora/41/x86_64/silverblue 
+ostree log -h
+ostree log fedora:fedora/41/x86_64/silverblue 
+ostree refs
+ostree pull --all fedora
+ostree -h
+ostree pull --all fedora
+ostree pull fedora
+sudo ostree pull fedora
+ostree refs
+ostree log
+ostree log fedora:fedora/41/x86_64/silverblue
+ostree show 9a9142ee27655f83f98d59a861367b24d404ad1f3a7a1bf6a638685539111c27
+systemctl reboot
+cd Documents/dev/qmk_firmware
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/config.h
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.c
+rm keyboards/idank/sweeq/keymaps/frieser/keymap.c
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.c
+rm keyboards/idank/sweeq/keymaps/frieser/rules.mk
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+sssss
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+this
+this is
+this is a
+this is a test that I use to
+vim
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+flatpak update 
+vim ~/.config/home-manager/home.nix
+home-manager switch
+tytools
+TyUploader
+tyuploader
+ls /dev/ttyACM0
+ls /dev/ttyACM0 -l
+sudo vi /etc/udev/rules.d/49-teensy.rules
+lsusb
+groups
+sudo udevadm control --reload-rules
+sudo udevadm control --reload
+sudo udevadm trigger 
+tyuploader
+lsusb
+tyuploader 
+systemctl reboot
+tyuploader 
+ls /dev/ttyACM0 -l
+sudo chown root:wheel /dev/ttyACM0
+ls /dev/ttyACM0 -l
+tyuploader 
+flatpak install obisidian
+flatpak search obsidian
+flatpak install md.obsidian.Obsidian
+nix-env -iA m8c-stable -f https://github.com/laamaa/m8c/archive/refs/heads/main.tar.gz
+m8c
+ls /dev/ttyACM0 -l
+sudo chown root:wheel /dev/ttyACM0
+m8c
+distrobox enter toolbox
+cd Downloads/m8c-1.7.8
+ls
+sudo chown root:wheel /dev/ttyACM0
+./m8c
+distrobox enter toolbox
+vim  /run/media/frieser/SHARE/roms/ports/m8c.sh
+systemctl --user status kmonad
+flatpak update
+rpm-ostree update --check --preview
+cd Documents/dev/qmk_firmware
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim
+cd
+vim
+cd Documents/dev/qmk_firmware
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+git status
+git diff
+git
+git status
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+flatpak update
+rpm-ostree update --check --preview
+date
+ls
+htop
+rpm-ostree status
+ostree refs
+ostree log fedora:fedora/41/x86_64/silverblue
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+rpm-ostree log
+ostree log fedora:fedora/41/x86_64/silverblue
+ostree tags fedora:fedora/41/x86_64/silverblue
+cd Documents/work/bbva/deployment/deployment   
+sh integration/scripts/run.sh
+sudo systemctl restart docker
+sh integration/scripts/run.sh
+git; 
+git status
+git diff
+ls `
+ls ~/Downloads/cursor-0.42.4x86_64.AppImage
+vim ~/.local/share/applications/cursor.desktop
+cd Documents/dev/qmk_firmware
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+ls ~/Downloads/cursor-0.42.4x86_64.AppImage
+rm
+rm ~/Downloads/cursor-0.42.4x86_64.AppImage
+ls ~/.local/bin/cursor-0.42.5-build-24111460bf2loz1-x86_64.AppImage
+cd Documents/work/bbva/deployment/deployment   
+git status
+git
+git stash
+git status
+vpn
+proxy
+systemctl reboot
+vpn
+proxy
+git checkout develop
+cd Documents/work/bbva/deployment/deployment   
+git checkout develop
+git
+git pull origin develop
+sh integration/scripts/run.sh
+sudo systemctl restart docker
+sh integration/scripts/run.sh
+rm /var/home/frieser/.var/app/com.jetbrains.GoLand/config/JetBrains/GoLand2024.2/.lock
+git log
+git stash apply
+git status
+git stash
+flatpak update
+rpm-ostree update --check --preview
+rpm-ostree update 
+systemctl reboot
+flatpak update
+rpm-ostree update --check --preview
+rpm-ostree status
+vpn
+proxy
+vpn
+proxy
+vpn
+proxy
+sudo
+sudo trust --store `
+sudo trust --store 
+sudo trust --store ~/Downloads/globalrootca.crt
+sudo trust --anchor ~/Downloads/globalrootca.crt
+ltrust
+trust
+sudo trust store --store ~/Downloads/globalrootca.crt
+sudo trust anchor --store ~/Downloads/globalrootca.crt
+vpn
+proxy
+vpn
+proxy
+flatpak update
+cd Documents/work/bbva/deployment/deployment   
+git pull origin develop
+git status
+git add api
+git commit --no-verify
+distrobox enter toolbox
+distrobox enter deployment-toolbox
+cd Documents/work/bbva/deployment/deployment   
+sh integration/scripts/run.sh
+sudo systemctl restart docker
+sh integration/scripts/run.sh
+distrobox enter deployment-toolbox
+sh integration/scripts/run.sh
+distrobox enter deployment-toolbox
+sh integration/scripts/run.sh
+cd Documents/work/bbva/deployment/deployment   
+git status
+git checkout -b fix/logguer-span-id
+git status
+git diff
+git add api/internal/deployment/client/client.go
+git status
+git diff
+git add api/internal/deployment/client/service.go
+git status
+git diff api/internal
+git status
+git restore api/internal/api/router.go api/internal/deployment/config/middleware.go api/test/deployment.http api/test/http-client.env.json
+git status
+distrobox enter deployment-toolbox
+git status
+distrobox enter deployment-toolbox
+kind delete cluster -n integration
+kind list cluster
+kind list clusters
+kind clusters
+kind cluster
+kind get clusters
+htop
+ps auc
+ps aux
+flatpak update
+rpm-ostree
+rpm-ostree update --check --preview
+flatpak update
+rpm-ostree update --check --preview
+flatpak update
+rpm-ostree update --check --preview
+cd Documents/
+ls
+mv notes vault
+git clone git@github.com:frieser/notes.git
+ls
+cd Documents/notes
+ls
+vim .gitignore
+git status
+git remote origin show
+git remote show origin
+git status
+git add --all
+git commit
+git push origin main
+git status
+flatpak update
+rpm-ostree update --check --preview
+flatpak update
+cd  Documents/dev/qmk_firmware
+ls
+git status
+git remote rm origin
+git remote add origin git@github.com:frieser/qmk_firmware.git
+git status
+git commit
+git add --all
+git commit
+neovim
+vim 
+vim ~/.config/home-manager/home.nix
+git commit
+git commit -n "add idank/sweeq frieser layout"
+git status
+gst
+g commit
+git commit
+git commit -n "add idank sweeq frieser layout"
+git commit -m "add idank/sweeq frieser layout"
+g push origin holykeebs-master
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+flatpak update
+exit
+cd  Documents/dev/qmk_firmware
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+flatpak update
+rpm-ostree update --check --preview
+flatpak update
+ls
+cat LICENSE
+ls
+cat license_GPLv2.md 
+ls
+flatpak update
+rpm-ostree update --check --preview
+rpm-ostree update 
+systemctl reboot
+date
+flatpak update
+rpm-ostree update --check --preview
+flatpak update
+cd Documents/work/bbva/deployment
+ls
+cd
+cd --
+cd -
+cd Documents/work/bbva/lra
+ls
+cd lra_cli
+lsl
+ls
+git status
+git diff
+cd ..
+rm
+rm -rf
+git clone ssh://git@globaldevtools.bbva.com:7999/lra/lra_cli.git
+ls
+rm -rf lra_cli
+git clone ssh://git@globaldevtools.bbva.com:7999/lra/lra_cli.git
+cd lra_cli
+ls
+git checkout develop
+git status
+git logg
+git log
+make
+distrobox enter deployment-toolbox
+sudo distrobox enter deployment-toolbox
+pwd
+vim ~/.config/home-manager/home.nix
+home-manager switch
+vim ~/.config/home-manager/home.nix
+home-manager switch
+lra
+chmod u+x /var/home/frieser/Documents/work/bbva/lra/lra_cli
+lra
+ls -la /var/home/frieser/Documents/work/bbva/lra/lra_cli
+vim ~/.config/home-manager/home.nix
+home-manager switch
+lra
+cd Documents/work/bbva
+ls
+cd lr
+cd lra
+ls
+ls proto
+lra init -h
+lra init go -h
+lra init go -p proto/helloworld.proto -t technical -o lra_go_test
+lra init go -p proto/helloworld.proto -t technical -o lra_go_test -d lra.test.test -v 1.6
+lra init go -p proto/helloworld.proto -t technical -o lra_go_test -u lra.test.test -v 1.6
+lra init go -p proto/-t technical -o lra_go_test -d lra.test.test -v 1.6
+lra init go -p proto/ -t technical -o lra_go_test -d lra.test.test -v 1.6
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+wc
+wc -h
+echo -n "BBDC-MzU4MjAzOTM4OTUzOqCc6JwGvoxWGoUd5XdW0UjYr2Bv" | wc -m
+cd Documents/work/bbva
+ls
+cd lra
+ls
+cd lra_cli
+git status
+make all
+export OS
+export OS=linux
+export OS=amd64
+make all
+distrobox enter deployment-toolbox
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+ls
+rm -rf lra_go_test
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+rm -rf lra_go_test
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+this is a test of to write
+in the ferris sweep, its amazing dude. awesome!
+Im trying to find the position
+for my hands, but I think its dificult to search a
+cd Documents/work/bbv
+cd Documents/work/bbva
+lsl
+ls
+cd lra
+ls
+cd lra_go_test
+git status
+go mod tidy
+go mod tidy -v
+vim ~/.gitconfig
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+rm -rf lra_go_test
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+go mod tidy -v
+cd ..
+ls
+cd lra_go_test
+git status
+ls
+go mod tidy -v
+git status
+rpm-ostree update --check --preview
+rpm-ostree status
+rpm-ostree cleanup -r
+rpm-ostree status
+exit
+ls
+cd Documents/work/bbva
+ls
+cd lra
+cd lra_go_test
+git status
+ls
+go mod tidy -v
+export p
+export GOPRIVATE="*.bbva.com"
+go mod tidy -v
+cd ..
+ls
+rm -rf lra_go_test
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+cd lra_go_test
+ls
+make
+flatpak update
+git status
+flatpak updated
+flatpak update
+make run
+cat Makefile
+make container
+sudo systemctl restart docker
+make container
+make bin
+cat Makefile
+make all
+flatpak update
+ls
+docker
+exit
+cat
+flatpak update
+htop
+a
+l
+flatpak update
+rpm-ostree update --check --preview
+rpm-ostree update 
+flatpak update
+rpm-ostree update 
+docker
+cd Documents/work/bbva/tools/bbva-vpn
+docker build -t bbva-vpn:latest -f Dockerfile .
+sudo systemctl restart docker
+docker build -t bbva-vpn:latest -f Dockerfile .
+vim 
+vim ~/.config/home-manager/home.nix
+cd Documents/work/bbva/tools/bbva-vpn
+ls
+vim start-vpn.sh
+home-manager switch
+flatpak update
+rpm-ostree status
+vpn
+podman -v
+docker run -h
+docker run --help
+vpn
+vim ~/.config/home-manager/home.nix
+vim start-vpn.sh
+cd Documents/work/bbva/tools/bbva-vpn
+vil
+vim start-vpn.sh
+vpn
+vim start-vpn.sh
+vpn
+cd Documents/dev/qmk_firmware
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+cd Documents/dev/shell
+git status 
+git pull origin master_noble
+cd Documents/work/bbva/tools/bbva-vpn
+vim ~/.config/home-manager/home.nix
+homl
+home-manager switch
+rpm-ostree status
+rpm-ostree remove sshuttle
+proxy
+docker ps
+docker stop 82af6a32860f
+systemctl reboot
+vpn
+sudo systemctl restart docker
+vpn
+proxy
+vpn
+proxy
+rpm-ostree rollback
+sysl
+systemctl reboot
+flatpak update
+vpn
+sudo systemctl restart docker
+vpn
+proxy
+vim ~/.config/home-manager/home.nix
+home-manager switch
+proxy
+flatpak update
+rpm-ostree update --check --preview
+flatpak update
+rpm-ostree update --check --preview
+cd Documents/work/bbva/lra
+ls
+rm -rf lra_go_test
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+cd lra_go_test
+lra rkun
+lra run
+export GOPRIVATE="*.bbva.com"
+lra run
+flatpak update
+rpm-ostree update --check --preview
+vim ~/.config/home-manager/home.nix
+home-manager switch
+cd Documents/dev
+ls
+git clone git@github.com:frieser/fedora-ublue.git
+cd fedora-ublue
+ls
+cosign generate-key-pair
+cat cosign.key
+ls
+rm cosign.key
+git status
+git add cosign.pub
+git status
+git commit
+git commit -m "add sign public file"
+git push origin main
+vim recipes/recipe.yml
+vim README.md
+git status
+git add recipes
+git commit -m "change to fedora silverblue 41 as base image"
+git push origin main
+ls
+ls -a
+cat .github/workflows/build.yml
+ls
+git status
+rm cosign.key
+rm cosign.pub
+cosign generate-key-pair
+cat cosign.key
+ls
+git add cosign.pub
+cat cosign.pub
+git status
+git commit -m "add sign public file"
+git push origin main
+git log
+git reset e82d05365e9c2647a40efb97c699b63f9de87405 --hard
+git log
+cosign generate-key-pair
+git status
+ls
+git log
+git reset e82d05365e9c2647a40efb97c699b63f9de87405 --hard
+git status
+ls
+rm cosign.pub
+rm co
+rm cosign.key
+ls
+cosign generate-key-pair
+git status
+ls
+cat cosign.key
+git status
+git add cosign.pub
+git commit -m "add sign public file"
+git status
+git push origin main -f
+vim recipes/recipe.yml
+git add recipes
+git commit -m "change to fedora silverblue 41 as base image"
+git push origin main -f
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/template:latest
+skopeo login ghcr.io
+git status
+git commit --amend
+git commit --amend -m "amendF\
+F\
+"
+git push origin main -f
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/template:latest
+skopeo login docker://ghcr.io
+skopeo login ostree-image-signed:docker://ghcr.io
+skopeo login ghcr.io
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/template:latest
+rpm-ostree rebase ostree-unverified-registry:docker.io/library/fedora:latest\
+
+podman pull docker://ghcr.io/frieser/template:latest
+podman login
+podman login ghcr.io
+podman pull docker://ghcr.io/frieser/template:latest
+podman pull docker://ghcr.io/frieser/template:41
+git remote add origin git@github.com:frieser/fedora-frieser.git
+git remote rm origin
+git remote add origin git@github.com:frieser/fedora-frieser.git
+git push origin main 
+vim recipes/recipe.yml
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main 
+git push origin main  -f
+cat cosign.key
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/fedora-frieser:latest
+rpm-ostree rebase ostree-unverified-registry:docker://ghcr.io/frieser/fedora-frieser:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora-frieser:latest
+rpm-ostree status
+systemctl reboot
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/fedora-frieser:latest
+systemctl reboot
+rpm-ostree status
+rpm-ostree cleanup -r
+rpm-ostree status
+rpm-ostree uninfd
+cd Documents/dev/fedora-ublue
+ls
+git status
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+rpm-ostree status
+rpm-ostree remove sshuttle docker distrobox kitty
+systemctl reboot
+rpm-ostree status
+docker
+rpm-ostree status
+rpm-ostree cleanup -r
+rpm-ostree status
+ostree admin pin 0
+sudo ostree admin pin 0
+flatpak list
+flatpak list --app | awk '{print $1}'
+flatpak list  | awk '{print $1}'
+flatpak list --app | awk '{print $0}'
+flatpak list --app | awk '{print $2}'
+flatpak list  | awk '{print $2}'
+flatpak list --app | awk '{print $2}'
+rpm-ostree update --check --preview
+rpm-ostree update 
+systemctl reboot
+rpm-ostree status
+rpm-ostree cleanup -r
+ostree admin pin 0
+sudo ostree admin pin 0
+sudo ostree admin unpin 1
+sudo ostree admin pin --unset  1
+ostree admin 
+ostree admin pin
+ostree admin pin -h
+sudo ostree admin pin --unpin  1
+rpm-ostree cleanup -r
+rpm-ostree status
+flatpak update
+rpm-ostree status
+rpm-ostree update --check --preview
+rpm-ostree update --preview
+distrobox enter deployment-toolbox
+cd Documents/dev/fedora-ublue
+git status
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+rpm-ostree update --preview --check
+rpm-ostree update 
+systemctl reboot
+rpm-ostree status
+ls
+rm keymap.c
+ls
+rm -rf qmk_firmware
+rpm-ostree update --preview --check
+cd Documents/dev/fedora-ublue
+git remote add template https://github.com/blue-build/template.git
+git fetch --all
+flatpak search extensions
+cat 
+systemctl --user status kmonad
+cat ~/.config/systemd/user/kmonad.service
+git status
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+git status
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+git status
+rpm-ostree update --preview --check
+rpm-ostree update 
+flatpak search steam
+git status 
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+systemctl reboot
+rpm-ostree status
+rpm-ostree cleanup -r
+ostree admin pin 0
+sudo ostree admin pin 0
+sudo ostree admin pin --unpin  1
+rpm-ostree status
+rpm-ostree cleanup -r
+rpm-ostree status
+rpm-ostree update --preview --check
+flatpak update
+rpm-ostree update --preview --check
+flatpak update
+distrobox enter toolbox 
+ls
+distrobox list
+distrobox rm toolbox
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+distrobox enter toolbox 
+vim (
+vim ~/.config/home-manager/home.nix
+kind
+cat ~/.zshrc
+chezmoi init
+chezmoi add ~/.zshrc
+chezmoi doctor
+chezmoi add ~/.config/home-manager/home.nix
+ls
+ls 
+ls -a
+cat .bashrc
+chezmoi add .bashrc
+git status
+ls -a
+chezmoi add .gitconfig
+chezmoi add .bash_history
+cat .vimrc
+cat .zshrc
+cat .zshenv
+ls -a
+ls .local
+cat .zplug
+ls
+ls -a
+cat .config/Cursor/Preferences
+cat .config/Cursor/User/settings.json
+chezmoi .config/Cursor/User/settings.json
+chezmoi add .config/Cursor/User/settings.json
+cat .config/monitors.xml
+ls .config
+systemctl reboot
+flatpak update
+htop
+vim .config/gi
+vim .config/kitty/kitty.conf
+flatpak update
+cat .config/pop-shell/config.json
+cat .ssh/config
+chezmoi ad .ssh/config
+chezmoi add .ssh/config
+chezmoi cd
+chezmoi status
+chezmoi diff
+chezmoi log
+chezmoi git
+chezmoi git log
+chezmoi apply
+chezmoi git log
+chezmoi apply
+chezmoi -h
+chezmoi cd
+ls
+cd Documents/dev/fedora-ublue
+git status
+git add recipes
+git commit --amend -m "amendF\
+F\
+"
+git push origin main  -f
+ls -a
+cat .justfile
+cat .kube/config
+cat .config/k
+cat .config/kmonad/trackpointII.kbd
+chezmoi add .config/kmonad/trackpointII.kbd
+chezmoi add .config/nvim
+cat .config/systemd/user/kmonad.service
+chezmoi add .config/systemd/user/kmonad.service
+ls
+ls -a
+cat .local/share/applications/cursor.desktop
+chezmoi .local/share/applications/cursor.desktop
+chezmoi add .local/share/applications/cursor.desktop
+cat .local/share/applications/firefox.desktop
+lx
+ls -a
+cat .mozilla
+cat .mozilla/firefox/profiles.ini
+cat .mozilla/firefox/installs.ini
+cat .var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline/activity-stream.discovery_stream.json
+cat .var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline/chrome/userChrome.css
+chezmoi add .var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline/chrome/userChrome.css
+chezmoi cd
+rpm-ostree update --preview --check
+rpm-ostree update 
+systemctl reboot
+rpm-ostree status
+cd .config/nvim
+ls
+git status
+git remote show origin
+chezmoi apply
+cd
+flatpak update
+rpm-ostree update --preview --check
+flatpak update
+vim ~
+vim ~/.config/home-manager/home.nix
+home-manager switch
+getenforce
+cat /etc/selinux/config
+rm -rf /var/lib/nix
+sudo
+sudo rm -rf /var/lib/nix
+ls /etc
+ls /etc/systemd/system
+ls
+distrobox enter toolbox
+distrobox enter toolbox
+vim .zshrc
+chezmoi add .zshrc
+chezmoi cd
+cd Documents/dev/fedora-ublue
+git status
+git add recipes
+git commit 
+git push origin main
+ls
+git add recipes
+git commit 
+git push origin main
+flatpak update
+flatpak search editor
+flatpak search gnome.editor
+flatpak list
+flatpak update
+rpm-ostree update --check --preview
+cd Documents
+ls
+cd dev
+ls 
+cd fedora-ublue
+ls
+git status
+git add recipes
+git commit
+git push origin main
+flatpak update
+cd Documents
+pwd
+git status
+git add recipes
+git commit 
+git push origin main
+git status
+distrobox enter toolbox
+distrobox enter deployment-toolbox
+awk
+pwd
+git status 
+git add recipes
+git commit --amend
+git push origin -
+git push origin main -f
+flatpak updatel
+git status
+git  add recipes
+git commit --amend
+git push origin main -f
+flatpak updte
+flatpak update
+ vim ~/.zshrc
+chezmoi diff
+chezmoi cd
+chezmoi add ~/.zshrc
+chezmoi cd
+pwd
+git status
+git add recipes
+git commit --amend
+git push origin main -f
+distrobox enter toolbox
+rpm-ostree update
+systemctl reboot
+ls
+exit
+vim ~/.zshrc
+vim ~/.zshrc
+chezmoi add ~/.zshrc
+chezmoi cd
+cat ~/.zshrc
+ls .local
+ls .config
+ls .local/lib
+ls .local/share
+vim .zshrcc
+vim .zshrc
+chezmoi add ~/.zsh
+chezmoi add ~/.zshrc
+chezmoi cd
+cd Documents/dev/fedora-ublue
+git status
+git status 
+git add re
+git add recipes
+git commit --amend
+git push origin main -f
+flatpak update
+rpm-ostree update
+systemctl reboort
+systemctl reboot
+cat ~/.zshrc
+source "$HOME/.local/share/zplug/init.zsh"
+ls /root/.local
+sudo su
+k
+a
+sudo su
+vim 
+vim ~/.zshrc
+chezmoi add ~/.zshrc
+chezmoi cd
+cd Documents
+cd dev/fedora-ublue
+git status
+git add recipes
+git commit
+git push origin main
+rpm-ostree update
+systemctl reboot
+cat /usr/share/x
+cd Documents
+cd dev/fedora-ublue
+git status
+git add recipes
+git commit --amend
+git push origin main 
+git push origin main -f
+rpm-ostree update
+systemctl reboot
+ls 
+history
+cat ~/.zshrc
+zplug
+zplug -h
+zplug --help
+zplug statys
+zplug statys
+zplug status
+zplug update
+flatpak update
+ls
+zplug --help
+zplug check
+zplug info
+zplug list
+vim 
+exit
+which vim
+which nvim
+flatpak update
+rpm-ostree update --check --preview
+distrobox enter toolbox
+windsurf
+ gnome-extensions enable desaturate-unfocused-windows@myextension
+windsurf
+distrobox enter toolbox
+windsurf
+distrobox enter toolbox
+cd .local/share/applications
+ls
+mv cursor.desktop ~/Documents
+distrobox enter toolbox
+distrobox enter toolbox
+exit
+distrobox-export -h
+a
+l
+zplug update
+git
+git status
+cd Documents/work/bbva/deployment/deployment
+git status
+cat /usr/share/zplug/init.zsh
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+ls 
+zplug check
+zplug update
+source ~/.zshrc
+source ~/.zshrc
+zplug update
+ls
+source ~/.zshrc
+zplug update
+source ~/.zshrc
+ls
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+mcfly
+source ~/.zshrc
+zplug update
+mcfly
+ls
+pwd
+fzf
+history | fzf
+source ~/.zshrc
+ls
+vim ~/.zshrc
+zplug update
+fzf --zsh
+source ~/.zshrc
+cat ~/.config/home-manager/home.nix
+source ~/.zshrc
+vim ~/.zshrc
+yay zplyg
+yay zplug
+zplug
+source ~/.zshrc
+which fzf
+fzf --zsh
+vim ~/.zshrc
+distrobox enter toolbox
+distrobox enter toolbox
+mcfly
+vim ~/.zshrc
+eval "$(mcfly init zsh)"
+podman -v
+rm podman-data/id_rsa*
+ls
+ls
+pwe
+vim ~/.zshrc
+ls .local/share/zsh/history
+ls .local/share/zsh/history -la
+chmod a+r .local/share/zsh/history
+ls .local/share/zsh/history -la
+touch /var/home/frieser/.zsh_history
+vim ~/.zshrc
+mcfly search
+source ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+cd Documents/dev/qmk_firmware
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+flatpak search cheese
+which zsh
+rpm-ostree update --check --preview
+rpm-ostree update 
+systemctl reboot
+source ~/.zshrc
+        podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\
+
+    sudo dd if=path_to_netboot.xyz.iso of=/dev/sdX bs=4M status=progress\
+ 
+    sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda bs=4M status=progress 
+    sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda bs=4M status=progress 
+sudo sync
+    sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+cd Documents/homelab
+ls
+cd pxe
+s
+ls
+    sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+podman rm -f netbootxyz
+    sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+ls
+cd assets
+ls
+rm -rf asset-mirror/releases/download/v1.3.2-c82c6d22
+mkdir asset-mirror/releases/download/v1.4.0/
+mv ~/Downloads/harvester-v1.4.0-* asset-mirror/releases/download/v1.4.0
+systemctl status firewalld
+sudo systemctl stop firewalld
+vim ~/.zshrc
+ls
+pwd
+ls
+vim ~/.zshrc
+ls
+vim ~/.zshrc
+ls
+pwd
+vim ~/.zshrc
+ls
+echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
+vim ~/.zshrc
+ls
+vim ~/.zshrc
+ls
+ls bin
+ls .bin
+ls .local/bin
+distrobox enter toolbox
+ls
+ls
+ls
+lsY
+ls
+vim ~/.zshrc
+rm -rf /var/home/frieser/.local/share/zinit
+atuin
+atuin init ah
+atuin init zsh
+rm -rf /var/home/frieser/.local/share/zinit
+rm -rf /var/home/frieser/.local/share/zinit
+distrobox enter toolbox
+rm -rf /var/home/frieser/.local/share/zinit
+pip 
+
+
+rm -rf /var/home/frieser/.local/share/zinit
+ls
+chezmoi diff
+chezmoi diff
+chezmoi
+distrobox enter toolbox
+rpm-ostree update 
+systemctl reboot
+flatpak update
+podman ps
+systemctl reboot
+podman ps
+rpm-ostree update 
+rpm-ostree status
+rpm-ostree rollback
+systemctl reboot
+podman ps
+rpm-ostree update
+systemctl reboot
+distrobox enter toolbox
+ls
+exit
+exit
+rm .local/share/containers -rf
+sudo rm .local/share/containers -rf
+podman ps
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+distrobox enter toolbox
+chezmoi diff
+chezmoi stauts
+chezmoi status
+chezmoi add ~/.zshrc
+chezmoi add ~/.bash_history
+chezmoi add .local/share/applications/cursor.desktop
+chezmoi diff
+chezmoi status
+chezmoi add .config/home-manager/home.nix
+chezmoi cd
+chezmoi cd
+distrobox enter toolbox
+exit
+flatpak update
+ls
+pwd
+distrobox enter toolbox
+systemctl reboot
+podman ps
+sudo rm .local/share/containers -rf
+podman ps
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+distrobox enter toolbox
+podman ps
+distrobox enter toolbox
+distrobox rm toolbox
+podman ps
+rm .local/share/containers -rf
+sudo rm .local/share/containers -rf
+sudo sync
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+distrobox enter toolbox
+rpm-ostree update
+rpm-ostree update
+systemctl reboot
+distrobox enter toolbox
+ls
+distrobox enter toolbox
+distrobox enter toolbox
+flatpak update
+rpm-ostree update
+systemctl reboot
+flatpak update
+rpm-ostree update
+rpm-ostree status
+ls
+vim ~/.config/kitty/kitty.conf
+podman ps
+podman info
+podman version
+poweroff
+distrobox enter toolbox
+podman ps -h
+podman info
+docker ps
+systemctl start docker
+systemctl status docker
+docker ps
+docker run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.14
+docker logs omada-controller
+docker logs omada-controller
+flatpak update
+ip a
+distrobox enter toolbox
+arp -a
+arp-scan
+for i in {1..254}; do ping -c 1 -W 1 192.168.1.$i & done\
+arp -a
+for i in {1..254}; do ping -c 1 -W 1 192.168.1.$i & done\
+arp -a
+grep "$(arp -a | awk '{print $4}')" /usr/share/nmap/nmap-mac-prefixes\
+
+arp -a | awk '{print $4}'
+arp -a | awk '{print $3}'
+arp -a
+flatpak update
+rpm-ostree update
+xzcat Downloads/2024-01-20-MainsailOS-1.3.2-orangepi-orangepi_zero2.img.xz | sudo dd of=/dev/sda bs=4M status=progress
+sudo sync
+distrobox enter toolbox
+rm .local/share/containers -rf
+sudo rm .local/share/containers -rf
+podman system migrate
+podman info
+distrobox enter toolbox
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+distrobox enter t
+distrobox enter toolbox
+distrobox enter toolbox
+ssh frieser@192.168.1.137
+ping 192.168.1.200
+ip a
+ping 192.168.1.200
+ping 192.168.1.200
+ping 192.168.1.200
+ping printer.local
+nslookup printer.local
+host printer.local
+dig +short printer.local
+dig printer.local
+ip a
+docker run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+cd Documents/homelab
+ls
+cd pxe
+ls
+cat config/log/nginx/error.log
+cat config/log/nginx/access.log
+touch config/log/nginx/access.log
+cat config/log/nginx/access.log
+cat README.md
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+docker s
+docker ps
+docker run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+cat README.md
+sudo docker run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo docker run -d \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest 
+sudo docker run -d \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest 
+sudo docker run -d \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      netbootxyz:latest 
+    sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+ping 192.168.1.137
+docker ps
+ssh frieser@192.168.1.137
+ping 192.168.1.137      
+ping 192.168.1.137      
+ping 192.168.1.137      
+ping 192.168.1.137      
+ssh frieser@192.168.1.137
+ping 192.168.1.137      
+ssh frieser@192.168.1.137
+ssh frieser@192.168.1.137
+ssh frieser@192.168.1.137
+ping 192.168.1.137      
+ssh frieser@192.168.1.137
+ssh frieser@192.168.1.137
+s
+ssh frieser@192.168.1.137
+ip a
+ssh frieser@192.168.1.137
+ssh frieser@192.168.1.137
+ping 192.168.1.137      
+cd Documents/homelab
+cd pxe
+ls
+cat README.md
+docker run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+docker pds
+docker ps
+ping 192.168.1.137      
+ping 192.168.1.137      
+ping 192.168.1.137      
+ping 192.168.1.137      
+ping 192.168.1.1
+ping 192.168.1.20
+ping 192.168.1.137      
+ping 172.16.0.1
+ping 172.16.0.10
+ping 172.16.0.2
+ping 172.16.0.3
+ping 172.16.0.1
+ping 172.16.0.100
+ip a
+ssh frieser@192.168.1.137
+cd Documents/
+cd dev/fedora-ublue
+git status
+git add recipes
+git commit --amend
+git push origin main -f
+sudo docker run -d \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      netbootxyz:latest 
+cd Documents/homelab/pxe
+sudo docker run -d \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      netbootxyz:latest 
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+rpm-ostree update
+ls assets
+sudo podman rm -f netbootxyz
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+mkdir config assets
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman logs netbootxyz
+sudo podman logs -f netbootxyz
+ping api.github.com
+sudo podman rm -f netbootxyz
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman logs -f netbootxyz
+sudo podman rm -f netbootxyz
+rm -rf assets config
+ls
+rm -rf CascadeProjects
+ls
+systemctl reboot
+cd Documents/dev/fedora-ublue
+git status
+git status
+distrobox enter toolbox
+cd Documents/dev/fedora-ublue
+git status 
+git commit --amend
+git push origin main -f
+rpm-ostree update
+systemctl reboot
+cd Documents/dev/fedora-ublue
+git add recipes
+git commit --amend
+git push origin main -f
+git status
+rpm-ostree update
+systemctl reboot
+fl
+flatpak update
+podman ps -a
+ping 192.168.1.137      
+docker ps -a
+docker start omada-controller
+flatpak update
+flatpak update
+flatpak update
+rpm-ostree update
+rpm-ostree update
+ip a
+rpm-ostree update
+sudo podman ps
+sudo podman ps -a
+sudo docker ps
+ssh rancher@172.16.0.102
+ls
+ls
+ssh rancher@172.16.0.102
+ssh rancher@172.16.0.102
+ssh rancher@172.16.0.103
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda
+sudo
+sudo sync
+rpm-ostree update
+flatpak update
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda --status=progress
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda status=progress
+sudo sync
+ssh rancher@172.16.0.10
+rm .ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+systemctl reboot
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\
+
+ssh rancher@172.16.0.10
+rm .ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda
+sudo sync
+sudo systemctl stop firewalld
+ssh rancher@172.16.0.102
+ssh rancher@172.16.0.102
+cd Documents/homelab/pxe
+sudo docker run -d \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      netbootxyz:latest 
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman stop netbootxyz
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\
+
+cd
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda status=progress
+sudo sync
+cd Documents/homelab/pxe
+cat config/log/nginx/access.log
+git status
+git diff assets/create.yaml
+git add .
+git status
+git diff assets
+git diff assets --staged
+git diff assets --cached
+git diff --staged assets/
+sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda
+sudo sync
+ssh rancher@172.16.0.102
+ssh rancher@172.16.0.103
+ssh rancher@172.16.0.104
+cd Documents/homelab/pxe
+git status
+git status
+git diff
+podman 
+podman ps --log-level debug
+podman ps --log-level debug
+podman system reset
+journalctl -xe | grep podman\
+
+which crun
+podman info | grep "Default OCI Runtime"
+lsmod | grep overlay
+ls -ld /var/home/frieser/.local/share/containers/storage
+ls -ld /run/user/1000/containers
+which crun
+vim ~/.config/containers/containers.conf
+systemctl --user restart podman
+podman ps --log-level debug
+systemctl --user restart podman
+ journalctl --user -u podman
+strace -f -o podman_debug.log podman ps
+systemctl --user restart podman
+rm -rf /run/user/1000/containers/*
+podman ps
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\
+
+podman ps
+podman ps
+distrobox enter toolbox
+journalctl --user -u podman
+podman ps
+distrobox enter toolbox
+distrobox stop toolbox
+distrobox enter toolbox
+distrobox start toolbox
+distrobox upgrade toolbox
+systemctl reboot
+ssh rancher@172.16.0.106
+ssh rancher@172.16.0.10
+rm .ssh/known_hosts
+ssh rancher@172.16.0.10
+distrobox upgrade toolbox
+distrobox enter toolbox
+cd Documents/homelab/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo systemctl stop firewalld
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda status=progress
+sudo sync
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\
+
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\
+
+cd Documents/homelab/pxe
+git status
+git status
+git add assets/
+git status
+git commit
+git push origin main 
+git status
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\
+
+ping 192.168.1.137      
+ping 192.168.1.137      
+ping 192.168.1.137      
+ping 192.168.1.137      
+ping 192.168.1.137      
+podman ps
+docker ps
+docker stop omada-controller
+docker ps
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\ 
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman rm -f meshcmd
+podman ps
+systemctl reboot
+ping 172.16.0.9
+rpm-ostree update
+flatpak update
+podman ps
+vim .von
+sudo systemctl restart podman
+podman ps
+sudo usermod -aG podman $USER
+podman --log-level debug ps
+podman info --debug
+mkdir .config/containers
+vi .config/containers/containers.conf
+[engine]\
+runtime = "crun"\
+
+ls -ld /run/user/1000/containers\
+
+journalctl -u podman
+ls -l /run/podman/podman.sock
+sudo chmod 666 /run/podman/podman.sock
+podman ps
+sudo ls -l /run/podman/podman.sock
+curl --unix-socket /run/podman/podman.sock http://localhost/_ping
+podman --url unix:///run/podman/podman.sock ps
+sudo ausearch -c 'podman' --raw | audit2allow -m podman_fix
+systemctl status podman
+sudo systemctl restart podman
+systemctl status podman
+systemctl status podman
+systemctl status podman.socket
+sudo systemctl restart podman.socket
+podman ps
+sudo ausearch -m avc -ts recent | audit2why
+sudo podman ps
+ls -ld /run/podman\
+
+sudo chmod 755 /run/podman\
+
+podman ps
+sudo chown frieser:frieser /run/podman/podman.sock
+podman ps
+ls -ld /run/podman\
+
+sudo chown frieser:frieser /run/podman/ -r
+sudo chown -R frieser:frieser /run/podman/
+ls -ld /run/podman\
+
+podman ps
+ls -ld /run/podman\
+
+chmod 777 -R /run/podman
+podman ps
+ls -ld /run/podman\
+
+podman system reset
+systemctl reboot
+podman ps
+docker run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+docker ps
+yay chezmoi
+yay windsurf
+yay cursor
+yay cursor | grep ide
+yay cursor-bin-patched
+yay flux
+distrobox-export -h
+distrobox-export --bin /usr/bin/flux
+podman system reset
+rm -rf /run/user/1000/containers/*
+podman system reset
+rm .local/share/containers -rf
+sudo rm .local/share/containers -rf
+podman system reset
+podman ps
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+podman ps
+distrobox enter toolbox
+flux
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+distrobox enter toolbox
+git status
+cd Documents/homelab/
+git status
+ls
+cd cluster
+git status
+distrobox enter toolbox
+k
+k
+k get nodes
+rm .kube/config
+rm .kube/config -R
+rm .kube -R
+rm ~/.kube -R
+rm ~/.kube -R
+sudo rm ~/.kube -R
+k get nodes
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+mkdir .kube
+vim .kube/kubeconfig
+k get nodes
+rm 
+rm -rf .kube
+mkdir ~/.kube
+mkdir ~/.kube/kubeconfig
+rm -rf 
+rm -rf 
+rm -rf ~/.ki
+rm -rf ~/.kube/kubeconfig
+vim .kube/kubeconfig
+vim ~/.kube/kuconfig
+k get nodes
+mv ~/.kube/kuconfig ~/.kube/kubeconfig
+k get nodes
+mv ~/.kube/kubeconfig ~/.kube/config
+k get nodes
+vim ~/.kube/kuconfig
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+ping 172.16.1.10
+cd Documents/homelab/pxe
+cd
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman ps
+flatpak search bootles
+flatpak search bottles
+vim
+vi Documents/dev/fedora-ublue/recipes/recipe.yml
+cd Documents/dev/fedora-ublue
+git status
+git add recipes
+git commit
+git push origin main 
+flatpak install com.usebottles.bottles
+flatpak search boxes
+vi Documents/dev/fedora-ublue/recipes/recipe.yml
+vi Documents/dev/fedora-ublue/recipes/recipe.yml
+flatpak search boxes
+vi Documents/dev/fedora-ublue/recipes/recipe.yml
+cd Documents/dev/fedora-ublue
+git add recipes
+git commit
+git push origin main 
+flatpak install org.gnome.Boxes
+ping 192.168.1.26
+ping 192.168.1.27
+ssh frieser@192.168.1.27
+ping 192.168.1.27
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman start omada-controller
+podman logs omada-controller
+podman logs omada-controller -f
+podman logs -f omada-controller
+podman stop omada
+podman stop omada-controller
+docker run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+docker start omada-controller
+docker logs -f omada-controller 
+flatpak update
+rpm-ostree update
+rpm-ostree update
+rpm-ostree update
+rpm-ostree status
+systemctl reboot
+rpm-ostree update
+flatpak update
+flatpak search flatseal
+cd Documents/dev
+ls
+cd nordigen-go-lib
+git pull origin maimn
+git pull origin main
+git tag
+git tag v2.1.8
+git push origin v2.1.8
+flatpak update
+rpm-ostree update
+flatpak search flatseal
+flatpak search warehouse
+cd Documents/dev/fedora-ublue
+git status
+git add recipes/
+git commit
+git push origin main
+rpm-ostree update
+systemctl reboot
+chezmoi status
+cd Documents/dev/fedora-ublue
+git satatus
+git add recipes/
+git commit
+git push origin main
+rpm-ostree update
+rpm-ostree update
+rpm-ostree update
+systemctl reboot
+cd Documents/dev/fedora-ublue
+git status
+git add recipes/
+git commit
+git push origin main
+flatpak remove gnome-boxes
+a
+flatpak search boxes
+flatpak remove org.gnome.Boxes
+distrobox enter toolbox
+podman ps
+podman system reset
+systemctl reboot
+podman system reset
+fg
+podman system reset
+systemctl reboot
+sudo podman ps
+sudo podman ps -a
+sudo podman rm -f netbootxyz
+sudo podman ps -a
+sudo podman system reset
+systemctl status podman
+systemctl status podman.socket
+journalctl -u podman
+journalctl -u podman.socket
+journalctl -u podman
+rm -rf .local/share/containers/*
+sudo rm -rf .local/share/containers/*
+sudo rm -rf /run/user/1000/containers/*
+systemctl reboot
+podman system reset
+distrobox ls
+distrobox ls -a
+distrobox ls 
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+distrobox enter toolbox
+systemctl status podman.socket
+systemctl status podman
+podman system reset
+systemctl status podman
+podman ps
+systemctl status podman
+vim ~/.config/containers/containers.conf
+vi ~/.config/containers/containers.conf
+rm ~/.config/containers/containers.conf
+podman ps
+podman ps -a
+podman images -a
+cd Documents/work/bbva/tools/bbva-vpn
+podman build -t bbva-vpn:latest -f Dockerfile .
+podman ps
+podman images
+podman ps
+ls -ld /run/podman\ 
+ls -ld /run/podman
+ls -ld /run/podman/podman.socket
+sudo ls -ld /run/podman/podman.socket
+sudo ls -ld /run/podman
+podman ps
+podman ps
+watch podman ps
+watch podman ps
+ls
+rm ~/.config/containers/containers.conf
+rm -rf .local/share/containers/*
+podman ps
+toolbox
+toolbox -h
+just docker
+distrobox enter toolbox
+cd Documents/dev/fedora-ublue
+vi recipes/recipe.yml
+rm -rf .local/share/containers/*
+sudo cd Documents/dev/launcher
+sudo rm -rf .local/share/containers/*
+cat /etc/subgid
+sudo rm /etc/subgid
+sudo rm /etc/subuid
+rm -rf /run/user/1000/containers/*
+systemctl reboot
+cat /etc/subgid
+podman ps
+distrobox enter toolbox
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+passt
+cat /etc/subgid
+cat /etc/suuid
+cat /etc/subuid
+id
+usermod --add-subuids 1000-165535 --add-subgids 1000-165535 frieser
+sudo usermod --add-subuids 1000-165535 --add-subgids 1000-165535 frieser
+sudo touch /etc/subuid
+sudo touch /etc/subgid
+sudo usermod --add-subuids 1000-165535 --add-subgids 1000-165535 frieser
+cat /etc/subuid
+podman system migrate
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+sudo usermod --add-subuids 1001-165535 --add-subgids 1001-165535 frieser
+cat /etc/subuid
+sudo vim /etc/subuid
+sudo vim /etc/subgid
+podman system migrate
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+cat /sys/fs/cgroup/cgroup.controllers
+distrobox enter toolbox
+rm -rf /run/user/1000/containers/*
+rm -rf .local/share/containers/*
+sudo rm -rf .local/share/containers/*
+sudo rm -rf .local/share/containers/*
+podman system migrate
+podman system reste
+podman system reset
+podman ps
+toolbox create -h
+distrobox
+distroboz version
+distrobox version
+distrobox help
+cat /etc/distrobox/distrobox.ini
+cat /etc/distrobox/apps.ini
+cat /etc/distrobox/distrobox.ini
+podman ps
+podman ps
+podman ps
+toolbox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+toolbox create ph
+toolbox create -h
+toolbox create -i quay.io/toolbx/arch-toolbox:latest toolbox
+toolbox enter toolbox
+cd .local/share/applications
+ls
+cat toolbox-windsurf
+cat toolbox-windsurf.desktop
+toolbox list
+ls
+cd 
+cd Documents/dev/fedora-ublue
+ls
+cd recipes
+ls
+vim recipe.yml
+vi recipe.yml
+cd
+cd .local/share/applications
+ls
+rm *
+ls
+cd
+vim
+ls .bash
+which bin
+which vim
+which nvim
+cd .local/bin
+ls
+rm *
+ls
+cd 
+podman ps
+rm .local/share/containers -rf
+sudo rm .local/share/containers -rf
+rm /run/user/1000/containers/*
+rm /run/user/1000/containers/* -rf
+systemctl reboot
+podman ps
+ls
+podman ps
+podman ps --log-level debug
+podman ps --log-level debug
+podman ps --log-level debug
+podman ps --log-level debug
+podman ps --log-level debug
+podman ps --log-level debug
+podman ps --log-level debug
+podman run -it alpine bash
+podman run -it alpine sh
+distrobox-host-exec podman --version
+podman info --debug
+df -h
+journalctl -u podman
+systemctl status podman
+systemctl status podman.socket
+podman ps
+cd Documents/dev/fedora-ublue
+vim recipes/recipe.yml
+vi recipes/recipe.yml
+podman ps
+podman run -it alpine sh
+podman ps
+podman ps -a
+podman rm -f $(podman ps -aq)
+podman ps -a
+podman run -it alpine sh
+podman ps -a
+podman ps
+ls
+cd Documents/dev/fedora-ublue
+ls
+git status
+git add recipes/
+git commit
+git push origin main
+toolbox list
+rm /run/user/1000/containers/* -rf
+sudo rm .local/share/containers -rf
+rpm-ostree update
+systemctl reboot
+cat /etc/distrobox/distrobox.ini
+cat /etc/distrobox/distrobox.ini
+qemu-img resize \~/.local/share/gnome-boxes/images/win11 124G
+qemu-img resize .local/share/gnome-boxes/images/win11-2 124G
+yay flux
+yay meshcmd
+yay meshcentral
+yay meshcentral
+meshcentral
+meshcentral -h
+meshcentral --help
+yay pop-launcher
+distrobox enter toolbox
+chezmoi status
+chezmoi add .bash_history
+chezmoi status
+chezmoi add .local/share/applications/cursor.desktop
+mkdir .config/qmk
+mv Downloads/idank_sweeq_idank_sweeq_idank_sweeq_idank_sweeq_idank_sweeq_frieser.json .config/qmk/idank_sweeq_frieser.json
+chezmoi add .config/qmk/idank_sweeq_frieser.json
+ls -a
+cat .zshrc
+ls .local/share/zsh
+chezmoi add .local/share/zsh/history
+ls
+ls -a
+chezmoi cd
+distrobox enter toolbox
+distrobox enter toolbox
+distrobox enter toolbox
+top
+systemctl reboot
+which pop-launcher
+which pop-launcher
+which pop-launcher
+distrobox enter toolbox
+distrobox enter toolbox
+flatpak update
+rpm-ostree status
+cd Documents/dev/fedora-ublue
+vim recipes/recipe.yml
+git add recipes/
+git commit
+git push origin main
+cd
+ls .c
+l
+ls .config/Windsurf
+ls .config/Windsurf/User/settings.json
+chezmoi add .config/Windsurf/User/settings.json
+chezmoi cd
+ls
+ls 
+ls 
+ls -a
+ls .gitconfig
+cat .vimrc
+distrobox enter toolbox
+podman run --pull always --rm ghcr.io/blue-build/cli:latest-installer | bash
+bluebuild
+sudo bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/octocat/weird-os
+sudo bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/frieser/template:latest
+podman pull ghcr.io/frieser/template:latest
+podman login ghcr.io
+podman login ghcr.io
+podman login ghcr.io
+sudo bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/frieser/template:latest
+podman pull ghcr.io/frieser/template:latest
+sudo bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/frieser/template:latest
+ls /usr/share/ublue-os/just/00-default.just
+cat /usr/share/ublue-os/just/00-default.just
+cat /usr/share/ublue-os/just/10-update.just
+sudo bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/frieser/template:latest
+sudo bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/frieser/template:latest
+sudo bluebuild login
+sudo bluebuild login grcr.io
+sudo bluebuild login grcr.io
+sudo bluebuild login grcr.io
+sudo bluebuild login ghcr.io
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest
+skopeo login ghcr.io
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest
+skopeo copy docker://ghcr.io/frieser/template:latest oci:template-latest
+ls
+skopeo login ghcr.io
+skopeo logout ghcr.io
+sudo bluebuild logout
+sudo bluebuild login ghcr.io
+podman login ghcr.io
+skopeo login ghcr.io
+skopeo copy docker://ghcr.io/frieser/template:latest oci:template-latest
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest
+skopeo copy docker://ghcr.io/frieser/template:latest oci:template-latest
+bluebuild -h
+bluebuild generate
+bluebuild generate-iso 
+bluebuild generate-iso -h
+sudo bluebuild generate-iso -B podman -R podman -v --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest 
+sudo bluebuild generate-iso -B docker -v --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest 
+distrobox enter toolbox
+cd Documents/work/bbva/tools/bbva-vpn
+podman build -t bbva-vpn:latest -f Dockerfile .
+vpn
+systemctl status docker
+docker
+rpm-ostree update
+systemctl reboot
+cd Documents/work/bbva/deployment/deployment
+ls
+sh integration/scripts/run.sh
+distrobox enter toolbox
+proxy
+proxy
+vim .zshrc
+source ~/.zshrc
+vpn
+cd Documents/work/bbva/tools/bbva-vpn
+vpn
+vpn
+vim .zshrc
+cd
+vim .zshrc
+source ~/.zshrc
+vpn
+systemctl status docker
+cd Documents/work/bbva/tools/bbva-vpn
+docker build -t bbva-vpn:latest -f Dockerfile .
+cd
+cd Documents/work/bbva/deployment/deployment
+ls
+sh integration/scripts/run.sh
+podman ps
+podman ps -a
+docker ps
+docker rm -f 
+docker rm -f omada-controller
+podman ps
+docker ps
+sh integration/scripts/run.sh
+kind delete cluster -n integration
+kind delete cluster -n integration
+podman ps
+docker ps
+kind list clusters
+kind list nodes
+kind list 
+kind get clusters
+cat integration/run.sh
+ls
+cd integration
+ls
+cd scripts
+ls
+cat run.sh
+docker ps
+docker rm -f 735ff0906721
+docker ps
+docker rm -f bbva-vpn
+docker ps
+distrobox enter toolbox
+cd Documents/dev/fedora-ublue
+git status
+git add .
+git commit
+git push origin main
+rpm-ostree update
+git status
+git add .
+git commit --amend
+git push origin main 
+git push origin main -f
+just -h
+ls
+ls
+just ./files/justfiles/toolbox/create.just
+cd files/justfiles/toolbox
+ls
+just
+just toolbox-create
+just --check
+just --check --fmt
+just --check --fmt --unstable
+just --check --fmt --unstable .
+just
+just toolbox-create
+k
+just toolbox-create
+ls
+mv create.just create.justfile
+just toolbox-create
+just -g
+just -h
+just --list
+just upgrade
+just toolbox-assemble
+just toolbox-new
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+cd ..
+cd ..
+cd ..
+git status
+git add .
+git add .
+git commit --amend
+git push origin main -f
+ping 172.16.1.08
+ping 172.16.1.09
+ping 172.16.1.09
+flatpak update
+this is a
+sudo bluebuild generate-iso -B docker -v --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest 
+htop
+chezmoi status
+chezmoi
+chezmoi age
+chezmoi status
+chezmoi cd
+chezmoi .bash_history
+chezmoi add .bash_history
+chezmoi add .local/share/zsh/history
+chezmoi git status
+chezmoi add .
+chezmoi cd
+distrobox enter toolbox
+ls
+yay
+yay -R meshcentral
+yay  meshcentral
+yay -R meshcentral
+yay -q
+yay -Q
+distrobox enter toolbox
+distrobox enter toolbox
+sudo systemctl start docker
+docker start omada-controller
+docker logs -f omada-controller 
+yay knomad
+yay kmonad
+distrobox-export --bin /usr/bin/flux
+distrobox-export --bin /usr/bin/kmonad
+just upgrade
+just
+just 
+just -g
+just -g
+just -h
+just -l
+just check-idle-power-draw
+just check-local-overrides
+just -l
+just device-info
+just update-firmware
+just -l
+just toggle-user-motd
+distrobox-assemble
+distrobox-assemble create
+just distrobox-assemble 
+distrobox list 
+distrobox enter arch-amdgpupro
+distrobox rm arch-amdgpupro
+distrobox list 
+flatpak update
+just distrobox-assemble test
+distrobox list 
+just distrobox-assemble -h
+cat /usr/share/ublue-os/just/30-distrobox.just
+just distrobox-new
+just -l
+just logs-this-boot
+distrobox enter toolbox
+distrobox enter toolbox
+kmonad
+vim
+chezmoi status
+podman pull ghcr.io/frieser/template:latest
+podman login ghcr.io
+skopeo pull ghcr.io/frieser/template:latest
+skopeo
+skopeo -g
+skopeo -
+skopeo -h
+skopeo inspect ghcr.io/frieser/template:latest
+skopeo inspect docker://ghcr.io/frieser/template:latest
+skopeo -h
+skopeo login ghcr.io
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image docker://ghcr.io/frieser/template:latest 
+sudo bluebuild generate-iso --inspect-driver skopeo --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest 
+sudo bluebuild generate-iso --inspect-driver docker -R docker -B docker --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest
+podman images
+podman pull ghcr.io/frieser/template:latest
+podman tag ghcr.io/frieser/template:latest frieser/template
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image frieser/template:latest
+podman tag ghcr.io/frieser/template:latest localhost/frieser/template
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image localhost/frieser/template:latest
+sudo systemctl start docker
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image localhost/frieser/template:latest
+bluebuild
+bluebuild -h
+bluebuild generate-iso -h
+podman stop omada-controller
+docker run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+docker start omada-controller
+docker logs -f omada-controller 
+flatpak update
+rpm-ostree update
+systemctl reboot
+flatpak update
+rpm-ostree update
+yay wireguard
+ip a
+wg
+ls
+cat privatekey
+cat publickey
+docker start omada-controller
+docker logs -f omada-controller 
+distrobox enter toolbox
+distrobox enter toolbox
+journalctl -u wireguard
+journalctl -u NetworkManager.service
+journalctl -ux NetworkManager.service
+journalctl -x -u NetworkManager.service
+journalctl -f -u NetworkManager.service
+cd Documents/dev/nordigen-go-lib
+git pull origin main
+git tag v2.1.9
+git push origin v2.1.9
+flatpak update
+flatpak update
+flatpak update
+flatpak update
+rpm-ostree update
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.103
+ssh rancher@172.16.0.103
+ssh rancher@172.16.0.105
+ssh rancher@172.16.0.12
+cd Documents/homelab
+ls
+cd pxe
+ls
+cd a
+ ls
+cd assets
+ls
+vim join.yaml
+just update
+cd Documents/homelab
+ls
+cd pxe
+git status
+ls -la
+chown frieser:frieser -R assets
+sudo chown frieser:frieser -R assets
+sudo chown frieser:frieser -R config
+ls -la
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+sudo docker run -d \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      netbootxyz:latest 
+cd Documents/homelab/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+podman rm -f netbootxyz
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda status=progress
+cd
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda status=progress
+sudo sync
+cd Documents/dev/nordigen-go-lib
+git pull origin main
+git tag v2.1.10
+git push origin v2.1.10
+cd
+flatpak update
+sudo systemctl stop firewalld
+sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda
+sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda
+sudo sync
+sudo podman ps
+ip a
+sudo podman rm -f netbootxyz
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+cd Documents/homelab/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman ps
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman rm -f netbootxyz
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 8080:8080 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 8080:8080 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo systemctl stop firewalld
+sudo podman rm -f netbootxyz
+podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+ssh rancher@172.16.0.10
+rm 
+rm \f
+rm "`"t@<$&%#####%%%%``_t"ggg<<c@@@***=***
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.12
+flatpak update
+rpm-ostree update
+sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda
+sudo sync
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+yay kubectl
+distrobox-export --bin /usr/bin/kubectl
+docker start omada-controller
+docker logs -f omada-controller 
+distrobox enter toolbox
+kubectl
+distrobox enter toolbox
+kubectl
+vim .kube/config
+flux
+k get nodes
+flux
+vim .kube/config
+k get nodes
+k get nodes
+k get nodes
+vim .kube/config
+k get nodes
+vim .kube/config
+k get nodes
+vim .kube/config
+vim .kube/config
+k get nodes
+
+  flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+  flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+  flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+  flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+  flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+cd Documents/homelab/cluster
+ls
+git status
+git add --all
+git commit 
+git push origin main
+git pull origin main
+git reset origin/main --hard
+git add --all
+git commit 
+git push origin main
+  flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flatpak update
+rpm-ostree update
+podman start omada-controller
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman logs -f omada-controller
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  --net=host \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman rm -f omada-controller
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  --net=host \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman logs -f omada-controller
+podman stop omada-controller
+podman rm -f omada-controller
+just update
+systemctl reboot
+podman ps
+flatpak update
+flatpak update
+rpm-ostree update
+just update
+sudo rm .local/share/containers -rf
+sudo rm .local/share/containers -rf
+systemctl reboot
+rm -rf /run/user/1000/containers/*
+cd Documents/work/bbva/tools/bbva-vpn
+podman build -t bbva-vpn:latest -f Dockerfile .
+yay kubectl
+yay flux
+yay kmonad
+yay pop-launcher
+yay pop-launcher
+yay pop-launcher
+yay flux
+yay nvim
+yay neovim
+cd Documents/dev/fedora-ublue
+git status
+git add recipes/
+git commit
+git push origin main
+flatpak search discord
+flatpak install discord
+sudo vim /etc/hosts
+yay
+flux uninstall
+k get nodes
+k get nodes
+k get pods
+k get pods --all-namespaces
+k get pods -n flux-system
+k get ns
+flux uninstall
+k get ns
+k get ns
+flux uninstall
+sudo kubectl get namespace "flux-systemce" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -\
+
+o kubectl get namespace "flux-systce" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -\
+
+ kubectl get namespace "flux-systce" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -\
+
+ kubectl get namespace "flux-syemce" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -\
+
+ kubectl get namespace "flux-syemce" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -\
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+ kubectl get namespace "flux-syemce" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -\
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+ kubectl get namespace "flux-syemce" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -\
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+k get ns
+k delete ns cert-manager
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+distrobox list
+distrobox create -n toolbox -i ghcr.io/ublue-os/arch-distrobox-amdgpupro:latest
+distrobox enter toolbox
+distrobox enter toolbox
+distrobox enter toolbox
+distrobox enter toolbox
+
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+cd Documents/homelab/cluster
+git status
+git add clusters/
+k get ns
+flux uninstall
+k get ns
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+k get ns
+k delete ns cert-manager
+k get ns
+git status
+git commit
+git push origin main
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get secrets
+k get secrets -n cert-manager
+k get nodes
+distrobox list
+systemctl reboot
+podman ps
+docker ps
+sudo systemctl start docker
+docker ps
+docker rm -f $(docker ps -a)
+docker rm -f $(docker ps -aq)
+docker rm -f $(docker ps -aq)
+sudo docker ps
+sudo systemctl stop docker
+podman ps
+sudo podman ps
+sudo podman ps -a
+sudo podman images
+sudo podman rmi $(sudo podman images -aq)
+sudo podman rmi $(sudo podman images -aq)
+podman ps
+systemctl reboot
+yay flux
+yay kubectl
+yay neovim
+yay chezmoi
+yay cursor
+yay cursor-bin
+yay windsurf
+podman ps
+rm -rf /run/user/1000/containers/*
+sudo rm .local/share/containers -rf
+sudo rm .local/share/containers -rf
+podman ps
+distrobox create -n toolbox -i ghcr.io/ublue-os/arch-distrobox-amdgpupro:latest
+distrobox enter toolbox
+k get nodes
+podman ps
+k get nodes
+cd Documents/dev/fedora-ublue
+git add --all
+git commit
+git push origin main
+chezmoi status
+k get nodes
+podman ps
+podman ps
+podman ps
+rpm-ostree update
+systemctl reboot
+yay flux
+yay neovim
+yay chezmoi
+yay kubectl
+podman ps
+sudo rm .local/share/containers -rf
+rm -rf /run/user/1000/containers/*
+distrobox create -n toolbox -i ghcr.io/ublue-os/arch-distrobox-amdgpupro:latest
+distrobox create -n toolbox -i ghcr.io/ublue-os/arch-distrobox:latest
+distrobox enter toolbox
+k get nodes
+podman ps
+k get nodes
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get secrets -n cert-manager
+k get all -n cert-manager
+k get ns
+k get all -n cert-manager
+distrobox enter toolbox
+git status
+cd cluster
+git status
+git add --all
+git commit
+yay vim
+git commit
+git push origin main
+k get all -n cert-manager
+k get all -n cattle-system
+git status
+git add --all
+git commit
+git push origin main
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git status
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k get ns
+k delete ns cert-manager
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get all -n cattle-system
+git status
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get secrets -n cert-manager
+k get all -n cert-manager
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get secrets -n cert-manager
+git add --all
+git commit --amend
+git push origin main -f
+k get secrets -n cert-manager
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get all -n cert-manager
+k describe deployments.apps -n cert-manager cert-manager
+k logs deployments.apps -n cert-manager cert-manager
+k logs -n cert-manager
+k get pods -n cert-manager
+k logs -n cert-manager cert*
+k logs -n cert-manager cert-manager-6f4dd8c78d-9bvb4
+k logs -n cert-manager cert-manager-6f4dd8c78d-9bvb4
+k get all -n cert-manager
+k get all -n cattle-system
+k get secrets -n cert-manager
+distrobox enter toolbox
+distrobox enter toolbox
+distrobox create -n toolbox -i ghcr.io/ublue-os/arch-distrobox:latest
+distrobox enter toolbox
+systemctl reboot
+ps aux | grep podman
+killall podman
+docker build -t bbva-vpn:latest -f Dockerfile .
+ls -la /var/run/docker.sock
+grep -E '^docker:' /usr/lib/group | sudo tee -a /etc/group
+sudo usermod -aG docker $USER
+sudo systemctl start docker
+docker ps
+cd Documents/work/bbva/tools/bbva-vpn
+docker build -t bbva-vpn:latest -f Dockerfile .
+podman ps
+chsh -s $(which zsh) frieser
+ls
+pwd
+ls
+top
+chezmoi add .config/kitty
+chezmoi cd
+cd .mozilla/firefox
+ls
+rpm-ostree update
+distrobox-export --bin /usr/bin/nvim
+distrobox-export --bin /usr/bin/zsh
+vim .config/kitty/kitty.conf
+distrobox enter toolbox
+vim .config/kitty/kitty.conf
+distrobox enter toolbox
+which zsh
+vim .config/kitty/kitty.conf
+vim .config/kitty/kitty.conf
+vim .config/kitty/kitty.conf
+vim .config/kitty/kitty.conf
+vim .config/kitty/kitty.conf
+rpm
+flatpak update
+vim .config/kitty/kitty.conf
+ls
+rpm-ostree update
+systemctl reboot
+flatpak update
+rpm-ostree update
+just update
+cd Documents/work/bbva/tools/bbva-vpn
+ls
+cd ..
+cd ..
+cd deployment/deployment
+ls
+git checkout develop
+git pull origin develop
+git pull origin develop
+dig scm.live.es.nextgen.igrupobbva
+cp -pv /etc/systemd/resolved.conf /etc/systemd/resolved.conf.bck\
+c
+cp -pv /etc/systemd/resolved.conf /etc/systemd/resolved.conf.bck\
+
+cat <<EOF> /etc/systemd/resolved.conf\
+[Resolve]\
+DNS=10.51.33.33\
+Domains=~igrupobbva\
+EOF
+sudo su
+git pull origin develop
+cat ~/.ssh/id_ed25519.pub
+git pull origin develop
+zinit
+zinit update
+vim .zshrc
+cd Documents
+ls
+git clone git@github.com:frieser/notes.git
+ls
+flatpak update
+cd .var/app/org.mozilla.firefox/cache/mozilla/firefox/0nw4owj1.oneline
+ls -la
+cd 
+chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline
+chezmoi em .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline
+chezmoi rm .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline
+chezmoi forget .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline
+chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome
+chezmoi forget .var/app/org.mozilla.firefox/cache/mozilla/firefox/0nw4owj1.oneline
+chezmoi cd
+vim .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
+chezmoi cd
+cd Documents/dev/fedora-ublue
+ls
+cd Documents
+ls
+cd dev
+ls
+cd fedora-frieser
+ls
+git status
+git add --all
+git commit
+git push origin main 
+git push origin main -f
+git push origin main 
+flatpak search baoba
+git status
+git add --all
+git commit
+git push origin main 
+flatpak install org.gnome.baobab
+df -h
+df -h
+cd Documents/dev/fedora-frieser
+ls
+git status
+flatpak search dconf
+flatpak install ca.desrt.dconf-editor
+vim .zshrc
+chezmoi add .zshrc
+chezmoi cd
+ls
+source ~/.zshrc
+toolbox
+chezmoi add .config/kitty/kitty.conf
+chezmoi add .config/nvim
+chezmoi add .local/share/zsh/history
+chezmoi cd
+dconf watch /
+dconf watch /
+dconf watch /
+dconf watch /
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit
+git push origin main 
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git status
+git status
+git status
+git add --all
+git add --all
+git add --all
+git commit 
+git push origin main 
+chezmoi status
+chezmoi status
+git status
+git add --all
+git commit
+git push origin main 
+makepkgs -h
+makepkg -h
+yay pop-shell
+yay -h
+yay pop-launcher
+vim .zshrc
+vim .local/share/zsh/history
+chezmoi status
+chezmoi add .local/share/zsh/history
+vim .bash_history
+chezmoi add .bash_history
+chezmoi cd
+vim .gitconfig
+chezmoi add .gitconfig
+chezmoi cd
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit
+git push origin main 
+cat /etc/distrobox/distrobox.ini
+ls
+git status
+distrobox create -i
+distrobox create -h
+git status
+git add --all
+git commit
+git push origin main 
+git push origin main 
+git status
+git add --all
+git commit --amend
+git push origin main 
+git push origin main  -f
+git status
+git add --all
+git commit
+git push origin main  
+git push origin main  
+git push origin main  
+git push origin main  
+toolbox
+git status
+git add --all
+git commit
+git push origin main  
+just --fmt --check --unstable --justfile
+just --fmt --check --unstable --justfile files/justfiles/toolbox/create.just
+just --fmt --check --unstable --justfile files/justfiles/toolbox/create.just
+just --fmt --check --unstable --justfile files/justfiles/toolbox/create.just
+just --fmt --unstable --justfile files/justfiles/toolbox/create.just
+just --fmt --check --unstable --justfile files/justfiles/toolbox/create.just
+just --fmt --check --unstable --justfile files/justfiles/pop-shell/install.just
+just --fmt --check --unstable --justfile files/justfiles/pop-shell/install.just
+git status
+git add --all
+git commit --amend
+git push origin main  
+git push origin main -f
+just --list
+vim .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
+chezmoi status
+chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
+chezmoi add .local/share/zsh/history
+chezmoi forget .config/kitty/.kitty.conf.swp
+chezmoi status
+chezmoi add .config/Windsurf/User/settings.json
+chezmoi add .bash_history
+chezmoi cd
+cd Documents/dev/fedora-frieser
+git stauts
+git status
+git add --all
+git commit
+git push origin main
+cd Documents/dev/fedora-frieser
+git status
+git add recipes/
+git commit --amend
+git push origin main
+git push origin main -f
+cd Documents/dev/fedora-frieser
+git status
+git add recipes/
+git add --all
+git commit
+git push origin main 
+flatpak udpate
+flatpak update
+rpm-ostree update
+rpm-ostree update
+systemctl reboot
+yay cursor-bin
+distrobox-export --app cursor
+yay vscode
+distrobox-export --app code
+flatpak update
+flatpak update
+rpm-ostree update
+toolbox
+dconf watch /
+cd Documents/dev/fedora-frieser
+git status
+git diff
+git status
+git restore recipes/recipe.yml
+git status
+git add --all
+git commit
+git push origin main 
+toolbox
+flatpak run org.mozilla.firefox google.es
+flatpak run org.mozilla.firefox google.es --new-window
+flatpak run org.mozilla.firefox --new-windowgoogle.es 
+flatpak run org.mozilla.firefox --new-window google.es 
+flatpak run org.mozilla.firefox --new-window https://chatgpt.com/
+dconf watch /
+ls
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit
+git push origin main 
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit
+git push origin main 
+dconf watch /
+ls
+vim .config/kitty/kitty.conf
+ls
+rop
+top
+vim .config/kitty/kitty.conf
+cd Documents/dev/fedora-frieser
+git add --all
+git commit --amend
+git push origin main 
+git push origin main 
+git push origin main -f
+dconf watch /
+git add --all
+git commit --amend
+git push origin main -f
+flatpak update
+rpm-ostree update
+systemctl reboot
+yay flux
+distrobox-export --app cursor
+distrobox-export --app flux
+distrobox-export --app fluxcd
+flux
+distrobox-export --app /usr/bin/flux
+distrobox-export --bin /usr/bin/flux
+mkdir .kube
+yay kubectl
+distrobox-export --bin /usr/bin/k
+distrobox-export --bin /usr/bin/kubectl
+flatpak update
+rpm-ostree update
+htop
+cd Documents/homelab
+ls
+git clone
+git clone git@github.com:frieser/vcluster-local.git
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+cd vcluster-local
+toolbox
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+mv ~/Downloads/local.yaml ~/.kube/config
+vim ~/.kube/config
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+vim ~/.kube/config
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k get nodes
+toolbox
+k get nodes
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flatpak update
+rpm-ostree update
+ls
+htop
+cd Documents/dev/fedora-frieser
+git status 
+git add --all
+git commit --amend
+git push origin main -f
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit --amend
+git 
+git push origin main -f
+just updated
+just update
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  --net=host \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman logs -f omada-controller
+ip a
+flatpak update
+rpm-ostree update
+ip a
+ip a
+ip a
+ip a
+flatpak search eog
+flatpak install org.gnome.eog
+flatpak install org.gnome.eog
+podman start omada-controller
+podman logs -f omada-controller
+podman rm -f omada-controller
+ls /opt
+podman volumes
+podman volume list 
+podman volume rm omada-data
+podman volume rm omada-logs
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  --net=host \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman logs -f omada-controller
+podman stop omada-controller
+podman start omada-controller
+podman logs -f omada-controller
+podman rm -f omada-controller
+podman volume rm omada-logs
+podman volume rm omada-data
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  --net=host \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman logs -f omada-controller
+podman rm -f omada-controller
+podman volume rm omada-data
+podman volume rm omada-logs
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  --net=host \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman logs -f omada-controller
+ip a
+sudo vim /etc/hosts
+flatpak search telegram
+flatpak install org.telegram.desktop
+vim ~/.kube/config
+k get ns
+kubectl get namespace "contro-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "contro-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k get ns
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+k get ns
+ssh rancher@172.16.0.10
+kubectl get namespace "contro-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get ns
+cd Documents/homelab/vcluster-local
+git status
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k get ns
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k get ns
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+cd Documents/homelab/vcluster-local
+git status
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+k delete ns control-vcluster
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get ns
+flux uninstall
+k get ns
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get ns -w
+k delete ns control-vcluster
+k get ns
+git status
+git add --all
+git commit --amend
+git push origin main -f
+flux status
+flux 
+flux events
+git add --all
+git commit --amend
+git push origin main -f
+git status
+k get ns
+k delete ns control-vcluster
+k get ns -w
+flux uninstall
+k get ns
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+git status
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+flux uninstall
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=control  --path=clusters/02-control
+git status
+git add --all
+git commit
+git push origin main 
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=control  --path=clusters/02-control
+flux uninstall
+flux uninstall --context=control
+just update
+systemctl reboot
+just update
+k get ns
+yay kubectx
+distrobox-export --bin /usr/bin/kubectx
+yay helm
+yay helm
+distrobox-export --bin /usr/bin/helm
+dconf watch /
+ssh rancher@172.16.0.10
+vim ~/.kube/config
+vim ~/.kube/config
+skopeo list-tags
+skopeo list-tags oci://ghcr.io/stefanprodan/charts/podinfo
+skopeo list-tags docker://ghcr.io/stefanprodan/charts/podinfo
+skopeo list-tags docker://registry.suse.com/rancher/elemental-operator-crds-chart
+skopeo list-tags docker://registry.suse.com/rancher/elemental-operator-chart
+just update
+env | grep cache
+ls .cache/zinit
+mkdir .cache/zinit/completions
+source ~/.zshrc
+zinit update
+toolbox
+podman ps
+podman px
+systemctl reboot
+source .zshrc
+cd Documents/homelab/vcluster-local
+git status
+git add --all
+git commit
+git push origin main 
+git pull origin main
+git pull origin main
+git status
+git merge origin/main
+git push origin main 
+toolbox
+vim ~/.zshrc
+solurce ~/.zshrc
+source ~/.zshrc
+kctx
+kctx control
+k get ns
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+k delete ns cattle-elemental-system
+toolbox
+helm upgrade --create-namespace -n cattle-elemental-system --install elemental-operator-crds oci://registry.suse.com/rancher/elemental-operator-crds-chart
+helm upgrade --create-namespace -n cattle-elemental-system --install elemental-operator oci://registry.suse.com/rancher/elemental-operator-chart
+k get all -n cattle-elemental-system
+k delete ns cattle-elemental-system
+k get ns
+git status
+git status
+git add clusters/02-control/elemental/kustomization.yaml
+git add clusters/02-control/elemental/plugin.yaml
+git commit
+git push origin main 
+git add clusters/02-control/elemental/kustomization.yaml
+git commit 
+ls
+git status
+git commit --amend
+git push origin main -f
+kctx harvester
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k
+k
+k get
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=control  --path=clusters/02-control
+git status
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=control  --path=clusters/02-control
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=control  --path=clusters/02-control
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=control  --path=clusters/02-control
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=control  --path=clusters/02-control
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git status
+git add --all
+git commit
+git push origin main 
+git add --all
+git commit --amend
+git push origin main 
+git push origin main -f
+kctx control
+k
+k delete ns cattle-elemental-system
+k get
+k get ns
+k get ns
+k get all -n cattle-elemental-system
+k
+k delete ns cattle-elemental-system
+git status
+git add clusters/02-control/elemental/kustomization.yaml
+git add clusters/02-control/elemental/kustomization.yaml
+git status
+git add clusters/
+git status
+git  add --all
+git commit --amend
+git push origin main -f
+k get all -n cattle-elemental-system -w
+k get all -n cattle-elemental-system -f
+watch k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+kctx control
+k get all -n cattle-elemental-system
+k get ns
+helm show values oci://registry.suse.com/rancher/elemental-operator-chart
+git status
+git add --all
+git commit --amend
+git push origin main -f
+k get all -n cattle-elemental-system
+flatpak update
+just update
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns cattle-elemental-system
+k get all -n cattle-elemental-system
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns cattle-elemental-system
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns cattle-elemental-system
+k get all -n cattle-elemental-system
+k get all -n cattle-elemental-system
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns cattle-elemental-system
+k delete ns cattle-elemental-system
+kubectl get namespace "cattle-elemental" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "cattle-elemental-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/cattle-elemental-system/finalize -f -
+k
+k get ns
+git push origin main -f
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns cattle-elemental-system
+git commit --amend
+git push origin main -f
+git add --all
+git col
+git commit --amend
+git push origin main -f
+chezmoi
+ chezmoi status
+chezmoi diff
+chezmoi add ~/.zshrc
+chezmoi status
+chezmoi add ~/.bash_history
+chezmoi add ~/.local/share/zsh/history
+chezmoi status
+vim ~/.local/share/zsh/history
+chezmoi add ~/.local/share/zsh/history
+chezmoi status
+chezmoi diff
+chezmoi add ~/.config/kitty/kitty.conf
+chezmoi status
+chezmoi cd
+ls
+k delete ns cattle-elemental-system
+git add --all
+git commit --amend
+git pl
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns cattle-elemental-system
+git commit --amend
+git push origin main -f
+kctx
+k get ns
+flux
+flux logs
+flux
+flux stats
+flux
+flux reconcilie
+flux reconcile
+flux reconcile helmrelease
+flux reconcile helmrelease --all
+flux events
+zinit ice atload"kubectl completion zsh >| ${ZSH_COMPDUMP:-${HOME}/.zcompdump}"
+zinit load zsh-users/zsh-completions
+kctx
+fluc
+flux
+flux list
+flux list artifacts
+flux trace
+flux reconcile helmrelase elemental-crfds
+flux reconcile helmrelase elemental-crds
+flux reconcile helmrelease elemental-crds
+flux list
+flux list
+flux
+flux completions
+flux completion
+flux completion zsh
+vim ~/.zshrc
+source ~/.zshrc
+flux resume
+flux resume helmrelease
+vim ~/.zshrc
+toolbox
+ls
+ls
+just update
+ls
+source ~/.zshrc
+just update
+ls
+just update
+distrobox-export --bin /usr/bin/zsh -r
+distrobox-export -d --bin /usr/bin/zsh 
+just update
+toolbox
+just update
+toolbox
+podman ps
+ls
+toolbox
+ls
+toolbox
+toolbox
+vim ~/.zshrc
+source ~/.zshrc
+toolbox
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+run-help vim
+vi ~/.zshrc
+source ~/.zshrc
+toolbox
+vim ~/.zshrc
+source ~/.zshrc
+toolbox
+vim ~/.zshrc
+toolbox
+source ~/.zshrc
+toolbox
+vim ~/.zshrc
+source ~/.zshrc
+toolbox
+vim ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+toolbox
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+bash
+source ~/.zshrc
+bash
+source ~/.zshrc
+bash
+source ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+toolbox
+source ~/.zshrc
+toolbox
+ls
+toolbox
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+bash
+source ~/.zshrc
+bash
+source ~/.zshrc
+toolbox
+toolbox
+vim ~/.zshrc
+toolbox
+vim ~/.zshrc
+toolbox
+vim ~/.zshrc
+toolbox
+vim ~/.zshrc
+vi ~/.zshrc
+toolbox
+vim ~/.zshrc
+ls .cache/zinit
+toolbox
+ls
+flux
+toolbox
+chezmoi completiion zsh
+chezmoi completion zsh
+distrobox stop toolbox
+distrobox stop -f toolbox
+podman ps
+ls
+chezmoi completion zsh
+podman ps
+which chezmoi
+k
+distrobox enter
+distrobox enter -g
+distrobox enter -h
+soul
+source ~/.zshrc
+podman ps
+distrobox stop -f toolbox
+distrobox stop toolbox
+distrobox stop toolbox
+ podman ps
+tol
+toolbox
+k completion
+ls .local/share/zsh
+k completion zsh > .local/share/zsh/kubectl
+head .local/share/zsh/kubectl
+vim ~/.zshrc
+k get namespaces cattle-elemental-system
+kctx completion zsh
+flux completion zsh
+flux completion zsh > .local/share/zsh/flux
+vim ~/.zshrc
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+vim ~/.kube/config
+vil
+vim ~/.kube/config
+ssh rancher@172.16.0.10
+sudo vim /etc/hosts
+podman start omada-controller
+nslookup control.local.frieserlabs.dev
+ssh rancher@172.16.0.10
+ping 172.16.0.10
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+ping 172.16.0.10
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+cd Documents/homelab/vcluster-local
+git status
+git diff
+k get ns cattle-elemental-system
+k get all -n cattle-elemental-system
+flux uninstall
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get crds
+kctx 
+kctx harvester
+k delete ns control-vcluster
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get all -n cert-manager
+k get all -n control-vcluster
+k get all -n control-vcluster -w
+k get all -n control-
+k get all -n control-vcluster
+k get all -n control-vcluster
+k get all -n control-vcluster
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+kctx control
+kctx control
+kctx
+kctx
+kctx control
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=control  --path=clusters/02-control
+git add --all
+git commit --amend
+git push origin main -f
+git status
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+just update
+ssh rancher@172.16.0.10
+cd Documents/homelab/vcluster-local
+kctx harvester
+k delete ns control-vcluster
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+flux uninstall
+k get ns
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k get ns
+git status
+git add --all
+git commit
+git push origin main 
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+git status 
+git add --all
+git commit --amend
+git push origin main 
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+just update
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+just update
+just update
+kctx harvester
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+git status
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+chezmoi cd
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit --amend
+git push origin main -f
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git coM
+git add --all
+git commit --amend
+git push origin main -f
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit
+git push origin main 
+gsettings list-relocatable-schemas
+gsettings list-relocatable-schemas
+git add --all
+git commit 
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commitmit --amend
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git status
+git add --all
+git commit --amend
+git push origin main -f
+chezmoi add ~/.var/app/org.mozilla.firefox/cache/mozilla/firefox/0nw4owj1.oneline
+git add --all
+git commit --amend
+git push origin main -f
+chezmoi status
+chezmoi ~/.config/Windsurf/User/settings.json
+chezmoi add ~/.config/Windsurf/User/settings.json
+chezmoi cd
+git add --all
+git commit --amend
+git push origin main -f
+gsettings list-relocatable-schemas
+git add --all
+git commit --amend
+git push origin main -f
+ls
+gsettings list-relocatable-schemas
+gsettings list-relocatable-schemas | grep screen
+gsettings list-relocatable-schemas | grep desktop
+gsettings list-relocatable-schemas | grep mutter
+gsettings list-relocatable-schemas | grep gtk
+cat .var/app/org.mozilla.firefox/.mozilla/firefox/profiles.ini
+cat .var/app/org.mozilla.firefox/.mozilla/firefox/installs.ini
+chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/installs.ini
+chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/profiles.ini
+chezmoi cd
+chezmoi add .var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline/
+chezmoi add .var/app/org.mozilla.firefox/cache/mozilla/firefox/0nw4owj1.oneline
+chezmoi cdc
+chezmoi cd
+dconf watch /
+dconf watch /
+flatpak search podcasts
+flatpak search shortwave
+flatpak search warp
+dconf watch /
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit --amend
+git push origin main -f
+ls ~/.local/share/gnome-shell/extensions
+git status
+git add --all
+git commit --amend
+git push origin main -f
+flatpak search Evince
+flatpak search Logs
+git status
+git add --all
+git commit --amend
+git push origin main -f
+flatpak search bloatswain
+flatpak search com.feaneron.Boatswain
+git add --all
+git commit --amend
+git push origin main -f
+git status
+git add --all
+git commit --amend
+git push origin main -f
+git status
+git add --all
+git commit --amend
+git push origin main -f
+just --fmt --check --unstable --justfile files/justfiles/pop-shell/install.just
+just --fmt --unstable --justfile files/justfiles/pop-shell/install.just
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+g commit --amend
+g push origin main -f
+ssh rancher@172.16.0.10
+yay
+yay 
+yay -Q
+yay -Qm
+which chezmoi
+yay -Qn
+yay -Qm
+cd Documents/dev/fedora-frieser
+toolbox
+yay -Q
+toolbox
+podman ps
+podman inspect toolbox
+cd Documents/dev/fedora-frieser
+git add --all
+git commit --amend
+git push origin main -f
+g add --all
+g commit --amend
+g push origin main -f
+g add --all
+g commit --amend
+g push origin main -f
+dconf watch /
+just update

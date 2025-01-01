@@ -1,0 +1,11 @@
+[url "git@scm.live.es.nextgen.igrupobbva:"]
+    insteadOf = https://scm.live.es.nextgen.igrupobbva/
+[http "https://globaldevtools.bbva.com"]
+    extraheader = AUTHORIZATION: Bearer 
+[alias]
+	gofmt = !echo $(git diff --cached --name-only --diff-filter=ACM | grep .go) | xargs gofmt -w -l | xargs git add
+[user]
+	email = frieserpaldi@gmail.com
+	name = Hector
+[core]
+	editor = vim

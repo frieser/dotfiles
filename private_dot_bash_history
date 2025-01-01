@@ -1,0 +1,768 @@
+rpm-ostree install distrobox sshuttle 
+ostree status
+rpm-ostree status
+sudo ostree admin pin 0
+rpm-ostree update --check --preview
+rpm-ostree install distrobox sshuttle 
+podman -v
+systemctl reboot
+distrobox create -n toolbox
+distrobox enter toolbox 
+cd
+cd Documents/work/bbva/deployment/deployment/
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix |     sh -s -- install ostree --no-confirm --persistence=/var/lib/nix
+echo "Defaults  secure_path = /nix/var/nix/profiles/default/bin:/nix/var/nix/profiles/default/sbin:$(sudo printenv PATH)" | sudo tee /etc/sudoers.d/nix-sudo-env
+nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
+nix-channel --update
+nix-shell '<home-manager>' -A install
+home-manager switc
+home-manager switch
+nix-channel -h
+nix-channel 
+nix-channel --help
+nix-channel --list
+nix-channel --rm home-manager
+nix-channel --list
+nix-channel --help
+nix-channel --remove home-manager
+nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz home-manager
+nix-channel --update
+nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
+nix-channel --update
+home-manager switch
+export NIXPKGS_ALLOW_UNFREE=1
+home-manager switch
+export NIXPKGS_ALLOW_UNFREE=1
+home-manager switch
+home-manager edit
+home-manager switch
+cd Documents/work/bbva/tools/bbva-vpn/
+podman build -t bbva-vpn:latest -f Dockerfile .
+flatpak install telegram
+flatpak install vlc
+flatpak install spotify
+sudo dnf install just cargo
+just
+dnf search xkbcommin
+dnf search xkbcommon
+sudo dnf install  rust-xkbcommon-devel
+just
+just install
+cd
+cd Documents/dev/launcher
+just install
+launcher
+ls ~/.local/bin/
+cd /var/home/frieser/.mozilla/firefox/6i6634hy.default-release
+git clone https://github.com/khuedoan/one-line-firefox chrome
+ls
+rm -rf chrome/
+git clone https://codeberg.org/tommi/firefox-monoline.git chrome
+rm -rf chrome/
+zsh
+gsettings set org.gnome.mutter overlay-key ""
+zsh
+zsh
+flatpak -h
+flatpak list
+flatpak list | grep termi
+flatpak list | grep ter
+ptxis
+ptyxis 
+ptyxis  -h
+ptyxis  -s
+setxkbmap -layout us -option ctrl:swapcaps
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
+cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/ycde9dec.oneline/
+ls
+ls ch
+git clone https://github.com/khuedoan/one-line-firefox chrome
+rm -rf chrome/
+git clone https://github.com/khuedoan/one-line-firefox chrome
+nautilus .
+cd
+sudo dnf install stack
+stack build
+sudo dnf install g++
+stack build
+stack install
+cp kmonad ~/.local/bin/
+cd
+kmonad
+cp -r kmonad/ .config/
+ls .config/
+mv systemd/ .config/
+systemctl daemon-reload 
+systemctl --user daemon-reload 
+systemctl --user kmonad start
+systemctl --user start kmonad.service 
+systemctl --user enable kmonad.service 
+systemctl --user status kmonad.service 
+journalctl -u kmonad
+journalctl -u kmonad.service
+vim ~/.config/systemd/user/kmonad.service 
+ls
+zsh
+groups
+zsh
+chsh -h
+chsh -l
+chsh -s zsh
+which zsh
+chsh -s /var/home/frieser/.nix-profile/bin/zsh
+home-manager edit
+home-manager switch
+home-manager edit
+home-manager switch
+home-manager edit
+home-manager switch
+kitty
+home-manager edit
+rpm-ostree status
+rpm-ostree rollback
+rpm-ostree install kitty
+systemctl reboot
+rpm-ostree status
+kitty
+home-manager edit
+journalctl -u kmonad.service
+rpm-ostree status
+systemctl --user status kmonad.service 
+/var/home/frieser/.local/bin/kmonad /home/frieser/.config/kmonad/trackpointII.kbd
+zsh
+kitty
+which kitty
+home-manager edit
+home-manager switch
+ls
+kitty
+vim ~/.config/kitty/kitty.conf
+vi ~/.config/kitty/kitty.conf
+kitty
+zsh
+a
+h
+exit
+cd 
+zsh
+cd Documents/work/bbva/deployment/deployment/
+bazel build //..
+bazel build //...
+rm -rf .bazel
+bazel build //...
+bazel build //api
+bazel build //deployer-gitops
+bazel build //lib/...
+bazel run //deployer-gitops
+cat README.md | grep gazelle
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+sh integration/scripts/env.sh 
+sh integration/scripts/run.sh 
+exit
+git commit
+go install golang.org/x/tools/cmd/goimports@latest
+go install honnef.co/go/tools/cmd/staticcheck@2023.1.6
+go install github.com/git-chglog/git-chglog/cmd/git-chglog@lates
+go install github.com/git-chglog/git-chglog/cmd/git-chglog@latest
+git commit
+zsh
+exit
+git commit
+exit
+systemctl --user status kmonad.service 
+systemctl --user restart kmonad.service 
+systemctl --user status kmonad.service 
+/var/home/frieser/.local/bin/kmonad /home/frieser/.config/kmonad/trackpointII.kbd 
+cd Documents/work/bbva/deployment/deployment/
+git status
+git push origin fix/spand-api-deployer
+cat README.md | grep statuc
+cat README.md | grep static
+go install honnef.co/go/tools/cmd/staticcheck@2023.1.6
+git push origin fix/spand-api-deployer
+rm -rf .bazel
+git push origin fix/spand-api-deployer
+make  idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+sudo dnf search qmk
+sudo dnf install git make gcc gcc-c++ avr-gcc avr-libc dfu-programmer wget 
+sudo dnf install git make gcc gcc-c++ avr-gcc avr-libc  wget 
+python3 -m pip install qmk
+sudo dnf install python-pip
+python3 -m pip install qmk
+qmk
+make  idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+/usr/bin/python3 -m pip install -r /var/home/frieser/Documents/dev/qmk_firmware/requirements.txt
+make  idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+dnf provides arm-none-eabi-gcc
+sudo dnf install arm-none-eabi-gcc-cs
+make  idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+sudo dnf install gcc-arm-none-eabi arm-none-eabi-gcc-cs-c++
+sudo dnf install gcc-arm-none-eabi 
+sudo dnf install arm-none-eabi-newlib
+make  idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+SOFT_SERIAL_ENABLE = no
+SOFT_SERIAL_ENABLE=no
+make  idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+qmk setup
+exit
+cd Documents/work/bbva/deployment/deployment/
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+k
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+git status
+git push origin fix/spand-api-deployer
+git push origin fix/spand-api-deployer --no-verify
+m8c
+git commit --no-verify
+git commit 
+exit
+git commit --no-verify
+git push origin develop --no-verify
+bazel run //:gazelle
+bazel build //...
+rm .bazel -rf
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+rm .bazel -rf
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+bazel run //:gazelle
+bazel build //...
+rm -rf .bazel
+bazel build //...
+git commit
+git push origin fix/logguer-span-id
+make setup
+env
+env 
+env| grep GOOS
+go env
+make setup
+echo $OS
+go
+go env
+export OS=linux
+export ARCH=amd64
+make setup
+make
+make test
+make
+make vendors
+make
+make all
+make bin
+ls
+ls build
+./build/bin/lra 
+exit
+zsh
+exit
+rpm-ostree status
+rpm-ostree update --check --preview
+rpm-ostree update --check 
+rpm-ostree update 
+docker
+systemctl reboot
+git status
+git add recipes/
+git commit --amend
+git push origin main -f
+sudo dnf install chezmoi
+distrobox-export --app chezmoi
+sudo dnf search chezmoi
+sudo pacman -S --needed git base-devel
+cd Documents
+cd dev
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+yay
+cd
+yay zsh
+yay kubectl kind argocd
+kubectl
+yay -sy kubectl kind argocd
+zsh
+yay -S kubectl kind argocd
+yay -S cargo just fzf ansible neovim xclip qmk cosign tytools
+yay -S chezmoi
+distrobox-export --app chezmoi
+distrobox-export --bin chezmoi
+which chezmoi
+distrobox-export --bin /usr/bin/chezmoi 
+kind
+distrobox-export --bin /usr/bin/kind
+distrobox-export --bin /usr/bin/cargo
+distrobox-export --bin /usr/bin/rustup
+distrobox-export --bin /usr/bin/ansible
+distrobox-export --bin /usr/bin/argocd
+distrobox-export --bin /usr/bin/kubectl
+distrobox-export --bin /usr/bin/just
+distrobox-export --bin /usr/bin/neovim
+distrobox-export --bin /usr/bin/nvim
+distrobox-export --bin /usr/bin/qmk
+cd Documents/dev/fedora-ublue/
+git status
+git  recipes
+git add _~
+git add recipes/
+git commit
+git add recipes/
+git commit
+git push origin main
+rpm-ostree update
+systemctl reboot
+ls
+home-manager switch
+cat symlink_dot_zshrc 
+rm symlink_dot_zshrc 
+exit
+yay zplug
+distrobox-export --bin /usr/bin/qmk
+distrobox-export --bin /usr/bin/zplug
+which zplug
+zplug
+exit
+zplug
+vim .zshrc
+ls
+git status
+git add .
+git commit --amend
+git commit -m "zsh"
+git push origin main
+cd
+exit
+dnf provides awk
+awk
+git status
+exit
+git status
+git add dot_zshrc 
+git commit
+git commit -m "remove zplug for unpuggled zsh"
+git push origin main
+exit
+yay
+exit
+git status
+git add dot_zshrc 
+git commit
+git commit -m "revert zplug remove"
+git push origin main
+git status
+git add dot_zshrc 
+git commit -m "refactor"
+git push origin main
+git status
+git add dot_zshrc 
+git commit -m "refactor
+"
+git push origin main
+yay
+yay windsurf
+distrobox-export --bin /usr/bin/windsurf
+distrobox-export -h
+distrobox-export --bin /usr/bin/windsurf -d
+distrobox-export --app /usr/bin/windsurf 
+windsurf
+yay cursor
+yay cursor-ide
+yay cursor | grep ide
+yay cursor-bn
+yay cursor-bin
+cursor
+which windsurf
+distrobox-export --app windsurf 
+distrobox-export --app cursor
+exit
+yay mcfly
+distrobox-export --bin mcfly
+mcfly
+distrobox-export --bin /usr/bin/mcfly
+zsh
+yay zplyg
+yay zplug
+zplug
+yay atuin
+distrobox-export --bin /usr/bin/atuin
+distrobox-export --bin /usr/bin/atuin -r
+distrobox-export --bin /usr/bin/atuin -d
+distrobox-export --bin /usr/bin/mcfly -d
+yay -R atuin mcfly
+podman ps
+zsh
+cd Documents/dev/yay/
+makepkg -si
+cd
+yay
+yay chezmoi zsh neovim vim 
+yay -sy chezmoi zsh neovim vim 
+yay -Sy chezmoi zsh neovim vim 
+zsh
+ls
+exit
+git status
+git add .
+git status
+git commit
+git push origin main
+chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
+exit
+chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
+zsh
+exit
+zsh
+cd 
+cd Documents/dev/yay
+makepkg -si
+cd
+yay
+
+yay cursor-bin-patched
+distrobox-export 
+distrobox-export --list-apps
+yay windsurf
+distrobox-export --list-binaries
+yay qmk
+distrobox-export --list-binaries
+yay kind
+distrobox-export --list-binaries
+yay rustup
+yay cargo
+ls
+distrobox-export --list-binaries
+yay ansible
+distrobox-export --list-binaries
+yay argocd
+distrobox-export --list-binaries
+yay kubectl
+distrobox-export --list-binaries
+yay just
+distrobox-export --list-binaries
+yay neovim
+yay zsh
+zsh
+cd Documents/dev/yay
+makepkg -si
+cd
+yay
+yay zsh
+zsh
+yay neovim
+yay kubectl
+yay kind
+ls
+ahdfd
+df
+ls
+cd Documents/yay
+cd Documents/dev/yay
+makepkg -si
+yay
+yay chezmoi
+yay windsurf
+exit
+cd Documents/dev/yay/
+makepkgs -si
+makepkg -si
+yay
+yay windsurf
+yay cursor
+yay cursor-ide
+yay cursor-bin
+yay chezmoi
+distrobox-export --list-binaries
+distrobox-export --app cursor
+distrobox-export --app windsurf
+exit
+git status
+git add .
+git commit
+git push origin main
+yay -R pop-launcher
+yay pop-launcher
+distrobox-export --bin /usr/bin/pop-launcher
+ls
+distrobox-export --bin /usr/bin/pop-launcher -d
+cd Do
+cd Documents/dev
+ls
+cd launcher
+git 
+git pull 
+just
+just install
+ls
+rm dot_local/share/private_applications/ -rf
+git status
+git add  .
+git status
+git commit
+git push origin main
+yay bluebuild
+cargo install --locked blue-build
+rustup default stable
+cargo install --locked blue-build
+bluebuild
+ls
+./.cargo/bin/bluebuild 
+bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/octocat/weird-os
+./.cargo/bin/bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/octocat/weird-os
+yay podman
+./.cargo/bin/bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/octocat/weird-os
+sudo ./.cargo/bin/bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/octocat/weird-os
+yay buildah
+sudo ./.cargo/bin/bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/octocat/weird-os
+exit
+yay kind
+distrobox-export --bin /usr/bin/kind
+yay meshcentral
+meshcentral 
+yay mesh
+yay meshcmd
+git status
+exit
+git add .
+git commit
+git push origin main
+chsh -g
+chsh -h
+chsh -s /usr/bin/zsh 
+sudo chsh -s /usr/bin/zsh 
+sudo chsh -s /usr/bin/zsh frieser
+cd Documents/dev/yay/
+makepkg -si
+cd
+yay
+yay windusrf
+yay windsurf
+yay cursor-bim
+yay cursor-bin
+yay zsh
+zsh
+chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
+sudo chsh -s $(which zsh) frieer
+sudo chsh -s $(which zsh) frieser
+cd Documents/dev/
+ls
+cd yay
+makepkgs -si
+makepkg -si
+cd
+yay
+yay zsh
+h
+zsh
+cd Documents/dev/yay/
+makepkg -si
+yay
+yay zsh
+zsh
+yay windsurf
+zsh
+ssh-keygen
+ssh-keygen -t ed25519 -C "frieserpaldi@gmail.com"
+cat .ssh/id_ed25519.pub 
+chezmoi
+chezmoi cd
+chezmoi apply
+zsh
+killall firefox
+sh
+ls .config/kitty/
+cd Documents/tools/
+git clone https://github.com/pop-os/shell.git
+cd shell/
+ls
+distrobox enter toolbox
+chsh
+sudo xhsh
+sudo chsh
+dconf watch /
+cd Documents/work/bbva/tools/bbva-vpn/
+podman build -t bbva-vpn:latest -f Dockerfile .
+distrobox-export --app windsurf
+cd
+cd Documents/tools/
+git clone https://github.com/pop-os/launcher.git
+ls
+cd shell/
+ls
+just build
+cd ..
+cd launcher/
+just build
+just
+just build-release
+yay rustup
+just build-release
+just install
+cd
+cd Documents/dev/
+git clone git@github.com:frieser/fedora-frieser.git
+distrobox enter toolbox
+pop-launcher 
+sudo systemctl docker start
+sudo systemctl start
+sudo systemctl start docker
+cd Documents/work/bbva/tools/bbva-vpn/
+zsh
+ls
+docker ps
+groups
+systemctl reboot
+podman ps
+groups
+zsh
+chsh -s $(which zsh) frieser
+sudo chsh -s $(which zsh) frieser
+ls
+pwd
+top
+vim .config/kitty/kitty.conf
+ls
+pwd
+top
+flatpak update
+zsh
+git status
+git add dot_config/
+git commit
+git push origin main
+git push  origin main
+git status
+git checkout main
+git status
+git push origin main
+git status
+git log
+git merge master
+git push origin main
+ls
+pwd
+zsh
+ls .ssh/
+flatpak update
+zsh
+yay neovim
+zsh
+sudo chsh -s /usr/bin/zsh frieser
+git status
+git add --all
+git status
+ls
+rm dot_var/app/org.mozilla.firefox/cache/ -rf
+git status
+git add --all
+git commit
+git push origin main
+ls
+git status
+git add --all
+git commit
+git push origin main
+git status
+git add --all
+git commit
+git push orign main
+git push origin main
+git status
+git add --all
+git commit
+cat dot_gitconfig 
+ls
+git status
+git remote show origin
+rm -rf .git
+git init .
+git remote add origin git@github.com:frieser/dotfiles.git
+git status
+git add --all
+git status
+git log
+git commit --amend
+git push origin main -f
+git remote show
+git remote show origin
+git push origin main -f
+git branch
+git checkout main
+git checkout -b main
+git push origin main -f
+git status
+git add --all
+git commit
+git push origin main
+git status
+git add --all
+git commit
+git push origin main
+zsh
+vi ~/.zshrc 
+zsh
+just update
+which zsh
+toolbox
+zsh
+which zsh
+zsh
+podman ps
+distrobox --list
+distrobox list
+vi .
+vi .zshrc 
+zsh
+vi .zshrc 
+mkdir .cache/zinit/completions
+rm -rf .cache/zinit/completions/
+vi .zshrc 
+k
+distrobox enter toolbox
+vi .zshrc a
+git status
+git log
+git status
+git add --all
+git commit
+git push origin main
+git status
+git add --all
+git commit 
+git push origin main
+git status
+git add --all
+git commit
+git push origin main

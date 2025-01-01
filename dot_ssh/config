@@ -1,0 +1,8 @@
+Host gh-vip.es.nextgen.igrupobbva
+    User git
+    PubkeyAcceptedAlgorithms +ssh-rsa
+    HostkeyAlgorithms +ssh-rsa
+
+Host gitlab.local.frieserlas.dev
+   Preferredauthentications publickey
+   IdentityFile ~/.ssh/id_rsa
