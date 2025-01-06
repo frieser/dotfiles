@@ -766,3 +766,16 @@ git status
 git add --all
 git commit
 git push origin main
+ssh rancher@172.16.0.10
+git add --all
+git commit --amend
+git push origin main -f
+curl localhost:1025
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.10
+zsh
+ssh rancher@172.16.0.10
+too
+zsh
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10

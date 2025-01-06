@@ -5404,3 +5404,1697 @@ g commit --amend
 g push origin main -f
 dconf watch /
 just update
+just update
+just setup
+mkdir .cache/zinit/completions
+ssh-keygen 
+cat .ssh/id_ed25519.pub
+cd Documents
+ls
+mkdir dev
+cd dev
+git clone git@github.com:frieser/fedora-frieser.git
+cd Documents/dev/fedora-frieser
+git add --all
+git status
+git add --all
+git commit --amend
+git push origin main -f
+chezmoi status
+chezmoi diff
+chezmoi diff | grep vim
+chezmoi diff | grep extensions
+chezmoi diff | grep extension
+ssh rancher@172.16.0.10
+git add --all
+git commit --amend
+cd Documents/dev/fedora-frieser
+git add --all
+g commit --amend
+g push origin main -f
+source ~/.zshrc
+kubectl completion zsh
+source ~/.zshrc
+sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda
+sudo dd if=Downloads/netboot.xyz.img of=/dev/sda
+sudo sync
+gnome-extensions list
+chezmoi status
+chezmoi add .local/share/zsh/history
+chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/prefs.js
+chezmoi cd
+just update
+just update
+rpm-ostree update
+rpm-ostree status
+just completions
+just completions
+just completions
+vim .zshrc
+vim .zshrc
+chezmoi add .zshrc
+dconf watch /
+exit
+ip a
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda status=progress
+sudo sync
+cd Documents/homelab/pxe
+git status
+git diff
+git stash
+git pull origin main
+git stash apply
+ls
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+dconf watch /
+cd Documents/dev/fedora-frieser
+g status
+g add --all
+g commit --amend
+g push origin main -f
+podman volume rm omada-logs
+podman ps
+podman rm -f omada-controller
+podman volume rm omada-logs
+podman volume rm omada-data
+podman start omada-controller
+podman run 
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+ping 172.16.0.10
+ping 172.16.0.101
+flatpak install eog
+podman stop omada-controller
+podman start omada-controller
+ip a
+ip a
+ip a
+ip a
+podman start omada-controller
+just update
+systemctl reboot
+podman start omada-controller
+just update
+ip a
+ip a
+sudo dd if=Downloads/netboot.xyz.img of=/dev/sda
+sudo sync
+sudo podman ps
+sudo podman rm -f netbootxyz
+podman ps
+podman stop omada-controller
+podman stop e69378b79117
+cd Documents/homelab/cluster
+git add --all
+git commit --amend
+git push origin main -f
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+systemctl stop firewalld.service
+cd Documents/homelab
+ls
+cd pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+vim ~/.kube/config
+cd
+mkdir .kube
+vim .kube/config
+k get nodes
+cd Documents/homelab/cluster
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k k get ns
+k get ns
+k delete ns cert-manager
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+k get ns
+k get ns
+k get ns
+git status
+git add --all
+git commit
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+git status
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git pull origin main
+k delete ns cert-manager
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get ns
+k get ns -w
+k get ns -
+k get ns 
+k get ns 
+k get ns 
+k get ns 
+k get ns 
+\
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns cert-manager
+git add --all
+git commit
+git push origin main
+k delete ns cert-manager
+git add --all
+git commit
+git push origin main
+git add --all
+git commit --amend
+git status
+git commit --amend
+git commit 
+git push origin main -f
+k delete ns cert-manager
+git add --all
+git commit --amend
+git commit 
+git push origin main 
+sudo vim /etc/hosts
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+just update
+just update
+systemctl reboot
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit --amend
+git push origin main -f
+just update
+cd Documents/homelab/cluster
+git status
+k delete ns flux-system
+flux uninstall
+k
+k get ns
+git statys
+git status
+git add --all
+git commit --amend
+git push origin main -f
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -\
+\
+
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -\
+\
+
+k get ns
+flatpak install chrome
+flatpak install chrome
+nautilus -q
+nautilus -q
+ssh frieser@172.16.0.122
+dconf watch /
+cd Documents/homelab/cluster
+git status
+k delete ns control-vcluster
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+just update
+just update
+k delete ns control-vcluster
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k delete ns control-vcluster
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k get ns
+k get ns
+k get ns
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+flux uninstall
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+git status
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+k delete ns control-vcluster
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+flux uninstall
+git add --all
+g commit --amend
+g push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns control-vcluster
+k delete ns control-vcluster
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k get ns
+flux uninstall
+k get ns
+k get ns
+just update
+rpm-ostree status
+systemctl reboot
+just update
+systemctl status dconf-update.service 
+systemctl enable --now dconf-update.service 
+systemctl status dconf-update.service 
+dconf watch /
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit --amend
+git push origin main -f
+cd Documents/dev/fedora-frieser
+git add --all
+git commit --amend
+git push origin main -f
+flux uninstall
+k get ns
+kubectl get namespace "control-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/control-vcluster/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+cd Documents/dev/fedora-frieser
+git status
+cd
+cd Documents/homelab/cluster
+git status
+k
+k
+k get ns
+k delete ns control-vcluster
+k get ns
+git status
+git add --all
+git commit
+g push origin main 
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+vim .config/kitty/kitty.conf
+vim .config/kitty/kitty.conf
+vim ~/.config/kitty/kitty.conf
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+cd Documents/homelab/cluster
+git status
+g add --all
+g commit --amend
+g push origin main 
+g push origin main -f
+cd Documents/homelab/cluster
+k get ns
+k delete ns services-vcluster
+flux uninstall
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+just update
+k delete ns services-vcluster
+flux uninstall
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+g add --all
+g commit --amend
+g push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get ns
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+g adl
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k get ns
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+flux B
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+sudo vim /etc/hosts
+vim test.sh
+sh test.sh
+vim test.sh
+sh test.sh
+rm test.sh
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+cd Documents/homelab/cluster
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+k get ns
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+g add --all
+g commit --amend
+g push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+g ad
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+g add --all
+g commit --amend
+g push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+k get ns
+k dele
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+g add --all
+g commit --amend
+g push origin main -f
+git status
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+flux uninstall
+git add --all
+git commit --amend
+git push origin main -f
+k gent s
+k get ns
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git add --all
+git coM
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k get ns
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+git status
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+git status
+git add --all
+git commit --amend
+git push origin main -f
+just update
+just update
+systemctl reboot
+just update
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+just update
+k get nodes
+k get nodes
+kctx harvester
+k get nodes
+kctx 
+kctx 
+kctx 
+kctx 
+kctx 
+flatpak search pavucontrol
+flatpak install org.pulseaudio.pavucontrol
+cd Documents/dev/fedora-frieser
+git add --all
+git commit
+git push origin main 
+just update
+cd Documents/homelab/cluster
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux reconcile kustomization flux-system
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns -w
+k get ns
+k get ns
+k get ns -w
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+k get ns -w
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+git add --all
+git commit --amend
+git push origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git status
+gst
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git add --all
+git Commit --amend
+gc --amend
+gp origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+git add --all
+gc --amend
+gp origin main -f
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+kubectl get svc -n cattle-system rancher-x-cattle-system-x-services-vcluster
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+flux uninstall
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+kubectl get svc -n cattle-system rancher-x-cattle-system-x-services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+gc --amend
+gp origin main -f
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+gc --amend
+gp origin main -f
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+gp origin main -f
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+git status
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+git push origin main -f
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k delete ns services-vcluster
+flux u
+flux uninstall
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+flux uninstall
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+vim ~/.zshrc
+vim ~/.kube/config
+kctx services
+k get nodes
+vim ~/.kube/config
+kctx harvester
+k get nodes
+vim ~/.kube/config
+k get nodes
+kubectl get svc -n default
+git add --all
+git commit --amend
+git push origin main -f
+k get nodes
+vim ~/.kube/config
+k gedt nodes
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+kctx local
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+vim ~/.kube/config
+cat ~/.ki
+cat ~/.kube/config
+vim ~/.kube/config
+k get nodes
+kctx services
+k get nodes
+k get nodes
+kctx harvester
+git status
+git add --all
+gc --amend
+gp origin main -f
+vim ~/.kube/config
+k get nodes
+kctx services
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+vim ~/.kube/config
+k get nodes
+kctx services
+kctx harvester
+k get nodes
+kctx services
+k get nodes
+k get nodes
+k get nodes
+k get nodes
+grep "token:" ~/.kube/config
+curl -k https://services.local.frieserlabs.dev/k8s/clusters/local
+curl  https://services.local.frieserlabs.dev/k8s/clusters/local
+k get nodes
+k get nodes
+git status
+git add --all
+git commit --amend
+git push origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+git add --all
+git commit --amend
+gp origin main -f
+git pull origin main
+kctx 
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+k get ns
+k get helmcharts.helm.cattle.io --all-namespaces
+k get helmchartconfigs.helm.cattle.io --all-namespaces
+k get helmreleases.helm.toolkit.fluxcd.io --all-namespaces
+git add --all
+git commit --amend
+gp origin main -f
+k get ns
+git pl
+git pull origin main
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+git pull origin main
+git add --all
+gc --amend
+gp origin main -f
+git add --all
+git commit --amend
+gp origin main -f
+k delete ns services-vcluster
+kctx
+kctx harvester
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+k get ns
+git status
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git commit --amend
+gp origin main -f
+k delete ns services-vcluster
+flux uninstall
+gst
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k delete ns services-vcluster
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux uninstall
+ssh frieser@172.16.0.12
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.10
+rm .ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.11
+ssh rancher@172.16.0.13
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+cd Documents/homelab/cluster
+git status
+kctx harvester
+k get ns
+kubectl get namespace "flux-system" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/flux-system/finalize -f -
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+ping 172.16.0.1w
+ping 172.16.0.12
+ping 172.16.0.12
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get all -n services-vcluste
+k get all -n services-vcluster
+flux uninstall
+k get all -n services-vcluster
+k delete -n services-vcluster svc service/services-vcluster
+k delete -n services-vcluster svc services-vcluster
+k get all -n services-vcluster
+k delete -n services-vcluster svc services-vcluster-headless
+k get all -n services-vcluster
+k delete -n services-vcluster statefulsets.apps services-vcluster
+k delete -n services-vcluster jobs.batch helm-install-services-vcluster
+k delete -n services-vcluster pod helm-install-services-vcluster-z868j
+k get all -n services-vcluster
+k delete -n services-vcluster pod services-vcluster-0
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k delete ns services-vcluster
+just update
+just update
+ssh rancher@172.16.0.12
+sudo systemctl stop firewalld
+ip a
+cd Documents/homelab/
+cd pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.17
+ssh rancher@172.16.0.11
+ssh rancher@172.16.0.13
+ssh rancher@172.16.0.12
+just update
+podman start omada-controller
+podman logs -f omada-controller
+podman stop omada-controller
+ip a
+podman start omada-controller
+ ip a
+ip a
+ssh rancher@172.16.0.12
+rm .ssh/known_hosts
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+ip a
+ssh rancher@172.16.0.12
+rm .ssh/known_hosts
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+just update
+rpm-ostree status
+toolbox
+toolbox
+sudo dd if=Downloads/netboot.xyz.img of=/dev/sda
+sudo sync
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda status=progress
+sudo sync
+sudo sync
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+rm .ssh/known_hosts
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+rm .ssh/known_hosts
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+ls
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+just update
+rpm-ostree status
+rm .ssh/known_hosts
+ssh rancher@172.16.0.10
+jul
+just update
+toolbox
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+kctx
+kctx local
+k get nodes
+cd Documents/homelab/cluster
+git status
+git add --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+k get ns
+k delete ns cert-manager
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+git pull origin main
+git add --all
+git commit --amend
+gp origin main -f
+flux -g
+flux -h
+flux -v
+flux get helmreleases -n cert-manager cert-manager
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+kctx services
+k get ns
+k get nodes
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+sudo vim /etc/hosts
+kctx services
+k get nodes
+kctx ha
+kctx harvester
+k get nodes
+k get nodes
+k delete ns services-vcluster
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k delete ns services-vcluster
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux uninstall
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+git add --all
+git status
+ga --all
+gc --amend
+gp origin main -f
+kctx local
+kctx local
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+k get nodes
+ga --all
+gc --amend
+gp origin main -f
+flatpak install calendar
+flatpak uninstall calendar
+flux uninstall
+flux uninstall
+k delete ns cert-manager
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k delete ns services-vcluster
+cd Documents/homelab/cluster
+git status
+git add --all
+git commit
+git push origin main
+ga --all
+gc --amend
+gp origin main -f
+kctc
+kctx
+k get ns
+k delete ns cert-manager
+kubectl get namespace "cert-manager" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/cert-manager/finalize -f -
+kubectl get namespace "cert-manager" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/cert-manager/finalize -f -
+k delete ns cert-manager
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+k delete ns cert-manager
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+k get ns
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns -w
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+kubectl get helmrelease -n cert-manager
+kubectl logs -n flux-system deploy/kustomize-controller\
+kubectl logs -n flux-system deploy/helm-controller
+git status
+ga --all
+gc --amend
+gp origin main -f
+validate: client
+flux get kustomizations -n flux-system
+ga --all
+gc --amend
+gp origin main -f
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux get sources git -n flux-system\
+kubectl get crds | grep cert-manager\
+kubectl get pods -n cert-manager\
+flux logs -n flux-system
+git add --all
+gc --amend
+gp origin main -f
+flux reconcile kustomization flux-system -n flux-system
+flux reconcile source flux-system -n flux-system
+flux reconcile source git flux-system
+flux reconcile source flux-system -n flux-system
+flux reconcile kustomization flux-system -n flux-system
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+flux uninstall
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm/cert-manager
+flux uninstall
+gp origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+ga
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+ga --all
+gc --amend
+gp
+gp origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+k get ns
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+k delete ns cert-manager
+k get ns
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+k get all -n cert-manager
+k dele
+k delete ns cert-manager
+k get ns
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+k get ns
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux tree
+flux tree kustomization
+flux tree kustomization flux-system
+flux
+flux uninstall
+k delete ns cert-manager
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+ga --all
+gc --amend
+gp origin main -f
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+k delete ns cert-manager
+flux uninstall
+k get ns
+k get ns
+k get nodes
+k get pods -n cattle-system
+k get pods -n cattle-system -o wide
+k get ns
+k get all -n services-vcluster
+ssh rancher@172.16.0.14
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.10

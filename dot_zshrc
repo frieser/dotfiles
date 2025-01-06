@@ -83,8 +83,8 @@ zinit snippet OMZ::plugins/git-lfs/git-lfs.plugin.zsh
 zinit snippet OMZ::plugins/kubectx/kubectx.plugin.zsh
 zinit snippet OMZ::plugins/chezmoi/chezmoi.plugin.zsh
 
-source $HOME/.local/share/zsh/kubectl
-source $HOME/.local/share/zsh/flux
+source $HOME/.local/share/zsh/completions/_kubectl
+source $HOME/.local/share/zsh/completions/_flux
 
 # Additional PATH entries
 export PATH="$HOME/.local/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.npm-packages/bin:$PATH"

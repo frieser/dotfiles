@@ -3,7 +3,6 @@
     "editor.fontSize": 18,
     "workbench.editor.showTabs": "none",
     "breadcrumbs.enabled": false,
-    "editor.minimap.enabled": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.showTabs": "none",
     "zenMode.centerLayout": false,
@@ -12,5 +11,9 @@
     },
     "files.autoSave": "afterDelay",
     "windsurf.enableSupercomplete": false,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none"
 }
