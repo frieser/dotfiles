@@ -34,8 +34,11 @@ alias update="sudo nixos-rebuild switch"
 alias egrep="grep -E"  # Suppress egrep obsolescence warning
 
 alias toolbox="distrobox enter toolbox"
+alias t="distrobox enter toolbox"
 alias vpn="(docker rm -f bbva-vpn & sleep 3 && cd /var/home/frieser/Documents/work/bbva/tools/bbva-vpn/ && ./start-vpn.sh /forticlient/fortivpn.sh)"
 alias proxy="(cd /var/home/frieser/Documents/work/bbva/tools/bbva-vpn/ && sshuttle -NHr root@localhost:30022 10.48.0.0/16 10.50.0.0/16 10.51.0.0/16 10.52.0.0/16 10.111.0.0/16 22.0.0.0/8 23.1.2.0/24 23.1.176.0/24 23.2.2.0/24 23.4.0.0/16 100.64.0.0/10 --ssh-cmd 'ssh -o StrictHostKeyChecking=no -i podman-data/id_rsa' --no-latency-control --ns-hosts 10.51.33.33 --to-ns 10.51.33.33)"
+
+alias c="chezmoi"
 
 # Core plugins with light-mode for better startup performance
 zinit light-mode for \

@@ -1,11 +1,8 @@
 {
-    "window.zoomLevel": 1.8,
-    "editor.fontSize": 18,
     "workbench.editor.showTabs": "none",
     "breadcrumbs.enabled": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.showTabs": "none",
-    "zenMode.centerLayout": false,
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
@@ -13,7 +10,24 @@
     "windsurf.enableSupercomplete": false,
     "editor.lineNumbers": "relative",
     "workbench.editor.editorActionsLocation": "titleBar",
-    "workbench.statusBar.visible": false,
     "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "none"
+    "editor.renderWhitespace": "none",
+    "redhat.telemetry.enabled": false,
+    "workbench.statusBar.visible": false,
+    "windsurf.autocompleteSpeed": "fast",
+    "workbench.activityBar.location": "bottom",
+    "zenMode.centerLayout": false,
+    "window.customTitleBarVisibility": "windowed",
+    "editor.fontSize": 20,
+    "zenMode.fullScreen": false,
+    "workbench.colorTheme": "Default Dark+",
+    "windsurf.chatFontSize": "large",
+    "editor.suggestFontSize": 1,
+    "debug.console.fontSize": 20,
+    "scm.inputFontSize": 20,
+    "terminal.integrated.fontSize": 16,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
+

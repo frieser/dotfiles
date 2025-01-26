@@ -7098,3 +7098,4201 @@ k get all -n services-vcluster
 ssh rancher@172.16.0.14
 ssh rancher@172.16.0.12
 ssh rancher@172.16.0.10
+chezmoi statys
+chezmoi status
+chezmoi add .bash_history
+chezmoi add .config/Windsurf/User/settings.json
+chezmoi add .config/kitty/kitty.conf
+chezmoi add .local/share/zsh/history
+vim .local/share/zsh/history
+chezmoi add .local/share/zsh/history
+chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/prefs.js
+chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/addons.json
+chezmoi diff
+chezmoi add .zshrc
+chezmoi status
+chezmoi cd
+just update
+cd Documents/dev
+git clone https://github.com/fluxcd/flux2-kustomize-helm-example.git
+cd flux2-kustomize-helm-example
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/staging
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/staging
+flux bootstrap github   --token-auth   --owner=frieser   --repository=flux2-kustomize-helm-example   --branch=main --context=local  --path=clusters/staging
+flux bootstrap github   --token-auth   --owner=frieser   --repository=flux2-kustomize-helm-example   --branch=main --context=local  --path=clusters/staging
+flux bootstrap github   --token-auth   --owner=frieser   --repository=flux2-kustomize-helm-example   --branch=main --context=local  --path=clusters/staging
+flux bootstrap github   --token-auth   --owner=frieser   --repository=flux2-kustomize-helm-example   --branch=main --context=local  --path=clusters/staging
+flux uninstall
+k delete ns cert-manager
+ga --all
+gc --amend
+gp origin main -f
+podman start omada-controller
+podman logs -f omada-controller
+sudo vim /etc/hosts
+sudo vim /etc/hosts
+sudo vim /etc/hosts
+curl https://omada.local.frieserlabs.dev
+curl https://omada.local.frieserlabs.dev -vvv
+curl https://omada.local.frieserlabs.dev -vvv
+curl https://omada.local.frieserlabs.dev -vvv
+ga --all
+gc --amend
+kubectl port-forward deploy/omada-controller -n networking 8043:8043
+podman stop omada-controller
+kubectl port-forward deploy/omada-controller -n networking 8043:8043
+kubectl port-forward deploy/omada-controller -n networking 8088:8088
+kubectl port-forward deploy/omada-controller -n networking 8043:8043
+kubectl port-forward deploy/omada-controller -n networking 8043:8043
+kubectl port-forward deploy/omada-controller -n networking 10443:443
+kubectl port-forward deploy/omada-controller -n networking 10443:443
+curl https://omada.local.frieserlabs.dev -vvv
+curl http://omada.local.frieserlabs.dev -vvv
+cd Documents/homelab/cluster
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+gst
+ga --all
+gc --amend
+gp origin main -f
+gst
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gl
+gp origin main -f
+ga --all
+gc --amend
+gl
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ls
+flux 
+flux list
+flux list artifacts
+ga --all
+gc --amend
+gp origin main -f
+flux uninstall
+k delete ns cert-manager
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+ga --all
+gc --amend
+gp origin main -f
+kubectl get crds | grep cert-manager
+kubectl logs -n cert-manager -l app=cert-manager\
+kubectl logs -n cert-manager -l app=cainjector\
+kubectl logs -n cert-manager -l app=webhook
+ga --all
+gc --amend
+gp origin main -f
+flux uninstall
+k get ns
+git push origin main -f
+k get ns
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+ga --all
+gc --amend
+gp origin main -f
+flux uninstall
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux uninstall
+k delete ns cert-manager
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+gal
+ga --all
+gc --amend
+gp origin main -f
+flux uninstall
+k delete ns cert-manager
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+ga --all
+gc --amend
+gp origin main -f
+ls
+flux uninstall
+flux uninstall
+gst
+ga --all
+gc --amend
+k delete ns cert-manager
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+k get node
+kctx services
+k get nodes
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm/cert-manager
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+kubectl get service -n vault
+kubectl describe service vaultwarden -n vault
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+kctx services
+k get ns
+k delete ns networking
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+git status
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+podman start omada-controller
+podman logs -f omada-controller
+ make
+make bin
+make build
+export OS=linux
+export OS=amd64
+make build
+export OS=linux
+export ARCH=amd64
+make build
+make
+make setup
+make bin
+ls
+ls bin
+ls build
+ls build/bin
+./build/bin/lra
+git status
+cd ..
+ls
+ls
+ls
+kctx services
+k get nodes
+k get ns
+kctx ha
+kctx harvester
+k get ns
+vim .gitconfig
+make bin
+cd Documents/work/bbva/lra/lra_runtime_go/lra_cli
+toolbox
+make
+go mod tidy -v
+export GOPRIVATE=*.bbva.com
+go mod tidy -v
+make
+make
+make
+make
+awk
+make
+make
+ls
+cd ..
+cd test_go
+ls
+make
+cd ..
+cd test_go
+make
+make
+make all
+go mod tidy -v
+make setup
+make
+make fmt
+make
+make test
+make
+make set
+make setup
+cd ..
+cd  test_go
+make setup
+go mod tidy -v
+cd ..
+cd test_go
+go mod tidy -v
+make setup
+go mod tidy -v
+go mod tidy -v
+ls
+make
+make vendors
+make container
+cd Documents/work/bbva/lra/lra_runtime_go
+ls
+cd test_go
+ls
+make
+toolbox
+toolbox
+yay make
+distrobox-export --bin /usr/bin/make
+toolbox
+cd Documents/work/bbva/lra/lra_runtime_go
+cd test_go
+make
+make container
+go build .
+ls
+cat Dockerfile
+ls
+ls api
+ls build
+ls internal
+ls internal/protobuf/helloworld.proto
+ls
+ls pkg/service/greeter/greeter.go
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit --amend
+cd Documents/dev/fedora-frieser
+git add --all
+git commit
+git push origin main 
+vim
+vim Documents/work/bbva/lra/lra_runtime_go/test_go
+vim
+toolbox
+protoc --go_out=. --go-grpc_out=. path/to/your/proto/file.proto
+cd Documents/work/bbva/lra/lra_runtime_go
+protoc --go_out=. --go-grpc_out=. proto/
+protoc --go_out=. --go-grpc_out=. proto/helloworld.proto
+ls
+rm -rf protobuf
+protoc --go_out=plugins=grpc:. proto/helloworld.proto
+protoc --go_out=. --plugin# proto/helloworld.proto
+protoc --go_out=. --plugin=protoc-gen-go proto/helloworld.proto
+protoc-gen-go
+which protoc-gen-go
+protoc --go_out=. --plugin=protoc-gen-go=/usr/bin/protoc-gen-go proto/helloworld.proto
+ls
+ls protobuf
+ls protobuf/greeters/servers/helloworld.pb.go
+cat protobuf/greeters/servers/helloworld.pb.go
+protoc --go_out=. --go-grpc_out=. proto/helloworld.proto
+git clone git clone -b v1.69.2 --depth 1 https://github.com/grpc/grpc-go
+git clone -b v1.69.2 --depth 1 https://github.com/grpc/grpc-go
+cd grpc-go/examples/helloworld
+go run greeter_server/main.go
+toolbox
+cd Documents/work/bbva/lra/lra_cli
+git status
+git diff
+cat README.md
+toolbox
+ls
+cd ..
+ls
+ls
+ls
+rm -rf lra_go_test
+ls go
+ls proto
+cat proto/helloworld.proto
+cat proto/helloworld.proto
+vim proto/helloworld.proto
+ls
+ls c-cobolgrpc
+ls gobol
+ls
+ls
+ls
+mkdir lra_runtime_go
+mv lra_cli lra_runtime_go
+ls
+mv proto lra_runtime_go
+cd lra_runtime_go
+ls
+cd lra_cli
+git status
+git pull origin develop
+cat ~/.ssh/id_ed25519.pub
+vim ~/.gitconfig
+git status
+git remote set-url origin https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_cli.git
+git pull origin develop
+vim ~/.gitconfig
+git remote set-url origin ssh://git@globaldevtools.bbva.com:7999/lra/lra_cli.git
+git pull origin develop
+vim ~/.gitconfig
+git pull origin develop
+vim ~/.gitconfig
+git pull origin develop
+vim ~/.gitconfig
+git pull origin develop
+git status
+ls
+cd ..
+ls
+./lra_cli/build/bin/lra
+./lra_cli/build/bin/lra init go -p proto -o test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -d test.test.test
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+ls
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+rm -rf test_go
+ls
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+cd Documents/work/bbva/lra/lra_runtime_go
+cd te
+cd test_go
+make vendors
+ls
+make 
+make test
+cd ..
+cd test_go
+make test
+make vendors
+../lra_cli/build/bin/lra run
+export GOPRIVATE=*.bbva.com
+../lra_cli/build/bin/lra run
+cd ..
+cd test_go
+go mod tidy -v
+../lra_cli/build/bin/lra run
+ls
+ls -la
+cat .runner
+cat .lra.env
+rm -rf .runner
+cd ..
+cd test_go
+ls
+../lra_cli/build/bin/lra run
+cd ..
+cd test_go
+../lra_cli/build/bin/lra run
+cat .lra.env
+go mod tidy -v
+cat .lra.env
+../lra_cli/build/bin/lra run
+cat go.
+cat go.mod
+cd ..
+cd test_go
+../lra_cli/build/bin/lra run
+cat go.mod
+cd .. && cd test_go
+../lra_cli/build/bin/lra run
+go mod tidy -v
+../lra_cli/build/bin/lra run
+cat go.mod
+cat go.sum
+cd .. && cd test_go
+../lra_cli/build/bin/lra run
+cd .. && cd test_go
+../lra_cli/build/bin/lra run
+cd .. && cd test_go
+../lra_cli/build/bin/lra run
+cd .. && cd test_go
+../lra_cli/build/bin/lra run
+go mod tidy -v
+export GOPRIVATE=*.bbva.com
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+cd Documents/work/bbva/lra/lra_runtime_go
+git clone ssh://git@globaldevtools.bbva.com:7999/lra/lra_lib_go.git
+cd lra_lib_go
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+git status
+git checkout 
+git checkout -b dev/bump-grpc-protobufs-version
+git add --all
+git commit
+git push origin dev/bump-grpc-protobufs-version
+git tag
+git tag v0.2.3
+git push origin v0.e
+git push origin v0.2.3
+cd ..
+ls
+git clone
+git clone ssh://git@globaldevtools.bbva.com:7999/lra/lra_go.git
+cd lra_go
+ls
+go mod tidy -v
+export GOPRIVATE=*.bbva.com
+go mod tidy -v
+go mod tidy -v
+git status
+git add --all
+git checkout -b dev/bump-grpc-protobufs-version
+git commit
+git push origin dev/bump-grpc-protobufs-version
+vim go.mod
+git status
+toolbox
+cd Documents/work/bbva/lra/lra_runtime_go/lra_cli
+make bin
+toolbox
+cd Documents/work/bbva/tools/bbva-vpn
+docker build -t bbva-vpn:latest -f Dockerfile .
+sudo systemctl start docker
+docker build -t bbva-vpn:latest -f Dockerfile .
+docker build -t bbva-vpn:latest -f Dockerfile .
+ grep -E '^docker:' /usr/lib/group | sudo tee -a /etc/group
+sudo usermod -aG docker $USER\
+\
+
+systemctl reboot
+cd Documents/work/bbva/tools/bbva-vpn
+podman build -t bbva-vpn:latest -f Dockerfile .
+cd
+vpn
+mkdir -p ~/.config/systemd/resolved.conf.d/
+vim .config/systemd/resolved.conf.d/bbva.conf
+vim .config/systemd/resolved.conf.d/bbva.conf
+systemctl restart systemd-resolve
+systemctl restart --user systemd-resolve
+systemctl restart systemd-resolved
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit
+killall firefox
+ps aux | grep firefox
+killall firefox-bin
+just update
+systemctl reboot
+cd Documents/dev/fedora-frieser
+git status
+git add --all
+git commit
+git push origin main
+systemd-resolve --status
+systemd-analyze cat-config systemd/resolved.conf
+chmod 644 ~/.config/systemd/resolved.conf.d/custom.conf
+chmod 644 ~/.config/systemd/resolved.conf.d/bbva.conf
+systemd-analyze cat-config systemd/resolved.conf
+sudo systemctl daemo
+sudo systemctl daemon-reload
+sudo systemctl daemon-reload
+systemctl restart systemd-resolved
+systemd-analyze cat-config systemd/resolved.conf
+systemd-resolve --status
+journalctl -u systemd-resolved -xe
+systemd-analyze cat-config systemd/resolved.conf
+sudo resolvectl domain wlp2s0 scm.live.es.nextgen.igrupobbva
+sudo resolvectl query scm.live.es.nextgen.igrupobbva
+sudo resolvectl query scm.live.es.nextgen.igrupobbva
+systemctl daemon-reload
+systemctl --user daemon-reload
+sudo systemctl restart systemd-resolved
+systemd-analyze cat-config systemd/resolved.conf
+sudo resolvectl query scm.live.es.nextgen.igrupobbva
+systemd-analyze cat-config systemd/resolved.conf
+rm -rf .config/systemd/resolved.conf.d
+proxy
+proxy
+proxy
+ip a
+proxy
+sudo systemctl start docker
+cd Documents/work/bbva/tools/bbva-vpn
+docker build -t bbva-vpn:latest -f Dockerfile .
+vpn
+vpn
+sudo trust anchor --store ~/Downloads/globalrootca.crt
+sudo trust anchor --store ~/Downloads/ca_chain_globalissuingcainfraestructure_work.crt
+sudo trust anchor --store ~/Downloads/globalrootca.crt
+proxy
+proxy
+proxy
+cat /etc/systemd/resolved.conf.d/bbva.conf
+sudo systemctl start docker
+vpn
+vpn
+vpn
+cd Documents/work/bbva/lra/lra_runtime_go/lra_cli
+cd ..
+cd lra_lib_go
+go mod tidy -v
+export GOPRIVATE=*.bbva.com
+export GOPRIVATE=*.bbva.com,*.nextgen.igrupobbva
+go mod tidy -v
+vim ~/.gitconfig
+vim ~/.gitconfig
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+systemctl reboot
+sudo trust anchor --store ~/Downloads/globalissuingcainfrastructure.crt
+sudo trust anchor --store ~/Downloads/r3-es-live.crt
+sudo trust anchor --store ~/Downloads/r3-es-work.crt
+sudo trust anchor --store ~/Downloads/globalrootca\(3\).crt
+sudo trust anchor --store ~/Downloads/globalissuingcainfrastructure\(2\).crt
+cd Documents/work/bbva/lra/lra_runtime_go/lra_cli
+cd ..
+ls
+cd lra_L
+cd lra_lib_go
+go mod tidy -v
+proxy
+vpn
+yay telnet
+telnet
+telnet 172.16.1.10 19445
+telnet 172.16.1.10 19445
+telnet 172.16.0.10 19445
+telnet 172.16.0.10 80
+telnet https://vm.local.frieserlabs.dev/api/v1/namespaces/kube-system/services/https:rke2-ingress-nginx-controller-admission:443/proxy/ 19445
+telnet https://vm.local.frieserlabs.dev/api/v1/namespaces/kube-system/services/https:rke2-ingress-nginx-controller-admission:443/proxy/ 19445
+telne//vm.local.frieserlabs.dev/api/v1/namespaces/kube-system/services/https:rke2-ingress-nginx-controller-admission:443/proxy/ 19445
+telne//vm.local.frieserlabs.dev/api/v1/namespaces/kube-system/services/https:rke2-ingress-nginx-controller-admission:443/proxy/ 19445
+telnet https://vm.local.frieserlabs.dev/api/v1/namespaces/kube-system/services/https:rke2-ingress-nginx-controller-admission:443/proxy/ 19445
+telnet
+toolbox
+ssh rancher@172.16.0.10
+cd Documents/
+cd
+cd Documents/homelab/cluster
+git status
+git add --all
+git commit
+git push origin main
+ga --all
+gc --amend
+gp origin main -f
+kctx harvester
+k get ns
+k get ns
+flux uninstall
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+git status
+git pull origin main
+flux uninstall
+k get ns
+k get ns
+kctx
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+kctx services
+flux uninstall
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+ga --all
+gc --amend
+gp origin main -f
+kubectl get svc -n ingress-nginx
+k get ns
+kubectl get svc -n ingress-nginx
+kctx harvester
+kubectl get svc -n ingress-nginx
+helm show values ingress-nginx/ingress-nginx
+kubectl get svc -n ingress-nginx
+kctx
+kubectl get all -n ingress-nginx
+kubectl get svc -n ingress-nginx
+toolbox
+kubectl get nodes -o wide
+kubectl describe svc hyperion-ng-x-tv-x-services-vcluster -n services-cluster
+k get ns
+kctx
+kubectl describe svc hyperion-ng-x-tv-x-services-vcluster -n services-vcluster
+kubectl get nodes -o wide
+kubectl get all -n ingress-nginx
+kubectl get ingress -A
+toolbox
+toolbox
+toolbox
+podman start omada-controller
+ping 192.168.0.202
+ping 192.168.1.202
+ssh frieser@192.168.1.202
+toolbox
+ll /sys/class/tty/ttyUSB*
+ll /sys/class/tty/ttyUSB*
+ll /sys/class/tty/ttyUSB*
+ll /sys/class/tty/ttyUSB*
+ll /sys/class/tty/ttyUSB*
+ll /sys/class/tty/ttyUSB*
+ll /sys/class/tty/ttyUSB*
+lsusb
+lsusb
+rpm-ostree install google-chrome
+ls /dev/ttyUSB* /dev/ttyACM*
+ls /dev/ttyACM*
+dmesg | grep tty
+sudo su
+toolbox
+lsusb
+lsusb
+lsusb
+sudo modprobe cp210x
+ls /dev/ttyACM*
+ls /dev/ttyUSB* /dev/ttyACM*
+sudo modprobe ch341
+screen /dev/ttyUSB0 115200
+ls /dev/ttyUSB* /dev/ttyACM*
+ls /dev/ttyUSB* /dev/ttyACM*
+ls /dev/ttyUSB* /dev/ttyACM*
+lsusb
+~\
+âƒ½¯ lsusb\
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\
+Bus 001 Device 002: ID 05e3:0610 Genesys Logic, Inc. Hub\
+Bus 001 Device 003: ID 10ab:9309 USI Co., Ltd \
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\
+Bus 003 Device 002: ID 06cb:00f9 Synaptics, Inc. \
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\
+Bus 005 Device 002: ID 5986:2142 Bison Electronics Inc. Integrated RGB Camera\
+Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\
+Bus 007 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\
+Bus 008 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\
+Bus 009 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\
+Bus 010 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\
+
+lsmod | grep -E "cp210x|ch341"\
+
+lsusb
+ls /dev/ttyUSB* /dev/ttyACM*
+ls /dev/ttyUSB* 
+ls /dev/ttyUSB* 
+esptool.py write_flash 0x0 Downloads/esp32_bootloader_v4.bin
+sudo esptool.py write_flash 0x0 Downloads/esp32_bootloader_v4.bin
+/var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool 
+/var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool 
+toolbox
+/var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool write_flash 0x0 Downloads/esp32_bootloader_v4.bin
+sudo /var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool write_flash 0x0 Downloads/esp32_bootloader_v4.bin
+sudo /var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool write_flash 0x10000 Downloads/WLED_0.15.0_ESP32.bin
+sudo /var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool erase_flasj
+sudo /var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool erase_flash
+sudo /var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool write_flash 0x0 Downloads/esp32_bootloader_v4.bin
+sudo /var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool
+sudo /var/home/frieser/Downloads/esptool-v4.8.1-linux-amd64/esptool-linux-amd64/esptool chip_id
+podman start omada-controller
+podman logs -f omada-controller
+podman stop omada-controller
+just update
+just update
+just update
+yay
+just update
+just update
+just update
+just update
+podman start omada-controller
+podman stop omada-controller
+podman stop omada-controller
+podman start omada-controller
+podman logs -f omada-controller
+flatpak search bitwarden
+flatpak search bitwarden
+flatpak install goldwarden
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+cd Documents/homelab/cluster
+git status
+git add --all
+git commit
+ga --all
+gc --amend
+gp origin main
+git status
+git add --all
+gc --amend
+gp origin main
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+git status
+ls
+ls clusters/01-vm/kube-system
+git status
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+just update
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+cd Documents/work/bbva/lra/lra_runtime_go/
+git clone
+git clone ssh://git@globaldevtools.bbva.com:7999/lra/lra_java.git
+just update
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+just update
+ssh rancher@172.16.0.10
+podman start omada-controller
+podman stop omada-controller
+yay wol
+arp -a
+yay arp
+arp
+yay net-tools
+arp -a
+ping 172.16.0.9
+ping 172.16.0.8
+arp -n
+ping 172.16.0.8
+arp -n
+wakeonlan
+yay etherwake
+sudo etherwake 58:47:ca:74:6d:16
+sudo etherwake 58:47:ca:74:6d:16
+sudo su
+distrobox-export --bin /usr/bin/etherwake
+toolbox
+distrobox-export --bin /usr/bin/etherwake -r
+distrobox-export --bin /usr/bin/etherwake -d
+sudo etherwake 58:47:ca:74:6d:16
+rpm-ostree install net-tools
+toolbox
+etherwake
+which etherwake
+etherwake
+rpm-ostree install net-tools
+ether-wake
+ether-wake 58:47:ca:74:6d:16
+sudo ether-wake 58:47:ca:74:6d:16
+ether-wake -h
+ether-wake -u
+sudo ether-wake 58:47:ca:74:6d:16
+ping 172.16.0.8
+ping 172.16.0.9
+ping 172.16.0.8
+arp -n
+sudo ether-wake 58:47:ca:74:6d:16
+sudo ether-wake -p 172.16.0.8
+sudo ether-wake -p 172.16.0.8 58:47:ca:74:6d:16
+ping 172.16.0.8
+ping 172.16.0.10
+ip link show
+sudo ethtool wlp2s0:
+sudo ethtool wlp2s0
+sudo ethtool enp1s0f0:
+sudo ethtool enp1s0f0
+ssh rancher@172.16.0.10
+ping 172.16.0.10
+ping 172.16.0.9
+ping 172.16.0.8
+ether-wake 58:47:ca:74:6d:16
+sudo ether-wake 58:47:ca:74:6d:16
+ping 172.16.0.8
+ping 172.16.0.10
+arp -h
+arp -n
+arp -d 172.16.0.8
+sudo arp -d 172.16.0.8
+arp -n
+ping 172.16.0.8
+arp -n
+sudo ether-wake 58:47:ca:74:6d:16
+arp -n
+sudo ether-wake 58:47:ca:74:6d:16 -p 172.16.0.8
+arp -n
+ping 172.16.0.8
+ping 172.16.0.10
+ping 172.16.0.8
+ping 172.16.0.9
+ping 172.16.0.12
+ping 172.16.0.8
+ping 172.16.0.8
+ping 172.16.0.9
+ping 172.16.0.9
+ping 172.16.0.8
+podman start omada-controller
+sudo ether-wake -p 172.16.0.8 58:47:ca:74:6d:15
+sudo ether-wake -p 172.16.0.9 58:47:ca:77:4e:08
+ping 172.16.0.10
+ping 172.16.0.8
+sudo ether-wake -p 172.16.0.8 58:47:ca:74:6d:15
+sudo ether-wake 58:47:ca:74:6d:15
+ping 172.16.0.8
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+just update
+ip a
+poweroff
+ping 172.16.0.116
+podman start omada-controller
+ping 172.16.0.116
+just update
+flatpak install wireshark
+ping 172.16.0.116
+ether-wake e0:d5:5e:e2:08:62
+sudo ether-wake e0:d5:5e:e2:08:62
+ether-wake -h
+ether-wake 
+ether-wake --help
+man ether-wake
+man ether-wake -b
+sudo ether-wake e0:d5:5e:e2:08:62 -b -D
+ip a
+sudo ether-wake e0:d5:5e:e2:08:62 -b -D
+man ether-wake -b
+wakeonlan
+ip a
+podman start omada-controller
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+podman stop omada-controller
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+podman start omada-controller
+k get nodes
+k get nodes -o wide
+cd Documents/homelab/cluster
+ga --all
+gc --amend
+gp origin main -f
+git add --all
+git commit 
+git push origin main
+kctx
+kctx services
+k get ns
+flux uninstall
+k get ns
+k get ns
+k get ns
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.14
+cd Documents/homelab/cluster
+ga --all
+gc --amend
+gp origin main -f
+just update
+cd Documents/homelab/cluster
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gC
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc
+git push origin main
+ga --all
+gc
+gc --amend
+gc --amend
+gp origin main -f
+podman start omada-controller
+just update
+cd Documents/homelab/cluster
+git add --all
+git commit
+git push origin main
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+just update
+ga --all
+gc --amend
+gp origin main -f
+ls Documents/notes
+cd Documents/notes
+vim index.md
+cd Documents/dev
+git clone
+git clone https://github.com/jackyzha0/quartz.git
+git tag
+cd quartz
+git tag
+git tag
+git checkout v4.4.0
+podman build -t frieser/quartz .
+podman run -it frieser/quartz
+podman run -it -p 8080:8080 frieser/quartz
+podman run -it -v /var/home/frieser/Documents/notes/:/content:Z -p 8080:8080 frieser/quartz
+podman run -it -v /var/home/frieser/Documents/notes/:content:Z -p 8080:8080 frieser/quartz
+podman run -it -v /var/home/frieser/Documents/notes/:/usr/src/app/content:Z -p 8080:8080 frieser/quartz
+podman run -it -v /var/home/frieser/Documents/notes/:/usr/src/app/content:Z -p 8080:8080 frieser/quartz
+podman start omada-controller
+podman logs -f omada-controller
+telnet m.local.frieserlabs.dev 53
+telnet m.local.frieserlabs.dev 53
+just update
+podman stop omada-controller
+cd Documents/homelab/cluster
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+just update
+ga --all
+gc
+gp origin main 
+ga --all
+gc
+git push origin main
+ga --all
+gc --amend
+gp origin main 
+gp origin main -f
+git status
+git add --all
+git commit
+git push origin main
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+git status
+git add --all
+gc
+gp origin main 
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+git statu
+git status
+git add --all
+gc
+gp origin main
+ga --all
+gc
+gp origin main
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+git add --all
+gc
+git push origin main
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gp origin main -f
+gc --amend
+gp origin main -f
+toolbox
+just update
+podman logs -f omada-controller
+podman start omada-controller
+podman logs -f omada-controller
+podman stop omada-controller
+podman start omada-controller
+podman logs -f omada-controller
+podman logs -f omada-controller
+cd Documents/homelab/cluster
+git status
+git diff
+git add --all
+git commit
+git push origin main
+ga --all
+gc --amend
+gp origin main -f
+kctx services
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+openssl rand -hex 32
+cd Documents/homelab/cluster
+git add --all
+git com
+gc
+git push origin main
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+ga --all
+gc --amend
+gp origin main -f
+just update
+openssl rand -hex 32
+openssl rand -hex 64
+ openssl rand -hex 32
+cd Documents/homelab/cluster
+ga --all
+gc --amend
+gp origin main -f
+ ga -all
+gaa
+git statys
+gst
+gca
+gca
+gc --amend
+gp origin main -f
+gaa
+gst
+gc --amend
+gp origin main -f
+gaa
+gst
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+fp
+gp origin main -f
+gaa 
+gc --amend
+gp origin main -f
+podman run -itd -p 80:80 webkul/krayin:2.0.4
+podman run -itd -p 8080:80 webkul/krayin:2.0.4
+podman ps
+podman rm -f affectionate_wright
+podman run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:15
+podman run -p 8069:8069 --name odoo --link db:db -t odoo\
+
+podman stop db
+podman rm db
+sudo systemctl start docker
+docker run -v /path/to/config:/etc/odoo -p 8069:8069 --name odoo --link db:db -t odoo
+;docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:15
+ocker run -p 8069:8069 --name odoo --link db:db -t odoo
+docker run -p 8069:8069 --name odoo --link db:db -t odoo
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+cd Documents/homelab/cluster
+gaa 
+gc --amend
+gp origin main -f
+gaa 
+gc --amend
+gp origin main -f
+gaa 
+gc --amend
+gp origin main -f
+gaa 
+gc --amend
+gp origin main -f
+gaa l
+gaa 
+gc --amend
+gp origin main -f
+gaa 
+gc --amend
+gp origin main -f
+gst
+git add --all
+git commit
+gp origin main -f
+gaa 
+gc --amend
+gp origin main -f
+gaa 
+gc --amend
+gp origin main -f
+gaa 
+gst
+gc --amend
+gp origin main -f
+gaa 
+gaa
+gc --amend
+gl
+gp origin main -f
+git status
+git add --all
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+ls
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gl
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gp origin main -f
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+just update
+systemctl reboot
+just update
+a
+just
+just update
+just --l.ist
+just --list
+just check-idle-power-draw
+just update-firmware
+just --list
+just check-local-overrides
+just check-local-overrides ( more
+just check-local-overrides | more
+sudo vim /etc/hosts
+just update
+cd Documents/homelab/cluster
+git status
+git add --all
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+cd Documents/homelab/cluster
+git status
+git add --all
+gc
+gp origin main 
+gaa
+gc --amend
+gp origin main 
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+kctx harvester
+k get ns
+k explain  helmchartconfig
+k explain  helmchartconfig.spec
+k explain  helmchartconfig.spec.failurePolicy
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+k explain  helmchartconfig.spec.failurePolicy
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+just update
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc
+gp origin main  
+gaa
+gc
+gc --amend
+gp origin main  
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+just update
+just update
+just update
+systemctl reboot
+just update
+just update
+proxy
+proxy
+proxy
+vpn
+vpn
+just update
+podman start omada-controller
+ssh rancher@172.16.0.10
+nslookup google.es
+nslookup 8google.es
+nslookup @172.16.1.10 google.es 
+nslookup @172.16.0.10 google.es 
+nslookup google.es 
+nslookup google.es 1.1.1w
+nslookup google.es 1.1.1.1
+nslookup google.es 
+nslookup google.es 172.16.1.10
+nslookup google.es 172.16.0.10
+nslookup google.es 172.16.0.12
+nslookup google.es 172.16.0.12
+nslookup google.es 172.16.0.10
+toolbox
+yay tlde
+yay tldr
+tldr nslookup
+nslookup google.es 172.16.0.10
+nslookup google.es vm.local.frieserlabs.dev
+man nslookup
+toolbox
+nslookup google.es vm.local.frieserlabs.dev
+nslookup google.es 8.8.8.8
+nslookup google.es 172.16.0.10
+nslookup google.es 172.16.0.12
+k get nodes
+kctx
+k get nodes -o wide
+kubectl get all -n ingress-nginx
+kubectl get svc -n ingress-nginx
+kubectl get svc -n cattle-system 
+kubectl get all -A | grep rke2
+kubectl get svc -A | grep rke2
+cd Documents/homelab/cluster
+gaa
+gc
+gp origin main  
+cd Documents/homelab/cluster
+git status 
+git add --all
+gc
+gp origin main  
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+gp origin main  -f
+gaa
+gc --amend
+podman start omada-controller
+podman logs -f omada-controller
+podman stop omada-controller
+cd Documents/homelab/cluster
+git add --all
+gc
+gp origin main  -f
+gp origin main 
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gl
+gp origin main -f
+gaa
+gl
+gc --amend
+gl
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+kctx services
+kubectl get secrets -n networking
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gl
+gp origin main -f
+just update
+gaa
+gc --amend
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gc --amend
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+telnet vm.local.frieserlabs.dev 53
+telnet vm.local.frieserlabs.dev 8008
+gaa
+gc --amend
+gaa
+gst
+gc --amend
+gp origin main -f
+toolbox
+toolbox
+flatpak install kodi
+cd Documents/homelab/cluster
+gst
+gaa
+gc
+gp origin main
+gaa
+gc --amend
+gp origin main
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+toolbox
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+curl 172.16.1.10:6878
+gaa
+gc --amend
+gp origin main -f
+curl 'http://172.16.1.10:6878/webui/api/service?method=get_version'
+sudo systemctl start docker
+docker run --detach --publish 6878:6878 vstavrinov/acestream-engine
+docker logs -f great_bartik
+docker ps
+docker stop f9e2ef4917f5
+cd Documents/homelab/cluster
+git status
+git add --all
+gc
+git push origin main
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gl
+gp origin main -f
+just update
+cd Documents/homelab/cluster
+gaa
+gc --amend
+gp origin main -f
+\:
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+podman ps
+podman rm -f fff5e2c6dec5
+podman ps
+podman rm -f 9a117345b93f
+ls
+cd Documents/homelab/cluster
+gaa
+gc --amend
+gp origin main -f
+podman run -it josercoelho/quartz:latest bash
+podman run -it josercoelho/quartz:latest bash
+podman inspect josercoelho/quartz:latest
+podman inspect josercoelho/quartz:latest npx quartz build --serve
+podman run josercoelho/quartz:latest npx quartz build --serve
+podman run josercoelho/quartz:latest npx quartz build -d /repo/notes --serve
+podman run josercoelho/quartz:latest bash
+podman run josercoelho/quartz:latest bash
+cd Documents/notes
+ls
+git pull origin main
+git status
+git add index.md
+git add QMK.md
+git status
+cat index.md
+git commit =
+git commit 
+git pull origin main
+ls
+git merge origin/main
+git status
+git add --all
+git commit  --amend
+git merge origin/main
+git commit
+git stauts
+git status
+git add .obsidian/
+git commit
+git status
+git push origin main
+ssh rancher@172.16.0.10
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+cd Documents/homelab/cluster/pxe
+cd Documents/homelab/cluster/
+cd ..
+cd pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman rm -f netbootxyz
+sudo systemctl stop firewalld
+ip a
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+ip a
+ping 172.16.0.1
+sudo systemctl status firewalld
+sudo systemctl status firewalld
+podman start omada-controller
+just update
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+sudo dd if
+sudo dd if=Downloads/netboot.xyz.img of=/dev/sda
+sudo sync
+ping 172.16.0.1
+ping 172.16.0.2
+ping 172.16.0.3
+ip a
+ip a
+podman ps
+podman run -it josercoelho/quartz:latest bash
+cd Documents/homelab/cluster
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+kctx
+kctx local
+flux 
+flux reconcile kustomization flux-system -n flux-system
+flux reconcile helmrelease tf-controller
+flux reconcile helmrelease cert-manager
+flux reconcile helmrelease cert-manager -n cert-manager
+flux reconcile source flux-system -n flux-system
+flux reconcile source git flux-system
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+flux reconcile kustomization infra-configs
+flux reconcile kustomization infra-controllers
+flux reconcile kustomization infra-configs
+flux reconcile kustomization infra-controllers
+flux reconcile kustomization infra-configs
+sudo podman logs
+sudo podman logs -f netbootxyz
+sudo podman rm -f netbootxyz
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -net=host \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+cd Documents/homelab/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo systemctl stop firewalld
+sudo podman rm -f netbootxyz
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+ip a
+sudo systemctl stop firewalld
+ping 172.16.0.10
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+cd Documents/homelab/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+just update
+sudo podman rm -f netbootxyz
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+vim ~/.kube/config
+kctx local
+vim ~/.kube/config
+kctx local
+vim ~/.kube/config
+kctx local
+kctx local
+k get nodes -o wide
+k get nodes -o wide
+k get ns
+k get ns
+cd Documents/homelab/cluster
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=local  --path=clusters/01-vm
+git status
+git diff
+git pull origin main
+cd Documents/homelab/cluster
+nslookup vm.local.frieserlabs.dev
+nslookup vm.local.frieserlabs.dev 1.1.1w
+nslookup vm.local.frieserlabs.dev 1.1.1.1
+nslookup vm.local.frieserlabs.dev 1.1.1.1
+cd Documents/homelab/cluster
+kctx harvester
+k get ns
+k get nodes -o wide
+gaa
+gc --amend
+kctx harvester
+kubectl logs -n harvester-system -l app=harvester-network-webhook
+kubectl get bridges -A
+ping 172.16.1.100
+ping 172.16.1.107
+ping 172.16.1.101
+ping 172.16.1.100
+ping 172.16.1.101
+ping 172.16.1.101
+ping 172.16.1.101
+ping 172.16.1.100
+nslookup vm.local.frieserlabs.dev 1.1.1.1
+nslookup vm.local.frieserlabs.dev 172.16.1.100
+nslookup -vc vm.local.frieserlabs.dev 172.16.1.100
+nslookup vm.local.frieserlabs.dev 172.16.1.100
+nslookup vm.local.frieserlabs.dev 172.16.1.100
+nslookup google.es 172.16.1.100
+nslookup google.es 172.16.1.100
+kctx services
+k get svc -n dns
+nc -vz 172.16.1.100 53  # TCP
+nc -vzu 172.16.1.100 53 # UDP
+nc -vz 172.16.1.100 53
+dig @172.16.1.100 example.com
+dig +tcp @172.16.1.100 example.com
+kubectl exec -it pods/adguard-home-5b54b649f7-6hj4r -n dns -- netstat -tunlp | grep 53
+kubectl exec -it adguard-home-5b54b649f7-6hj4r -n dns -- sh
+kubectl describe svc adguard-home-dns -n dns
+just update
+cd Documents/homelab/cluster
+gc
+git push origin main
+kctx harvester
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+k delete ns services-vcluster
+kubectl get namespace "services-vcluster" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/services-vcluster/finalize -f -
+k get ns
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+kctx services
+k get ns
+flux bootstrap github   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=services  --path=clusters/02-services
+gaa
+gc
+gp origin main 
+git pull origin main
+git merge origin/main
+gp origin main 
+kctx services
+flux reconcile kustomization flux-system
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main 
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gl
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+ga
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gst
+git diff
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+flux reconcile kustomization flux-system
+gaa
+gc
+gp origin main
+flux reconcile kustomization flux-system
+gaa
+gc
+gp origin main
+just update
+yay
+just update
+toolbox
+just update
+cd Documents/homelab/cluster
+gst
+gst
+gaa
+gc
+gp origin main
+kctx services
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+dig +tcp @172.16.1.100 example.com
+dig @172.16.1.100 example.com
+flux reconcile kustomization flux-system
+podman start omada-controller
+gaa
+gc --amend
+gp origin main -f
+flux reconcile kustomization flux-system
+dig @172.16.1.100 example.com
+dig @172.16.1.100 marca.com
+dig @172.16.1.100 elpais.es
+flux reconcile kustomization flux-system
+dig @172.16.1.100 elpais.es
+telnet dns.local.frieserlabs.dev 253
+telnet dns.local.frieserlabs.dev 443
+curl -v -H "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=example.com&type=A"\
+
+curl -v -H "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=example.com&type=A"\
+
+dig @dns.local.frieserlabs.dev example.com +tls +tls-ca
+curl --http2 --header "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=cloudflare.com" --next --http2 --header "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=example.com"
+curl --http2 --header "accept: application/dns-json" "https://1.1.1.1/dns-query?name=cloudflare.com" --next --http2 --header "accept: application/dns-json" "https://1.1.1.1/dns-query?name=example.com"
+curl --http2 --header "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=cloudflare.com" --next --http2 --header "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=example.com"
+curl --http2 --header "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=cloudflare.com" --next --http2 --header "accept: application/dns-json" "https://dns.local.frieserlabs.dev:253/dns-query?name=example.com"
+toolbox
+nslookup dns.local.frieserlabs.dev
+dig @dns.local.frieserlabs.dev example.com +tls +tls-ca
+curl dns.local.frieserlabs.dev:253
+curl dns.local.frieserlabs.dev:443
+curl dns.local.frieserlabs.dev:443
+curl https://dns.local.frieserlabs.dev
+curl https://dns.local.frieserlabs.dev/dns-query
+curl https://dns.local.frieserlabs.dev/dns-query?name=example.com
+curl https://dns.local.frieserlabs.dev/dns-query?name=example.com
+bash
+bash
+dig @dns.local.frieserlabs.dev example.com +https
+dig +https @dns.local.frieserlabs.dev marca.com
+dig +https @172.16.1.100 marca.com
+dig +https @172.16.1.100 marca.com
+nslookup dns.local.frieserlabs.dev
+dig +https @172.16.1.100 marca.com
+dig +https @172.16.1.100 dns.local.frieserlabs.dev
+dig +https @172.16.1.100 dns.local.frieserlabs.dev
+nslookup dns.local.frieserlabs.dev
+dig +https @dns.local.frieserlabs.dev marca.com
+dig +https @dns.local.frieserlabs.dev marca.com
+dig +https @172.16.1.100 marca.com
+dig +https @172.16.1.100 dns.local.frieserlabs.dev
+dig +https @dns.local.frieserlabs.dev marca.com
+dig +https @dns.local.frieserlabs.dev marca.com
+dig +https @172.16.1.100 dns.local.frieserlabs.dev
+dig +https @dns.local.frieserlabs.dev elpais.es
+dig +https @dns.local.frieserlabs.dev elpais.es
+dig 172.16.1.10 marca.com
+dig 172.16.1.100 marca.com
+dig 172.16.1.100 marca.com
+dig 172.16.1.100 marca.com
+dig 172.16.1.100 marca.com
+dig @dns.local.frieserlabs.dev marca.com
+dig @dns.local.frieserlabs.dev marca.com
+dig @dns.local.frieserlabs.dev marca.com
+dig @dns.local.frieserlabs.dev marca.com
+dig @dns.local.frieserlabs.dev marca.com
+dig 172.16.1.100 marca.com
+dig @dns.local.frieserlabs.dev marca.com
+dig 172.16.1.100 marca.com
+dig 172.16.1.100 marca.com
+dig @dns.local.frieserlabs.dev marca.com
+dig +https @dns.local.frieserlabs.dev marca.com
+cd Documents/homelab/cluster
+gaa
+gc --amend
+gp origin main -f
+flux reconcile kustomization flux-system
+dig @172.16.1.100 elpais.es
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+ga
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+dig dns.local.frieserlabs.dev
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+gp origin main -f
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+podman stoP
+podman stop omada-controller
+yay
+toolbox
+vpn
+just update
+cd Documents/work/bbva/lra/lra_runtime_go/
+ls
+cd lra_cli
+gst
+make
+make all
+toolbox
+proxy
+cd Documents/work/bbva/lra/lra_runtime_go/
+cd titan
+ls
+git remote add origin ssh://git@globaldevtools.bbva.com:7999/lraap/titan.git
+g remote remote rm origin
+g remote  rm origin
+git remote add origin ssh://git@globaldevtools.bbva.com:7999/lraap/titan.git
+gp origin develop
+ls
+rm titan_sql/scripts/linuxx64_odbc_cli.tar.gz thirdparty/odbcdriver/cfgcache/conlic.bin thirdparty/.DS_Store thirdparty/go_ibm_db/.DS_Store sql/scripts/linuxx64_odbc_cli.tar.gz deploy/roles/oracle_client/files/*
+gst
+rm -rf .git
+git init .
+git remote add origin ssh://git@globaldevtools.bbva.com:7999/lraap/titan.git
+git remote add origin ssh://git@globaldevtools.bbva.com:7999/lraap/titan.git
+git remote add upstream ssh://git@globaldevtools.bbva.com:7999/lraap/titan.git
+git add --all
+git commit
+gp origin develop
+git checkout -b develop
+gp origin develop
+just update
+ls
+cd ..
+ls
+cd
+cd Documents/work/bbva/lra/lra_runtime_go/
+just update
+make setup
+export OS=linux
+export ARCH=amd64
+make setup
+make build
+go mod tidy -v
+gst
+git log
+gst
+cd ..
+ls
+./lra_cli/build/bin/lra init go -p proto -o test_go -t technical -u TST -v 1.3
+ls
+./lra_cli/build/bin/lra init go -p proto -o test_final_go -t technical -u TST -v 1.3
+ls
+ls test_final_go
+cd test_final_go
+ls
+make
+go mod tidy -v
+cd ..
+rm -rf test_final_go
+cd lra_cli
+make buidl
+make build
+cd ..
+cd Documents/work/bbva/lra/lra_runtime_go/
+cd l
+cd lra_go
+gst
+g diff
+gst
+gaa
+gc --amend
+gp origin develop -f
+gp origin dev/bump-grpc-protobufs-version
+gp origin dev/bump-grpc-protobufs-version -f
+cd Documents/work/bbva/lra/lra_runtime_go/
+cd ..
+cd ..
+ls
+mkdir titan
+cd titan
+git clone ssh://git@globaldevtools.bbva.com:7999/lraap/titan.git
+cd titan
+git tag v2.4.1
+gp origin v2.4.1
+git tag
+git tag v2.4.1
+git checkout develop
+git tag v2.4.1
+gp origin v2.4.1
+cd ..
+cd ..
+cd lra/lra_runtime_go
+ls
+cd lra_lib_go
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+export GOPRIVATE=*.bbva.com
+go mod tidy -v
+go mod tidy -v
+vim
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+gst
+gaa
+gp
+gc
+gp origin dev/bump-grpc-protobufs-version
+gt
+g tag
+g tag v0.2.4
+gp origin v0.2.4
+cd ..
+cd lra_go
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+gst
+gaa
+gc
+gp origin dev/bump-grpc-protobufs-version
+make setup
+make
+make build
+cd ..
+ls
+cd lra_cli
+ls
+make setup
+toolbox
+cd ..
+ls
+./lra_cli/build/bin/lra init go -p proto -o test_final_go -t technical -u TST -v 1.3
+cd test_final_go
+ls
+go mod tidy -v
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+../lra_cli/build/bin/lra run
+cd ..
+ls
+cd lra_lib_go
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+nvim
+ls
+cd cluster
+ls
+gst
+gaa
+gc
+gp origin main
+gaa
+gc --amend
+gp origin main -f
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+flux reconcile kustomization flux-system
+flux reconcile kustomization flux-system
+kubectl -n vpn get pods
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gst
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+kubectl exec -it -n vpn $(kubectl get pod -n headscale -o name) -- /bin/sh
+kubectl exec -it -n vpn $(kubectl get pod -n vpn -o name) -- /bin/sh
+kubectl exec -it -n vpn $(kubectl get pod -n vpn -o name) -- /bin/bash
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+kubectl port-forward -n vpn service/headscale 3000:3000
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+kubectl port-forward -n vpn service/headscale 3000:3000
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+kubectl exec -n vpn -c headscale $(kubectl get pods -n vpn -l app=headscale -o jsonpath='{.items[0].metadata.name}') -- headscale users create myfirstuser
+kubectl exec -n vpn -c headscale $(kubectl get pods -n vpn -l app=headscale -o jsonpath='{.items[0].metadata.name}') -- headscale users list
+kubectl exec -n vpn -c headscale $(kubectl get pods -n vpn -l app=headscale -o jsonpath='{.items[0].metadata.name}') --  headscale preauthkeys create --user myfirstuser --reusable --expiration 24h
+toolbox
+sudo ostree remote add tailscale https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+sudo rpm-ostree install tailscale
+systemctl reboot
+dig vpn.local.frieserlabs.dev
+ip a
+toolbox
+tailscale up --login-server https://vpn.local.friserlabs.dev --authkey 4f8358c51b7d3720efaff572d4e252d53c29f81fc90815ca
+sudo systemctl start tailscaled
+sudo systemctl status tailscaled
+tailscale up --login-server https://vpn.local.friserlabs.dev --authkey 4f8358c51b7d3720efaff572d4e252d53c29f81fc90815ca
+tailscale up --login-server https://vpn.local.friserlabs.dev --authkey 4f8358c51b7d3720efaff572d4e252d53c29f81fc90815ca --operator=$USER
+sudo tailscale up --login-server https://vpn.local.friserlabs.dev --auth-key 4f8358c51b7d3720efaff572d4e252d53c29f81fc90815ca --operator=frieser
+sudo tailscale up --login-server https://vpn.local.friserlabs.dev --auth-key 4f8358c51b7d3720efaff572d4e252d53c29f81fc90815ca --operator=frieser
+sudo tailscale up --login-server https://vpn.local.friserlabs.dev --auth-key 4f8358c51b7d3720efaff572d4e252d53c29f81fc90815ca --operator=frieser
+ailscale up --login-server https://vpn.local.frieserlabs.dev --authkey 87317482f4dd4e60afc82819276badb6745c094921a0cc07
+tailscale up --login-server https://vpn.local.frieserlabs.dev --authkey 87317482f4dd4e60afc82819276badb6745c094921a0cc07
+tailscale up --login-server https://vpn.local.frieserlabs.dev 
+tailscale up --login-server https://vpn.local.frieserlabs.dev 
+tailscale up --login-server https://vpn.local.frieserlabs.dev --authkey 2c48fe0af7800e8b78e31f81613bd4970bb09a218ce5d78c\
+
+ping 100.64.0.1
+sudo systemctl stop tailscaled
+kubectl exec -n vpn -c headscale $(kubectl get pods -n vpn -l app=headscale -o jsonpath='{.items[0].metadata.name}') --  headscale preauthkeys create --user myfirstuser --reusable --expiration 24h
+gaa
+gc --amend
+cd cluster
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+kubectl port-forward -n vpn service/headscale 3000:3000
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+kubectl port-forward -n vpn service/headscale 3000:3000
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+kubectl port-forward -n vpn service/headscale 3000:3000
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+kubectl port-forward -n vpn service/headscale 3000:3000
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile source git flux-system
+kubectl port-forward -n vpn service/headscale 3000:3000
+kubectl exec -it -n vpn headscale-59f5f5598-qkbxx -c headscale -- headscale apikeys create
+kubectl port-forward -n vpn service/headscale 3000:3000
+kubectl exec -it -n vpn headscale-59f5f5598-qkbxx -c headscale -- headscale apikeys create
+kubectl port-forward -n vpn service/headscale 3000:3000
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+kubectl exec -it -n vpn headscale-59f5f5598-qkbxx -c headscale -- headscale apikeys create
+kubectl exec -it -n vpn headscale-59f5f5598-qkbxx -c headscale -- headscale apikeys create
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+kubectl exec -it -n vpn headscale-59f5f5598-qkbxx -c headscale -- headscale apikeys create
+kubectl exec -it -n vpn headscale-7c4b8d8f9d-h8xms -c headscale -- headscale apikeys create
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+kubectl exec -it -n vpn headscale-65cb87d786-zlg7k -c headscale -- headscale apikeys create
+gaa
+gc --amend
+gp origin main -f
+k delete deployments.apps -n vpn headscale
+flux reconcile source git flux-system
+kubectl exec -it -n vpn headscale-d578bb7fd-bpjc9 -c headscale -- headscale apikeys create
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gst
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+kubectl exec -it -n vpn headscale -c headscale -- headscale apikeys create
+kubectl exec -it -n vpn headscale-d578bb7fd-bpjc9 -c headscale -- headscale apikeys create
+flux reconcile kustomization flux-system
+kubectl exec -it -n vpn headscale-d578bb7fd-zpxct -c headscale -- headscale apikeys create
+yay
+yay
+yay
+yay
+yay
+yay
+gaa
+cd cluster
+gaa
+gc
+gp origin main
+flux reconcile 
+flux reconcile solurce git flux-system
+flux reconcile solurce git flux-system
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gst
+flux reconcile kustomization flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-systemk
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+ gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+gaa
+gc --amend
+gp origin main -f
+flux reconcile source git flux-system
+flux reconcile kustomization flux-system
+kubectl port-forward -n photos svc/immich-server 2283:2283
+just update
+toolbox
+cd Documents/work/bbva/lra/lra_runtime_go/
+cd lra_lib_go
+go mod tidy -v
+ls
+go mod tidy -v
+export GOPRIVATE=*.bbva.com
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+go mod tidy -v
+gst
+gst
+gst
+gaa
+gc
+go mod tidy -v
+gaa
+gc --amend
+git tag
+git tag -D v0.2.4
+git tag -d v0.2.4
+gp origin :refs/tags/v0.2.4
+git tag  v0.2.4
+gp origin v0.2.4
+gst
+git add --all
+gc --amend
+gp origin dev/bump-grpc-protobufs-version
+git tag -d v0.2.4
+git tag
+git tag v0.2.4
+gp origin :refs/tags/v0.2.4
+git push origin v0.2.4
+just update
+just update
+cat 
+cat ~/.ssh/id_ed25519.pub
+git clone git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+git clone https://gitlab.local.frieserlabs.dev/homelab/vcluster-local.git
+rm vcluster-local -rf
+ssh-agent
+cat ~/.ssh/id_ed25519.pub
+vim .ssh/config
+git clone git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+vim .ssh/config
+git clone git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+eval $(ssh-agent -s)
+git clone git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+ssh-add ~/.ssh/id_ed25519
+git clone git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+git clone git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+rm ~/.ssh/known_hosts
+git clone git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+rm -rf vcluster-local
+git clone git@gitlab.local.frieserlabs.dev:homelab/CI.git
+git clone git@gitlab.local.frieserlabs.dev:homelab/CI.git
+rm ~/.ssh/known_hosts
+git clone git@gitlab.local.frieserlabs.dev:homelab/CI.git
+rm -rf vcluster-local
+rm -rf CI
+ls
+git clone https://gitlab.com/gitlab-com/gl-infra/renovate/renovate-runner.git
+git clone git@gitlab.local.frieserlabs.dev:bot/renovate.git
+git status
+cd renovate
+git status
+git add --all
+git commit
+gp origin main
+git add . && git commit --amend && git push -f origin main && flux reconcile source git
+cd cluster
+git add . && git commit --amend && git push -f origin main && flux reconcile source git
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+helm list
+kctx services
+helm list -n photos
+helm uninstall u
+helm uninstall -n photos immich immich-postgresql
+flux reconcile kustomization flux-system
+flux reconcile source git flux-system
+helm uninstall -n photos immich immich-postgresql
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+gaa
+gc
+gp origin main 
+flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+gaa
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git add . && git commit --amend && git push -f origin main && flux reconcile source git flux-system
+git remote remove origin
+git remote add origin https://gitlab.local.frieserlabs.dev/homelab/vcluster-local.git
+git pull
+git remote remove origin
+git remote add origin git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+git pull
+ssh-authorized-keys
+git pull
+git clone git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+ssh -T git@gitlab.local.frieserlabs.dev
+ssh -T frieser@gitlab.local.frieserlabs.dev
+cd Documents/homelab/cluster
+gst
+git add --all
+gc
+git remote add origin git@github.com:frieser/vcluster-local.git
+git remote remove origin
+git remote add origin git@github.com:frieser/vcluster-local.git
+git push origin main
+flux reconcile source git flux-system
+kctx harvester
+flux reconcile source git flux-system
+git remote show
+git remote show origin
+git remote remove origin
+git remote add origin git@gitlab.local.frieserlabs.dev:homelab/vcluster-local.git
+git pull origin main
+flux bootstrap gitlab   --token-auth   --owner=frieser   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap gitlab   --token-auth   --owner=homelab   --repository=vcluster-local   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap gitlab   --token-auth   --owner=homelab   --repository=CI   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap gitlab   --token-auth  --hostname=gitlab.local.frieserlabs.dev --owner=homelab   --repository=CI   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap gitlab   --token-auth  --hostname=gitlab.local.frieserlabs.dev --owner=homelab   --repository=CI   --branch=main --context=harvester  --path=clusters/01-vm
+flux bootstrap gitlab   --token-auth  --hostname=gitlab.local.frieserlabs.dev --owner=homelab   --repository=CI   --branch=main --context=harvester  --path=clusters/01-vm
+git pull origin main
+git diff origin main
+git status
+git status
+git log
+git push origin main -f
+rm ~/.ssh/known_hosts
+git push origin main -f
+git remote show origin
+git remote remove origin
+git remote add origin git@gitlab.local.frieserlabs.dev:homelab/CI.git
+git pull origin main
+git pull origin main
+gst
+git pull origin main
+git push origin main -f
+git merge origin/main
+git push origin main
+flux reconcile source git flux-system
+flux bootstrap gitlab   --token-auth  --hostname=gitlab.local.frieserlabs.dev --owner=homelab   --repository=CI   --branch=main --context=services  --path=clusters/02-services
+flux bootstrap gitlab   --token-auth  --hostname=gitlab.local.frieserlabs.dev --owner=homelab   --repository=CI   --branch=main --context=services  --path=clusters/02-services
+git pull origin main
+flux bootstrap gitlab   --token-auth  --hostname=gitlab.local.frieserlabs.dev --owner=homelab   --repository=CI   --branch=main --context=harvester  --path=clusters/01-vm
+git pull origin main
+kctx services
+k get pods -n scm
+k get pods -n git
+k get ns
+k get pods -n ci
+k exec -n ci gitlab-toolbox-6dd88f7985-g7gx2 -it -- backup-utility
+gst
+cd cluster
+gst
+gaa
+gc
+git push origin main
+yay
+toolbox
+just update
+just update
+ls
+just update
+just update
+just update
+ls
+ls
+just update
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+ssh frieser@172.16.0.12
+cat .ssh/config
+vim .ssh/config
+ssh frieser@172.16.0.12
+ping 172.16.1.10
+ping 172.16.0.10
+ssh frieser@172.16.0.12
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.12
+vim .ssh/config
+ssh rancher@172.16.0.12
+ssh-add -l
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.18
+ssh rancher@172.16.0.12
+podman start
+podman start omada-controller
+podman logs -f omada-controller
+ip a
+ssh rancher@172.16.0.118
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+cd Documents/homelab/pxe
+git status
+git log
+git add --all
+gc --amend
+podman start omada-controller
+cat ~/.ssh/id_ed25519.pub
+sudo systemctl stop firewalld
+sudo dd if=Downloads/netboot.xyz.img of=/dev/sda
+sudo sync
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+cd Documents/homelab/cluster
+ls
+cd ..
+ls
+cd pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+vim ~/.kube/config
+kctx local
+vim ~/.kube/config
+kctx local
+vim ~/.kube/config
+kctx local
+vim ~/.kube/config
+kctx local
+k get ns
+kubectl create namespace argocd
+helm repo add argo https://argoproj.github.io/argo-helm
+helm repo update\
+
+ helm upgrade --install argocd argo/argo-cd \\
+            --namespace argocd \\
+            --create-namespace \\
+            --version 7.7.16 \\
+            --set redis-ha.enabled=true \\
+            --set controller.replicas=1 \\
+            --set server.autoscaling.enabled=true \\
+            --set server.autoscaling.minReplicas=2 \\
+            --set repoServer.autoscaling.enabled=true \\
+            --set repoServer.autoscaling.minReplicas=2 \\
+            --set applicationSet.enabled=true \\
+            --set applicationSet.replicas=2
+kubectl port-forward service/argocd-server -n argocd 8080:443
+sudo podman rm -f netbootxyz
+kubectl port-forward service/argocd-server -n argocd 8080:443
+ helm upgrade --install argocd argo/argo-cd \\
+            --namespace argocd \\
+            --create-namespace \\
+            --version 7.7.16 \\
+            --set redis-ha.enabled=true \\
+            --set controller.replicas=1 \\
+            --set server.autoscaling.enabled=true \\
+            --set server.autoscaling.minReplicas=2 \\
+            --set repoServer.autoscaling.enabled=true \\
+            --set repoServer.autoscaling.minReplicas=2 \\
+            --set applicationSet.enabled=true \\
+            --set applicationSet.replicas=2 \\
+            --set configs.params.server.insecur
+ helm upgrade --install argocd argo/argo-cd \\
+            --namespace argocd \\
+            --create-namespace \\
+            --version 7.7.16 \\
+            --set redis-ha.enabled=true \\
+            --set controller.replicas=1 \\
+            --set server.autoscaling.enabled=true \\
+            --set server.autoscaling.minReplicas=2 \\
+            --set repoServer.autoscaling.enabled=true \\
+            --set repoServer.autoscaling.minReplicas=2 \\
+            --set applicationSet.enabled=true \\
+            --set applicationSet.replicas=2 \\
+            --set configs.params.server.insecure
+ helm upgrade --install argocd argo/argo-cd \\
+            --namespace argocd \\
+            --create-namespace \\
+            --version 7.7.16 \\
+            --set redis-ha.enabled=true \\
+            --set controller.replicas=1 \\
+            --set server.autoscaling.enabled=true \\
+            --set server.autoscaling.minReplicas=2 \\
+            --set repoServer.autoscaling.enabled=true \\
+            --set repoServer.autoscaling.minReplicas=2 \\
+            --set applicationSet.enabled=true \\
+            --set applicationSet.replicas=2 \\
+            --set configs.params.server.insecure=true
+kubectl port-forward service/argocd-server -n argocd 8080:443
+ helm upgrade --install argocd argo/argo-cd \\
+            --namespace argocd \\
+            --create-namespace \\
+            --version 7.7.16 \\
+            --set redis-ha.enabled=true \\
+            --set controller.replicas=1 \\
+            --set server.autoscaling.enabled=true \\
+            --set server.autoscaling.minReplicas=2 \\
+            --set repoServer.autoscaling.enabled=true \\
+            --set repoServer.autoscaling.minReplicas=2 \\
+            --set applicationSet.enabled=true \\
+            --set applicationSet.replicas=2 \\
+            --set configs.params."server.insecure=true
+ helm upgrade --install argocd argo/argo-cd \\
+            --namespace argocd \\
+            --create-namespace \\
+            --version 7.7.16 \\
+            --set redis-ha.enabled=true \\
+            --set controller.replicas=1 \\
+            --set server.autoscaling.enabled=true \\
+            --set server.autoscaling.minReplicas=2 \\
+            --set repoServer.autoscaling.enabled=true \\
+            --set repoServer.autoscaling.minReplicas=2 \\
+            --set applicationSet.enabled=true \\
+            --set applicationSet.replicas=2 \\
+            --set configs.params."server.insecure"=true
+kubectl port-forward service/argocd-server -n argocd 8080:443
+helm uninstall -n argocd argocd
+ helm upgrade --install argocd argo/argo-cd \\
+            --namespace argocd \\
+            --create-namespace \\
+            --version 7.7.16 \\
+            --set redis-ha.enabled=true \\
+            --set controller.replicas=1 \\
+            --set server.autoscaling.enabled=true \\
+            --set server.autoscaling.minReplicas=2 \\
+            --set repoServer.autoscaling.enabled=true \\
+            --set repoServer.autoscaling.minReplicas=2 \\
+            --set applicationSet.enabled=true \\
+            --set applicationSet.replicas=2 \\
+            --set configs.params.server.insecure=true
+kubectl port-forward service/argocd-server -n argocd 8080:443
+vim ~/.kube/config
+kubectl port-forward service/argocd-server -n argocd 8080:443
+kctx local
+kubectl port-forward service/argocd-server -n argocd 8080:443
+yay
+just update
+just update
+toolbox
+kctx local
+k get ns
+ vim ~/.kube/config
+k get ns
+ vim ~/.kube/config
+k get ns
+vim
+k get ns
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+cd Documents/homelab/cluster/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+cd Documents/homelab/cluster/pxe
+cd Documents/homelab/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo systemctl stop firewalld
+sudo podman rm -f netbootxyz
+sudo podman rm -f netbootxyz
+vim ~/.kube/config
+k get ns
+k get ns
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+cd Documents/homelab/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+vim ~/.kube/config
+k get ns
+sudo podman rm -f netbootxyz
+mkpasswd --method=bcrypt --rounds=12 "Puntero21
+mkpasswd --method=bcrypt --rounds=12 "Puntero21"
+echo -n "tu_texto" | base64\
+
+echo -n "Puntero21 | base64
+echo -n "Puntero21 | base64
+echo -n "Puntero21\!" | base64
+htpasswd -nbBC 10 "" $ARGO_PWD | tr -d ':\n' | sed 's/$2y/$2a/'
+htpasswd -nbBC 10 "" Puntero21 | tr -d ':\n' | sed 's/$2y/$2a/'
+htpasswd -nbBC 10 "" Puntero21! | tr -d ':\n' | sed 's/$2y/$2a/'
+yay
+cd cluster
+gst
+git add --all
+git commit
+git remote remove origin
+git remote add origin git@github.com:frieser/vcluster-local.git
+git push origin main
+git add --all
+cd pxe
+gaa
+gc --amend
+git status
+git diff
+git add --all
+gc --amend
+helm uninstall -n argocd argocd
+k delete ns argocd
+helm uninstall -n argocd argocd
+k delete ns argocd
+helm uninstall -n argocd argocd
+k delete ns argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+helm uninstall -n argocd argocd
+k delete ns argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k apply -k argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+cd ..
+ls
+ cd cluster
+gst
+git add --all
+gc --amend
+gp origin main 
+gp origin main -"
+gp origin main -f
+cd ..
+cd pxe
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+k delete ns argocd
+kubectl get namespa "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+k delete ns argocd
+kubectl get namespa "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namescepa "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+k delete ns argocd
+k apply -k argocd
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+helm uninstall -n argocd argocd
+k delete ns argocd
+k delete ns argocd
+k delete ns argocd
+k apply -k argocd
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+k delete ns argocd
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+k delete ns argocd
+k apply -k argocd
+helm uninstall -n argocd argocd
+k delete ns argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+cd ..
+cd cluster
+gst
+gaa
+gc --amend
+gp origin main -f
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+just update
+toolbox
+systemctl reboot
+k get ns
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+kubectl get namespace "argocd" -o json \\
+  | tr -d "\n" | sed "s/\"finalizers\": \[[^]]\+\]/\"finalizers\": []/" \\
+  | kubectl replace --raw /api/v1/namespaces/argocd/finalize -f -
+rpm
+rpm-ostree status
+sudo podman rm -f netbootxyz
+cd Documents/homelab/pxe
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+just update
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+cd Documents/homelab/clusters
+cd Documents/homelab/cluster
+ls
+cd ..
+cd pxe
+ls
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+helm uninstall -n argocd argocd
+k delete ns argocd
+k apply -k argocd
+kubectl port-forward -n argocd svc/argocd-server 8080:443
+sudo systemctl stop firewalld
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80 \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+vim ~/.var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
+vim ~/.var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
+vim ~/.var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
+vim ~/.var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
+vim ~/.var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.10
+\
+\
+gsettings set org.gnome.Ptyxis disable-padding true\
+
+\
+\
+gsettings set org.gnome.Ptyxis disable-padding false
+top
+ls
+ssh rancher@172.16.0.10
+vim ~/.zshrc
+t
+toolbox
+t
+just update
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+just update
+t
+cd Documents/dev
+git clone
+git clone https://github.com/scaryrawr/gnome-focus.git
+ls
+just update
+t
+t
+cd Documents/dev
+cd gnome-focus
+t
+cd Documents/dev/gnome-focus
+t
+cd Documents/dev/gnome-focus
+t
+gnome-extensions disable gnome-focus@scaryrawr.github.io && gnome-extensions enable gnome-focus@scaryrawr.github.io
+cd Documents/dev/gnome-focus
+t
+cd Documents/dev/gnome-focus
+git reset origin/main --hard
+t
+ls
+cd Documents/dev
+ls
+mkdir gnome-desarutate
+ls .local/share/gnome-shell/extensions
+cat .local/share/gnome-shell/extensions/gnome-desarutate@frieser.example.com/metadata.json
+gnome-extensions disable gnome-desarutate@frieser.example.com && gnome-extensions enable gnome-desarutate@frieser.example.com
+gnome-extensions disable gnome-desarutate@frieser.example.com && gnome-extensions enable gnome-desarutate@frieser.example.com
+cd Documents/dev/gnome-focus
+git reset origin/main --hard
+gnome-extensions disable gnome-desarutate@frieser.example.com && gnome-extensions enable gnome-desarutate@frieser.example.com
+cd Documents/dev/gnome-focus
+t
+cd Documents/dev/gnome-focus
+t
+cd Documents/dev/gnome-focus
+t
+cd Documents/dev/gnome-focus
+git reset origin/main --hard
+cd Documents/dev/gnome-focus
+t
+yarn package:install
+rm -rf ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io
+cd Documents/dev/gnome-focus
+t
+ls .local/share/gnome-shell/extensions
+cd
+ls .local/share/gnome-shell/extensions
+just update
+cd Documents/dev/gnome-focus
+t
+cat .local/share/gnome-shell/extensions/focus@scaryrawr.github.io/extension.js
+cat .local/share/gnome-shell/extensions/focus@scaryrawr.github.io/extension.js | grep opacity
+cat .local/share/gnome-shell/extensions/focus@scaryrawr.github.io/extension.js | grep desa
+cat .local/share/gnome-shell/extensions/focus@scaryrawr.github.io/extension.js | grep desa
+cat .local/share/gnome-shell/extensions/focus@scaryrawr.github.io/extension.js | grep desa
+ls .local/share/gnome-shell/extension-updates
+ls .local/share/gnome-shell/extension-updates
+ls .local/share/gnome-shell/extensions
+t
+cat .local/share/gnome-shell/extensions/focus@scaryrawr.github.io/extension.js | grep desa
+cat .local/share/gnome-shell/extensions/
+rm -rf ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io
+cd Documents/dev/gnome-focus
+ mv schemas/org.gnome.shell.extensions.focus.gschema.xml schemas/org.gnome.shell.extensions.desaturate.gschema.xml
+t
+t
+htop
+just update
+flatpak install eog
+t
+yay qmk
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vimtutor
+vimtutor
+just update
+cd Documents/dev
+ls
+cd qmk_firmware
+ls
+t
+cd Documents/dev/gnome-focus
+cd
+cd Documents/dev/
+t
+just update
+just check-local-overrides
+just check-local-overrides
+just check-local-overrides
+yay
+just check-local-overrides
+just update
+t
+cd Documents/dev/qmk_firmware
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+t
+vimtutor
+vimtutor
+sudo su
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+j#
+a
+la
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+kjkjkjkjkjkj
+kj
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+		sd
+ls -ls
+vimtutor
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vimtutor
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+cd Documents/dev/qmk_firmware
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+t
+vimtutor
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+vimtutor
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+t
+ay
+yay
+just update
+t
+sudo t
+cd Documents/dev/qmk_userspace
+lsl
+ls
+cat qmk.json
+cd keyboards
+ls
+cd ..
+ls
+ls layouts
+cat qmk.json
+gst
+git add --all
+git commit
+git push origin main
+git remote origin set-url git@github.com:frieser/qmk_userspace.git
+git remote set-url origin git@github.com:frieser/qmk_userspace.git
+gp origin main 
+cd Documents/dev
+ls
+git clone git clone https://github.com/frieser/qmk_userspace.git
+git clone https://github.com/frieser/qmk_userspace.git
+qmk config user.overlay_dir="$(realpath qmk_userspace)"
+t
+cd Documents/dev/qmk_userspace
+gc --amend
+gp origin main -f
+just update
+vimtutor
+cd Documents/dev/qmk_firmware
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km frieser
+t
+which nvim

@@ -779,3 +779,172 @@ too
 zsh
 rm ~/.ssh/known_hosts
 ssh rancher@172.16.0.10
+git pull origin main
+git status
+git add --all
+git commit
+git status
+git pull origin main
+git push origin main
+git remote show
+git remote show origin 
+git remote set-url origin git@github.com:frieser/dotfiles.git
+git push origin main
+git push origin main -f
+zsh
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+zsh
+ssh rancher@172.16.0.10
+zsh
+ssh rancher@172.16.0.10
+zsh
+sh
+zsh
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+zsh
+curl https://dns.local.frieserlabs.dev/dns-query?name=example.com
+curl -vH "accept: application/dns-json" "https://cloudflare-dns.com/dns-query?name=example.com&type=AAAA"
+curl -vH "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=example.com&type=AAAA"
+dig +https @1.1.1.1 example.com
+dig +https @dns.local.frieserlabs.dev example.com
+dig +https @dns.local.frieserlabs.dev marca.com
+zsh
+protoc --go_out=. --go-grpc_out=. service.proto
+mv bbva.com/lra/lra_lib_go/pkg/lra/bea/proto/service*.pb.go . && rm -rf bbva.com
+mkdir -p /var/home/frieser/Documents/homelab/cluster/clusters/02-services/headscale
+mkdir -p /var/home/frieser/Documents/homelab/cluster/clusters/02-services/headscale/config
+zsh
+kubectl get pods -n vpn -l app=headscale
+kubectl exec -it -n vpn headscale-59f5f5598-qkbxx -c headscale -- headscale nodes register --user myfirstuser --key <YOUR_MACHINE_KEY>
+zs
+zsh
+zsh
+go mod tidy
+go build ./...
+go test ./...
+go build ./...
+go test ./...
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_lib_go && go test ./pkg/lra/bea/... -v
+go test ./...
+go test -v ./pkg/lra/log/...
+go build ./...
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_lib_go && go test ./... -v
+kubectl get svc -n photos
+kubectl port-forward -n photos svc/immich-server 2283:2283
+kubectl logs -n photos -l app.kubernetes.io/name=immich,app.kubernetes.io/component=server
+kubectl get pods -n photos
+kubectl describe svc immich-server -n photos
+zsh
+kubectl get pods -n auth
+kubectl get svc -n auth
+kubectl get pods -n auth -l app.kubernetes.io/name=postgresql
+cd /var/home/frieser/Documents/homelab/cluster/clusters/02-services/authelia
+rm users_database.yml users-database-configmap.yaml
+zsh
+sh
+zsh
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.118
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.118
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+zsh
+zsh
+kubectl apply -k /var/home/frieser/Documents/homelab/pxe/argocd/
+kubectl get jobs -n argocd
+kubectl delete -k . && kubectl apply -k .
+kubectl apply -k .
+kubectl get jobs -n argocd
+kubectl delete -k . && kubectl apply -k .
+kubectl apply -k .
+kubectl get jobs -n argocd
+kubectl delete -k . && kubectl apply -k .
+kubectl get jobs -n argocd
+kubectl delete -k . && kubectl apply -k .
+kubectl get jobs -n argocd
+kubectl delete -k . && kubectl apply -k .
+kubectl apply -k .
+kubectl delete -k . && kubectl apply -k .
+kubectl apply -k .
+sleep 10 && kubectl apply -k .
+kubectl delete -k . && kubectl apply -k .
+kubectl apply -k .
+kubectl delete -k . && kubectl apply -k .
+kubectl delete -k .
+kubectl delete -k . && kubectl apply -k .
+kubectl apply -k .
+ssh rancher@172.16.0.10
+ls
+ssh rancher@172.16.0.10
+ls
+zsh
+chsh -s /usr/bin/zsh
+chsh -s /usr/bin/zsh frieser
+sudo chsh -s /usr/bin/zsh frieser
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+ssh rancher@172.16.0.12
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+rm ~/.ssh/known_hosts
+ssh rancher@172.16.0.10
+zsh
+just update
+yarn install
+t
+zsh
+gsettings list-keys org.gnome.shell.extensions.focus
+ls -la ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/
+ls -la ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/schemas/
+cd ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/schemas && glib-compile-schemas .
+cd schemas && glib-compile-schemas .
+gsettings get org.gnome.shell.extensions.focus use-desaturation
+ls -l ~/.local/share/glib-2.0/schemas/
+mkdir -p ~/.local/share/glib-2.0/schemas/
+cp schemas/org.gnome.shell.extensions.focus.gschema.xml ~/.local/share/glib-2.0/schemas/
+glib-compile-schemas ~/.local/share/glib-2.0/schemas/
+gnome-extensions disable gnome-focus@scaryrawr.github.io && gnome-extensions enable gnome-focus@scaryrawr.github.io
+cp schemas/org.gnome.shell.extensions.focus.gschema.xml ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/schemas/
+glib-compile-schemas ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/schemas/
+glib-compile-schemas schemas/
+mkdir -p gnome-desarutate@frieser.example.com/schemas
+ln -s "$(pwd)/gnome-desarutate@frieser.example.com" ~/.local/share/gnome-shell/extensions/
+gnome-extensions disable gnome-desarutate@frieser.example.com && gnome-extensions enable gnome-desarutate@frieser.example.com
+busctl --user call org.gnome.Shell /org/gnome/Shell org.gnome.Shell Eval s 'Meta.restart("Restarting…")'
+vim rules.mk
+rm /var/home/frieser/Documents/dev/qmk_firmware/keyboards/idank/sweeq/keymaps/frieser/keymap.c
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
