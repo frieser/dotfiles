@@ -220,7 +220,6 @@ lra init go -p proto/-t technical -o lra_go_test -d lra.test.test -v 1.6
 lra init go -p proto/ -t technical -o lra_go_test -d lra.test.test -v 1.6
 wc
 wc -h
-echo -n "BBDC-MzU4MjAzOTM4OTUzOqCc6JwGvoxWGoUd5XdW0UjYr2Bv" | wc -m
 export OS
 this is a test of to write
 in the ferris sweep, its amazing dude. awesome!
@@ -796,7 +795,6 @@ yay -q
 yay knomad
 distrobox-export --bin /usr/bin/kmonad
 just upgrade
-just 
 just -g
 just -h
 just device-info
@@ -1046,7 +1044,6 @@ EOF
 zinit
 git clone git@github.com:frieser/notes.git
 cd .var/app/org.mozilla.firefox/cache/mozilla/firefox/0nw4owj1.oneline
-cd 
 chezmoi add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline
 chezmoi em .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline
 chezmoi rm .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline
@@ -1280,7 +1277,6 @@ just completions
 vim .zshrc
 exit
 git stash apply
-g status
 podman rm -f omada-controller
 podman volume rm omada-logs
 podman volume rm omada-data
@@ -1720,7 +1716,6 @@ ocker run -p 8069:8069 --name odoo --link db:db -t odoo
 docker run -p 8069:8069 --name odoo --link db:db -t odoo
 gaa l
 gaa 
-just
 just --l.ist
 just check-idle-power-draw
 just --list
@@ -2211,13 +2206,9 @@ c diff .config/Cursor/User/settings.json
 c add .config/Cursor/User/settings.json
 c diff .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/
 c diff .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/addons.json
-c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/addons.json
 c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/chrome/userChrome.css
 c diff .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/extension-preferences.json
-c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/extension-preferences.json
 c diff .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/prefs.js
-c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/prefs.js
-c status
 flatpak list
 just check-local-overrides
 just check-local-overrides | more
@@ -2389,7 +2380,6 @@ rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 gp origin -f
 jus
-cd .config/nvim
 touch test
 rm test
 vim ~/Documents/work/bbva/lra/lra_runtime_go/lra_cli
@@ -2426,7 +2416,6 @@ nvim
 vi ~/.zshrc
 vim ~/.zshrc
 ya
-yay
 ../lra/build/bin/lra run
 chezmoi
 chezmoi diff
@@ -2481,7 +2470,6 @@ cd lra_lib_go
 cd ..
 cd vpn
 distrobox-export --bin /usr/bin/zoxide
-export DEEPSEEK_API_KEY=sk-b079d420677d419ea9796e61096a6c4d
 v main.go
 gst 
 yay ghosty
@@ -2490,19 +2478,16 @@ ghostty
 ghostty --list-themes
 ghostty +list-themes
 vim .
-cd fedora-frieser
 vim
 top
 markdownlint
 distrobox-host-exec just updat
 distrobox-export --bin /usr/bin/ghostty
 distrobox-export --app /usr/bin/ghostty
-t
 distrobox-export --app ghostty
 just updat
 systemctl reboot
 pwd
-just update
 cd lra_go
 gp origin dev/bump-grpc-protobufs-version 
 cd lra_cli
@@ -2513,51 +2498,58 @@ g fetch all
 g fetch --all
 git merge origin/develop
 gp origin fix/runtime-go
-ls
 git init .
 git remote add origin ssh://git@globaldevtools.bbva.com:7999/lraap/functional-test-go.git
-gaa
-gc
-gp
 gp origin master
 cd t-runtime-v1-gofunctionaltest
-v
-cd
 distrobox-host-exec just update
 rpm-ostree status
 host
 v ~/.zshrc
 source ~/.zshrc
-h just update
 yay chezmoi
 c add .config/ghostty/config
+c add ~/.zshrc
+c
+c forget .config/nvim
+v
+ls .config/nvim
+cd
+cd 
+cd ghome
+cd home
+cd frieser
+cd ~
+c add .bash_history
+c add .config/Windsurf/User/settings.json
+c add .config/kitty/kitty.conf
+c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/addons.json
+c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/extension-preferences.json
+c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/prefs.js
+g status
+c status
+c add .local/share/zsh/history
+c diff
+c add .gitconfig
 c cd
+gp
+cd .config/nvim
+gaa
+gc
+cd fedora-frieser
 gst
-: 1738582110:0;c diff
-: 1738582123:0;c add ~/.zshrc
-: 1738582127:0;c status
-: 1738582165:0;c
-: 1738582180:0;c forget .config/nvim
-: 1738582186:0;v
-: 1738582193:0;ls .config/nvim
-: 1738582197:0;cd .config/nvim
-: 1738582198:0;gst
-: 1738582203:0;cd
-: 1738582206:0;cd 
-: 1738582208:0;cd ghome
-: 1738582211:0;cd home
-: 1738582215:0;cd frieser
-: 1738582222:0;cd ~
-: 1738582223:0;ls
-: 1738582267:0;c status
-: 1738582274:0;c add .bash_history
-: 1738582286:0;c add .config/Windsurf/User/settings.json
-: 1738582294:0;c add .config/kitty/kitty.conf
-: 1738582306:0;c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/addons.json
-: 1738582318:0;c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/extension-preferences.json
-: 1738582322:0;c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/prefs.js
-: 1738582326:0;g status
-: 1738582330:0;c status
-: 1738582333:0;c diff
-: 1738582341:0;c status
-: 1738582353:0;c add .local/share/zsh/history
+h just update
+t
+yay
+h rpm-ostree status
+h sc reboot
+h systemctl reboot
+just update
+just
+just 
+v .config/ghostty/config
+h zsh
+ls
+h bash
+: 1738592646:0;v .local/share/zsh/history
+: 1738592680:0;c add .local/share/zsh/history
