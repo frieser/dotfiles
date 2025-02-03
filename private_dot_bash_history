@@ -1,78 +1,3 @@
-rpm-ostree install distrobox sshuttle 
-ostree status
-rpm-ostree status
-sudo ostree admin pin 0
-rpm-ostree update --check --preview
-rpm-ostree install distrobox sshuttle 
-podman -v
-systemctl reboot
-distrobox create -n toolbox
-distrobox enter toolbox 
-cd
-cd Documents/work/bbva/deployment/deployment/
-curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix |     sh -s -- install ostree --no-confirm --persistence=/var/lib/nix
-echo "Defaults  secure_path = /nix/var/nix/profiles/default/bin:/nix/var/nix/profiles/default/sbin:$(sudo printenv PATH)" | sudo tee /etc/sudoers.d/nix-sudo-env
-nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
-nix-channel --update
-nix-shell '<home-manager>' -A install
-home-manager switc
-home-manager switch
-nix-channel -h
-nix-channel 
-nix-channel --help
-nix-channel --list
-nix-channel --rm home-manager
-nix-channel --list
-nix-channel --help
-nix-channel --remove home-manager
-nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz home-manager
-nix-channel --update
-nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
-nix-channel --update
-home-manager switch
-export NIXPKGS_ALLOW_UNFREE=1
-home-manager switch
-export NIXPKGS_ALLOW_UNFREE=1
-home-manager switch
-home-manager edit
-home-manager switch
-cd Documents/work/bbva/tools/bbva-vpn/
-podman build -t bbva-vpn:latest -f Dockerfile .
-flatpak install telegram
-flatpak install vlc
-flatpak install spotify
-sudo dnf install just cargo
-just
-dnf search xkbcommin
-dnf search xkbcommon
-sudo dnf install  rust-xkbcommon-devel
-just
-just install
-cd
-cd Documents/dev/launcher
-just install
-launcher
-ls ~/.local/bin/
-cd /var/home/frieser/.mozilla/firefox/6i6634hy.default-release
-git clone https://github.com/khuedoan/one-line-firefox chrome
-ls
-rm -rf chrome/
-git clone https://codeberg.org/tommi/firefox-monoline.git chrome
-rm -rf chrome/
-zsh
-gsettings set org.gnome.mutter overlay-key ""
-zsh
-zsh
-flatpak -h
-flatpak list
-flatpak list | grep termi
-flatpak list | grep ter
-ptxis
-ptyxis 
-ptyxis  -h
-ptyxis  -s
-setxkbmap -layout us -option ctrl:swapcaps
-gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
 cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/ycde9dec.oneline/
 ls
 ls ch
@@ -948,3 +873,166 @@ qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTI
 qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
 qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
 qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
+git status
+git add --all
+git comit
+git commit
+git push origin main
+git log
+git status
+git pull origin  main
+git status
+git rebase --continue
+git status
+git pull origin main
+git status
+git branch
+git pull
+git merge origin/main
+git diff origin/main
+git push origin main -f
+nvim
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_cli
+go version
+make
+make setup
+export OS=linux && export ARCH=amd64 && make setup
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+export OS=linux && export ARCH=amd64 && make setup && make build
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_cli
+export OS=linux && export ARCH=amd64 && make setup && make build
+go install github.com/gobuffalo/packr/v2/packr2@latest
+make build
+export PATH=$PATH:$(go env GOPATH)/bin && make build
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+./lra_cli/build/bin/lra go -n t-runtime-v1-gofunctionaltest -p ./proto/functional_test.proto,./proto/functional_test_model.proto,./proto/login_model.proto
+./lra_cli/build/bin/lra --help
+./lra_cli/build/bin/lra init --help
+./lra_cli/build/bin/lra init go -n t-runtime-v1-gofunctionaltest -p ./proto
+./lra_cli/build/bin/lra init go -p ./proto -o ./t-runtime-v1-gofunctionaltest
+./lra_cli/build/bin/lra init go -p ./proto -o ./t-runtime-v1-gofunctionaltest -u lra
+./lra_cli/build/bin/lra init go -p ./proto -o ./t-runtime-v1-gofunctionaltest -u lra -v v1
+./lra_cli/build/bin/lra init go -p ./proto/helloworld.proto -u lra -v v1
+./lra_cli/build/bin/lra init go -p ./proto/helloworld.proto -o ./test-hello -u lra -v v1
+./lra_cli/build/bin/lra init go -p ./proto-hello -o ./test-hello -u lra -v v1
+./lra_cli/build/bin/lra run -p ./test-hello
+./lra_cli/build/bin/lra run -p ./test-hello -e ./test-hello/.lra.env
+./lra_cli/build/bin/lra run --help
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/test-hello
+../lra_cli/build/bin/lra run
+GOPRIVATE=globaldevtools.bbva.com ../lra_cli/build/bin/lra run
+cd .. && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/test-hello
+cd .. && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
+rm -rf test-functional && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
+cat /tmp/protoc.log
+rm -rf test-functional && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
+cd lra_cli && make build
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+rm -rf test-functional && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
+cd lra_cli && make build
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra go
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra golang
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra --help
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra init --help
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o .
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+rm -rf t-runtime-v1-gofunctionaltest && mkdir t-runtime-v1-gofunctionaltest
+cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o .
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+rm -rf t-runtime-v1-gofunctionaltest
+../lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+cd lra_cli && make build
+cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
+./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+rm -rf t-runtime-v1-gofunctionaltest
+./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+rm -rf t-runtime-v1-gofunctionaltest
+./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+rm -rf t-runtime-v1-gofunctionaltest
+./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+rm -rf t-runtime-v1-gofunctionaltest
+./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+rm -rf t-runtime-v1-gofunctionaltest
+./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+rm -rf t-runtime-v1-gofunctionaltest
+./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
+/usr/bin/env bash /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_cli/scripts/compile_protoc-gen-go-grpc.sh
+ls
+cat protoc-gen-go 
+make setup
+zsh
+export OS=linux
+export ARCH=amd64
+make setup
+make build
+make setup
+ls $GOBIN
+make setup
+make build
+make setup
+make build
+make setup
+git status
+git restore go.mod go.sum
+make setup
+git restore go.mod go.sum
+make setup
+make build
+go mod tidy -b
+go mod tidy -v
+make build
+make setup
+make build
+make setup
+make build
+make setup
+make build
+make setup
+make build
+export OS=linux && export ARCH=amd64 && make setup && make build
+make build
+rm -rf t-runtime-v1-gofunctionaltest
+make build
+rm -rf t-runtime-v1-gofunctionaltest
+make build
+rm -rf t-runtime-v1-gofunctionaltest
+make build
+rm -rf t-runtime-v1-gofunctionaltest
+make build
+ls
+rm -rf t-runtime-v1-gofuncionaltest/
+make build
+rm -rf t-runtime-v1-gofuncionaltest/
+make build
+cd t-runtime-v1-gofuncionaltest/
+ls
+../build/bin/lra run
+cd ..
+rm -rf t-runtime-v1-gofuncionaltest/
+make build
+cd t-runtime-v1-gofuncionaltest/
+../build/bin/lra run
+cd ..
+rm -rf t-runtime-v1-gofuncionaltest/
+make build
+cd t
+cd t-runtime-v1-gofuncionaltest/
+../build/bin/lra run
+cd ..
+gst
+ls
+zsh
+l
+ls
+zsh
+gst
+zsh

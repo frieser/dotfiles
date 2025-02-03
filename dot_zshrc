@@ -19,18 +19,34 @@ export EDITOR="vim"
 HISTFILE="$HOME/.local/share/zsh/history"
 HISTSIZE=10000
 SAVEHIST=10000
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+
+# Completion styling
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Additional PATH entries
 export PATH="$HOME/.local/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.npm-packages/bin:$PATH"
 
 # Custom aliases
-alias lra="/var/home/frieser/Documents/work/bbva/lra/lra_cli/build/bin/lra"
+alias h="distrobox-host-exec"
+alias cd="z"
 alias vim="nvim"
+alias v="nvim"
 alias k="kubectl"
 alias kctx="kubectx"
 alias bazel="bazelisk"
 alias ll="ls -l"
-alias update="sudo nixos-rebuild switch"
 alias egrep="grep -E"  # Suppress egrep obsolescence warning
 
 alias toolbox="distrobox enter toolbox"
@@ -76,14 +92,14 @@ zinit snippet OMZ::plugins/web-search/web-search.plugin.zsh
 zinit snippet OMZ::plugins/aws/aws.plugin.zsh
 zinit snippet OMZ::plugins/npm/npm.plugin.zsh
 zinit snippet OMZ::plugins/pip/pip.plugin.zsh
+zinit snippet OMZ::plugins/git/git.plugin.zsh
+zinit snippet OMZ::plugins/kubectx/kubectx.plugin.zsh
 zinit snippet OMZ::plugins/terraform/terraform.plugin.zsh
 zinit snippet OMZ::plugins/ssh/ssh.plugin.zsh
 zinit snippet OMZ::plugins/systemd/systemd.plugin.zsh
 zinit snippet OMZ::plugins/podman/podman.plugin.zsh
-zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit snippet OMZ::plugins/git-extras/git-extras.plugin.zsh
 zinit snippet OMZ::plugins/git-lfs/git-lfs.plugin.zsh
-zinit snippet OMZ::plugins/kubectx/kubectx.plugin.zsh
 zinit snippet OMZ::plugins/chezmoi/chezmoi.plugin.zsh
 
 source $HOME/.local/share/zsh/completions/_kubectl
@@ -92,4 +108,4 @@ source $HOME/.local/share/zsh/completions/_flux
 # Additional PATH entries
 export PATH="$HOME/.local/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.npm-packages/bin:$PATH"
 
-
+eval "$(zoxide init zsh)"

@@ -18,16 +18,30 @@
     "workbench.activityBar.location": "bottom",
     "zenMode.centerLayout": false,
     "window.customTitleBarVisibility": "windowed",
-    "editor.fontSize": 20,
+    "editor.fontSize": 22,
     "zenMode.fullScreen": false,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Darcula",
     "windsurf.chatFontSize": "large",
     "editor.suggestFontSize": 1,
-    "debug.console.fontSize": 20,
+    "debug.console.fontSize": 18,
     "scm.inputFontSize": 20,
     "terminal.integrated.fontSize": 16,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 1,
-    "terminal.integrated.defaultProfile.linux": "zsh"
+    "window.zoomLevel": 1.2,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": true,
+    "chat.editor.fontSize": 16,
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "workbench.auxiliaryActivityBar.location": "bottom",
+    "windsurf.autoExecutionPolicy": "off"
+
 }
 
