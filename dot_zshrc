@@ -13,7 +13,8 @@ zinit ice blockf
 zinit light zsh-users/zsh-completions
 
 # General settings
-export EDITOR="vim"
+export EDITOR="nvim"
+export SHELL="zsh"
 
 # History configuration
 HISTFILE="$HOME/.local/share/zsh/history"
@@ -40,9 +41,9 @@ export PATH="$HOME/.local/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.npm-packages
 
 # Custom aliases
 alias h="distrobox-host-exec"
-alias cd="z"
 alias vim="nvim"
 alias v="nvim"
+alias y="yazi"
 alias k="kubectl"
 alias kctx="kubectx"
 alias bazel="bazelisk"
@@ -108,4 +109,15 @@ source $HOME/.local/share/zsh/completions/_flux
 # Additional PATH entries
 export PATH="$HOME/.local/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.npm-packages/bin:$PATH"
 
+# yazi helper
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 eval "$(zoxide init zsh)"
+#eval "$(starship init zsh)"

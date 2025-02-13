@@ -12,4 +12,4 @@
 	email = frieserpaldi@gmail.com
 	name = Hector
 [core]
-	editor = vim
+	editor = nvim

@@ -27,3 +27,5 @@ palette = 15=#c0caf5
 font-size = 20
 font-family = JetBrainsMono NF
 gtk-titlebar = false
+
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
