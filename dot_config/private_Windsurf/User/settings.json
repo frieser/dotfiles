@@ -40,8 +40,8 @@
         "git diff",
         "git show"
     ],
-    "workbench.auxiliaryActivityBar.location": "bottom",
-    "windsurf.autoExecutionPolicy": "off"
+    "windsurf.autoExecutionPolicy": "off",
+    "windsurf.explainAndFixInCurrentConversation": true
 
 }
 

@@ -1,4 +1,3 @@
-flatpak run org.mozilla.firefox -h
 chmod +x ~/.local/share/applications/cursor-launcher.desktop
 chmod +x ~/.local/share/applications/cursor.desktop
 vim ~/.confighome-manager/home.nix
@@ -198,7 +197,6 @@ cat license_GPLv2.md
 date
 cd Documents/work/bbva/deployment
 cd --
-cd -
 rm
 rm -rf
 rm -rf lra_cli
@@ -260,7 +258,6 @@ git add cosign.pub
 git commit -m "add sign public file"
 git commit -m "change to fedora silverblue 41 as base image"
 skopeo login docker://ghcr.io
-skopeo login ostree-image-signed:docker://ghcr.io
 rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/template:latest
 rpm-ostree rebase ostree-unverified-registry:docker.io/library/fedora:latest\
 
@@ -289,7 +286,6 @@ rpm-ostree update --preview
 rm keymap.c
 rm -rf qmk_firmware
 git remote add template https://github.com/blue-build/template.git
-git fetch --all
 flatpak search extensions
 systemctl --user status kmonad
 cat ~/.config/systemd/user/kmonad.service
@@ -462,7 +458,6 @@ docker run -d \\
   -v omada-data:/opt/tplink/EAPController/data \\
   -v omada-logs:/opt/tplink/EAPController/logs \\
   mbentley/omada-controller:5.14
-docker logs omada-controller
 arp-scan
 for i in {1..254}; do ping -c 1 -W 1 192.168.1.$i & done\
 arp -a
@@ -545,7 +540,6 @@ git diff assets --cached
 git diff --staged assets/
 ssh rancher@172.16.0.102
 ssh rancher@172.16.0.104
-podman 
 journalctl -xe | grep podman\
 
 podman info | grep "Default OCI Runtime"
@@ -563,7 +557,6 @@ git add assets/
 podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\
 
 ping 192.168.1.137      
-docker stop omada-controller
 podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\ 
 podman rm -f meshcmd
 vim .von
@@ -622,8 +615,6 @@ ping 192.168.1.26
 ssh frieser@192.168.1.27
 ping 192.168.1.27
 podman logs omada-controller
-podman logs omada-controller -f
-podman stop omada
 cd nordigen-go-lib
 git pull origin maimn
 git tag v2.1.8
@@ -671,9 +662,7 @@ distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
 cat /sys/fs/cgroup/cgroup.controllers
 rm -rf .local/share/containers/*
 sudo rm -rf .local/share/containers/*
-podman system migrate
 podman system reste
-podman system reset
 distrobox
 distroboz version
 distrobox version
@@ -705,7 +694,6 @@ journalctl -u podman
 systemctl status podman
 systemctl status podman.socket
 vi recipes/recipe.yml
-podman rm -f $(podman ps -aq)
 podman run -it alpine sh
 toolbox list
 rm /run/user/1000/containers/* -rf
@@ -748,7 +736,6 @@ sudo bluebuild generate-iso -B podman -R podman -v --iso-name fedora-frieser.iso
 docker
 systemctl status docker
 cd Documents/work/bbva/deployment/deployment
-podman ps -a
 docker rm -f 
 docker rm -f omada-controller
 sh integration/scripts/run.sh
@@ -793,25 +780,11 @@ just toggle-user-motd
 distrobox-assemble
 distrobox-assemble create
 just distrobox-assemble 
-z deployment
-h vpn
-h zsh
 go mod tidy
 go mod tidy -v
-proxy
-vpn
-h just update
-yay
 yay tldr
 distrobox enter toolbox
 distrobox-export --bin /usr/bin/tldr
-z fedora
-v
-gst
-gaa
-gc
-gp
-cd
 mkdir .config/yazi
 env | grep EDITOR
 vim
@@ -822,15 +795,692 @@ v "$@"
 export EDITOR=nvim
 y --debug
 y 
-y
-ls
-pwd
 chezmoi add .config/yazi
 c cd 
+c add .bash_history
+c add .config/ghostty/config
+c add .config/keyd/default.conf
+c add .local/share/zsh/history .zshrc
+c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/addons.json .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/prefs.js
+c status
+c add .gitconfig
+c cd
+git checkout main
+gco main
+gco master
+git branch
+gco develop
+gfa
+cat ~/.gitconfig
+cat .git/config
+git remote origin set-url https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_lib_go.git
+yay libsecret
+git clone https://github.com/lavafroth/tempest
+cd tempest
+yay libvosk
+cargo build --workspace --release
+h ./target/release/tempest-client
+yay alsa
+./target/release/tempest-client
+z gnome-extensions
+cd .local/share/gnome-shell/extensions
+cd blurt@quantiusbenignus.local
+vim metadata.json
+yay whispercpp
+yay libggml.so
+yay -R whisper.cpp
+v .cache/yay/whisper.cpp/PKGBUILD
+sudo rm /usr/lib/debug/usr/lib/libggml-base.so.debug /usr/lib/debug/usr/lib/libggml-cpu.so.debug
+sudo rm /usr/lib/libggml-base.so /usr/lib/libggml-cpu.so
+yay libggml
+whisper-cli
+yay whisper.cpp
+whisper.cpp-whisper-server
+whisper.cpp-command
+whisper.cpp-whisper-cli
+yay whisper
+whisper-server
+whisper-server --help
+whisper-server -m Downloads/ggml-large-v3-turbo.bin
+cp Downloads/wsi .local/bin
+distrobox-export --bin /usr/bin/sox
+--host 0.0.0.0 --port 58080 -t 8 -nt -m /dev/shm/ggml-base.en.bin &\
+\
+
+whisper-server --host 0.0.0.0 --port 58080 -t 8 -nt -m Downloads/ggml-large-v3-turbo.bin\
+\
+
+git clone https://github.com/QuantiusBenignus/BlahST.git\
+cd ./BlahST
+yay ydotool
+sh install-wsi
+cp wsi wsiAI wsiml ~/.local/bin
+chmod a+x .local/bin/wsi
+chmod a+x ~/.local/bin/wsi
+chmod a+x ~/.local/bin/wsiAI
+chmod a+x ~/.local/bin/wsiml
+wsi
+wsiml
+wsiAI
+chmod a+x ~/.local/bin/whisper-large-v3.llamafile
+v ~/.local/bin/wsiAI
+whisper.cpp-large-v3
+ls ~/.local/bin -l
+ls ~/.local/bin
+whisper-large-v3.llamafile
+wsi -p
+wsi -p sf
+wsi -p -w
+wsi -w
+v ~/.local/bin/wsi
+distrobox-export --bin /usr/bin/ydotool
+yay xsel
+distrobox-export --bin /usr/bin/xsel
+yay rec
+rec
+yay wl-copy
+yay -s wl-copy
+yay -s wayland-copy
+yay -s wl-clipboard
+distrobox-export --bin /usr/bin/wl-copy
+v ~/.local/bin/wsiml
+yay -S vibe-bin
+vibe
+git clone https://github.com/ideasman42/nerd-dictation.git
+mkdir /var/home/frieser/.config/nerd-dictation/model
+mkdir /var/home/frieser/.config/nerd-dictation/model -p
+python nerd-dictation begin
+./nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model
+python --version
+pip3 install vosk
+pip install vosk
+pip
+python -m pip
+./nerd-dictation begin
+cd ~/.config/nerd-dictation/model
+cd vosk-model-es-0.42
+cd -
+cd nerd-dictation
+./nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42
+./nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL\
+\
+
+ydotool
+sudo usermod -aG input $USER
+echo '## Give ydotoold access to the uinput device\
+## Solution by https://github.com/ReimuNotMoe/ydotool/issues/25#issuecomment-535842993\
+KERNEL=="uinput", GROUP="input", MODE="0660", OPTIONS+="static_node=uinput"\
+' | sudo tee /etc/udev/rules.d/80-uinput.rules > /dev/null
+ydotoold &
+ydotool type "dD"
+h parec
+tldr wget
+h just bins
+h just update-firmware
+h just --list
+h just packages
+z nerd
+ls ~/.config/nerd-dictation/model/vosk-model-es-0.42
+./nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/
+./nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/vosk-model-es-0.42/
+ydotoold
+systemctl --user list-units
+systemctl --user list-units | grep
+systemctl --user list-units | grep ydotood
+systemctl --user list-units | grep ydotool
+systemctl --user enable --now ydotool.service
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:latest
+skopeo login ostree-image-signed:docker://ghcr.io
+h skopeo login ostree-image-signed:docker://ghcr.io
+skopeo login ghcr.io
+h skopeo login ghcr.io
+just --fmt --check --unstable --justfile files/justfiles/toolbox/create.just
+just --fmt --check --unstable --justfile files/justfiles/utils.just
+just --check --fmt utils.just
+just --fmt --justfile files/justfiles
+just --fmt --justfile files/justfiles/utils.just
+just --fmt --unstable --justfile files/justfiles/utils.just
+just --fmt --unstable --check --justfile files/justfiles/utils.just
+gc L
+h podman pull ghcr.io/frieser/fedora:latest
+gs
+h rpm-ostree rebase ostree-unverified-registry:docker://ghcr.io/frieser/fedora:latest
+h rpm-ostree rebase ghcr.io/frieser/fedora:latest
+h rpm
+h rpm-ostree login ghcr.io
+h cat /etc/containers/registries.conf.d/kind.conf
+h podman login ghcr.io
+h rpm-ostree status
+h rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora
+h rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:41
+h hyprland
+gp -f
+cat .gitconfig
+git remote origin show
+git remote origin set-url https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_go.git
+git remote set-url origin https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_go.git
+git remote show origin
+v ~/.gitconfig
+z lra_lib
+git fetch --all
+git merge origin/dev/bump-grpc-protobufs-version
+git pull origin develop
+git merge origin/develop
+git merge origin/fix/runtime-go
+h rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:latest
+ls .config
+firefox
+flatpak run org.mozilla.firefox -h
+ghostty
+flatpak run org.mozilla.firefox 
+mkdir .config/hypr
+touch .config/hypr/hyprland.conf
+v .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+hyprctl reload
+sudo vi /usr/share/hyprland/hyprland.conf
+rm ~/.config/hypr/hyprland.conf
+cp /usr/share/hyprland/hyprland.conf ~/.config/hypr
+vi .config/hypr/hyprland.conf
+flatpak list | mozilla
+flatpak list | grep fire
+rm ~/.local/share/containers/podman
+rm ~/.local/share/containers/storage
+z 
+cat files/justfiles
+rm .local/share/yay -rf
+h hyprctl
+flatpak update
+h rpm-ostree rollback
+h rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/gnome:latest
+z lra_go
+cat Jenkinsfile
+cat pod.yaml
+cat build/pod.yaml
+gstg
+git clone https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_pipeline.git
+yay gnome-keyring
+cd lra_runtime_go
+git clone https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_stackcoder.git
+z lra_pipeline
+yay java
+yay openjdk
+yay jre-openjdk21
+yay openjdk21
+yay -R jre-openjdk
+yay jre-openjdk
+yay -R jre21-openjdk-headless
+yay -R jre21-openjdk
+yay -R cv
+yay -R openjdk21-src
+yay -R jdk21-openjdk
+yay jre21-openjdk-headless
+git checkout -b dev/lra-runtime-go
+gp origin dev/lra-runtime-go
+gc --amend
+git checkout develop
+git reset HEAD --hard
+git branch -d dev/lra-runtime
+git branch -d dev/lra-runtime-go
+git branch -D dev/lra-runtime-go
+gco dev/lra-runtime
+gco -b dev/lra-runtime-go
+gp origin dev/lra-runtime-go -f
+cd lra_pipeline
+yay mpm
+yay npm
+v nvim
+z nvim
+z function
+cat README.md
+go build 
+go build .
+go build ./.runner/cmd/main.go
+../lra_cli/build/bin/lra build
+../lra_cli/build/bin/lra bin
+../lra_cli/build/bin/lra --help
+../lra_cli/build/bin/lra run
+z deployment
+cat ci/Dockerfile
+../lra_cli/build/bin/lra help run
+z lra_cli
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/hyprland:latest
+h rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/hyprland:latest
+h systemctl reboot
+z hypr
+cd .config/hypr
+flatpak list | grep zen
+h hyprctl reload
+acpi -a
+mkdir .config/hypr/scripts
+h acpi 
+h acpi -h
+chmod a+x ~/.config/hypr/scripts/lidclosed
+v ~/.config/hypr/scripts/lidclosed
+p
+"$(hyprctl monitors)" =~ "\sDP-[0-9]+"
+h hyprctl devices
+ls /usr/share/hyprland
+sudo su
+h ls /usr/share/hyprland
+h ls /usr/share/
+h bash
+v ~/.config/hypr/hyprlock.conf
+c add ~/.config/hypr
+nerd-dictation start
+yay sox
+yay parec
+parec
+pacman -F /usr/bin/parec
+pacman -Fy /usr/bin/parec
+sudo pacman -Fy /usr/bin/parec
+yay libpulse
+nerd-dictation begin
+./nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/vosk-model-es-0.42
+nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/vosk-model-es-0.42
+nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42
+./nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL
+yay vosk
+nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL
+h upower
+h upower -i
+h acpi
+h acpi -a
+h ip a
+upower
+z pipeline
+git checkout -b test/lra-runtime
+git checkout -b test/lra-runtime-go
+git push origin test/lra-runtime-go
+z lra
+git clone https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/bbvagapx/otr_techstack_apx_operation.git
+git clone https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/bbvagapxcfg/apx_operation.git
+h proxy
+v 
+ls ../apx_operation
+pythom 
+python version
+python -v
+python --h
+python3 main.py
+python -m url_utils -v
+python -m requests
+python -m requests -v
+yay python-pip
+yay pip
+pip show requests
+python -m venv coder
+source coder
+pip install 
+v requirements.txt
+pip install -r requirements.txt
+podman logs omada-controller -f
+podman stop omada
+podman start omada-controller
+podman volumes
+just --list
+cd files
+cd justfiles
+rm ~/.local/share/yh
+awk '{print $1}' /usr/share/toolbox/apps | xargs -I {} distrobox enter toolbox -- yay -S {} --noconfirm\
+    awk '{print $1}' /usr/share/toolbox/bins | xargs -I {} distrobox enter toolbox -- yay -S {} --noconfirm\
+    awk '{print $2}' /usr/share/toolbox/apps | xargs -I {} distrobox enter toolbox -- distrobox-export --app {}\
+    awk '{print $2}' /usr/share/toolbox/bins | xargs  -I {} distrobox enter toolbox -- distrobox-export --bin /usr/bin/{}\
+
+cat utils.just
+yay htop
+htop
+pwd
+h hyprctl monitors
+poweroff
+yayh
+ay
+h poweroff
+mkdir -p ~/.local/share/rofi/themes/
+cd .local/share/rofi/themes
+git clone https://github.com/lr-tech/rofi-themes-collection.git
+mv rofi-themes-collection/* .
+mv themes .
+mv themes/* .
+rm -rf themes
+rm screenshots -rf
+rm README.md LICENSE
+rofi
+h rofi
+h rofi run
+sudo h rofi-theme-selector
+h rofi-theme-selector
+mkdir .config/waybar
+mv Downloads/mocha.css .config/waybar
+v .on
+v .config/waybar/style.vss
+hyprctl dispatch exec waybar 
+vi ~/.config/hypr/hyprland.conf
+waybar
+hyprctl dispatch exec waybar & /usr/libexec/xfce-polkit & nm-applet
+z dev
+cd mechabar
+cat install.sh
+ls /usr/share/waybar
+ls /etc/waybar
+v .config/waybar/style.css
+pkill waybar && hyprctl dispatch exec waybar 
+v .config/hypr/hyprlock.conf
+h cat /etc/login.defs
+h cat /etc/systemd/logind.conf
+v /etc/systemd/login.d
+vi /etc/systemd/login.d
+vi /etc/systemd/logind.conf
+oo8Ais3aiKupdate
+zinit update
+vi 
+distrobox create --yes -n toolbox -i ghcr.io/ublue-os/arch-distrobox:latest --init --additional-packages "systemd"
+which zsh
+zl
+which z
+which zoxide
+ls recipes/common
+ls files
+ls files/system
+ls files/system/usr
+ls files/system/usr/share
+ls files/system/usr/share/toolbox
+ls files/system/usr/share/toolbox/bins
+vi files/system/usr/share/toolbox/bins
+cat .local/bin/zoxide
+awk '{print $1}' /usr/share/toolbox/apps | xargs -I {} distrobox enter toolbox -- yay -S {} --noconfirm\
+    awk '{print $1}' /usr/share/toolbox/bins | xargs -I {} distrobox enter toolbox -- yay -S {} --noconfirm\
+    awk '{print $2}' /usr/share/toolbox/apps | xargs -I {} distrobox enter toolbox -- distrobox-export --app {}\
+    awk '{print $2}' /usr/share/toolbox/bins | xargs  -I {} distrobox enter toolbox -- distrobox-export --bin /usr/bin/{}
+distrobox create --yes -n toolbox -i ghcr.io/ublue-os/arch-distrobox:latest --init --additional-packages "systemd libpam-systemd"
+distrobox create --yes -n toolbox -i quay.io/toolbx/arch-toolbox:latest --init --additional-packages "systemd libpam-systemd"
+sudo rm ~/.local/share/containers/storage -rf
+distrobox enter toolbox -- bash -c "git clone https://aur.archlinux.org/yay.git ~/.local/share/yay && cd ~/.local/share/yay && makepkg --noconfirm -si"
+cat files/justfiles/utils.just
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  --net=host \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+ping 172.16.0.1
+ping 172.16.0.2
+ping 172.16.0.3
+sudo systemctl stop firewalld
+cd
+v ~/.config/hypr/hyprland.conf
+h dunst
+h zsh
+h hyprctl notify
+h hyprctl notify sdf
+h hyprctl notify sdf CascadeProjects
+h hyprctl notify 
+h hyprctl notify -g
+h hyprctl notify -h
+z coder
+cd lra_stackcoder
+cat requirements.txt
+cat vars.json
+cd apx_operation
+git pull origin master
+cd ..
+cd otr_techstack_apx_operation
+diff
+source coder/bin
+source coder/bin/activate
+h vpn
+bpn
+v vars.json
+python main.py
+h podman ps
+docker run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+docker logs omada-controller
+docker ps
+docker start omada-controller
+docker logs -f omada-controller
+docker stop omada-controller
+sudo podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+sudo podman stop omada-controller
+sudo podman rm -f omada-controller
+sudo podman images
+sudo podman rmi omada-controller
+sudo podman rmi docker.io/mbentley/omada-controller
+podman rm -f $(podman ps -aq)
+podman volume rm omada-data
+podman volume rm omada-logs
+podman volume list
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/gnome:latest
+podman start omada-controller 
+podman logs -f omada-controller
+ip a
+vpnn
+v ~/.config/kitty/kitty.conf
+t
+distrobox create --yes -n toolbox -i quay.io/toolbx/arch-toolbox:latest --init --additional-packages "systemd"
+distrobox rm toolbox
+podman stop omada-controller
+podman rm -f omada-controller
+podman ps 
+ya
+rm ~/.local/share/containers/storage -rf
+podman system migrate
+podman 
+podman system
+podman system reset
+podman system prune
+c diff
+c diff .config/kitty/kitty.conf
+vi ~/.config/kitty/kitty.conf
+vpn
+proxy
+podman ps -a
+distrobox ls
+rm ~/.local/share/yay -rf
+cd Documents/dev
+cd fedora-frieser
+git statys
+podman rm -f toolbox
+git commit
+git push origin main
+git pull origin main
+git reset origin/main --hard
+git log --online
+git log --onelne
+git log --oneline
+git show 7948fd7
+vi files/justfiles/utils.just
+git commit --amend -m "revert"
+git log
+git push origin main -f
+vi recipes/common/modules.yml
+just update
+systemctl reboot
+just toolbox
+just packages
+vi .gitconfig
+yay delta
+yay git 
+yay git-delta
+git diff
 git status
+git add --all
+yay nushell
+nushell
+yay zellij
+mkdir .config/zellij
+mkdir .config/zellij/themes
+vim .config/zellij/themes/catppuccin.kdl
+v .config/zellij/themes/catppuccin.yaml
+v .config/zellij/config.kdl
+zellij
+yay tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+mkdir .config/tmux
+yay -R zellij
+tmux attach
+tmux ls
+v .config/ghostty
+v .zshrc
+v .config/tmux/L
+tmux
+v .config/ghostty/config
+h just update
 exit
-: 1739481634:0;c status
-: 1739481648:0;c add .bash_history
-: 1739481653:0;c add .config/ghostty/config
-: 1739481660:0;c add .config/keyd/default.conf
-: 1739481680:0;c add .local/share/zsh/history .zshrc
+tmux detach
+tmux 
+yay
+yaxi
+y
+tmux --list-keys
+tmux list-keys
+v .config/tmux/tmux.conf
+jjjjjjjkjjjjkkkj
+\:q
+q
+mkdir .config/nushell
+v .config/nushell/config.nu
+nu
+v .config/nushell/env.nu
+yay carapace
+z fedora
+v
+carapace
+gst
+gaa
+gc
+gp
+mkdir .config/starship
+v .config/starship/starship.toml
+v ~/.zshrc
+top
+v .config/tmux
+v ~/.config/ghostty/config
+vi ~/.config/ghostty/config
+vi ~/.zshrc
+ls
+podman ps
+distrobox stop toolbox
+: 1740086721:0;ls
+: 1740086743:0;h jkust update
+: 1740086747:0;h just update
+: 1740086757:0;c status
+: 1740086788:0;c add .config/Windsurf/User/settings.json .config/ghostty/config .config/hypr .config/kitty/kitty.conf .local/share/zsh/history 
