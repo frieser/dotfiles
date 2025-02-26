@@ -1,508 +1,3 @@
-ssh rancher@172.16.0.10
-zsh
-sh
-zsh
-ssh rancher@172.16.0.10
-rm ~/.ssh/known_hosts
-ssh rancher@172.16.0.10
-zsh
-curl https://dns.local.frieserlabs.dev/dns-query?name=example.com
-curl -vH "accept: application/dns-json" "https://cloudflare-dns.com/dns-query?name=example.com&type=AAAA"
-curl -vH "accept: application/dns-json" "https://dns.local.frieserlabs.dev/dns-query?name=example.com&type=AAAA"
-dig +https @1.1.1.1 example.com
-dig +https @dns.local.frieserlabs.dev example.com
-dig +https @dns.local.frieserlabs.dev marca.com
-zsh
-protoc --go_out=. --go-grpc_out=. service.proto
-mv bbva.com/lra/lra_lib_go/pkg/lra/bea/proto/service*.pb.go . && rm -rf bbva.com
-mkdir -p /var/home/frieser/Documents/homelab/cluster/clusters/02-services/headscale
-mkdir -p /var/home/frieser/Documents/homelab/cluster/clusters/02-services/headscale/config
-zsh
-kubectl get pods -n vpn -l app=headscale
-kubectl exec -it -n vpn headscale-59f5f5598-qkbxx -c headscale -- headscale nodes register --user myfirstuser --key <YOUR_MACHINE_KEY>
-zs
-zsh
-zsh
-go mod tidy
-go build ./...
-go test ./...
-go build ./...
-go test ./...
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_lib_go && go test ./pkg/lra/bea/... -v
-go test ./...
-go test -v ./pkg/lra/log/...
-go build ./...
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_lib_go && go test ./... -v
-kubectl get svc -n photos
-kubectl port-forward -n photos svc/immich-server 2283:2283
-kubectl logs -n photos -l app.kubernetes.io/name=immich,app.kubernetes.io/component=server
-kubectl get pods -n photos
-kubectl describe svc immich-server -n photos
-zsh
-kubectl get pods -n auth
-kubectl get svc -n auth
-kubectl get pods -n auth -l app.kubernetes.io/name=postgresql
-cd /var/home/frieser/Documents/homelab/cluster/clusters/02-services/authelia
-rm users_database.yml users-database-configmap.yaml
-zsh
-sh
-zsh
-ssh rancher@172.16.0.10
-ssh rancher@172.16.0.118
-ssh rancher@172.16.0.10
-ssh rancher@172.16.0.118
-ssh rancher@172.16.0.10
-rm ~/.ssh/known_hosts
-ssh rancher@172.16.0.10
-ssh rancher@172.16.0.12
-ssh rancher@172.16.0.10
-rm ~/.ssh/known_hosts
-ssh rancher@172.16.0.10
-rm ~/.ssh/known_hosts
-ssh rancher@172.16.0.10
-zsh
-zsh
-kubectl apply -k /var/home/frieser/Documents/homelab/pxe/argocd/
-kubectl get jobs -n argocd
-kubectl delete -k . && kubectl apply -k .
-kubectl apply -k .
-kubectl get jobs -n argocd
-kubectl delete -k . && kubectl apply -k .
-kubectl apply -k .
-kubectl get jobs -n argocd
-kubectl delete -k . && kubectl apply -k .
-kubectl get jobs -n argocd
-kubectl delete -k . && kubectl apply -k .
-kubectl get jobs -n argocd
-kubectl delete -k . && kubectl apply -k .
-kubectl apply -k .
-kubectl delete -k . && kubectl apply -k .
-kubectl apply -k .
-sleep 10 && kubectl apply -k .
-kubectl delete -k . && kubectl apply -k .
-kubectl apply -k .
-kubectl delete -k . && kubectl apply -k .
-kubectl delete -k .
-kubectl delete -k . && kubectl apply -k .
-kubectl apply -k .
-ssh rancher@172.16.0.10
-ls
-ssh rancher@172.16.0.10
-ls
-zsh
-chsh -s /usr/bin/zsh
-chsh -s /usr/bin/zsh frieser
-sudo chsh -s /usr/bin/zsh frieser
-ssh rancher@172.16.0.10
-rm ~/.ssh/known_hosts
-ssh rancher@172.16.0.10
-ssh rancher@172.16.0.12
-ssh rancher@172.16.0.10
-rm ~/.ssh/known_hosts
-ssh rancher@172.16.0.10
-rm ~/.ssh/known_hosts
-ssh rancher@172.16.0.10
-zsh
-just update
-yarn install
-t
-zsh
-gsettings list-keys org.gnome.shell.extensions.focus
-ls -la ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/
-ls -la ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/schemas/
-cd ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/schemas && glib-compile-schemas .
-cd schemas && glib-compile-schemas .
-gsettings get org.gnome.shell.extensions.focus use-desaturation
-ls -l ~/.local/share/glib-2.0/schemas/
-mkdir -p ~/.local/share/glib-2.0/schemas/
-cp schemas/org.gnome.shell.extensions.focus.gschema.xml ~/.local/share/glib-2.0/schemas/
-glib-compile-schemas ~/.local/share/glib-2.0/schemas/
-gnome-extensions disable gnome-focus@scaryrawr.github.io && gnome-extensions enable gnome-focus@scaryrawr.github.io
-cp schemas/org.gnome.shell.extensions.focus.gschema.xml ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/schemas/
-glib-compile-schemas ~/.local/share/gnome-shell/extensions/focus@scaryrawr.github.io/schemas/
-glib-compile-schemas schemas/
-mkdir -p gnome-desarutate@frieser.example.com/schemas
-ln -s "$(pwd)/gnome-desarutate@frieser.example.com" ~/.local/share/gnome-shell/extensions/
-gnome-extensions disable gnome-desarutate@frieser.example.com && gnome-extensions enable gnome-desarutate@frieser.example.com
-busctl --user call org.gnome.Shell /org/gnome/Shell org.gnome.Shell Eval s 'Meta.restart("Restarting…")'
-vim rules.mk
-rm /var/home/frieser/Documents/dev/qmk_firmware/keyboards/idank/sweeq/keymaps/frieser/keymap.c
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-qmk flash     -e USER_NAME=idank     -e POINTING_DEVICE=trackpoint     -e POINTING_DEVICE_POSITION=right     -kb idank/sweeq -km frieser
-git status
-git add --all
-git comit
-git commit
-git push origin main
-git log
-git status
-git pull origin  main
-git status
-git rebase --continue
-git status
-git pull origin main
-git status
-git branch
-git pull
-git merge origin/main
-git diff origin/main
-git push origin main -f
-nvim
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_cli
-go version
-make
-make setup
-export OS=linux && export ARCH=amd64 && make setup
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-export OS=linux && export ARCH=amd64 && make setup && make build
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_cli
-export OS=linux && export ARCH=amd64 && make setup && make build
-go install github.com/gobuffalo/packr/v2/packr2@latest
-make build
-export PATH=$PATH:$(go env GOPATH)/bin && make build
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-./lra_cli/build/bin/lra go -n t-runtime-v1-gofunctionaltest -p ./proto/functional_test.proto,./proto/functional_test_model.proto,./proto/login_model.proto
-./lra_cli/build/bin/lra --help
-./lra_cli/build/bin/lra init --help
-./lra_cli/build/bin/lra init go -n t-runtime-v1-gofunctionaltest -p ./proto
-./lra_cli/build/bin/lra init go -p ./proto -o ./t-runtime-v1-gofunctionaltest
-./lra_cli/build/bin/lra init go -p ./proto -o ./t-runtime-v1-gofunctionaltest -u lra
-./lra_cli/build/bin/lra init go -p ./proto -o ./t-runtime-v1-gofunctionaltest -u lra -v v1
-./lra_cli/build/bin/lra init go -p ./proto/helloworld.proto -u lra -v v1
-./lra_cli/build/bin/lra init go -p ./proto/helloworld.proto -o ./test-hello -u lra -v v1
-./lra_cli/build/bin/lra init go -p ./proto-hello -o ./test-hello -u lra -v v1
-./lra_cli/build/bin/lra run -p ./test-hello
-./lra_cli/build/bin/lra run -p ./test-hello -e ./test-hello/.lra.env
-./lra_cli/build/bin/lra run --help
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/test-hello
-../lra_cli/build/bin/lra run
-GOPRIVATE=globaldevtools.bbva.com ../lra_cli/build/bin/lra run
-cd .. && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/test-hello
-cd .. && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
-rm -rf test-functional && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
-cat /tmp/protoc.log
-rm -rf test-functional && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
-cd lra_cli && make build
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-rm -rf test-functional && ./lra_cli/build/bin/lra init go -p ./proto -o ./test-functional -u lra -v v1
-cd lra_cli && make build
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra go
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra golang
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra --help
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra init --help
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o .
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-rm -rf t-runtime-v1-gofunctionaltest && mkdir t-runtime-v1-gofunctionaltest
-cd t-runtime-v1-gofunctionaltest && ../lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o .
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-rm -rf t-runtime-v1-gofunctionaltest
-../lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-cd lra_cli && make build
-cd /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go
-./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-rm -rf t-runtime-v1-gofunctionaltest
-./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-rm -rf t-runtime-v1-gofunctionaltest
-./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-rm -rf t-runtime-v1-gofunctionaltest
-./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-rm -rf t-runtime-v1-gofunctionaltest
-./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-rm -rf t-runtime-v1-gofunctionaltest
-./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-rm -rf t-runtime-v1-gofunctionaltest
-./lra_cli/build/bin/lra init go -p proto -t functional -u t -v v1 -o t-runtime-v1-gofunctionaltest
-/usr/bin/env bash /var/home/frieser/Documents/work/bbva/lra/lra_runtime_go/lra_cli/scripts/compile_protoc-gen-go-grpc.sh
-ls
-cat protoc-gen-go 
-make setup
-zsh
-export OS=linux
-export ARCH=amd64
-make setup
-make build
-make setup
-ls $GOBIN
-make setup
-make build
-make setup
-make build
-make setup
-git status
-git restore go.mod go.sum
-make setup
-git restore go.mod go.sum
-make setup
-make build
-go mod tidy -b
-go mod tidy -v
-make build
-make setup
-make build
-make setup
-make build
-make setup
-make build
-make setup
-make build
-export OS=linux && export ARCH=amd64 && make setup && make build
-make build
-rm -rf t-runtime-v1-gofunctionaltest
-make build
-rm -rf t-runtime-v1-gofunctionaltest
-make build
-rm -rf t-runtime-v1-gofunctionaltest
-make build
-rm -rf t-runtime-v1-gofunctionaltest
-make build
-ls
-rm -rf t-runtime-v1-gofuncionaltest/
-make build
-rm -rf t-runtime-v1-gofuncionaltest/
-make build
-cd t-runtime-v1-gofuncionaltest/
-ls
-../build/bin/lra run
-cd ..
-rm -rf t-runtime-v1-gofuncionaltest/
-make build
-cd t-runtime-v1-gofuncionaltest/
-../build/bin/lra run
-cd ..
-rm -rf t-runtime-v1-gofuncionaltest/
-make build
-cd t
-cd t-runtime-v1-gofuncionaltest/
-../build/bin/lra run
-cd ..
-gst
-ls
-zsh
-l
-ls
-zsh
-gst
-zsh
-just update
-zsh
-ls
-zsh
-swhks & pkexec swhkd
-swhkd
-pkexec swhkd
-echo $XDG_CONFIG_HOME
-zsh
-export XDG_CONFIG_HOME=~/.config
-pkexec swhkd
-groups
-zsh
-grep -E '^input:' /usr/lib/group >> /etc/group[D
-sudo grep -E '^input:' /usr/lib/group >> /etc/group[D
-sudo
-sudo su
-usermod -aG input frieser
-sudo usermod -aG input frieser
-distrobox ls
-swhks & swhkd
-ls .local/bin/
-ls .local/bin/ -la
-ls .local/bin/ -lll
-rm .local/bin/swhk*
-ls .local/bin/ -lll
-swhks & swhkd
-swhks
-killall swhks 
-swhks
-killall swhks 
-swhks -g
-killall swhks 
-swhks -h
-swhks --help
-pkexec swhkd
-pkexec swhkd -c .config/
-pkexec swhkd -c /var/home/frieser/.config
-pkexec swhkd -c /var/home/frieser/.config/swhkd/swhkdrc 
-swhks && pkexec swhkd -c /var/home/frieser/.config/swhkd/swhkdrc 
-swhks & pkexec swhkd -c /var/home/frieser/.config/swhkd/swhkdrc 
-swhks & sudo swhkd -c /var/home/frieser/.config/swhkd/swhkdrc 
-swhks & sudo /var/home/frieser/.local/bin/swhkd -c /var/home/frieser/.config/swhkd/swhkdrc 
-sh movida.sh 
-swhks & sudo swhkd -c /var/home/frieser/.config/swhkd/swhkdrc 
-swhks & pkexec swhkd -c /var/home/frieser/.config/swhkd/swhkdrc 
-distrobox ls
-distrobox rm -f toolbox 
-distrobox ls
-just update
-systemctl reboot
-just
-just --list
-just toolbox
-istrobox create --yes -n toolbox -i ghcr.io/ublue-os/arch-distrobox:latest --init --additional-packages "systemd" 
-distrobox create --yes -n toolbox -i ghcr.io/ublue-os/arch-distrobox:latest --init --additional-packages "systemd" 
-distrobox enter toolbox
-just packages
-just --list
-just setup
-cd Documents/dev/fedora-frieser/
-cd files/
-ls
-cd justfiles/
-cat pop-shell/
-ls
-cd pop-shell/
-ls
-cd ..
-ls
-cd ..
-ls
-cat scripts/example.sh 
-ls
-cd ..
-ls
-ls modules/
-ls recipes/
-git pull origin main
-cd files/
-ls
-cd justfiles/
-ls
-cd pop-shell/
-ls
-cat install.just 
-vim install.just 
-gat
-git status
-git add install.just 
-git commit
-git push origin main
-distrobox enter toolbox -- bash -c "git clone https://aur.archlinux.org/yay.git ~/.local/share/yay && cd ~/.local/share/yay && makepkg --noconfirm -s
-distrobox enter toolbox -- bash -c "git clone https://aur.archlinux.org/yay.git ~/.local/share/yay && cd ~/.local/share/yay && makepkg --noconfirm -si"
-rm -rf ~/.local/share/yay
-distrobox enter toolbox -- bash -c "git clone https://aur.archlinux.org/yay.git ~/.local/share/yay && cd ~/.local/share/yay && makepkg --noconfirm -si"
-just packages
-just
-just --list
-ghostty
-gst
-cat /etc/udev/rules.d/99-uinput.rules 
-just packages
-distrobox ls
-distrobox rm toolbox 
-just toolbox
-distrobox rm toolbox 
-rm -rf ~/.local/share/yay
-just toolbox
-just packages
-vim
-v
-zsh
-cd Documents/dev/keyd/
-./bin/keyd
-groupadd keyd
-sudo groupadd keyd
-./bin/keyd
-sudo ./bin/keyd
-cat Makefile 
-make install
-sudo make install
-ls
-./bin/keyd
-sudo ./bin/keyd
-mkdir ~/.config/keyd
-touch ~/.config/keyd/default.conf
-sudo ./bin/keyd
-mkdir /etc/keyd
-sudo mkdir /etc/keyd
-sudo touch /etc/keyd/default.conf
-sudo ./bin/keyd
-sudo vim /etc/keyd/default.conf 
-sudo ./bin/keyd
-sudo vim /etc/keyd/default.conf 
-sudo ./bin/keyd
-sudo vim /etc/keyd/default.conf 
-sudo ./bin/keyd
-sudo vim /etc/keyd/default.conf 
-sudo ./bin/keyd
-cat /etc/keyd/default.conf 
-keyd listen
-sudo **
-keyd listen
-sudo keyd listen
-./bin/keyd listen
-sudo ./bin/keyd listen
-./bin/keyd 
-sudo ./bin/keyd 
-ls /etc/systemd/user/
-git statys
-git status
-git add --all
-git diff --cacfed
-git diff --cached
-gc
-git commit
-git push origin main
-./bin/keyd listen
-sudo ./bin/keyd listen
-sudo vim /etc/keyd/default.conf 
-sudo ./bin/keyd monitor
-sudo vim /etc/keyd/default.conf 
-sudo ./bin/keyd monitor
-lspci
-lspci | grep keyboard
-lsusb
-xinput --list
-ls /dev/input/by-path/
-cat /proc/bus/input/devices
-cat /proc/bus/input/devices | grep kbd
-ls /dev/input/by-path/
-cat /proc/bus/input/devices | grep platform-i8042
-cat /proc/bus/input/devices 
-cat /proc/bus/input/devices | more
-sudo vim /etc/keyd/default.conf 
-mkdir ~/.config/keyd
-cp /etc/keyd/default.conf ~/.config/keyd/
-chezmoi add ~/.config/keyd
-chezmoi cd
-cd Documents/dev/fedora-frieser/files/justfiles/
-just --check
-just --check utils.just 
-just --check --fmt utils.just 
-just --check --fmt utils.just
-just --unstable --fmt utils.just
-just --unstable --fmt .
-ls
-just --unstable --fmt --dump
-just --dump utils.just 
-just --dump 
 git status
 git diff
 git add --all
@@ -1000,3 +495,126 @@ distrobox stop toolbox
 sudo systemctl restart keyd
 ls
 exit
+distrobox stop toolbox 
+cp Downloads/whisper-large-v3.llamafile .local/bin/
+ls
+ghostty
+podman ps
+podman exec -it 9f44b0ed2a64 bash
+podman exec -it 9f44b0ed2a64 zsh
+ls /dev/shm
+wsi w
+wsi -w
+wsi -p
+sox
+xsel
+wsi -p
+wsi 
+wsiml 
+wsiml -p
+wsiml -w
+wsiml --help
+rec -q -t wav $ramf rate 16k silence 1 0.1 1% 1 2.0 5% 
+rec
+rpm-ostree install sox
+rpm-ostree apply-live 
+sudo rpm-ostree apply-live 
+systemctl reboot
+wsiml -w
+wsi -w
+wsi -w -p
+rec -q -t wav $ramf rate 16k silence 1 0.1 1% 1 2.0 5% 
+wsi -w -p
+wsiml -w -p
+rec -q -t wav $ramf rate 16k silence 1 0.1 1% 1 2.0 5%
+rec -q -t wav /tmp/wfile rate 16k silence 1 0.1 1% 1 2.0 5%
+pkill --signal 2 rec
+distrobox stop toolbox 
+cd Documents/dev/
+cd nerd-dictation/
+./nerd-dictation begin
+distrobox stop toolbox 
+podman ps
+zsh
+just packages
+distrobox stop toolbox 
+just packages
+distrobox stop toolbox 
+h just nerd-dictation
+just nerd-dictation
+ls .local/bin/nerd-dictation 
+cat .local/bin/nerd-dictation 
+wget https://raw.githubusercontent.com/ideasman42/nerd-dictation/refs/heads/main/nerd-dictation -O ~/.local/bin/nerd-dictation
+cat .local/bin/nerd-dictation 
+chmo
+chmod u+x .local/bin/nerd-dictation 
+nerd-dictation begin
+distrobox enter toolbox -- bash -c "nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/vosk-model-es-0.42"
+distrobox enter toolbox -- bash -c "nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL
+distrobox enter toolbox -- bash -c "nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL"
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/wayblueorg/hyprland
+systemctl reboot
+rpm
+
+rpm-ostree --help
+rpm-ostree cleanup
+rpm-ostree cleanup -g
+rpm-ostree cleanup -h
+rpm-ostree cleanup -p
+rpm
+rpm-ostree status
+just update
+systemctl reboot
+distrobox enter toolbox -- bash -c "nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL"
+cat /etc/containerd/config.toml 
+cat /etc/containers/registries.conf
+rpm
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora-frieser:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:latest
+skope login ghcr.io
+skopeo login ghcr.io
+skopeo
+skopeo -g
+skopeo -
+skopeo inspect 
+skopeo inspect ghcr.io/frieser/fedora:latest
+skopeo inspect docker://ghcr.io/frieser/fedora:latest
+rpm-ostree rebase ostree-unverified-registry:docker://ghcr.io/frieser/fedora:latest
+rpm-ostree rebase docker://ghcr.io/frieser/fedora:latest
+rpm-ostree rebase docker://ostree-unverified-registry:ghcr.io/frieser/fedora:latest
+podman 
+podman machine
+podman machine list
+podman system 
+podman system check
+podman login ghrc.io
+podman login ghcr.io
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:latest
+skopeo copy ghcr.io/frieser/fedora:latest
+skopeo copy ghcr.io/frieser/fedora:latest containers-storage:fedora:latest
+skopeo copy docker://ghcr.io/frieser/fedora:latest containers-storage:fedora:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/hyprland:latest
+systemctl reboot
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/gnome
+rpm
+rpm-ostree status
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/hyprland:latest
+systemctl reboot
+distrobox stop toolbox 
+"$(hyprctl monitors)" =~ "\sDP-[0-9]+"
+acpi
+acpi -a
+top
+l
+ls
+tmux zsh
+tmux --help
+vim .config/tmux/tmux.conf 
+vi .config/tmux/tmux.conf 
+nano .config/tmux/tmux.conf 
+h zsh
+host-spawn zsh
+distrobox-host-exec zsh
+yay zsh

@@ -1,15 +1,26 @@
 [url "git@scm.live.es.nextgen.igrupobbva:"]
     insteadOf = https://scm.live.es.nextgen.igrupobbva/
 [http "https://bitbucket.globaldevtools.bbva.com"]
-    extraheader = AUTHORIZATION: Bearer BBDC-MDEwNDEyMDIzNzU2OokfwsYnMW1qES9/2px4Fv0xdsc/
-[http "https://globaldevtools.bbva.com"]
-    extraheader = AUTHORIZATION: Bearer BBDC-ODY5NDk1MDE2Mzg2OszmKwncy1ahWS/BA/daGy2WNjOh
+    extraheader = AUTHORIZATION: Bearer BBDC-NjIyMzkwMjUyMzUxOkU6RiCy6EOLCekd9z5HfNmvsHPP
 [url "https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/"]
     insteadOf = ssh://git@globaldevtools.bbva.com:7999/
 [alias]
 	gofmt = !echo $(git diff --cached --name-only --diff-filter=ACM | grep .go) | xargs gofmt -w -l | xargs git add
 [user]
-	email = frieserpaldi@gmail.com
-	name = Hector
+    email = frieserpaldi@gmail.com
+    name = Hector
 [core]
-	editor = nvim
+    editor = nvim
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    dark = true      # or light = true, or omit for auto-detection
+
+[merge]
+    conflictstyle = zdiff3 
+[rerere]
+    enabled = true
