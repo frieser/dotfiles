@@ -1,0 +1,1486 @@
+chmod +x ~/.local/share/applications/cursor-launcher.desktop
+chmod +x ~/.local/share/applications/cursor.desktop
+vim ~/.confighome-manager/home.nix
+vim ~/.config/home-managerhome.nix
+cd .config
+git clone https://github.com/bazelbuild/buildtools/releases nvim
+git clone git@github.com:frieser/kickstart-modular.nvim.git nvim
+ls .kube/config
+chmod 551
+chmod 551 .kube/config
+chmod 444 .kube/config
+chmod 660 .kube/config
+ls .kube/config -la
+git checkout -b fix/redoing-deployer-logs
+go install golang.org/x/tools/cmd/goimports@latest
+ls $HOME/go/bin
+python3 -m pip install --user qmk
+python -m pip install --user qmk
+sudo cp /var/home/frieser/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/
+ls Downloads/idank_sweeq_layout_split_3x5_2_mine.hex
+qmk flash -kb idank/sweeq -km ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.hex
+qmk compile ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.json
+ls qmk_firmware
+qmk json2c -o keymap.c idank_sweeq_layout_split_3x5_2_mine.json
+qmk json2c ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.json -o keymap.c
+rm Downloads/idank_sweeq_layout_split_3x5_2_mine.*
+cp ~/Downloads/idank_sweeq_layout_split_3x5_2_mine.json ~/qmk_firmware/keyboards/idank/sweeq/keymaps
+rm ~/qmk_firmware/keyboards/idank/sweeq/keymaps/idank_sweeq_layout_split_3x5_2_mine.json
+systemctl --user stop kmonad
+git push origin fix/redoing-deployer-logs
+curl https://localhost:30081
+curl -k https://localhost:30081
+curl -k https://localhost:30080
+curl http://localhost:30080
+curl http://localhost:30081
+sh integration/scripts/test.sh
+git clone https://github.com/glennraya/vscode-settings-json.git
+cd vscode-settings-json
+cat settings.json
+flatpak install vscode
+flatpak install code
+flatpak search code
+flatpak search vscode
+flatpak install com.visualstudio.code
+qmk flash
+qmk list-keyboards
+qmk list-keyboards| grep sweep
+qmk list-keymaps
+qmk list-keymaps -kb ferris/sweep
+qmk list-keymaps -kb idank/sweeq
+qmk compile
+qmk compile -kb idank/sweeq -km default_split_3x5_2
+qmk config
+qmk flash -kb idank/sweeq -km default_split_3x5_2
+qmk flash -kb idank/sweeq -km default
+dfu-programmer
+cat /etc/udev/rules.d/50-qmk.rules
+dfu-programmer atmega32u4 get
+dfu-programmer 
+dfu-programmer --targets
+git clone https://github.com/idank/qmk_firmware.git
+git checkout holykeebs-master
+git clone --recurse-submodules https://github.com/idank/qmk_firmware -b holykeebs-master
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+     -j8 \\
+    -kb idank/sweeq -km via
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km via
+cd Documents/workbbva/deployment/deployment
+rm /var/home/frieser/.kube/config
+mkdir /opt/deployment/certs
+sudo mkdir /opt/deployment/certs
+chmod 777 -R /opt/deployment
+sudo chmod 777 -R /opt/deployment
+cp ~/Documents/work/bbva/certs/technical-deployment-server_clientcert.* /opt/deployment/certs
+cp ~/Documents/work/bbva/certs/lra-technical-deployment-server* /opt/deployment/certs
+git checkout -b fix/spand-api-deployer
+git diff lib
+git add li 
+git add li b
+git add lib
+git diff integration
+git add integration
+git diff deployer-gitops
+git diff api/test
+git add api/test/http-client.env.json
+git diff api/internal/deployment
+git add api/internal/deployment/client
+cd Documents/work/bbva/bbva-vpn
+cat RE
+ssh-keygen -t rsa -b 4096 -f ./podman-data/id_rsa -N ''
+qmk console
+make 	idank/sweeq:via:flash -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right
+qmk setup
+qmk flash \\
+    -e USER_NAME=idank \\
+    -e POINTING_DEVICE=trackpoint \\
+    -e POINTING_DEVICE_POSITION=right \\
+    -kb idank/sweeq -km default
+ls keyboards/idank/sweeq
+qmk
+qmk new-keymap
+ls keyboards/idank/sweeq/keymaps/frieser/keymap.json
+cat keyboards/idank/sweeq/keymaps/frieser/keymap.json
+%
+sudo systemctl status docker
+fvpn
+vp
+git add deployer-gitops
+ostree remote refs fedora
+ostree log fedora:fedora/41/x86_64/silverblue -h
+ostree log fedora:fedora/41/x86_64/silverblue --raw
+ostree log -h
+ostree log fedora:fedora/41/x86_64/silverblue 
+ostree -h
+ostree pull --all fedora
+ostree pull fedora
+sudo ostree pull fedora
+ostree log
+ostree show 9a9142ee27655f83f98d59a861367b24d404ad1f3a7a1bf6a638685539111c27
+vim keyboards/idank/sweeq/keymaps/frieser/config.h
+rm keyboards/idank/sweeq/keymaps/frieser/keymap.c
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.c
+rm keyboards/idank/sweeq/keymaps/frieser/rules.mk
+sssss
+this
+this is a test that I use to
+flatpak update 
+tytools
+TyUploader
+ls /dev/ttyACM0
+sudo vi /etc/udev/rules.d/49-teensy.rules
+sudo udevadm control --reload-rules
+sudo udevadm control --reload
+sudo udevadm trigger 
+tyuploader
+tyuploader 
+flatpak install obisidian
+flatpak search obsidian
+flatpak install md.obsidian.Obsidian
+nix-env -iA m8c-stable -f https://github.com/laamaa/m8c/archive/refs/heads/main.tar.gz
+ls /dev/ttyACM0 -l
+m8c
+cd Downloads/m8c-1.7.8
+sudo chown root:wheel /dev/ttyACM0
+./m8c
+vim  /run/media/frieser/SHARE/roms/ports/m8c.sh
+ostree refs
+rpm-ostree log
+ostree log fedora:fedora/41/x86_64/silverblue
+ostree tags fedora:fedora/41/x86_64/silverblue
+git; 
+ls `
+vim ~/.local/share/applications/cursor.desktop
+ls ~/Downloads/cursor-0.42.4x86_64.AppImage
+rm ~/Downloads/cursor-0.42.4x86_64.AppImage
+ls ~/.local/bin/cursor-0.42.5-build-24111460bf2loz1-x86_64.AppImage
+rm /var/home/frieser/.var/app/com.jetbrains.GoLand/config/JetBrains/GoLand2024.2/.lock
+sudo trust --store `
+sudo trust --store 
+sudo trust --store ~/Downloads/globalrootca.crt
+sudo trust --anchor ~/Downloads/globalrootca.crt
+ltrust
+trust
+sudo trust store --store ~/Downloads/globalrootca.crt
+git add api
+git commit --no-verify
+cd Documents/work/bbva/deployment/deployment   
+git checkout -b fix/logguer-span-id
+git add api/internal/deployment/client/client.go
+git add api/internal/deployment/client/service.go
+git diff api/internal
+git restore api/internal/api/router.go api/internal/deployment/config/middleware.go api/test/deployment.http api/test/http-client.env.json
+kind list cluster
+kind clusters
+kind cluster
+ps auc
+ps aux
+rpm-ostree
+mv notes vault
+vim .gitignore
+git remote add origin git@github.com:frieser/qmk_firmware.git
+neovim
+git commit -n "add idank/sweeq frieser layout"
+g commit
+git commit -n "add idank sweeq frieser layout"
+git commit -m "add idank/sweeq frieser layout"
+g push origin holykeebs-master
+cat LICENSE
+cat license_GPLv2.md 
+date
+cd Documents/work/bbva/deployment
+cd --
+rm
+rm -rf
+rm -rf lra_cli
+git clone ssh://git@globaldevtools.bbva.com:7999/lra/lra_cli.git
+git logg
+sudo distrobox enter deployment-toolbox
+chmod u+x /var/home/frieser/Documents/work/bbva/lra/lra_cli
+ls -la /var/home/frieser/Documents/work/bbva/lra/lra_cli
+lra
+cd lr
+lra init -h
+lra init go -h
+lra init go -p proto/helloworld.proto -t technical -o lra_go_test
+lra init go -p proto/helloworld.proto -t technical -o lra_go_test -d lra.test.test -v 1.6
+lra init go -p proto/helloworld.proto -t technical -o lra_go_test -u lra.test.test -v 1.6
+lra init go -p proto/-t technical -o lra_go_test -d lra.test.test -v 1.6
+lra init go -p proto/ -t technical -o lra_go_test -d lra.test.test -v 1.6
+wc
+wc -h
+export OS
+this is a test of to write
+in the ferris sweep, its amazing dude. awesome!
+Im trying to find the position
+for my hands, but I think its dificult to search a
+cd Documents/work/bbv
+cd Documents/work/bbva
+cd lra
+export p
+flatpak updated
+make run
+cat Makefile
+cat
+docker run -h
+docker run --help
+vim start-vpn.sh
+cd Documents/dev/shell
+git pull origin master_noble
+homl
+rpm-ostree remove sshuttle
+docker stop 82af6a32860f
+sysl
+sudo systemctl restart docker
+cd Documents/work/bbva/lra
+lra init go -p proto/ -t technical -o lra_go_test -u lra.test.test -v 1.6
+cd lra_go_test
+lra rkun
+export GOPRIVATE="*.bbva.com"
+lra run
+git clone git@github.com:frieser/fedora-ublue.git
+vim README.md
+cat .github/workflows/build.yml
+cat cosign.pub
+git reset e82d05365e9c2647a40efb97c699b63f9de87405 --hard
+rm cosign.pub
+rm co
+rm cosign.key
+cosign generate-key-pair
+git add cosign.pub
+git commit -m "add sign public file"
+git commit -m "change to fedora silverblue 41 as base image"
+skopeo login docker://ghcr.io
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/template:latest
+rpm-ostree rebase ostree-unverified-registry:docker.io/library/fedora:latest\
+
+podman login
+podman pull docker://ghcr.io/frieser/template:latest
+podman pull docker://ghcr.io/frieser/template:41
+git remote rm origin
+git remote add origin git@github.com:frieser/fedora-frieser.git
+cat cosign.key
+rpm-ostree rebase ostree-unverified-registry:docker://ghcr.io/frieser/fedora-frieser:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora-frieser:latest
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/fedora-frieser:latest
+rpm-ostree uninfd
+rpm-ostree remove sshuttle docker distrobox kitty
+flatpak list --app | awk '{print $1}'
+flatpak list  | awk '{print $1}'
+flatpak list --app | awk '{print $0}'
+flatpak list  | awk '{print $2}'
+flatpak list --app | awk '{print $2}'
+sudo ostree admin unpin 1
+sudo ostree admin pin --unset  1
+ostree admin 
+ostree admin pin
+ostree admin pin -h
+rpm-ostree update --preview
+rm keymap.c
+rm -rf qmk_firmware
+git remote add template https://github.com/blue-build/template.git
+flatpak search extensions
+systemctl --user status kmonad
+cat ~/.config/systemd/user/kmonad.service
+flatpak search steam
+ostree admin pin 0
+sudo ostree admin pin 0
+sudo ostree admin pin --unpin  1
+rpm-ostree cleanup -r
+distrobox enter toolbox 
+vim (
+kind
+chezmoi init
+chezmoi doctor
+chezmoi add ~/.config/home-manager/home.nix
+cat .bashrc
+chezmoi add .bashrc
+cat .zshenv
+cat .zplug
+cat .config/Cursor/Preferences
+cat .config/Cursor/User/settings.json
+chezmoi .config/Cursor/User/settings.json
+chezmoi add .config/Cursor/User/settings.json
+cat .config/monitors.xml
+vim .config/gi
+cat .config/pop-shell/config.json
+chezmoi ad .ssh/config
+chezmoi add .ssh/config
+chezmoi log
+chezmoi git
+chezmoi git log
+chezmoi -h
+git commit --amend -m "amendF\
+F\
+"
+cat .justfile
+cat .kube/config
+cat .config/k
+cat .config/kmonad/trackpointII.kbd
+chezmoi add .config/kmonad/trackpointII.kbd
+cat .config/systemd/user/kmonad.service
+chezmoi add .config/systemd/user/kmonad.service
+cat .local/share/applications/cursor.desktop
+chezmoi .local/share/applications/cursor.desktop
+cat .local/share/applications/firefox.desktop
+lx
+cat .mozilla
+cat .mozilla/firefox/profiles.ini
+cat .mozilla/firefox/installs.ini
+cat .var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline/activity-stream.discovery_stream.json
+cat .var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline/chrome/userChrome.css
+chezmoi add .var/app/org.mozilla.firefox/cache/mozilla/firefox/ycde9dec.oneline/chrome/userChrome.css
+chezmoi apply
+rpm-ostree update --preview --check
+vim ~
+vim ~/.config/home-manager/home.nix
+home-manager switch
+getenforce
+cat /etc/selinux/config
+rm -rf /var/lib/nix
+sudo rm -rf /var/lib/nix
+ls /etc
+flatpak search editor
+flatpak search gnome.editor
+cd fedora-ublue
+distrobox enter deployment-toolbox
+git push origin -
+flatpak updatel
+flatpak updte
+ls .local
+ls .local/lib
+ls .local/share
+vim .zshrcc
+chezmoi add ~/.zsh
+git add re
+systemctl reboort
+source "$HOME/.local/share/zplug/init.zsh"
+ls /root/.local
+cat /usr/share/x
+history
+cat ~/.zshrc
+zplug -h
+zplug statys
+zplug status
+zplug --help
+zplug info
+zplug list
+vim 
+ gnome-extensions enable desaturate-unfocused-windows@myextension
+windsurf
+mv cursor.desktop ~/Documents
+git
+cat /usr/share/zplug/init.zsh
+zplug check
+fzf
+history | fzf
+zplug update
+cat ~/.config/home-manager/home.nix
+yay zplyg
+yay zplug
+zplug
+which fzf
+fzf --zsh
+mcfly
+eval "$(mcfly init zsh)"
+podman -v
+rm podman-data/id_rsa*
+pwe
+ls .local/share/zsh/history
+chmod a+r .local/share/zsh/history
+ls .local/share/zsh/history -la
+touch /var/home/frieser/.zsh_history
+mcfly search
+vim keyboards/idank/sweeq/keymaps/frieser/keymap.json
+flatpak search cheese
+rpm-ostree update --check --preview
+        podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\
+
+    sudo dd if=path_to_netboot.xyz.iso of=/dev/sdX bs=4M status=progress\
+ 
+    sudo dd if=Downloads/netboot.xyz.iso of=/dev/sda bs=4M status=progress 
+rm -rf asset-mirror/releases/download/v1.3.2-c82c6d22
+mkdir asset-mirror/releases/download/v1.4.0/
+mv ~/Downloads/harvester-v1.4.0-* asset-mirror/releases/download/v1.4.0
+systemctl status firewalld
+echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
+ls .bin
+ls .local/bin
+lsY
+atuin
+atuin init ah
+atuin init zsh
+pip 
+rm -rf /var/home/frieser/.local/share/zinit
+rpm-ostree update 
+rpm-ostree rollback
+chezmoi add .config/home-manager/home.nix
+podman version
+podman ps -h
+systemctl start docker
+docker run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.14
+arp-scan
+for i in {1..254}; do ping -c 1 -W 1 192.168.1.$i & done\
+arp -a
+grep "$(arp -a | awk '{print $4}')" /usr/share/nmap/nmap-mac-prefixes\
+
+arp -a | awk '{print $4}'
+arp -a | awk '{print $3}'
+xzcat Downloads/2024-01-20-MainsailOS-1.3.2-orangepi-orangepi_zero2.img.xz | sudo dd of=/dev/sda bs=4M status=progress
+podman info
+distrobox enter t
+ping 192.168.1.200
+ping printer.local
+nslookup printer.local
+host printer.local
+dig +short printer.local
+dig printer.local
+cat config/log/nginx/error.log
+touch config/log/nginx/access.log
+docker s
+sudo docker run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+sudo docker run -d \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      -p 3000:3000 \\
+      -p 69:69/udp \\
+      -p 8080:80  \\
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest 
+ping 192.168.1.137
+s
+docker pds
+ping 192.168.1.1
+ping 192.168.1.20
+ping 172.16.0.100
+ssh frieser@192.168.1.137
+cd dev/fedora-ublue
+ls assets
+mkdir config assets
+sudo podman logs netbootxyz
+ping api.github.com
+sudo podman run -d \\
+      --replace \\
+      --name=netbootxyz \\
+      -e PUID=1000 \\
+      -e PGID=1000 \\
+      -e TZ=Etc/UTC \\
+      --net=host \
+      -v ./config:/config:Z \\
+      -v ./assets:/assets:Z  \\
+      --restart unless-stopped \\
+      lscr.io/linuxserver/netbootxyz:latest
+rm -rf assets config
+rm -rf CascadeProjects
+fl
+docker ps -a
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda
+sudo dd if=Downloads/harvester-v1.4.0-amd64.iso of=/dev/sda --status=progress
+sudo podman stop netbootxyz
+cat config/log/nginx/access.log
+git diff assets/create.yaml
+git diff assets
+git diff assets --staged
+git diff assets --cached
+git diff --staged assets/
+ssh rancher@172.16.0.102
+ssh rancher@172.16.0.104
+journalctl -xe | grep podman\
+
+podman info | grep "Default OCI Runtime"
+lsmod | grep overlay
+ls -ld /var/home/frieser/.local/share/containers/storage
+ls -ld /run/user/1000/containers
+which crun
+strace -f -o podman_debug.log podman ps
+systemctl --user restart podman
+journalctl --user -u podman
+distrobox start toolbox
+ssh rancher@172.16.0.106
+distrobox upgrade toolbox
+git add assets/
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\
+
+ping 192.168.1.137      
+podman run -p 3030:3000 brytonsalisbury/meshcmd:amd64\\ 
+podman rm -f meshcmd
+vim .von
+sudo usermod -aG podman $USER
+podman --log-level debug ps
+mkdir .config/containers
+vi .config/containers/containers.conf
+[engine]\
+runtime = "crun"\
+
+ls -ld /run/user/1000/containers\
+
+ls -l /run/podman/podman.sock
+sudo chmod 666 /run/podman/podman.sock
+sudo ls -l /run/podman/podman.sock
+curl --unix-socket /run/podman/podman.sock http://localhost/_ping
+podman --url unix:///run/podman/podman.sock ps
+sudo ausearch -c 'podman' --raw | audit2allow -m podman_fix
+sudo systemctl restart podman
+sudo systemctl restart podman.socket
+sudo ausearch -m avc -ts recent | audit2why
+sudo chmod 755 /run/podman\
+
+sudo chown frieser:frieser /run/podman/podman.sock
+sudo chown frieser:frieser /run/podman/ -r
+sudo chown -R frieser:frieser /run/podman/
+chmod 777 -R /run/podman
+ls -ld /run/podman\
+
+docker run -p 3030:3000 brytonsalisbury/meshcmd:amd64
+yay cursor | grep ide
+yay cursor-bin-patched
+distrobox-export -h
+rm .kube/config
+rm .kube/config -R
+rm .kube -R
+rm ~/.kube -R
+sudo rm ~/.kube -R
+rm -rf .kube
+mkdir ~/.kube
+mkdir ~/.kube/kubeconfig
+rm -rf 
+rm -rf ~/.ki
+rm -rf ~/.kube/kubeconfig
+vim .kube/kubeconfig
+mv ~/.kube/kuconfig ~/.kube/kubeconfig
+mv ~/.kube/kubeconfig ~/.kube/config
+vim ~/.kube/kuconfig
+flatpak search bootles
+flatpak search bottles
+flatpak install com.usebottles.bottles
+vi Documents/dev/fedora-ublue/recipes/recipe.yml
+git add recipes
+flatpak install org.gnome.Boxes
+ping 192.168.1.26
+ssh frieser@192.168.1.27
+ping 192.168.1.27
+podman logs omada-controller
+cd nordigen-go-lib
+git pull origin maimn
+git tag v2.1.8
+git push origin v2.1.8
+flatpak search flatseal
+flatpak search warehouse
+git satatus
+flatpak remove gnome-boxes
+flatpak search boxes
+flatpak remove org.gnome.Boxes
+fg
+sudo podman system reset
+journalctl -u podman.socket
+sudo rm -rf /run/user/1000/containers/*
+distrobox ls -a
+distrobox ls 
+vim ~/.config/containers/containers.conf
+vi ~/.config/containers/containers.conf
+podman images -a
+ls -ld /run/podman\ 
+ls -ld /run/podman
+ls -ld /run/podman/podman.socket
+sudo ls -ld /run/podman/podman.socket
+sudo ls -ld /run/podman
+watch podman ps
+rm ~/.config/containers/containers.conf
+toolbox -h
+just docker
+sudo cd Documents/dev/launcher
+sudo rm /etc/subgid
+sudo rm /etc/subuid
+passt
+cat /etc/subgid
+cat /etc/suuid
+id
+usermod --add-subuids 1000-165535 --add-subgids 1000-165535 frieser
+sudo touch /etc/subuid
+sudo touch /etc/subgid
+sudo usermod --add-subuids 1000-165535 --add-subgids 1000-165535 frieser
+sudo usermod --add-subuids 1001-165535 --add-subgids 1001-165535 frieser
+cat /etc/subuid
+sudo vim /etc/subuid
+sudo vim /etc/subgid
+distrobox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+cat /sys/fs/cgroup/cgroup.controllers
+rm -rf .local/share/containers/*
+sudo rm -rf .local/share/containers/*
+podman system reste
+distrobox
+distroboz version
+distrobox version
+distrobox help
+cat /etc/distrobox/apps.ini
+toolbox create -n toolbox -i quay.io/toolbx/arch-toolbox:latest
+toolbox create ph
+toolbox create -h
+toolbox create -i quay.io/toolbx/arch-toolbox:latest toolbox
+toolbox enter toolbox
+cat toolbox-windsurf
+cat toolbox-windsurf.desktop
+cd recipes
+vim recipe.yml
+vi recipe.yml
+cd .local/share/applications
+ls .bash
+which bin
+which vim
+cd .local/bin
+rm *
+rm .local/share/containers -rf
+rm /run/user/1000/containers/*
+podman ps --log-level debug
+podman run -it alpine bash
+distrobox-host-exec podman --version
+podman info --debug
+journalctl -u podman
+systemctl status podman
+systemctl status podman.socket
+vi recipes/recipe.yml
+podman run -it alpine sh
+toolbox list
+rm /run/user/1000/containers/* -rf
+qemu-img resize \~/.local/share/gnome-boxes/images/win11 124G
+qemu-img resize .local/share/gnome-boxes/images/win11-2 124G
+yay meshcmd
+meshcentral
+meshcentral -h
+meshcentral --help
+chezmoi add .local/share/applications/cursor.desktop
+mkdir .config/qmk
+mv Downloads/idank_sweeq_idank_sweeq_idank_sweeq_idank_sweeq_idank_sweeq_frieser.json .config/qmk/idank_sweeq_frieser.json
+chezmoi add .config/qmk/idank_sweeq_frieser.json
+cat .zshrc
+which pop-launcher
+vim recipes/recipe.yml
+ls .c
+ls .config/Windsurf
+ls .config/Windsurf/User/settings.json
+ls 
+ls -a
+ls .gitconfig
+cat .vimrc
+podman run --pull always --rm ghcr.io/blue-build/cli:latest-installer | bash
+sudo bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/octocat/weird-os
+ls /usr/share/ublue-os/just/00-default.just
+cat /usr/share/ublue-os/just/00-default.just
+cat /usr/share/ublue-os/just/10-update.just
+sudo bluebuild generate-iso --iso-name weird-os.iso image ghcr.io/frieser/template:latest
+sudo bluebuild login
+sudo bluebuild login grcr.io
+skopeo logout ghcr.io
+sudo bluebuild logout
+sudo bluebuild login ghcr.io
+sudo bluebuild generate-iso --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest
+skopeo copy docker://ghcr.io/frieser/template:latest oci:template-latest
+bluebuild generate
+bluebuild generate-iso 
+sudo bluebuild generate-iso -B podman -R podman -v --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest 
+docker
+systemctl status docker
+cd Documents/work/bbva/deployment/deployment
+docker rm -f 
+docker rm -f omada-controller
+sh integration/scripts/run.sh
+kind delete cluster -n integration
+kind list clusters
+kind list nodes
+kind list 
+kind get clusters
+cat integration/run.sh
+cd integration
+cd scripts
+cat run.sh
+docker rm -f 735ff0906721
+docker rm -f bbva-vpn
+just ./files/justfiles/toolbox/create.just
+just --check --fmt
+just --check --fmt --unstable
+just --check --fmt --unstable .
+mv create.just create.justfile
+just toolbox-create
+just toolbox-assemble
+just toolbox-new
+git add .
+ping 172.16.1.08
+ping 172.16.1.09
+this is a
+sudo bluebuild generate-iso -B docker -v --iso-name fedora-frieser.iso image ghcr.io/frieser/template:latest 
+chezmoi age
+chezmoi .bash_history
+chezmoi git status
+chezmoi add .
+yay  meshcentral
+yay -R meshcentral
+yay -q
+yay knomad
+distrobox-export --bin /usr/bin/kmonad
+just upgrade
+just -g
+just -h
+just device-info
+just toggle-user-motd
+distrobox-assemble
+distrobox-assemble create
+just distrobox-assemble 
+go mod tidy
+go mod tidy -v
+yay tldr
+distrobox enter toolbox
+distrobox-export --bin /usr/bin/tldr
+mkdir .config/yazi
+env | grep EDITOR
+vim
+v .config/yazi/yazi.toml
+ls go
+ls | grep go
+v "$@"
+export EDITOR=nvim
+y --debug
+y 
+chezmoi add .config/yazi
+c cd 
+c add .bash_history
+c add .config/ghostty/config
+c add .config/keyd/default.conf
+c add .local/share/zsh/history .zshrc
+c add .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/addons.json .var/app/org.mozilla.firefox/.mozilla/firefox/0nw4owj1.oneline/prefs.js
+c status
+c add .gitconfig
+c cd
+git checkout main
+gco main
+gco master
+git branch
+gco develop
+gfa
+cat ~/.gitconfig
+cat .git/config
+git remote origin set-url https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_lib_go.git
+yay libsecret
+git clone https://github.com/lavafroth/tempest
+cd tempest
+yay libvosk
+cargo build --workspace --release
+h ./target/release/tempest-client
+yay alsa
+./target/release/tempest-client
+z gnome-extensions
+cd .local/share/gnome-shell/extensions
+cd blurt@quantiusbenignus.local
+vim metadata.json
+yay whispercpp
+yay libggml.so
+yay -R whisper.cpp
+v .cache/yay/whisper.cpp/PKGBUILD
+sudo rm /usr/lib/debug/usr/lib/libggml-base.so.debug /usr/lib/debug/usr/lib/libggml-cpu.so.debug
+sudo rm /usr/lib/libggml-base.so /usr/lib/libggml-cpu.so
+yay libggml
+whisper-cli
+yay whisper.cpp
+whisper.cpp-whisper-server
+whisper.cpp-command
+whisper.cpp-whisper-cli
+yay whisper
+whisper-server
+whisper-server --help
+whisper-server -m Downloads/ggml-large-v3-turbo.bin
+cp Downloads/wsi .local/bin
+distrobox-export --bin /usr/bin/sox
+--host 0.0.0.0 --port 58080 -t 8 -nt -m /dev/shm/ggml-base.en.bin &\
+\
+
+whisper-server --host 0.0.0.0 --port 58080 -t 8 -nt -m Downloads/ggml-large-v3-turbo.bin\
+\
+
+git clone https://github.com/QuantiusBenignus/BlahST.git\
+cd ./BlahST
+yay ydotool
+sh install-wsi
+cp wsi wsiAI wsiml ~/.local/bin
+chmod a+x .local/bin/wsi
+chmod a+x ~/.local/bin/wsi
+chmod a+x ~/.local/bin/wsiAI
+chmod a+x ~/.local/bin/wsiml
+wsi
+wsiml
+wsiAI
+chmod a+x ~/.local/bin/whisper-large-v3.llamafile
+v ~/.local/bin/wsiAI
+whisper.cpp-large-v3
+ls ~/.local/bin -l
+ls ~/.local/bin
+whisper-large-v3.llamafile
+wsi -p
+wsi -p sf
+wsi -p -w
+wsi -w
+v ~/.local/bin/wsi
+distrobox-export --bin /usr/bin/ydotool
+yay xsel
+distrobox-export --bin /usr/bin/xsel
+yay rec
+rec
+yay wl-copy
+yay -s wl-copy
+yay -s wayland-copy
+yay -s wl-clipboard
+distrobox-export --bin /usr/bin/wl-copy
+v ~/.local/bin/wsiml
+yay -S vibe-bin
+vibe
+git clone https://github.com/ideasman42/nerd-dictation.git
+mkdir /var/home/frieser/.config/nerd-dictation/model
+mkdir /var/home/frieser/.config/nerd-dictation/model -p
+python nerd-dictation begin
+./nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model
+python --version
+pip3 install vosk
+pip install vosk
+pip
+python -m pip
+./nerd-dictation begin
+cd ~/.config/nerd-dictation/model
+cd vosk-model-es-0.42
+cd -
+cd nerd-dictation
+./nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42
+./nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL\
+\
+
+ydotool
+sudo usermod -aG input $USER
+echo '## Give ydotoold access to the uinput device\
+## Solution by https://github.com/ReimuNotMoe/ydotool/issues/25#issuecomment-535842993\
+KERNEL=="uinput", GROUP="input", MODE="0660", OPTIONS+="static_node=uinput"\
+' | sudo tee /etc/udev/rules.d/80-uinput.rules > /dev/null
+ydotoold &
+ydotool type "dD"
+h parec
+tldr wget
+h just bins
+h just update-firmware
+h just --list
+h just packages
+z nerd
+ls ~/.config/nerd-dictation/model/vosk-model-es-0.42
+./nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/
+./nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/vosk-model-es-0.42/
+ydotoold
+systemctl --user list-units
+systemctl --user list-units | grep
+systemctl --user list-units | grep ydotood
+systemctl --user list-units | grep ydotool
+systemctl --user enable --now ydotool.service
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:latest
+skopeo login ostree-image-signed:docker://ghcr.io
+h skopeo login ostree-image-signed:docker://ghcr.io
+skopeo login ghcr.io
+h skopeo login ghcr.io
+just --fmt --check --unstable --justfile files/justfiles/toolbox/create.just
+just --fmt --check --unstable --justfile files/justfiles/utils.just
+just --check --fmt utils.just
+just --fmt --justfile files/justfiles
+just --fmt --justfile files/justfiles/utils.just
+just --fmt --unstable --justfile files/justfiles/utils.just
+just --fmt --unstable --check --justfile files/justfiles/utils.just
+gc L
+h podman pull ghcr.io/frieser/fedora:latest
+gs
+h rpm-ostree rebase ostree-unverified-registry:docker://ghcr.io/frieser/fedora:latest
+h rpm-ostree rebase ghcr.io/frieser/fedora:latest
+h rpm
+h rpm-ostree login ghcr.io
+h cat /etc/containers/registries.conf.d/kind.conf
+h podman login ghcr.io
+h rpm-ostree status
+h rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora
+h rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:41
+h hyprland
+gp -f
+cat .gitconfig
+git remote origin show
+git remote origin set-url https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_go.git
+git remote set-url origin https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_go.git
+git remote show origin
+v ~/.gitconfig
+z lra_lib
+git fetch --all
+git merge origin/dev/bump-grpc-protobufs-version
+git pull origin develop
+git merge origin/develop
+git merge origin/fix/runtime-go
+h rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/fedora:latest
+ls .config
+firefox
+flatpak run org.mozilla.firefox -h
+ghostty
+flatpak run org.mozilla.firefox 
+mkdir .config/hypr
+touch .config/hypr/hyprland.conf
+v .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+hyprctl reload
+sudo vi /usr/share/hyprland/hyprland.conf
+rm ~/.config/hypr/hyprland.conf
+cp /usr/share/hyprland/hyprland.conf ~/.config/hypr
+vi .config/hypr/hyprland.conf
+flatpak list | mozilla
+flatpak list | grep fire
+rm ~/.local/share/containers/podman
+rm ~/.local/share/containers/storage
+z 
+cat files/justfiles
+rm .local/share/yay -rf
+h hyprctl
+flatpak update
+h rpm-ostree rollback
+h rpm-ostree rebase ostree-image-signed:docker://ghcr.io/frieser/gnome:latest
+z lra_go
+cat Jenkinsfile
+cat pod.yaml
+cat build/pod.yaml
+gstg
+git clone https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_pipeline.git
+yay gnome-keyring
+cd lra_runtime_go
+git clone https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/lra/lra_stackcoder.git
+z lra_pipeline
+yay java
+yay openjdk
+yay jre-openjdk21
+yay openjdk21
+yay -R jre-openjdk
+yay jre-openjdk
+yay -R jre21-openjdk-headless
+yay -R jre21-openjdk
+yay -R cv
+yay -R openjdk21-src
+yay -R jdk21-openjdk
+yay jre21-openjdk-headless
+git checkout -b dev/lra-runtime-go
+gp origin dev/lra-runtime-go
+gc --amend
+git checkout develop
+git reset HEAD --hard
+git branch -d dev/lra-runtime
+git branch -d dev/lra-runtime-go
+git branch -D dev/lra-runtime-go
+gco dev/lra-runtime
+gco -b dev/lra-runtime-go
+gp origin dev/lra-runtime-go -f
+cd lra_pipeline
+yay mpm
+yay npm
+v nvim
+z nvim
+z function
+cat README.md
+go build 
+go build .
+go build ./.runner/cmd/main.go
+../lra_cli/build/bin/lra build
+../lra_cli/build/bin/lra bin
+../lra_cli/build/bin/lra --help
+../lra_cli/build/bin/lra run
+z deployment
+cat ci/Dockerfile
+../lra_cli/build/bin/lra help run
+z lra_cli
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/hyprland:latest
+h rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/hyprland:latest
+h systemctl reboot
+z hypr
+cd .config/hypr
+flatpak list | grep zen
+h hyprctl reload
+acpi -a
+mkdir .config/hypr/scripts
+h acpi 
+h acpi -h
+chmod a+x ~/.config/hypr/scripts/lidclosed
+v ~/.config/hypr/scripts/lidclosed
+p
+"$(hyprctl monitors)" =~ "\sDP-[0-9]+"
+h hyprctl devices
+ls /usr/share/hyprland
+sudo su
+h ls /usr/share/hyprland
+h ls /usr/share/
+h bash
+v ~/.config/hypr/hyprlock.conf
+c add ~/.config/hypr
+nerd-dictation start
+yay sox
+yay parec
+parec
+pacman -F /usr/bin/parec
+pacman -Fy /usr/bin/parec
+sudo pacman -Fy /usr/bin/parec
+yay libpulse
+nerd-dictation begin
+./nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/vosk-model-es-0.42
+nerd-dictation begin --vosk-model-dir=~/.config/nerd-dictation/model/vosk-model-es-0.42
+nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42
+./nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL
+yay vosk
+nerd-dictation begin --vosk-model-dir=/var/home/frieser/.config/nerd-dictation/model/vosk-model-es-0.42 --simulate-input-tool=YDOTOOL
+h upower
+h upower -i
+h acpi
+h acpi -a
+h ip a
+upower
+z pipeline
+git checkout -b test/lra-runtime
+git checkout -b test/lra-runtime-go
+git push origin test/lra-runtime-go
+z lra
+git clone https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/bbvagapx/otr_techstack_apx_operation.git
+git clone https://bitbucket.globaldevtools.bbva.com/bitbucket/scm/bbvagapxcfg/apx_operation.git
+h proxy
+v 
+ls ../apx_operation
+pythom 
+python version
+python -v
+python --h
+python3 main.py
+python -m url_utils -v
+python -m requests
+python -m requests -v
+yay python-pip
+yay pip
+pip show requests
+python -m venv coder
+source coder
+pip install 
+v requirements.txt
+pip install -r requirements.txt
+podman logs omada-controller -f
+podman stop omada
+podman start omada-controller
+podman volumes
+just --list
+cd files
+cd justfiles
+rm ~/.local/share/yh
+awk '{print $1}' /usr/share/toolbox/apps | xargs -I {} distrobox enter toolbox -- yay -S {} --noconfirm\
+    awk '{print $1}' /usr/share/toolbox/bins | xargs -I {} distrobox enter toolbox -- yay -S {} --noconfirm\
+    awk '{print $2}' /usr/share/toolbox/apps | xargs -I {} distrobox enter toolbox -- distrobox-export --app {}\
+    awk '{print $2}' /usr/share/toolbox/bins | xargs  -I {} distrobox enter toolbox -- distrobox-export --bin /usr/bin/{}\
+
+cat utils.just
+yay htop
+htop
+pwd
+h hyprctl monitors
+poweroff
+yayh
+ay
+h poweroff
+mkdir -p ~/.local/share/rofi/themes/
+cd .local/share/rofi/themes
+git clone https://github.com/lr-tech/rofi-themes-collection.git
+mv rofi-themes-collection/* .
+mv themes .
+mv themes/* .
+rm -rf themes
+rm screenshots -rf
+rm README.md LICENSE
+rofi
+h rofi
+h rofi run
+sudo h rofi-theme-selector
+h rofi-theme-selector
+mkdir .config/waybar
+mv Downloads/mocha.css .config/waybar
+v .on
+v .config/waybar/style.vss
+hyprctl dispatch exec waybar 
+vi ~/.config/hypr/hyprland.conf
+waybar
+hyprctl dispatch exec waybar & /usr/libexec/xfce-polkit & nm-applet
+z dev
+cd mechabar
+cat install.sh
+ls /usr/share/waybar
+ls /etc/waybar
+v .config/waybar/style.css
+pkill waybar && hyprctl dispatch exec waybar 
+v .config/hypr/hyprlock.conf
+h cat /etc/login.defs
+h cat /etc/systemd/logind.conf
+v /etc/systemd/login.d
+vi /etc/systemd/login.d
+vi /etc/systemd/logind.conf
+oo8Ais3aiKupdate
+zinit update
+vi 
+distrobox create --yes -n toolbox -i ghcr.io/ublue-os/arch-distrobox:latest --init --additional-packages "systemd"
+which zsh
+zl
+which z
+which zoxide
+ls recipes/common
+ls files
+ls files/system
+ls files/system/usr
+ls files/system/usr/share
+ls files/system/usr/share/toolbox
+ls files/system/usr/share/toolbox/bins
+vi files/system/usr/share/toolbox/bins
+cat .local/bin/zoxide
+awk '{print $1}' /usr/share/toolbox/apps | xargs -I {} distrobox enter toolbox -- yay -S {} --noconfirm\
+    awk '{print $1}' /usr/share/toolbox/bins | xargs -I {} distrobox enter toolbox -- yay -S {} --noconfirm\
+    awk '{print $2}' /usr/share/toolbox/apps | xargs -I {} distrobox enter toolbox -- distrobox-export --app {}\
+    awk '{print $2}' /usr/share/toolbox/bins | xargs  -I {} distrobox enter toolbox -- distrobox-export --bin /usr/bin/{}
+distrobox create --yes -n toolbox -i ghcr.io/ublue-os/arch-distrobox:latest --init --additional-packages "systemd libpam-systemd"
+distrobox create --yes -n toolbox -i quay.io/toolbx/arch-toolbox:latest --init --additional-packages "systemd libpam-systemd"
+sudo rm ~/.local/share/containers/storage -rf
+distrobox enter toolbox -- bash -c "git clone https://aur.archlinux.org/yay.git ~/.local/share/yay && cd ~/.local/share/yay && makepkg --noconfirm -si"
+cat files/justfiles/utils.just
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  --net=host \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+ping 172.16.0.1
+ping 172.16.0.2
+ping 172.16.0.3
+sudo systemctl stop firewalld
+cd
+v ~/.config/hypr/hyprland.conf
+h dunst
+h zsh
+h hyprctl notify
+h hyprctl notify sdf
+h hyprctl notify sdf CascadeProjects
+h hyprctl notify 
+h hyprctl notify -g
+h hyprctl notify -h
+z coder
+cd lra_stackcoder
+cat requirements.txt
+cat vars.json
+cd apx_operation
+git pull origin master
+cd ..
+cd otr_techstack_apx_operation
+diff
+source coder/bin
+source coder/bin/activate
+h vpn
+bpn
+v vars.json
+python main.py
+h podman ps
+docker run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+docker logs omada-controller
+docker ps
+docker start omada-controller
+docker logs -f omada-controller
+docker stop omada-controller
+sudo podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+sudo podman stop omada-controller
+sudo podman rm -f omada-controller
+sudo podman images
+sudo podman rmi omada-controller
+sudo podman rmi docker.io/mbentley/omada-controller
+podman rm -f $(podman ps -aq)
+podman volume rm omada-data
+podman volume rm omada-logs
+podman volume list
+podman run -d \\
+  --name omada-controller \\
+  --stop-timeout 60 \\
+  --restart unless-stopped \\
+  --ulimit nofile=4096:8192 \\
+  -p 8088:8088 \\
+  -p 8043:8043 \\
+  -p 8843:8843 \\
+  -p 27001:27001/udp \\
+  -p 29810:29810/udp \\
+  -p 29811-29816:29811-29816 \\
+  -e MANAGE_HTTP_PORT=8088 \\
+  -e MANAGE_HTTPS_PORT=8043 \\
+  -e PGID="508" \\
+  -e PORTAL_HTTP_PORT=8088 \\
+  -e PORTAL_HTTPS_PORT=8843 \\
+  -e PORT_ADOPT_V1=29812 \\
+  -e PORT_APP_DISCOVERY=27001 \\
+  -e PORT_DISCOVERY=29810 \\
+  -e PORT_MANAGER_V1=29811 \\
+  -e PORT_MANAGER_V2=29814 \\
+  -e PORT_TRANSFER_V2=29815 \\
+  -e PORT_RTTY=29816 \\
+  -e PORT_UPGRADE_V1=29813 \\
+  -e PUID="508" \\
+  -e SHOW_SERVER_LOGS=true \\
+  -e SHOW_MONGODB_LOGS=false \\
+  -e SSL_CERT_NAME="tls.crt" \\
+  -e SSL_KEY_NAME="tls.key" \\
+  -e TZ=Etc/UTC \\
+  -v omada-data:/opt/tplink/EAPController/data \\
+  -v omada-logs:/opt/tplink/EAPController/logs \\
+  mbentley/omada-controller:5.15
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/frieser/gnome:latest
+podman start omada-controller 
+podman logs -f omada-controller
+ip a
+vpnn
+v ~/.config/kitty/kitty.conf
+t
+distrobox create --yes -n toolbox -i quay.io/toolbx/arch-toolbox:latest --init --additional-packages "systemd"
+distrobox rm toolbox
+podman stop omada-controller
+podman rm -f omada-controller
+podman ps 
+ya
+rm ~/.local/share/containers/storage -rf
+podman system migrate
+podman 
+podman system
+podman system reset
+podman system prune
+c diff
+c diff .config/kitty/kitty.conf
+vi ~/.config/kitty/kitty.conf
+vpn
+proxy
+podman ps -a
+distrobox ls
+rm ~/.local/share/yay -rf
+cd Documents/dev
+cd fedora-frieser
+git statys
+podman rm -f toolbox
+git commit
+git push origin main
+git pull origin main
+git reset origin/main --hard
+git log --online
+git log --onelne
+git log --oneline
+git show 7948fd7
+vi files/justfiles/utils.just
+git commit --amend -m "revert"
+git log
+git push origin main -f
+vi recipes/common/modules.yml
+just update
+systemctl reboot
+just toolbox
+just packages
+vi .gitconfig
+yay delta
+yay git 
+yay git-delta
+git diff
+git status
+git add --all
+yay nushell
+nushell
+yay zellij
+mkdir .config/zellij
+mkdir .config/zellij/themes
+vim .config/zellij/themes/catppuccin.kdl
+v .config/zellij/themes/catppuccin.yaml
+v .config/zellij/config.kdl
+zellij
+yay tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+mkdir .config/tmux
+yay -R zellij
+tmux attach
+tmux ls
+v .config/ghostty
+v .zshrc
+v .config/tmux/L
+tmux
+v .config/ghostty/config
+h just update
+exit
+tmux detach
+tmux 
+yay
+yaxi
+y
+tmux --list-keys
+tmux list-keys
+v .config/tmux/tmux.conf
+jjjjjjjkjjjjkkkj
+\:q
+q
+mkdir .config/nushell
+v .config/nushell/config.nu
+nu
+v .config/nushell/env.nu
+yay carapace
+z fedora
+v
+carapace
+gst
+gaa
+gc
+gp
+mkdir .config/starship
+v .config/starship/starship.toml
+v ~/.zshrc
+top
+v .config/tmux
+v ~/.config/ghostty/config
+vi ~/.config/ghostty/config
+vi ~/.zshrc
+ls
+podman ps
+distrobox stop toolbox
+: 1740086721:0;ls
+: 1740086743:0;h jkust update
+: 1740086747:0;h just update
+: 1740086757:0;c status
+: 1740086788:0;c add .config/Windsurf/User/settings.json .config/ghostty/config .config/hypr .config/kitty/kitty.conf .local/share/zsh/history 
