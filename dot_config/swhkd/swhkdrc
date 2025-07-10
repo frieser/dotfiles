@@ -1,0 +1,7 @@
+ctrl + shift + Enter
+	su - frieser -c "ghostty"	
+
+meta + c
+	flatpak run org.mozilla.firefox --new-window https://chatgpt.com/
+
+

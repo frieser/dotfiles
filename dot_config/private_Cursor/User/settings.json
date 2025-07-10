@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 18,
+    "workbench.editor.showTabs": "none",
+    "workbench.colorTheme": "Default Dark Modern",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 2,
+    "breadcrumbs.enabled": false,
+    "editor.lineNumbers": "relative",
+    "Key Promoter.suggestKeybindingCreation": false,
+    "window.commandCenter": 1,
+    "window.menuBarVisibility": "compact",
+}
