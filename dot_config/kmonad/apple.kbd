@@ -1,0 +1,59 @@
+(defcfg
+  input  (iokit-name "Apple Internal Keyboard / Trackpad")
+  output (kext)
+  fallthrough true
+  allow-cmd true
+)
+(defalias
+  a_to_lmet (tap-hold-next-release 200 a lmet)
+  s_to_lalt (tap-hold-next-release 200 s lalt)
+  d_to_lctl (tap-hold-next-release 200 d lctl)
+  f_to_lshft (tap-hold-next-release 200 f lshft)
+  j_to_lshft (tap-hold-next-release 200 j lshft)
+  k_to_lctl (tap-hold-next-release 200 k lctl)
+  l_to_lalt (tap-hold-next-release 200 l lalt)
+  semicolon_to_lmet (tap-hold-next-release 200 ; lmet)
+)
+
+(defalias
+  rmet_to_esc_sym (tap-hold-next-release 200 esc (layer-toggle symbols))
+)
+(defalias
+  space_to_space_numbers(tap-hold-next-release 200 space (layer-toggle numbers))
+)
+(defsrc
+  esc  f1  f2  f3  f4  f5  f6  f7  f8  f9  f10 f11 f12
+  `    1    2   3   4   5   6   7   8   9   0   -   =
+  tab  q    w   e   r   t   y   u   i   o   p   [   ]
+  caps a    s   d   f   g   h   j   k   l   ;   '   \
+  lshft z   x   c   v   b   n   m   ,   .   /   rshft
+  lctl  lalt lmet space  rmet ralt menu rctl
+)
+
+(deflayer home-mods
+  _   _   _   _   _   _   _   _   _   _   _   _   _
+  _     _    _    _    _    _    _    _    _    _    _    _    _
+  _     _    _    _    _    _    _    _    _    _    _    _    _
+  enter   @a_to_lmet @s_to_lalt @d_to_lctl @f_to_lshft g 
+        h @j_to_lshft @k_to_lctl @l_to_lalt @semicolon_to_lmet ' \
+  _     _    _    _    _    _    _    _    -    _    _    _
+  _     _    bspc    @space_to_space_numbers     @rmet_to_esc_sym    _    _    _
+)
+
+(deflayer symbols
+  _ _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _ _ _ _
+  _ ` * = ! ^ _ ' " % \ ~ _
+  _ 0 [ { \( \_ - \) } ] $ _ _
+  _ # & @ < _ _ > | , ; _
+  _ _ _ _ _ _ _ _
+)
+
+(deflayer numbers
+  _ _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ 7 8 9 _ _ _ _ _ _ _ _
+  _ 0 4 5 6 _ _ _ _ _ _ _ _
+  _ _ 1 2 3 _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _
+)
