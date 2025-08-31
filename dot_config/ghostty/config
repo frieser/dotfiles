@@ -24,12 +24,12 @@ palette = 12=#7aa2f7
 palette = 13=#bb9af7
 palette = 14=#7dcfff
 palette = 15=#c0caf5
-font-size = 19
+font-size = 17
 font-family = Cascadia Mono
 gtk-titlebar = false
 
-window-padding-y = 8
-window-padding-x = 5
+window-padding-y = 12
+window-padding-x = 10
 
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
 confirm-close-surface = false

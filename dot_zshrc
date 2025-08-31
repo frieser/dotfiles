@@ -49,6 +49,8 @@ alias sl="atuin script list"
 alias se="atuin script edit"
 alias sd="atuin script delete"
 
+alias powersave="echo power | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference"
+
 # exa general use
 alias ls="eza -l -G --icons --no-permissions --no-user --no-time --no-filesize" alias tree="eza -l -G --icons --no-permissions --no-user --no-time --no-filesize -T"
 alias l='eza -lbF --git'                                                # list, size, type, git
