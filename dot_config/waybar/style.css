@@ -45,7 +45,9 @@
 #cpu,
 #memory,
 #custom-lock,
-#custom-power {
+#custom-power,
+#custom-pomo,
+#idle_inhibitor { 
   background-color: #101010;
   padding: 0.5rem 1rem;
   margin: 5px 0;
@@ -108,4 +110,33 @@
   margin-right: 1rem;
   margin-left: 1rem;
   border-radius: 5px;
+}
+
+#idle_inhibitor {
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+#idle_inhibitor.activated {
+  color: #a6d189; /* verde, como battery charging */
+}
+
+#idle_inhibitor.deactivated {
+  color: #e78284; /* rojo, como battery warning */
+}
+
+#custom-pomo {
+  border-radius: 5px;
+}
+
+#custom-pomo.running {
+  color: #a6d189;
+}
+
+#custom-pomo.paused {
+  background: #AB730A;
+}
+
+#custom-pomo.finished {
+  background: #8F0808;
 }

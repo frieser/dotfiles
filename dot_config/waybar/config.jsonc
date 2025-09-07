@@ -2,8 +2,13 @@
   "layer": "top",
   "position": "top",
   "mode": "dock",
-  "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["clock"],
+  "modules-left": [
+    "hyprland/workspaces",
+    "custom/pomo"
+  ],
+  "modules-center": [
+    "clock",
+  ],
   "modules-right": [
     "pulseaudio",
     "battery",
@@ -11,8 +16,9 @@
     "cpu",
     "memory",
     "tray",
+    "idle_inhibitor",
     "custom/lock",
-    "custom/power"
+    "custom/power",
   ],
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
@@ -72,5 +78,40 @@
     "tooltip": false,
     "on-click": "wlogout &",
     "format": "⏻"
-  }
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "custom/pomo": {
+    "format": "{icon} {text}",
+    "format-icons": [
+      // "○○○○○○○○○●",
+      // "○○○○○○○○●●",
+      // "○○○○○○●●●●",
+      // "○○○○○●●●●●",
+      // "○○○○●●●●●●",
+      // "○○○●●●●●●●",
+      // "○○●●●●●●●●",
+      // "○●●●●●●●●●",
+      // "●●●●●●●●●●"
+      "●●●●●●●●●●",
+      "●●●●●●●●●○",
+      "●●●●●●●●○○",
+      "●●●●●●○○○○",
+      "●●●●●○○○○○",
+      "●●●●○○○○○○",
+      "●●●○○○○○○○",
+      "●●○○○○○○○○",
+      "●○○○○○○○○○",
+    ],
+    "exec": "/var/home/frieser/.cargo/bin/pomodoro-cli status --format json --time-format digital",
+    "return-type": "json",
+    "on-click": "/var/home/frieser/.cargo/bin/pomodoro-cli pause",
+    "on-click-right": "/var/home/frieser/.cargo/bin/pomodoro-cli stop",
+    "interval": 1
+  },
 }

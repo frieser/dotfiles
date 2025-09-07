@@ -4,6 +4,14 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 source "${ZINIT_HOME}/zinit.zsh"
 
+# initialize tmux
+if [ ! -d "$HOME/.config/tmux/plugins/tpm" ]; then
+    git clone https://github.com/tmux-plugins/tpm $HOME/.config/tmux/plugins/tpm
+    # TMUX_PLUGIN_MANAGER_PATH=$HOME/.config/tmux/plugins $HOME/.config/tmux/plugins/tpm/bin/install_plugins
+fi
+export TMUX_PLUGIN_MANAGER_PATH=$HOME/.config/tmux/plugins
+
+
 # Completion configuration
 # autoload -Uz compinit
 # compinit
@@ -38,7 +46,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Additional PATH entries
-export PATH="$HOME/.local/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.npm-packages/bin:$HOME/.local/share/soar/bin:$PATH"
+export PATH="$HOME/.local/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.npm-packages/bin:$HOME/.local/share/soar/bin:$HOME/.cargo/bin:$PATH"
 
 # Custom aliases
 alias h="distrobox-host-exec"
