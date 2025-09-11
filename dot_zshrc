@@ -13,8 +13,8 @@ export TMUX_PLUGIN_MANAGER_PATH=$HOME/.config/tmux/plugins
 
 
 # Completion configuration
-# autoload -Uz compinit
-# compinit
+autoload -Uz compinit
+compinit
 
 # Enable zinit completions with blockf to prevent conflicts
 # zinit ice blockf
@@ -22,7 +22,7 @@ export TMUX_PLUGIN_MANAGER_PATH=$HOME/.config/tmux/plugins
 
 # General settings
 export EDITOR="nvim"
-export SHELL="zsh"
+export SHELL="nu"
 export TERM=xterm-256color
 
 # History configuration
@@ -89,6 +89,19 @@ alias t="distrobox enter toolbox"
 alias vpn="(docker rm -f bbva-vpn & sleep 3 && cd /var/home/frieser/Documents/work/bbva/tools/bbva-vpn/ && ./start-vpn.sh /forticlient/fortivpn.sh)"
 alias proxy="(cd /var/home/frieser/Documents/work/bbva/tools/bbva-vpn/ && sshuttle -NHr root@localhost:30022 10.48.0.0/16 10.50.0.0/16 10.51.0.0/16 10.52.0.0/16 10.111.0.0/16 22.0.0.0/8 23.1.2.0/24 23.1.176.0/24 23.2.2.0/24 23.4.0.0/16 100.64.0.0/10 --ssh-cmd 'ssh -o StrictHostKeyChecking=no -i podman-data/id_rsa' --no-latency-control --ns-hosts 10.51.33.33 --to-ns 10.51.33.33)"
 
+# jj alias
+alias j="jj"
+alias jl="jj log"
+alias jst="jj st"
+alias jrb="jj rebase"
+alias jp="jj git push"
+alias jpl="jj git pull"
+alias jn="jj new"
+alias jd="jj describe"
+alias je="jj edit"
+alias jb="jj bookmark"
+alias ja="jj abandon"
+
 # Function aliases
 cd() {
     builtin cd "$@" && ls
@@ -113,8 +126,7 @@ zinit light-mode for \
     zsh-users/zsh-autosuggestions \
     MichaelAquilina/zsh-you-should-use \
     Aloxaf/fzf-tab \
-    jeffreytse/zsh-vi-mode \
-    rupa/z
+    jeffreytse/zsh-vi-mode 
 
 # Oh-My-Zsh libs and completions
 # zinit snippet OMZ::lib/completion.zsh
@@ -122,18 +134,20 @@ zinit light-mode for \
 zinit snippet OMZ::lib/git.zsh
 
 # Oh-My-Zsh plugins for various development tools
-# zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
+zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
 # zinit snippet OMZ::plugins/web-search/web-search.plugin.zsh
 # zinit snippet OMZ::plugins/aws/aws.plugin.zsh
 # zinit snippet OMZ::plugins/npm/npm.plugin.zsh
 # zinit snippet OMZ::plugins/pip/pip.plugin.zsh
 zinit snippet OMZ::plugins/git/git.plugin.zsh
 # zinit snippet OMZ::plugins/terraform/terraform.plugin.zsh
-# zinit snippet OMZ::plugins/ssh/ssh.plugin.zsh
-# zinit snippet OMZ::plugins/systemd/systemd.plugin.zsh
-# zinit snippet OMZ::plugins/podman/podman.plugin.zsh
+zinit snippet OMZ::plugins/ssh/ssh.plugin.zsh
+zinit snippet OMZ::plugins/systemd/systemd.plugin.zsh
+zinit snippet OMZ::plugins/podman/podman.plugin.zsh
 # zinit snippet OMZ::plugins/git-extras/git-extras.plugin.zsh
 # zinit snippet OMZ::plugins/git-lfs/git-lfs.plugin.zsh
+#
+source <(jj util completion zsh)
 
 # Pure theme configuration
 zinit ice pick"async.zsh" src"pure.zsh"
@@ -146,7 +160,5 @@ zinit ice as"command" from"gh-r" bpick"atuin-*.tar.gz" mv"atuin*/atuin -> atuin"
 zinit light atuinsh/atuin
 
 zinit load atuinsh/atuin
-# Additional PATH entries
-export PATH="$HOME/.local/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.npm-packages/bin:$PATH"
 
 # vm_after_init_commands+=(eval "$(zoxide init zsh)")
