@@ -1,15 +1,16 @@
 * {
-  font-family: Cascadia Code;
-  font-size: 14px;
-  min-height: 0;
+  font-family:  Cascadia Code, monospace;
+  font-weight: bold;
+  font-size: 16px;
+  /* min-height: 0; */
   padding-right: 2px;
   padding-left: 2px;
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
 }
 
 #waybar {
   color: #c6d0f5;
-  margin: 2px 2px;
+  /* margin: 2px 2px; */
 }
 
 #workspaces {
@@ -22,7 +23,8 @@
 #workspaces button {
   color: #babbf1;
   border-radius: 5px;
-  padding: 0.4rem;
+  padding: 0.1rem;
+  padding-right: 0.5rem;
 }
 
 #workspaces button.active {
@@ -49,7 +51,7 @@
 #custom-pomo,
 #idle_inhibitor { 
   background-color: #101010;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 1rem;
   margin: 5px 0;
 }
 

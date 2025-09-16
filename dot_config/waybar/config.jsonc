@@ -4,6 +4,7 @@
   "mode": "dock",
   "modules-left": [
     "hyprland/workspaces",
+    "niri/workspaces",
     "custom/pomo"
   ],
   "modules-center": [
@@ -20,6 +21,20 @@
     "custom/lock",
     "custom/power",
   ],
+  "niri/workspaces": {
+	"format": "{icon}",
+	// "format-icons": {
+	// 	// Named workspaces
+	// 	// (you need to configure them in niri)
+	// 	"browser": "",
+	// 	"discord": "",
+	// 	"chat": "<b></b>",
+	//
+	// 	// Icons by state
+	// 	"active": "",
+	// 	"default": ""
+	// }
+  },
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
     "format-icons": {

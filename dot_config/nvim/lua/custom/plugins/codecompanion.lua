@@ -1,31 +1,32 @@
-return {
-  'olimorris/codecompanion.nvim',
-  dependencies = {
-    'nvim-lua/plenary.nvim',
-    'nvim-treesitter/nvim-treesitter',
-  },
-  opts = {
-    -- language = 'Spanish',
-    strategies = {
-      chat = {
-        adapter = 'deepseek',
-      },
-      inline = {
-        adapter = 'deepseek',
-      },
-    },
-    adapters = {
-      deepseek = function()
-        return require('codecompanion.adapters').extend('deepseek', {
-          scheme = {
-            model = 'deepseek-chat',
-          },
-          env = {
-            api_key = 'DEEPSEEK_API_KEY',
-          },
-        })
-      end,
-    },
-    log_level = 'DEBUG', -- Añadido para debugging
-  },
-}
+return {}
+-- return {
+--   'olimorris/codecompanion.nvim',
+--   dependencies = {
+--     'nvim-lua/plenary.nvim',
+--     'nvim-treesitter/nvim-treesitter',
+--   },
+--   opts = {
+--     -- language = 'Spanish',
+--     strategies = {
+--       chat = {
+--         adapter = 'deepseek',
+--       },
+--       inline = {
+--         adapter = 'deepseek',
+--       },
+--     },
+--     adapters = {
+--       deepseek = function()
+--         return require('codecompanion.adapters').extend('deepseek', {
+--           scheme = {
+--             model = 'deepseek-chat',
+--           },
+--           env = {
+--             api_key = 'DEEPSEEK_API_KEY',
+--           },
+--         })
+--       end,
+--     },
+--     log_level = 'DEBUG', -- Añadido para debugging
+--   },
+-- }
