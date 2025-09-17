@@ -29,10 +29,14 @@ output "DP-9" {
     variable-refresh-rate
 }
 
+cursor {
+    hide-when-typing
+    hide-after-inactive-ms 5000
+}
 layout {
-    gaps 0
+    gaps 8
 
-    center-focused-column "always"
+    // center-focused-column "on-overflow"
 
     preset-column-widths {
         proportion 0.33333
@@ -75,22 +79,71 @@ animations {
     slowdown 0.5
 }
 
-window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    open-floating true
-}
-
-window-rule {
-    match is-active=false
-    // opacity 1
-}
-
-
+// Add corner radius to windows
 window-rule {
     geometry-corner-radius 4
     clip-to-geometry true
 }
 
+// Block out screencast windows from being focused
+window-rule {
+    match is-active=false
+    block-out-from "screencast"
+}
+
+window-rule {
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+
+// Indicate screencasted windows with red colors.
+window-rule {
+    match is-window-cast-target=true
+
+    focus-ring {
+        active-color "#f38ba8"
+        inactive-color "#7d0d2d"
+    }
+
+    border {
+        inactive-color "#7d0d2d"
+    }
+
+    shadow {
+        color "#7d0d2d70"
+    }
+
+    tab-indicator {
+        active-color "#f38ba8"
+        inactive-color "#7d0d2d"
+    }
+}
+
+
+layer-rule {
+    match namespace="^notifications$"
+
+    block-out-from "screencast"
+
+    shadow {
+        on
+        softness 40
+        spread 5
+        draw-behind-window true
+        color "#00000064"
+    }
+}
+layer-rule {
+    match namespace="^rofi$"
+
+    shadow {
+        on
+        softness 40
+        spread 5
+        draw-behind-window true
+        color "#00000064"
+    }
+}
 layer-rule {
     match namespace="waybar"
     match at-startup=true
@@ -116,17 +169,20 @@ gestures {
     }
 }
 binds {
-    Mod+Shift+Slash { show-hotkey-overlay; }
-
+    // Applications
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
-    Mod+B hotkey-overlay-title="Open a Browser: zen" { spawn "flatpak" "run" "app.zen_browser.zen"; }
+    Mod+B hotkey-overlay-title="Open a Browser: zen" { spawn "flatpak" "run" "app.zen_browser.zen";}
+    Mod+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn "flatpak" "run" "app.zen_browser.zen" "--new-window" "chatgpt.com"; }
     Mod+F hotkey-overlay-title="Open a File Manager: nautilus" { spawn "nautilus"; }
     Mod+N hotkey-overlay-title="Open a Note App: obsidian" { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
     Mod+Space hotkey-overlay-title="Run an Application: rofi" { spawn "rofi" "-show" "drun"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
 
+    // Layers
+    Mod+Shift+Slash { show-hotkey-overlay; }
     Super+U hotkey-overlay-title="Toggle waybar" { spawn-sh "pkill -SIGUSR1 waybar"; }
 
+    // Audio
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
     XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
     XF86AudioMute        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
@@ -135,13 +191,15 @@ binds {
     XF86AudioNext        allow-when-locked=true { spawn-sh "playerctl next"; }
     XF86AudioPrev        allow-when-locked=true { spawn-sh "playerctl previous"; }
 
+    // Brightness
     XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
     XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
 
+    // Navigation
     Mod+O repeat=false { toggle-overview; }
-
     Mod+Q repeat=false { close-window; }
 
+    // Focus
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-or-workspace-down; }
     Mod+Up    { focus-window-or-workspace-up; }
@@ -151,6 +209,10 @@ binds {
     Mod+K     { focus-window-or-workspace-up; }
     Mod+L     { focus-column-right; }
 
+    Mod+A          { focus-column-first; }
+    Mod+apostrophe { focus-column-last; }
+
+    // Movement
     Mod+Ctrl+Left  { move-column-left; }
     Mod+Ctrl+Down  { move-window-down-or-to-workspace-down;}
     Mod+Ctrl+Up    { move-window-up-or-to-workspace-up; }
@@ -159,19 +221,11 @@ binds {
     Mod+Ctrl+J     { move-window-down-or-to-workspace-down; }
     Mod+Ctrl+K     { move-window-up-or-to-workspace-up; }
     Mod+Ctrl+L     { move-column-right; }
-    Mod+0 {
-        focus-column-first;
-    }
-    Mod+apostrophe {
-        focus-column-last;
-    }
-    Mod+Ctrl+0 {
-        move-column-to-first;
-    }
-    Mod+Ctrl+apostrophe {
-        move-column-to-last;
-    }
 
+    Mod+Ctrl+A { move-column-to-first; }
+    Mod+Ctrl+apostrophe { move-column-to-last; }
+
+    // Monitors
     // Mod+Shift+Left  { focus-monitor-left; }
     // Mod+Shift+Down  { focus-monitor-down; }
     // Mod+Shift+Up    { focus-monitor-up; }
@@ -193,6 +247,7 @@ binds {
     // And you can also move a whole workspace to another monitor:
     // Mod+Shift+Ctrl+Left  { move-workspace-to-monitor-left; }
 
+    // Workspaces
     Mod+Ctrl+Shift+J { move-workspace-down; }
     Mod+Ctrl+Shift+K { move-workspace-up; }
 
@@ -230,48 +285,57 @@ binds {
     Mod+Ctrl+8 { move-column-to-workspace 8; }
     Mod+Ctrl+9 { move-column-to-workspace 9; }
 
-    // Switches focus between the current and the previous workspace.
     Mod+Tab { focus-workspace-previous; }
 
-    Mod+Shift+H  { consume-or-expel-window-left; }
-    Mod+Shift+L { consume-or-expel-window-right; } // Consume one window from the right to the bottom of the focused column.
+    // Layout
+    Mod+Shift+H { consume-or-expel-window-left; }
+    Mod+Shift+L { consume-or-expel-window-right; }
     Mod+Comma  { consume-window-into-column; }
     Mod+Period { expel-window-from-column; }
 
-    Mod+P { switch-preset-column-width; }
-    // If the window is already in a column, they will expel it out.
-    // Cycling through the presets in reverse order is also possible.
-    // Mod+R { switch-preset-column-width-back; }
-    Mod+Shift+P { switch-preset-window-height; }
-    Mod+Ctrl+R { reset-window-height; }
+    Mod+W { switch-preset-column-width; }
+    Mod+Shift+W{ switch-preset-window-height; }
+    Mod+Ctrl+W { reset-window-height; }
+
     Mod+X { maximize-column; }
     Mod+Shift+X { fullscreen-window; }
 
-    Mod+Ctrl+X { expand-column-to-available-width; }
+    Mod+minus { set-column-width "-10%"; }
+    Mod+I { set-column-width "+10%"; }
 
-    Mod+Z { center-column; }
-
-    // Center all fully visible columns on screen.
-    Mod+Ctrl+Z { center-visible-columns; }
-
-    Mod+C { set-column-width "-10%"; }
-    Mod+E { set-column-width "+10%"; }
-
-    Mod+Shift+C { set-window-height "-10%"; }
     Mod+Shift+E { set-window-height "+10%"; }
+    Mod+Shift+C { set-window-height "-10%"; }
 
-    Mod+V       { toggle-window-floating; }
-    Mod+Shift+V { switch-focus-between-floating-and-tiling; }
+    // Floating
+    Mod+G       { toggle-window-floating; }
+    Mod+Shift+G { switch-focus-between-floating-and-tiling; }
 
-    Mod+W { toggle-column-tabbed-display; }
+    // Tabs
+    Mod+Shift+T { toggle-column-tabbed-display; }
 
-    // Mod+Space       { switch-layout "next"; }
-    // Mod+Shift+Space { switch-layout "prev"; }
+    // Keyboard layouts
+    Mod+Ctrl+Space       { switch-layout "next"; }
+    Mod+Ctrl+Shift+Space { switch-layout "prev"; }
 
-    Print { screenshot; }
-    Ctrl+Print { screenshot-screen; }
-    Alt+Print { screenshot-window; }
+    // Screenshots
+    Mod+Print { screenshot; }
+    Mod+Ctrl+Print { screenshot-screen; }
+    Mod+Alt+Print { screenshot-window; }
+    
+    // Pomodoro
+    Mod+P { spawn-sh "/var/home/frieser/.cargo/bin/pomodoro-cli start --duration 52m --message Work"; }
+    Mod+Shift+B { spawn-sh "/var/home/frieser/.cargo/bin/pomodoro-cli start --duration 17m --message Break"; }
+    Mod+Shift+P { spawn-sh "/var/home/frieser/.cargo/bin/pomodoro-cli pause"; }
+    Mod+Ctrl+P { spawn-sh "/var/home/frieser/.cargo/bin/pomodoro-cli stop"; }
 
+    // Screancast
+    Mod+S { set-dynamic-cast-window; }
+    Mod+Shift+S { set-dynamic-cast-monitor; }
+    Mod+Ctrl+S { clear-dynamic-cast-target; }
+
+    // Remote control
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+
+    // Quit
     Mod+Shift+Escape { quit; }
 }
