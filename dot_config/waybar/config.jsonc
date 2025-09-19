@@ -18,7 +18,6 @@
     "memory",
     "tray",
     "idle_inhibitor",
-    "custom/lock",
     "custom/power",
   ],
   "niri/workspaces": {
@@ -84,11 +83,6 @@
     },
     "on-click": "pavucontrol"
   },
-  "custom/lock": {
-    "tooltip": false,
-    "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown",
-    "format": ""
-  },
   "custom/power": {
     "tooltip": false,
     "on-click": "wlogout &",
@@ -123,10 +117,10 @@
       "●●○○○○○○○○",
       "●○○○○○○○○○",
     ],
-    "exec": "/var/home/frieser/.cargo/bin/pomodoro-cli status --format json --time-format digital",
+    "exec": "pomodoro-cli status --format json --time-format digital",
     "return-type": "json",
-    "on-click": "/var/home/frieser/.cargo/bin/pomodoro-cli pause",
-    "on-click-right": "/var/home/frieser/.cargo/bin/pomodoro-cli stop",
+    "on-click": "pomodoro-cli pause",
+    "on-click-right": "pomodoro-cli stop",
     "interval": 1
   },
 }

@@ -1,6 +1,6 @@
-spawn-at-startup "waybar"
-spawn-sh-at-startup "hypridle -c /var/home/frieser/.config/hypr/hypridle.conf"
-spawn-sh-at-startup "swaybg -i /usr/share/backgrounds/aquamarine.webp -m fill"
+spawn-sh-at-startup "uwsm app -- waybar"
+spawn-sh-at-startup "uwsm app -- hypridle -c /var/home/frieser/.config/hypr/hypridle.conf"
+spawn-sh-at-startup "uwsm app -- swaybg -i /usr/share/backgrounds/aquamarine.webp -m fill"
 
 prefer-no-csd
 
@@ -33,10 +33,11 @@ cursor {
     hide-when-typing
     hide-after-inactive-ms 5000
 }
+
 layout {
     gaps 8
 
-    // center-focused-column "on-overflow"
+    center-focused-column "always"
 
     preset-column-widths {
         proportion 0.33333
@@ -170,13 +171,16 @@ gestures {
 }
 binds {
     // Applications
-    Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
+    Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn-sh "uwsm app -- ghostty"; }
     Mod+B hotkey-overlay-title="Open a Browser: zen" { spawn "flatpak" "run" "app.zen_browser.zen";}
     Mod+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn "flatpak" "run" "app.zen_browser.zen" "--new-window" "chatgpt.com"; }
-    Mod+F hotkey-overlay-title="Open a File Manager: nautilus" { spawn "nautilus"; }
+    Mod+F hotkey-overlay-title="Open a File Manager: nautilus" { spawn-sh "uwsm app -- nautilus"; }
     Mod+N hotkey-overlay-title="Open a Note App: obsidian" { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
-    Mod+Space hotkey-overlay-title="Run an Application: rofi" { spawn "rofi" "-show" "drun"; }
-    Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
+    Mod+Space hotkey-overlay-title="Run an Application: rofi" { spawn-sh "uwsm app -- rofi -show drun"; }
+    Mod+Shift+Space hotkey-overlay-title="Run an Power menu: rofi power menu" { spawn-sh "uwsm app -- rofi -show p -modi p:'rofi-power-menu'"; }
+    Mod+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-wifi-menu.sh"; }
+    Mod+Shift+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-bluetooth-menu"; }
+    Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn-sh "uwsm app -- hyprlock"; }
 
     // Layers
     Mod+Shift+Slash { show-hotkey-overlay; }
@@ -323,10 +327,10 @@ binds {
     Mod+Alt+Print { screenshot-window; }
     
     // Pomodoro
-    Mod+P { spawn-sh "/var/home/frieser/.cargo/bin/pomodoro-cli start --duration 52m --message Work"; }
-    Mod+Shift+B { spawn-sh "/var/home/frieser/.cargo/bin/pomodoro-cli start --duration 17m --message Break"; }
-    Mod+Shift+P { spawn-sh "/var/home/frieser/.cargo/bin/pomodoro-cli pause"; }
-    Mod+Ctrl+P { spawn-sh "/var/home/frieser/.cargo/bin/pomodoro-cli stop"; }
+    Mod+P { spawn-sh "uwsm app -- pomodoro-cli start --duration 52m --message Work"; }
+    Mod+Shift+B { spawn-sh "uwsm app -- pomodoro-cli start --duration 17m --message Break"; }
+    Mod+Shift+P { spawn-sh "uwsm app -- pomodoro-cli pause"; }
+    Mod+Ctrl+P { spawn-sh "uwsm app -- pomodoro-cli stop"; }
 
     // Screancast
     Mod+S { set-dynamic-cast-window; }
