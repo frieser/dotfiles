@@ -1,134 +1,84 @@
+@define-color foreground #cdd6f4;
+@define-color background #1a1b26;
+
 * {
-  font-family:  Cascadia Code, monospace;
-  font-weight: bold;
-  font-size: 16px;
-  /* min-height: 0; */
-  padding-right: 2px;
-  padding-left: 2px;
-  /* padding-bottom: 0px; */
+  background-color: @background;
+  color: @foreground;
+
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: Cascadia Code, monospace;
+  font-size: 13px;
 }
 
-#waybar {
-  color: #c6d0f5;
-  /* margin: 2px 2px; */
+.modules-left {
+  margin-left: 8px;
 }
 
-#workspaces {
-  border-radius: 5px;
-  margin: 5px;
-  background: #101010;
-  margin-left: 1rem;
+.modules-right {
+  margin-right: 8px;
 }
 
 #workspaces button {
-  color: #babbf1;
-  border-radius: 5px;
-  padding: 0.1rem;
-  padding-right: 0.5rem;
+  all: initial;
+  padding: 0 6px;
+  margin: 0 1.5px;
+  min-width: 9px;
 }
 
-#workspaces button.active {
-  color: #99d1db;
-  border-radius: 5px;
+#workspaces button.empty {
+  opacity: 0.5;
 }
 
-#workspaces button:hover {
-  color: #85c1dc;
-  border-radius: 5px;
-}
-
-#custom-music,
 #tray,
-#backlight,
-#clock,
-#battery,
-#pulseaudio,
-#network,
 #cpu,
-#memory,
-#custom-lock,
-#custom-power,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-update,
 #custom-pomo,
-#idle_inhibitor { 
-  background-color: #101010;
-  padding: 0.25rem 1rem;
-  margin: 5px 0;
+#idle_inhibitor {
+  min-width: 12px;
+  margin: 0 7.5px;
 }
 
-#memory {
-  border-radius: 0px 5px 5px 0px;
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+tooltip {
+  padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
 }
 
 #clock {
-  color: #8caaee;
-  border-radius: 5px;
-  margin-right: 1rem;
+  margin-left: 8.75px;
 }
 
-#battery {
-  color: #a6d189;
+.hidden {
+  opacity: 0;
 }
 
-#battery.charging {
-  color: #a6d189;
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 10px;
 }
 
-#battery.warning:not(.charging) {
-  color: #e78284;
-}
-
-#backlight {
-  color: #e5c890;
-}
-
-#backlight,
-#battery {
-  border-radius: 0;
-}
-
-#pulseaudio {
-  color: #ea999c;
-  border-radius: 5px 0px 0px 5%;
-  margin-left: 1rem;
-}
-
-#custom-music {
-  color: #ca9ee6;
-  border-radius: 5px;
-}
-
-#custom-lock {
-  border-radius: 5px 0px 0px 5px;
-  color: #babbf1;
-}
-
-#custom-power {
-  margin-right: 1rem;
-  border-radius: 0px 5px 5px 0px;
-  color: #e78284;
-}
-
-#tray {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  border-radius: 5px;
-}
-
-#idle_inhibitor {
-  margin-right: 1rem;
-  border-radius: 5px;
-}
-
-#idle_inhibitor.activated {
-  color: #a6d189; /* verde, como battery charging */
-}
-
-#idle_inhibitor.deactivated {
-  color: #e78284; /* rojo, como battery warning */
+#custom-screenrecording-indicator.active {
+  color: #a55555;
 }
 
 #custom-pomo {
   border-radius: 5px;
+  padding: 0.25rem 1rem;
 }
 
 #custom-pomo.running {

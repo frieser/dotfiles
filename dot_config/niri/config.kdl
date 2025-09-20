@@ -35,7 +35,7 @@ cursor {
 }
 
 layout {
-    gaps 8
+    gaps 2
 
     center-focused-column "always"
 
@@ -52,7 +52,7 @@ layout {
     focus-ring {
         width 4
 
-        active-color "#7fc8ff"
+        active-color "#ccffee"
         inactive-color "#505050"
     }
 
@@ -63,10 +63,10 @@ layout {
     shadow {}
 
     struts {
-        left 4
-        right 4
-        top 4
-        bottom 4
+        left 2
+        right 2
+        top 2
+        bottom 2
     }
 }
 
@@ -82,7 +82,7 @@ animations {
 
 // Add corner radius to windows
 window-rule {
-    geometry-corner-radius 4
+    geometry-corner-radius 2
     clip-to-geometry true
 }
 
@@ -135,7 +135,7 @@ layer-rule {
     }
 }
 layer-rule {
-    match namespace="^rofi$"
+    match namespace="^walker$"
 
     shadow {
         on
@@ -176,7 +176,7 @@ binds {
     Mod+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn "flatpak" "run" "app.zen_browser.zen" "--new-window" "chatgpt.com"; }
     Mod+F hotkey-overlay-title="Open a File Manager: nautilus" { spawn-sh "uwsm app -- nautilus"; }
     Mod+N hotkey-overlay-title="Open a Note App: obsidian" { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
-    Mod+Space hotkey-overlay-title="Run an Application: rofi" { spawn-sh "uwsm app -- rofi -show drun"; }
+    Mod+Space hotkey-overlay-title="Run an Application: walker" { spawn-sh "uwsm app -- walker"; }
     Mod+Shift+Space hotkey-overlay-title="Run an Power menu: rofi power menu" { spawn-sh "uwsm app -- rofi -show p -modi p:'rofi-power-menu'"; }
     Mod+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-wifi-menu.sh"; }
     Mod+Shift+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-bluetooth-menu"; }

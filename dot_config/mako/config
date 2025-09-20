@@ -1,11 +1,11 @@
 sort=-time
 layer=overlay
-background-color=#2e3440
+background-color=#1e1e2e
 width=300
 height=110
-border-size=2
-border-color=#7fc8ff
-border-radius=4
+border-size=4
+border-color=#ccffee
+border-radius=2
 icons=1
 max-icon-size=64
 default-timeout=5000
@@ -13,10 +13,10 @@ ignore-timeout=1
 font=Cascadia Code 12
 
 [urgency=low]
-border-color=#7fc8ff
+border-color=#ccffee
 
 [urgency=normal]
-border-color=#f0c674
+border-color=#ccffee
 
 [urgency=high]
 border-color=#bf616a
