@@ -63,6 +63,10 @@
     },
     "modules": ["custom/expand-icon", "tray"]
   },
+ "custom/expand-icon": {
+    "format": " ",
+    "tooltip": false
+  },
   "tray": {
     "icon-size": 14,
     "spacing": 12
