@@ -177,7 +177,7 @@ binds {
     Mod+F hotkey-overlay-title="Open a File Manager: nautilus" { spawn-sh "uwsm app -- nautilus"; }
     Mod+N hotkey-overlay-title="Open a Note App: obsidian" { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
     Mod+Space hotkey-overlay-title="Run an Application: walker" { spawn-sh "uwsm app -- walker"; }
-    Mod+Shift+Space hotkey-overlay-title="Run an Power menu: rofi power menu" { spawn-sh "uwsm app -- rofi -show p -modi p:'rofi-power-menu'"; }
+    Mod+Shift+Space hotkey-overlay-title="Run an Power menu: rofi power menu" { spawn-sh "uwsm app -- walker -m menus:main"; }
     Mod+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-wifi-menu.sh"; }
     Mod+Shift+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-bluetooth-menu"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn-sh "uwsm app -- hyprlock"; }
