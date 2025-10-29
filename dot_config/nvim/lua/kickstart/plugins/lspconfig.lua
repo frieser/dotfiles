@@ -210,6 +210,7 @@ return {
         },
         pyright = {},
         rust_analyzer = {},
+        copilot = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -269,9 +270,18 @@ return {
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
         'gopls',
+        'goimports',
+        'gofumpt',
+        'gomodifytags',
+        'gotests',
         'clangd',
         'pyright',
         'rust_analyzer',
+        'yamlls',
+        'lua_ls',
+        'delve',
+        'stylua',
+        'copilot',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 

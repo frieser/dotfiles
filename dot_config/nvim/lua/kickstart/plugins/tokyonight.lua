@@ -18,21 +18,21 @@ return {
     opts = {
       on_highlights = function(highlights, colors)
         highlights['@string.go'] = { fg = colors.green2 }
-        -- highlights['@function.go'] = { fg = colors.orange }
-        -- highlights['@property.go'] = { fg = '#82A99C' }
-        -- highlights['@function.method.call.go'] = { fg = '#74F2C7' }
+        highlights['@function.go'] = { fg = colors.orange }
+        highlights['@property.go'] = { fg = '#82A99C' }
+        highlights['@function.method.call.go'] = { fg = '#74F2C7' }
         highlights['@keyword.conditional.go'] = { fg = colors.orange }
         highlights['@keyword.function.go'] = { fg = colors.orange }
         highlights['@keyword.return.go'] = { fg = colors.orange }
-        -- highlights['@function.call.go'] = { fg = '#74F2C7' }
-        -- highlights['@keyword.import.go'] = { fg = colors.orange }
+        highlights['@function.call.go'] = { fg = '#74F2C7' }
+        highlights['@keyword.import.go'] = { fg = colors.orange }
         highlights['@keyword.coroutine.go'] = { fg = colors.orange }
-        -- highlights['@keyword.go'] = { fg = colors.fg }
-        -- highlights['@type.builtin.go'] = { fg = '#80CEB3' }
-        -- highlights['@number.go'] = { fg = '#857777' }
-        -- highlights['@number.float.go'] = { fg = '#857777' }
-        -- highlights['@module.go'] = { fg = '#74F2C7' }
-        -- highlights['@variable.parameter.go'] = { fg = '#A98282' }
+        highlights['@keyword.go'] = { fg = colors.fg }
+        highlights['@type.builtin.go'] = { fg = '#80CEB3' }
+        highlights['@number.go'] = { fg = '#857777' }
+        highlights['@number.float.go'] = { fg = '#857777' }
+        highlights['@module.go'] = { fg = '#74F2C7' }
+        highlights['@variable.parameter.go'] = { fg = '#A98282' }
       end,
     },
   },

@@ -92,6 +92,18 @@ window-rule {
     block-out-from "screencast"
 }
 
+// Open floating windows
+window-rule {
+    match app-id="local.floating"
+    open-floating true
+    default-column-width { fixed 800; }
+    default-window-height { fixed 1200; }
+    min-width 800
+    max-width 800
+    min-height 1200
+    max-height 1200
+}
+
 window-rule {
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
     open-floating true
@@ -172,12 +184,13 @@ gestures {
 binds {
     // Applications
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn-sh "uwsm app -- ghostty"; }
-    Mod+B hotkey-overlay-title="Open a Browser: zen" { spawn "flatpak" "run" "app.zen_browser.zen";}
-    Mod+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn "flatpak" "run" "app.zen_browser.zen" "--new-window" "chatgpt.com"; }
+    Mod+B hotkey-overlay-title="Open a Browser: zen" { spawn-sh "uwsm app -- flatpak run app.zen_browser.zen";}
+    Mod+Alt+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn-sh "uwsm app -- flatpak run app.zen_browser.zen --class=local.floating --new-windowchatgpt.com"; }
+    Mod+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn-sh "uwsm app -- ghostty --class=local.floating -e opencode"; }
     Mod+F hotkey-overlay-title="Open a File Manager: nautilus" { spawn-sh "uwsm app -- nautilus"; }
     Mod+N hotkey-overlay-title="Open a Note App: obsidian" { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
-    Mod+Space hotkey-overlay-title="Run an Application: walker" { spawn-sh "uwsm app -- walker"; }
-    Mod+Shift+Space hotkey-overlay-title="Run an Power menu: rofi power menu" { spawn-sh "uwsm app -- walker -m menus:main"; }
+    Mod+Space hotkey-overlay-title="Run an Application: walker" { spawn-sh "uwsm app -- walker --width 295 --minheight 1 --maxheight 600"; }
+    Mod+Shift+Space hotkey-overlay-title="Run an menu: walker menu" { spawn-sh "uwsm app -- walker -m menus:menu --width 295 --minheight 1 --maxheight 600"; }
     Mod+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-wifi-menu.sh"; }
     Mod+Shift+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-bluetooth-menu"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn-sh "uwsm app -- hyprlock"; }
