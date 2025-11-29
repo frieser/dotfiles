@@ -185,7 +185,7 @@ binds {
     // Applications
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn-sh "uwsm app -- ghostty"; }
     Mod+B hotkey-overlay-title="Open a Browser: zen" { spawn-sh "uwsm app -- flatpak run app.zen_browser.zen";}
-    Mod+Alt+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn-sh "uwsm app -- flatpak run app.zen_browser.zen --class=local.floating --new-window chatgpt.com"; }
+    Mod+Alt+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn-sh "uwsm app -- flatpak run app.zen_browser.zen --class=local.floating --new-window https://gemini.google.com/app"; }
     Mod+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn-sh "uwsm app -- ghostty --class=local.floating -e opencode"; }
     Mod+F hotkey-overlay-title="Open a File Manager: nautilus" { spawn-sh "uwsm app -- nautilus"; }
     Mod+N hotkey-overlay-title="Open a Note App: obsidian" { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
@@ -194,6 +194,8 @@ binds {
     Mod+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-wifi-menu.sh"; }
     Mod+Shift+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-bluetooth-menu"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn-sh "uwsm app -- hyprlock"; }
+
+    Mod+Alt+P hotkey-overlay-title="Toggle Hyprflow" { spawn "hyprflow"; }
 
     // Layers
     Mod+Shift+Slash { show-hotkey-overlay; }

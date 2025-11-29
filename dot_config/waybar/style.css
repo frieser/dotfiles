@@ -76,3 +76,12 @@ tooltip {
 #custom-pomo.finished {
   background-color: #101010;
 }
+
+#custom-hyprflow-indicator {
+  min-width: 12px;
+  margin: 0 8px;
+}
+
+#custom-hyprflow-indicator.active {
+  color: #f38ba8; /* or your preferred recording color */
+}
