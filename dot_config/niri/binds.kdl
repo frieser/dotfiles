@@ -5,18 +5,22 @@ binds {
     Mod+Alt+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn-sh "uwsm app -- flatpak run app.zen_browser.zen --class=local.floating --new-window https://gemini.google.com/app"; }
     Mod+C hotkey-overlay-title="Open a Chat: ChatGPT" { spawn-sh "uwsm app -- ghostty --class=local.floating -e opencode"; }
     Mod+F hotkey-overlay-title="Open a File Manager: nautilus" { spawn-sh "uwsm app -- nautilus"; }
-    Mod+N hotkey-overlay-title="Open a Note App: obsidian" { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
-    Mod+Space hotkey-overlay-title="Run an Application: walker" { spawn-sh "uwsm app -- walker --width 295 --minheight 1 --maxheight 600"; }
-    Mod+Shift+Space hotkey-overlay-title="Run an menu: walker menu" { spawn-sh "uwsm app -- walker -m menus:menu --width 295 --minheight 1 --maxheight 600"; }
+    Mod+N hotkey-overlay-title="Open a Note App: obsidian" { spawn-sh "qs ipc call clock-osd toggle"; }
+
+    Mod+Space { spawn-sh "qs ipc call launcher toggle";}
+    Mod+Shift+Space { spawn-sh "qs ipc call launcher toggleMenu";}
+    // Mod+Space hotkey-overlay-title="Run an Application: walker" { spawn-sh "uwsm app -- walker --width 295 --minheight 1 --maxheight 600"; }
+    // Mod+Shift+Space hotkey-overlay-title="Run an menu: walker menu" { spawn-sh "uwsm app -- walker -m menus:menu --width 295 --minheight 1 --maxheight 600"; }
     Mod+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-wifi-menu.sh"; }
     Mod+Shift+Alt+Space hotkey-overlay-title="Run an Wifi menu: rofi wifi menu" { spawn-sh "uwsm app -- rofi-bluetooth-menu"; }
-    Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn-sh "uwsm app -- hyprlock"; }
+    Super+Alt+L hotkey-overlay-title="Lock the Screen" { spawn-sh "qs ipc call lockscreen lock"; }
+    Super+Ctrl+L hotkey-overlay-title="Logout Menu" { spawn-sh "qs ipc call logout toggle"; }
 
     Mod+Alt+P hotkey-overlay-title="Toggle Hyprflow" { spawn "hyprflow"; }
 
     // Layers
     Mod+Shift+Slash { show-hotkey-overlay; }
-    Super+U hotkey-overlay-title="Toggle waybar" { spawn-sh "pkill -SIGUSR1 waybar"; }
+    Super+U hotkey-overlay-title="Toggle waybar" { spawn-sh "qs ipc call volume-osd toggle"; }
 
     // Audio
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
@@ -28,8 +32,7 @@ binds {
     XF86AudioPrev        allow-when-locked=true { spawn-sh "playerctl previous"; }
 
     // Brightness
-    XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
-    XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
+    XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "+10%%-"; }
 
     // Navigation
     Mod+O repeat=false { toggle-overview; }
@@ -134,6 +137,7 @@ binds {
     Mod+Ctrl+W { reset-window-height; }
 
     Mod+X { maximize-column; }
+    Mod+M { maximize-window-to-edges; }
     Mod+Shift+X { fullscreen-window; }
 
     Mod+minus { set-column-width "-10%"; }
@@ -159,10 +163,10 @@ binds {
     Mod+Alt+Print { screenshot-window; }
     
     // Pomodoro
-    Mod+P { spawn-sh "uwsm app -- pomodoro-cli start --duration 52m --message Work"; }
-    Mod+Shift+B { spawn-sh "uwsm app -- pomodoro-cli start --duration 17m --message Break"; }
-    Mod+Shift+P { spawn-sh "uwsm app -- pomodoro-cli pause"; }
-    Mod+Ctrl+P { spawn-sh "uwsm app -- pomodoro-cli stop"; }
+    Mod+P { spawn-sh "uwsm app -- qs ipc call pomodoro start"; }
+    Mod+Shift+B { spawn-sh "uwsm app -- qs ipc call pomodoro start_break"; }
+    Mod+Shift+P { spawn-sh "uwsm app -- qs ipc call pomodoro pause"; }
+    Mod+Ctrl+P { spawn-sh "uwsm app -- qs ipc call pomodoro stop"; }
 
     // Screancast
     Mod+S { set-dynamic-cast-window; }

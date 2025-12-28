@@ -32,6 +32,9 @@ return {
         return '%2l:%-2v'
       end
 
+      -- ... and there is more!
+      --  Check out: https://github.com/echasnovski/mini.nvim
+
       require('mini.move').setup() -- No need to copy this inside `setup()`. Will be used automatically.
 
       local gen_loader = require('mini.snippets').gen_loader
@@ -47,13 +50,8 @@ return {
       }
 
       require('mini.bracketed').setup()
-
       require('mini.animate').setup()
-
-      require('mini.indentscope').setup()
-
-      -- ... and there is more!
-      --  Check out: https://github.com/echasnovski/mini.nvim
+      -- require('mini.indentscope').setup()
     end,
   },
 }
