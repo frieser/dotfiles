@@ -1,1 +1,0 @@
-return { 'bhugovilela/palette.nvim' }
