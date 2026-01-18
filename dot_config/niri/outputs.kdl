@@ -1,3 +1,9 @@
+
+output "eDP-1" {
+    scale 1
+
+    variable-refresh-rate
+}
 output "DP-9" {
     scale 1.25
 

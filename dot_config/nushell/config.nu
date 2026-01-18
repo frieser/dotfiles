@@ -24,6 +24,13 @@ source ~/.config/nushell/aliases/distrobox.nu
 # source jj aliases
 source ~/.config/nushell/aliases/jj.nu
 
+# source workmux aliases
+source ~/.config/nushell/aliases/workmux.nu
+
+# source opencode aliases
+source ~/.config/nushell/aliases/opencode.nu
+
+
 # source functions
 source ~/.config/nushell/aliases/functions.nu
 
@@ -46,6 +53,3 @@ source ~/.config/nushell/scripts/you-should-use.nu
 
 # source carapace completions
 source ~/.cache/carapace/init.nu
-
-# source cattupuccin theme
-source ~/.config/nushell/themes/catppuccin-mocha.nu

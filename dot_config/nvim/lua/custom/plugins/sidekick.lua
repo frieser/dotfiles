@@ -7,6 +7,19 @@ return {
       mux = {
         backend = 'tmux',
         enabled = true,
+        create = 'split',
+        split = {
+          vertical = true,
+          size = 60,
+        },
+      },
+      win = {
+        -- El layout define dónde se abre (right, left, bottom, top)
+        layout = 'right',
+        split = {
+          width = 60,
+          height = 20,
+        },
       },
     },
   },

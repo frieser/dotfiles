@@ -1,9 +1,3 @@
-// Add corner radius to windows
-window-rule {
-    geometry-corner-radius 2
-    clip-to-geometry true
-}
-
 // Block out screencast windows from being focused
 window-rule {
     match is-active=false
@@ -14,12 +8,15 @@ window-rule {
 window-rule {
     match app-id="local.floating"
     open-floating true
-    default-column-width { fixed 800; }
-    default-window-height { fixed 1200; }
-    min-width 800
-    max-width 800
-    min-height 1200
-    max-height 1200
+    default-column-width { proportion 0.4; }
+    default-window-height { proportion 0.8; }
+}
+
+window-rule {
+    match title="Gemini"
+    open-floating true
+    default-column-width { proportion 0.4; }
+    default-window-height { proportion 0.8; }
 }
 
 window-rule {

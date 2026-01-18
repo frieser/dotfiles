@@ -1,3 +1,5 @@
+include "colors.kdl"
+include "style.kdl"
 include "spawn.kdl"
 include "options.kdl"
 include "input.kdl"

@@ -18,19 +18,31 @@ return {
       require('mini.surround').setup()
 
       -- Simple and easy statusline.
-      --  You could remove this setup call if you don't like it,
-      --  and try some other statusline plugin
       local statusline = require 'mini.statusline'
-      -- set use_icons to true if you have a Nerd Font
-      statusline.setup { use_icons = vim.g.have_nerd_font }
+      statusline.setup {
+        use_icons = vim.g.have_nerd_font,
+        content = {
+          active = function()
+            local mode, mode_hl = MiniStatusline.section_mode({ trunc_width = 120 })
+            local git = MiniStatusline.section_git({ trunc_width = 40 })
+            local diagnostics = MiniStatusline.section_diagnostics({ trunc_width = 75 })
+            local lsp = MiniStatusline.section_lsp({ trunc_width = 75 })
+            local filename = MiniStatusline.section_filename({ trunc_width = 140 })
+            local filetype = vim.bo.filetype ~= '' and vim.bo.filetype or 'no ft'
+            local search = MiniStatusline.section_searchcount({ trunc_width = 75 })
+            local macro = vim.fn.reg_recording() ~= '' and ('● REC @' .. vim.fn.reg_recording()) or ''
 
-      -- You can configure sections in the statusline by overriding their
-      -- default behavior. For example, here we set the section for
-      -- cursor location to LINE:COLUMN
-      ---@diagnostic disable-next-line: duplicate-set-field
-      statusline.section_location = function()
-        return '%2l:%-2v'
-      end
+            return MiniStatusline.combine_groups({
+              { hl = mode_hl, strings = { mode, macro } },
+              { hl = 'MiniStatuslineDevinfo', strings = { git, diagnostics, lsp } },
+              '%<',
+              { hl = 'MiniStatuslineFilename', strings = { filename } },
+              '%=',
+              { hl = 'MiniStatuslineFileinfo', strings = { filetype, search } },
+            })
+          end,
+        },
+      }
 
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
