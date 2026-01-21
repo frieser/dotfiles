@@ -6,6 +6,14 @@
         "opencode-antigravity-quota@0.1.5-beta1"
     ],
     "mcp": {
+        "system": {
+            "type": "local",
+            "command": [
+                "node",
+                "/var/home/frieser/.config/opencode/mcp/system.js"
+            ],
+            "enabled": true
+        },
         "litellm": {
             "enabled": true,
             "type": "remote",
@@ -341,5 +349,5 @@
         }
     },
     "$schema": "https://opencode.ai/config.json",
-    "theme": "generated_b"
+    "theme": "generated_a"
 }
