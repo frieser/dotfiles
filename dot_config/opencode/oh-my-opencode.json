@@ -1,27 +1,78 @@
 {
-    "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
-    "google_auth": false,
-    "agents": {
-        "Sisyphus": {
-            "model": "google/antigravity-gemini-3-pro-high"
-        },
-        "librarian": {
-            "model": "google/antigravity-gemini-3-flash"
-        },
-        "explore": {
-            "model": "google/antigravity-gemini-3-flash"
-        },
-        "oracle": {
-            "model": "google/antigravity-claude-opus-4-5"
-        },
-        "frontend-ui-ux-engineer": {
-            "model": "google/antigravity-gemini-3-pro-high"
-        },
-        "document-writer": {
-            "model": "google/antigravity-gemini-3-flash"
-        },
-        "multimodal-looker": {
-            "model": "google/antigravity-gemini-3-flash"
-        }
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "Sisyphus": {
+      // Main agent and team orchestrator
+      "model": "google/antigravity-gemini-3-flash",
+      "prompt_append": "NEVER report a task as finished based on assumptions. You are responsible for ensuring the final result is correct. Do not ask the user to 'check it'—YOU must be the one to verify it. Analyze the context and find the most reliable way to prove the work is done (run tests, execute code, check logs, browse the URL, run diagnostics, etc.). Your final response must include evidence of successful verification."
+    },
+    "Hephaestus": {
+      // Autonomous deep worker. Executes tasks from start to finish with thorough research
+      "model": "google/antigravity-claude-opus-4-5-thinking-high",
+      "prompt_append": "You must be obsessed with self-verification. A task is not finished until you have proven it works. You must 'find a way' (buscarse la vida) to verify your results using any means necessary: writing test scripts, running builds, executing CLI commands, or checking side effects. Never assume success; prove it. Include your verification process and evidence in your final summary."
+    },
+    "Atlas": {
+      // Master orchestrator for global vision and coordination of large projects
+      "model": "google/antigravity-claude-sonnet-4-5"
+    },
+    "Prometheus": {
+      // Strategic planner. Creates the execution roadmap before coding begins
+      "model": "google/antigravity-claude-opus-4-5-thinking-high"
+    },
+    "Metis": {
+      // Plan consultant. Reviews Prometheus' strategy to find hidden flaws or gaps
+      "model": "google/antigravity-claude-opus-4-5-thinking-high"
+    },
+    "Momus": {
+      // Critical reviewer. Gives the final nod to plans from a quality perspective
+      "model": "google/antigravity-claude-opus-4-5-thinking-high"
+    },
+    "librarian": {
+      // Expert in external documentation, libraries, and GitHub code search
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "explore": {
+      // Fast local codebase exploration specialist (Contextual Grep)
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "oracle": {
+      // High-level architecture and debugging consultant. Read-only
+      "model": "google/antigravity-claude-opus-4-5"
+    },
+    "frontend-ui-ux-engineer": {
+      // Engineer specialized in interfaces, styling, and user experience
+      "model": "google/antigravity-gemini-3-pro-high"
+    },
+    "document-writer": {
+      // Technical writer for READMEs, API documentation, and guides
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "multimodal-looker": {
+      // Visual analyst for images, diagrams, and PDF files
+      "model": "google/antigravity-gemini-3-flash"
     }
+  },
+  "categories": {
+    "quick": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "visual-engineering": {
+      "model": "google/antigravity-gemini-3-pro-high"
+    },
+    "ultrabrain": {
+      "model": "google/antigravity-claude-opus-4-5-thinking-high"
+    },
+    "writing": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "artistry": {
+      "model": "google/antigravity-gemini-3-pro-high"
+    },
+    "unspecified-low": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "unspecified-high": {
+      "model": "google/antigravity-claude-opus-4-5-thinking-high"
+    }
+  }
 }
