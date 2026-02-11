@@ -1,634 +1,633 @@
 {
-    "plugin": [
-        "oh-my-opencode@3.2.3",
-        "opencode-antigravity-auth@1.4.3",
-        "opencode-antigravity-quota@0.1.6",
-        "opencode-discord-notification@0.1.1",
-    ],
-    "permission": {
-        "read": {
-          "~/.config/opencode/get-shit-done/*": "allow"
-        },
-        "external_directory": {
-          "~/.config/opencode/get-shit-done/*": "allow"
+  "plugin": [
+    "oh-my-opencode@3.5.0",
+    "opencode-antigravity-auth@1.4.6",
+    "opencode-antigravity-quota@0.1.6",
+    "opencode-discord-notification@0.1.1"
+  ],
+  "permission": {
+    "read": {
+      "~/.config/opencode/get-shit-done/*": "allow"
+    },
+    "external_directory": {
+      "~/.config/opencode/get-shit-done/*": "allow"
+    }
+  },
+  "mcp": {
+    "system": {
+      "type": "local",
+      "command": [
+        "node",
+        "/var/home/frieser/.config/opencode/mcp/system.js"
+      ],
+      "enabled": true
+    },
+    "litellm": {
+      "enabled": true,
+      "type": "remote",
+      "url": "https://llm-proxy.homelab.frieserlabs.dev/mcp/",
+      "headers": {
+        "x-litellm-api-key": "Bearer sk-YWCoGPmdJeJ1HR5iSTpOmw"
+      }
+    }
+  },
+  "provider": {
+    "antigravity-proxy": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "LLM Proxy",
+      "options": {
+        "baseURL": "http://127.0.0.1:3000/v1",
+        "headers": {
+          "x-litellm-api-key": "Bearer sk-4ruUk1Y9dg3wFK4_GQtEUA"
         }
-        },
-    "mcp": {
-        "system": {
-            "type": "local",
-            "command": [
-                "node",
-                "/var/home/frieser/.config/opencode/mcp/system.js"
+      },
+      "models": {
+        "antigravity-gemini-3-pro-low": {
+          "name": "Gemini 3 Pro Low (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65535
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
             ],
-            "enabled": true
+            "output": [
+              "text"
+            ]
+          }
         },
-        "litellm": {
-            "enabled": true,
-            "type": "remote",
-            "url": "https://llm-proxy.homelab.frieserlabs.dev/mcp/",
-            "headers": {
-                "x-litellm-api-key": "Bearer sk-YWCoGPmdJeJ1HR5iSTpOmw"
-            }
-        }
-    },
-    "provider": {
-        "antigravity-proxy": {
-            "npm": "@ai-sdk/openai-compatible",
-            "name": "LLM Proxy",
-            "options": {
-                "baseURL": "http://localhost:3000/v1",
-                "headers": {
-                    "x-litellm-api-key": "Bearer sk-4ruUk1Y9dg3wFK4_GQtEUA"
-                }
-            },
-
-            "models": {
-                "antigravity-gemini-3-pro-low": {
-                    "name": "Gemini 3 Pro Low (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-gemini-3-pro-high": {
-                    "name": "Gemini 3 Pro High (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-gemini-3-flash": {
-                    "name": "Gemini 3 Flash (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-pro-low": {
-                    "name": "Gemini 3 Pro Low (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-pro-high": {
-                    "name": "Gemini 3 Pro High (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-flash": {
-                    "name": "Gemini 3 Flash (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-sonnet-4-5": {
-                    "name": "Claude Sonnet 4.5 (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-sonnet-4-5-thinking-low": {
-                    "name": "Claude Sonnet 4.5 Think Low (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-sonnet-4-5-thinking-medium": {
-                    "name": "Claude Sonnet 4.5 Think Medium (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-sonnet-4-5-thinking-high": {
-                    "name": "Claude Sonnet 4.5 Think High (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-opus-4-5-thinking-low": {
-                    "name": "Claude Opus 4.5 Think Low (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-opus-4-5-thinking-medium": {
-                    "name": "Claude Opus 4.5 Think Medium (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-opus-4-5-thinking-high": {
-                    "name": "Claude Opus 4.5 Think High (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-2.5-flash": {
-                    "name": "Gemini 2.5 Flash (CLI)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-2.5-pro": {
-                    "name": "Gemini 2.5 Pro (CLI)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-flash-preview": {
-                    "name": "Gemini 3 Flash Preview (CLI)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-pro-preview": {
-                    "name": "Gemini 3 Pro Preview (CLI)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                }
-            }
+        "antigravity-gemini-3-pro-high": {
+          "name": "Gemini 3 Pro High (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65535
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
         },
-        "google": {
-            "name": "Google",
-            "models": {
-                "antigravity-gemini-3-pro-low": {
-                    "name": "Gemini 3 Pro Low (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-gemini-3-pro-high": {
-                    "name": "Gemini 3 Pro High (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-gemini-3-flash": {
-                    "name": "Gemini 3 Flash (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-pro-low": {
-                    "name": "Gemini 3 Pro Low (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-pro-high": {
-                    "name": "Gemini 3 Pro High (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-flash": {
-                    "name": "Gemini 3 Flash (Antigravity)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-sonnet-4-5": {
-                    "name": "Claude Sonnet 4.5 (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-sonnet-4-5-thinking-low": {
-                    "name": "Claude Sonnet 4.5 Think Low (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-sonnet-4-5-thinking-medium": {
-                    "name": "Claude Sonnet 4.5 Think Medium (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-sonnet-4-5-thinking-high": {
-                    "name": "Claude Sonnet 4.5 Think High (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-opus-4-5-thinking-low": {
-                    "name": "Claude Opus 4.5 Think Low (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-opus-4-5-thinking-medium": {
-                    "name": "Claude Opus 4.5 Think Medium (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "antigravity-claude-opus-4-5-thinking-high": {
-                    "name": "Claude Opus 4.5 Think High (Antigravity)",
-                    "limit": {
-                        "context": 200000,
-                        "output": 64000
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-2.5-flash": {
-                    "name": "Gemini 2.5 Flash (CLI)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-2.5-pro": {
-                    "name": "Gemini 2.5 Pro (CLI)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-flash-preview": {
-                    "name": "Gemini 3 Flash Preview (CLI)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65536
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                },
-                "gemini-3-pro-preview": {
-                    "name": "Gemini 3 Pro Preview (CLI)",
-                    "limit": {
-                        "context": 1048576,
-                        "output": 65535
-                    },
-                    "modalities": {
-                        "input": [
-                            "text",
-                            "image",
-                            "pdf"
-                        ],
-                        "output": [
-                            "text"
-                        ]
-                    }
-                }
-            }
+        "antigravity-gemini-3-flash": {
+          "name": "Gemini 3 Flash (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-sonnet-4-5": {
+          "name": "Claude Sonnet 4.5 (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-sonnet-4-5-thinking-low": {
+          "name": "Claude Sonnet 4.5 Think Low (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-sonnet-4-5-thinking-medium": {
+          "name": "Claude Sonnet 4.5 Think Medium (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-sonnet-4-5-thinking-high": {
+          "name": "Claude Sonnet 4.5 Think High (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-6-thinking-low": {
+          "name": "Claude Opus 4.6 Think Low (Antigravity)",
+          "limit": {
+            "context": 1000000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-6-thinking-medium": {
+          "name": "Claude Opus 4.6 Think Medium (Antigravity)",
+          "limit": {
+            "context": 1000000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-6-thinking-high": {
+          "name": "Claude Opus 4.6 Think High (Antigravity)",
+          "limit": {
+            "context": 1000000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-5-thinking-low": {
+          "name": "Claude Opus 4.5 Think Low (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-5-thinking-medium": {
+          "name": "Claude Opus 4.5 Think Medium (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-5-thinking-high": {
+          "name": "Claude Opus 4.5 Think High (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "gemini-2.5-flash": {
+          "name": "Gemini 2.5 Flash (CLI)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "gemini-2.5-pro": {
+          "name": "Gemini 2.5 Pro (CLI)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "gemini-3-flash-preview": {
+          "name": "Gemini 3 Flash Preview (CLI)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "gemini-3-pro-preview": {
+          "name": "Gemini 3 Pro Preview (CLI)",
+          "limit": {
+            "context": 1048576,
+            "output": 65535
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
         }
+      }
     },
-    "$schema": "https://opencode.ai/config.json",
-    "theme": "generated_a"
+    "google": {
+      "name": "Google",
+      "models": {
+        "antigravity-gemini-3-pro-low": {
+          "name": "Gemini 3 Pro Low (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65535
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-gemini-3-pro-high": {
+          "name": "Gemini 3 Pro High (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65535
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-gemini-3-flash": {
+          "name": "Gemini 3 Flash (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-sonnet-4-5": {
+          "name": "Claude Sonnet 4.5 (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-sonnet-4-5-thinking-low": {
+          "name": "Claude Sonnet 4.5 Think Low (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-sonnet-4-5-thinking-medium": {
+          "name": "Claude Sonnet 4.5 Think Medium (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-sonnet-4-5-thinking-high": {
+          "name": "Claude Sonnet 4.5 Think High (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-6-thinking-low": {
+          "name": "Claude Opus 4.6 Think Low (Antigravity)",
+          "limit": {
+            "context": 1000000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-6-thinking-medium": {
+          "name": "Claude Opus 4.6 Think Medium (Antigravity)",
+          "limit": {
+            "context": 1000000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-6-thinking-high": {
+          "name": "Claude Opus 4.6 Think High (Antigravity)",
+          "limit": {
+            "context": 1000000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-5-thinking-low": {
+          "name": "Claude Opus 4.5 Think Low (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-5-thinking-medium": {
+          "name": "Claude Opus 4.5 Think Medium (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-claude-opus-4-5-thinking-high": {
+          "name": "Claude Opus 4.5 Think High (Antigravity)",
+          "limit": {
+            "context": 200000,
+            "output": 64000
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "gemini-2.5-flash": {
+          "name": "Gemini 2.5 Flash (CLI)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "gemini-2.5-pro": {
+          "name": "Gemini 2.5 Pro (CLI)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "gemini-3-flash-preview": {
+          "name": "Gemini 3 Flash Preview (CLI)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "gemini-3-pro-preview": {
+          "name": "Gemini 3 Pro Preview (CLI)",
+          "limit": {
+            "context": 1048576,
+            "output": 65535
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "generated_a"
 }
