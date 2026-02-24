@@ -3,6 +3,6 @@ layout {
 }
 
 window-rule {
-    geometry-corner-radius 20
+    geometry-corner-radius 14
     clip-to-geometry true
 }

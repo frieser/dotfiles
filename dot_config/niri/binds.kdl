@@ -20,6 +20,8 @@ binds {
     Mod+Alt+L hotkey-overlay-title="Overlay: Lock Screen" { spawn-sh "uwsm app -- qs ipc call ui.overlay.lockscreen lock"; }
     Mod+Alt+E hotkey-overlay-title="Dialog: Logout/Session" { spawn-sh "uwsm app -- qs ipc call ui.dialog.logout toggle"; }
     Mod+Alt+Z hotkey-overlay-title="Overlay: Screensaver" { spawn-sh "uwsm app -- qs ipc call ui.overlay.screensaver toggle"; }
+    Ctrl+Alt+W hotkey-overlay-title="Workspace: Rename" { spawn-sh "uwsm app -- qs ipc call ui.panel.workspaces rename"; }
+    Ctrl+Alt+Backspace hotkey-overlay-title="Workspace: Clear Name" { spawn-sh "uwsm app -- qs ipc call ui.panel.workspaces clearName"; }
     Mod+Alt+I hotkey-overlay-title="Dialog: System Info" { spawn-sh "uwsm app -- qs ipc call ui.dialog.about toggle"; }
     Mod+Alt+C hotkey-overlay-title="Dialog: Gemini Chat" { spawn-sh "uwsm app -- flatpak run app.zen_browser.zen --class=local.floating --new-window http://127.0.0.1:4096/"; }
     Mod+Ctrl+C hotkey-overlay-title="Dialog: Gemini Chat" { spawn-sh "uwsm app -- flatpak run app.zen_browser.zen --class=local.floating --new-window https://gemini.google.com/"; }
@@ -122,6 +124,8 @@ binds {
     
     Mod+G hotkey-overlay-title="Window: Toggle Floating" { toggle-window-floating; }
     Mod+Shift+G hotkey-overlay-title="Focus: Switch Floating/Tiling" { switch-focus-between-floating-and-tiling; }
+    Mod+I hotkey-overlay-title="Window: Enable PIP Mode" { spawn-sh "uwsm app -- qs ipc call ui.window.pip enable"; }
+    Mod+Shift+I hotkey-overlay-title="Window: Disable PIP Mode" { move-window-to-tiling; }
     Mod+Shift+T hotkey-overlay-title="Column: Toggle Tabs" { toggle-column-tabbed-display; }
     
     Mod+Ctrl+Space hotkey-overlay-title="Layout: Next Keyboard" { switch-layout "next"; }

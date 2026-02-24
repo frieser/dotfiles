@@ -1,5 +1,5 @@
 add_newline = false
-# A minimal left prompt
+# A minimal left prompt with 4 space padding
 format = """$directory$character"""
 # move the rest of the prompt to the right
 right_format = """$all"""
