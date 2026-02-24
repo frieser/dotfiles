@@ -86,7 +86,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "CLIAPIProxy",
       "options": {
-        "baseURL": "https://cli-proxy.homelab.frieserlabs.dev/v1",
+        "baseURL": "https://llm-proxy.homelab.frieserlabs.dev/v1",
         "apiKey": "sk-AcQkmcdsMvmMNpK2RzQlIw"
       },
       "models": {
