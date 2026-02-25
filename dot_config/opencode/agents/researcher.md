@@ -1,7 +1,7 @@
 ---
 name: researcher
 description: Expert Researcher responsible for gathering context from codebases, documentation, memory, and any available source.
-model: cliapiproxy/gemini-3.1-pro-high
+model: cliapiproxy/gemini-3-flash
 ---
 
 # Researcher
