@@ -1,0 +1,1734 @@
+{
+<<<<<<<
+    "$schema": "./themes.schema.json",
+    "themes": {
+        "dynamic": {
+            "name": "Dynamic (Wallpaper)",
+            "colors": {
+                "background": "#1a1b26",
+                "foreground": "#c0caf5",
+                "accent": "#7aa2f7",
+                "red": "#f7768e",
+                "green": "#9ece6a",
+                "yellow": "#e0af68",
+                "orange": "#ff9e64",
+                "cyan": "#7dcfff",
+                "statusCritical": "#f7768e",
+                "statusWarning": "#ff9e64",
+                "statusMedium": "#e0af68",
+                "statusGood": "#9ece6a"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 4,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "tokyo-night": {
+            "name": "Tokyo Night",
+            "colors": {
+                "background": "#1a1b26",
+                "foreground": "#c0caf5",
+                "accent": "#7aa2f7",
+                "red": "#f7768e",
+                "green": "#9ece6a",
+                "yellow": "#e0af68",
+                "orange": "#ff9e64",
+                "cyan": "#7dcfff",
+                "statusCritical": "#f7768e",
+                "statusWarning": "#ff9e64",
+                "statusMedium": "#e0af68",
+                "statusGood": "#9ece6a"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 4,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "tokyo-night-storm": {
+            "name": "Tokyo Night Storm",
+            "colors": {
+                "background": "#24283b",
+                "foreground": "#c0caf5",
+                "accent": "#7aa2f7",
+                "red": "#f7768e",
+                "green": "#9ece6a",
+                "yellow": "#e0af68",
+                "orange": "#ff9e64",
+                "cyan": "#7dcfff",
+                "statusCritical": "#f7768e",
+                "statusWarning": "#ff9e64",
+                "statusMedium": "#e0af68",
+                "statusGood": "#9ece6a"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 4,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "catppuccin-mocha": {
+            "name": "Catppuccin Mocha",
+            "colors": {
+                "background": "#1e1e2e",
+                "foreground": "#cdd6f4",
+                "accent": "#89b4fa",
+                "red": "#f38ba8",
+                "green": "#a6e3a1",
+                "yellow": "#f9e2af",
+                "orange": "#fab387",
+                "cyan": "#94e2d5",
+                "statusCritical": "#f38ba8",
+                "statusWarning": "#fab387",
+                "statusMedium": "#f9e2af",
+                "statusGood": "#a6e3a1"
+            },
+            "layout": {
+                "radius": 12,
+                "itemRadius": 6,
+                "screenCornerRadius": 14,
+                "panelCornerRadius": 12
+            }
+        },
+        "catppuccin-macchiato": {
+            "name": "Catppuccin Macchiato",
+            "colors": {
+                "background": "#24273a",
+                "foreground": "#cad3f5",
+                "accent": "#8aadf4",
+                "red": "#ed8796",
+                "green": "#a6da95",
+                "yellow": "#eed49f",
+                "orange": "#f5a97f",
+                "cyan": "#8bd5ca",
+                "statusCritical": "#ed8796",
+                "statusWarning": "#f5a97f",
+                "statusMedium": "#eed49f",
+                "statusGood": "#a6da95"
+            },
+            "layout": {
+                "radius": 12,
+                "itemRadius": 6,
+                "screenCornerRadius": 14,
+                "panelCornerRadius": 12
+            }
+        },
+        "catppuccin-frappe": {
+            "name": "Catppuccin Frappé",
+            "colors": {
+                "background": "#303446",
+                "foreground": "#c6d0f5",
+                "accent": "#8caaee",
+                "red": "#e78284",
+                "green": "#a6d189",
+                "yellow": "#e5c890",
+                "orange": "#ef9f76",
+                "cyan": "#81c8be",
+                "statusCritical": "#e78284",
+                "statusWarning": "#ef9f76",
+                "statusMedium": "#e5c890",
+                "statusGood": "#a6d189"
+            },
+            "layout": {
+                "radius": 12,
+                "itemRadius": 6,
+                "screenCornerRadius": 14,
+                "panelCornerRadius": 12
+            }
+        },
+        "catppuccin-latte": {
+            "name": "Catppuccin Latte",
+            "colors": {
+                "background": "#eff1f5",
+                "foreground": "#4c4f69",
+                "accent": "#1e66f5",
+                "red": "#d20f39",
+                "green": "#40a02b",
+                "yellow": "#df8e1d",
+                "orange": "#fe640b",
+                "cyan": "#179299",
+                "statusCritical": "#d20f39",
+                "statusWarning": "#fe640b",
+                "statusMedium": "#df8e1d",
+                "statusGood": "#40a02b"
+            },
+            "layout": {
+                "radius": 12,
+                "itemRadius": 6,
+                "screenCornerRadius": 14,
+                "panelCornerRadius": 12
+            }
+        },
+        "dracula": {
+            "name": "Dracula",
+            "colors": {
+                "background": "#282a36",
+                "foreground": "#f8f8f2",
+                "accent": "#bd93f9",
+                "red": "#ff5555",
+                "green": "#50fa7b",
+                "yellow": "#f1fa8c",
+                "orange": "#ffb86c",
+                "cyan": "#8be9fd",
+                "statusCritical": "#ff5555",
+                "statusWarning": "#ffb86c",
+                "statusMedium": "#f1fa8c",
+                "statusGood": "#50fa7b"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "nord": {
+            "name": "Nord",
+            "colors": {
+                "background": "#2e3440",
+                "foreground": "#eceff4",
+                "accent": "#88c0d0",
+                "red": "#bf616a",
+                "green": "#a3be8c",
+                "yellow": "#ebcb8b",
+                "orange": "#d08770",
+                "cyan": "#8fbcbb",
+                "statusCritical": "#bf616a",
+                "statusWarning": "#d08770",
+                "statusMedium": "#ebcb8b",
+                "statusGood": "#a3be8c"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "gruvbox-dark": {
+            "name": "Gruvbox Dark",
+            "colors": {
+                "background": "#282828",
+                "foreground": "#ebdbb2",
+                "accent": "#83a598",
+                "red": "#fb4934",
+                "green": "#b8bb26",
+                "yellow": "#fabd2f",
+                "orange": "#fe8019",
+                "cyan": "#8ec07c",
+                "statusCritical": "#fb4934",
+                "statusWarning": "#fe8019",
+                "statusMedium": "#fabd2f",
+                "statusGood": "#b8bb26"
+            },
+            "layout": {
+                "radius": 4,
+                "itemRadius": 2,
+                "screenCornerRadius": 6,
+                "panelCornerRadius": 4
+            }
+        },
+        "gruvbox-light": {
+            "name": "Gruvbox Light",
+            "colors": {
+                "background": "#fbf1c7",
+                "foreground": "#3c3836",
+                "accent": "#458588",
+                "red": "#cc241d",
+                "green": "#98971a",
+                "yellow": "#d79921",
+                "orange": "#d65d0e",
+                "cyan": "#689d6a",
+                "statusCritical": "#cc241d",
+                "statusWarning": "#d65d0e",
+                "statusMedium": "#d79921",
+                "statusGood": "#98971a"
+            },
+            "layout": {
+                "radius": 4,
+                "itemRadius": 2,
+                "screenCornerRadius": 6,
+                "panelCornerRadius": 4
+            }
+        },
+        "one-dark": {
+            "name": "One Dark",
+            "colors": {
+                "background": "#282c34",
+                "foreground": "#abb2bf",
+                "accent": "#61afef",
+                "red": "#e06c75",
+                "green": "#98c379",
+                "yellow": "#e5c07b",
+                "orange": "#d19a66",
+                "cyan": "#56b6c2",
+                "statusCritical": "#e06c75",
+                "statusWarning": "#d19a66",
+                "statusMedium": "#e5c07b",
+                "statusGood": "#98c379"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "rose-pine": {
+            "name": "Rosé Pine",
+            "colors": {
+                "background": "#191724",
+                "foreground": "#e0def4",
+                "accent": "#c4a7e7",
+                "red": "#eb6f92",
+                "green": "#9ccfd8",
+                "yellow": "#f6c177",
+                "orange": "#ebbcba",
+                "cyan": "#31748f",
+                "statusCritical": "#eb6f92",
+                "statusWarning": "#ebbcba",
+                "statusMedium": "#f6c177",
+                "statusGood": "#9ccfd8"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 5,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "rose-pine-moon": {
+            "name": "Rosé Pine Moon",
+            "colors": {
+                "background": "#232136",
+                "foreground": "#e0def4",
+                "accent": "#c4a7e7",
+                "red": "#eb6f92",
+                "green": "#9ccfd8",
+                "yellow": "#f6c177",
+                "orange": "#ea9a97",
+                "cyan": "#3e8fb0",
+                "statusCritical": "#eb6f92",
+                "statusWarning": "#ea9a97",
+                "statusMedium": "#f6c177",
+                "statusGood": "#9ccfd8"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 5,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "rose-pine-dawn": {
+            "name": "Rosé Pine Dawn",
+            "colors": {
+                "background": "#faf4ed",
+                "foreground": "#575279",
+                "accent": "#907aa9",
+                "red": "#b4637a",
+                "green": "#56949f",
+                "yellow": "#ea9d34",
+                "orange": "#d7827e",
+                "cyan": "#286983",
+                "statusCritical": "#b4637a",
+                "statusWarning": "#d7827e",
+                "statusMedium": "#ea9d34",
+                "statusGood": "#56949f"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 5,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "solarized-dark": {
+            "name": "Solarized Dark",
+            "colors": {
+                "background": "#002b36",
+                "foreground": "#839496",
+                "accent": "#268bd2",
+                "red": "#dc322f",
+                "green": "#859900",
+                "yellow": "#b58900",
+                "orange": "#cb4b16",
+                "cyan": "#2aa198",
+                "statusCritical": "#dc322f",
+                "statusWarning": "#cb4b16",
+                "statusMedium": "#b58900",
+                "statusGood": "#859900"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "everforest": {
+            "name": "Everforest",
+            "colors": {
+                "background": "#2d353b",
+                "foreground": "#d3c6aa",
+                "accent": "#a7c080",
+                "red": "#e67e80",
+                "green": "#a7c080",
+                "yellow": "#dbbc7f",
+                "orange": "#e69875",
+                "cyan": "#83c092",
+                "statusCritical": "#e67e80",
+                "statusWarning": "#e69875",
+                "statusMedium": "#dbbc7f",
+                "statusGood": "#a7c080"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "ayu-dark": {
+            "name": "Ayu Dark",
+            "colors": {
+                "background": "#0d1017",
+                "foreground": "#bfbdb6",
+                "accent": "#e6b450",
+                "red": "#d95757",
+                "green": "#7fd962",
+                "yellow": "#e6b450",
+                "orange": "#ff8f40",
+                "cyan": "#73b8ff",
+                "statusCritical": "#d95757",
+                "statusWarning": "#ff8f40",
+                "statusMedium": "#e6b450",
+                "statusGood": "#7fd962"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "ayu-light": {
+            "name": "Ayu Light",
+            "colors": {
+                "background": "#fafafa",
+                "foreground": "#575f66",
+                "accent": "#ff9940",
+                "red": "#f51818",
+                "green": "#86b300",
+                "yellow": "#f2ae49",
+                "orange": "#ff9940",
+                "cyan": "#55b4d4",
+                "statusCritical": "#f51818",
+                "statusWarning": "#ff9940",
+                "statusMedium": "#f2ae49",
+                "statusGood": "#86b300"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "ayu-mirage": {
+            "name": "Ayu Mirage",
+            "colors": {
+                "background": "#1f2430",
+                "foreground": "#cbccc6",
+                "accent": "#ffcc66",
+                "red": "#f28779",
+                "green": "#bae67e",
+                "yellow": "#ffd580",
+                "orange": "#ffad66",
+                "cyan": "#5ccfe6",
+                "statusCritical": "#f28779",
+                "statusWarning": "#ffad66",
+                "statusMedium": "#ffd580",
+                "statusGood": "#bae67e"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "dawnfox": {
+            "name": "Dawnfox",
+            "colors": {
+                "background": "#faf4ed",
+                "foreground": "#575279",
+                "accent": "#286983",
+                "red": "#b4637a",
+                "green": "#618774",
+                "yellow": "#ea9d34",
+                "orange": "#d7827e",
+                "cyan": "#56949f",
+                "statusCritical": "#b4637a",
+                "statusWarning": "#d7827e",
+                "statusMedium": "#ea9d34",
+                "statusGood": "#618774"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "github-dark": {
+            "name": "GitHub Dark",
+            "colors": {
+                "background": "#0d1117",
+                "foreground": "#c9d1d9",
+                "accent": "#58a6ff",
+                "red": "#f85149",
+                "green": "#3fb950",
+                "yellow": "#d29922",
+                "orange": "#db6d28",
+                "cyan": "#39c5cf",
+                "statusCritical": "#f85149",
+                "statusWarning": "#db6d28",
+                "statusMedium": "#d29922",
+                "statusGood": "#3fb950"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "github-dark-dimmed": {
+            "name": "GitHub Dark Dimmed",
+            "colors": {
+                "background": "#22272e",
+                "foreground": "#adbac7",
+                "accent": "#539bf5",
+                "red": "#f47067",
+                "green": "#57ab5a",
+                "yellow": "#c69026",
+                "orange": "#cc6b2c",
+                "cyan": "#39c5cf",
+                "statusCritical": "#f47067",
+                "statusWarning": "#cc6b2c",
+                "statusMedium": "#c69026",
+                "statusGood": "#57ab5a"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "github-light": {
+            "name": "GitHub Light",
+            "colors": {
+                "background": "#ffffff",
+                "foreground": "#24292f",
+                "accent": "#0969da",
+                "red": "#cf222e",
+                "green": "#1a7f37",
+                "yellow": "#9a6700",
+                "orange": "#bc4c00",
+                "cyan": "#0598bc",
+                "statusCritical": "#cf222e",
+                "statusWarning": "#bc4c00",
+                "statusMedium": "#9a6700",
+                "statusGood": "#1a7f37"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "kanagawa": {
+            "name": "Kanagawa",
+            "colors": {
+                "background": "#1f1f28",
+                "foreground": "#dcd7ba",
+                "accent": "#7e9cd8",
+                "red": "#c34043",
+                "green": "#76946a",
+                "yellow": "#c0a36e",
+                "orange": "#ffa066",
+                "cyan": "#6a9589",
+                "statusCritical": "#c34043",
+                "statusWarning": "#ffa066",
+                "statusMedium": "#c0a36e",
+                "statusGood": "#76946a"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "kanagawa-lotus": {
+            "name": "Kanagawa Lotus",
+            "colors": {
+                "background": "#f2ecbc",
+                "foreground": "#545464",
+                "accent": "#4d699b",
+                "red": "#c84053",
+                "green": "#6f894e",
+                "yellow": "#77713f",
+                "orange": "#cc6d00",
+                "cyan": "#597b75",
+                "statusCritical": "#c84053",
+                "statusWarning": "#cc6d00",
+                "statusMedium": "#77713f",
+                "statusGood": "#6f894e"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "kanagawa-wave": {
+            "name": "Kanagawa Wave",
+            "colors": {
+                "background": "#223249",
+                "foreground": "#dcd7ba",
+                "accent": "#7fb4ca",
+                "red": "#c34043",
+                "green": "#76946a",
+                "yellow": "#c0a36e",
+                "orange": "#ffa066",
+                "cyan": "#7aa89f",
+                "statusCritical": "#c34043",
+                "statusWarning": "#ffa066",
+                "statusMedium": "#c0a36e",
+                "statusGood": "#76946a"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "material-dark": {
+            "name": "Material Dark",
+            "colors": {
+                "background": "#212121",
+                "foreground": "#eeffff",
+                "accent": "#82aaff",
+                "red": "#f07178",
+                "green": "#c3e88d",
+                "yellow": "#ffcb6b",
+                "orange": "#f78c6c",
+                "cyan": "#89ddff",
+                "statusCritical": "#f07178",
+                "statusWarning": "#f78c6c",
+                "statusMedium": "#ffcb6b",
+                "statusGood": "#c3e88d"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "material-ocean": {
+            "name": "Material Ocean",
+            "colors": {
+                "background": "#0f111a",
+                "foreground": "#8f93a2",
+                "accent": "#84ffff",
+                "red": "#f07178",
+                "green": "#c3e88d",
+                "yellow": "#ffcb6b",
+                "orange": "#f78c6c",
+                "cyan": "#89ddff",
+                "statusCritical": "#f07178",
+                "statusWarning": "#f78c6c",
+                "statusMedium": "#ffcb6b",
+                "statusGood": "#c3e88d"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 5,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "material-palenight": {
+            "name": "Material Palenight",
+            "colors": {
+                "background": "#292d3e",
+                "foreground": "#a6accd",
+                "accent": "#c792ea",
+                "red": "#f07178",
+                "green": "#c3e88d",
+                "yellow": "#ffcb6b",
+                "orange": "#f78c6c",
+                "cyan": "#89ddff",
+                "statusCritical": "#f07178",
+                "statusWarning": "#f78c6c",
+                "statusMedium": "#ffcb6b",
+                "statusGood": "#c3e88d"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 5,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "monokai-classic": {
+            "name": "Monokai Classic",
+            "colors": {
+                "background": "#272822",
+                "foreground": "#f8f8f2",
+                "accent": "#f92672",
+                "red": "#f92672",
+                "green": "#a6e22e",
+                "yellow": "#e6db74",
+                "orange": "#fd971f",
+                "cyan": "#66d9ef",
+                "statusCritical": "#f92672",
+                "statusWarning": "#fd971f",
+                "statusMedium": "#e6db74",
+                "statusGood": "#a6e22e"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "monokai-pro": {
+            "name": "Monokai Pro",
+            "colors": {
+                "background": "#2d2a2e",
+                "foreground": "#fcfcfa",
+                "accent": "#ffd866",
+                "red": "#ff6188",
+                "green": "#a9dc76",
+                "yellow": "#ffd866",
+                "orange": "#fc9867",
+                "cyan": "#78dce8",
+                "statusCritical": "#ff6188",
+                "statusWarning": "#fc9867",
+                "statusMedium": "#ffd866",
+                "statusGood": "#a9dc76"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "nightfox": {
+            "name": "Nightfox",
+            "colors": {
+                "background": "#192330",
+                "foreground": "#cdcecf",
+                "accent": "#719cd6",
+                "red": "#c94f6d",
+                "green": "#81b29a",
+                "yellow": "#dbc074",
+                "orange": "#f4a261",
+                "cyan": "#63cdcf",
+                "statusCritical": "#c94f6d",
+                "statusWarning": "#f4a261",
+                "statusMedium": "#dbc074",
+                "statusGood": "#81b29a"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "onedark-pro": {
+            "name": "One Dark Pro",
+            "colors": {
+                "background": "#23272e",
+                "foreground": "#abb2bf",
+                "accent": "#61afef",
+                "red": "#e06c75",
+                "green": "#98c379",
+                "yellow": "#e5c07b",
+                "orange": "#d19a66",
+                "cyan": "#56b6c2",
+                "statusCritical": "#e06c75",
+                "statusWarning": "#e5c07b",
+                "statusMedium": "#d19a66",
+                "statusGood": "#98c379"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "oxocarbon": {
+            "name": "Oxocarbon",
+            "colors": {
+                "background": "#161616",
+                "foreground": "#f2f4f8",
+                "accent": "#78a9ff",
+                "red": "#ee5396",
+                "green": "#42be65",
+                "yellow": "#ffe97b",
+                "orange": "#ff7eb6",
+                "cyan": "#3ddbd9",
+                "statusCritical": "#ee5396",
+                "statusWarning": "#ff7eb6",
+                "statusMedium": "#ffe97b",
+                "statusGood": "#42be65"
+            },
+            "layout": {
+                "radius": 8,
+                "itemRadius": 4,
+                "screenCornerRadius": 10,
+                "panelCornerRadius": 8
+            }
+        },
+        "solarized-light": {
+            "name": "Solarized Light",
+            "colors": {
+                "background": "#fdf6e3",
+                "foreground": "#657b83",
+                "accent": "#268bd2",
+                "red": "#dc322f",
+                "green": "#859900",
+                "yellow": "#b58900",
+                "orange": "#cb4b16",
+                "cyan": "#2aa198",
+                "statusCritical": "#dc322f",
+                "statusWarning": "#cb4b16",
+                "statusMedium": "#b58900",
+                "statusGood": "#859900"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        },
+        "synthwave-84": {
+            "name": "Synthwave '84",
+            "colors": {
+                "background": "#262335",
+                "foreground": "#ffffff",
+                "accent": "#ff7edb",
+                "red": "#fe4450",
+                "green": "#72f1b8",
+                "yellow": "#fede5d",
+                "orange": "#f97e72",
+                "cyan": "#36f9f6",
+                "statusCritical": "#fe4450",
+                "statusWarning": "#f97e72",
+                "statusMedium": "#fede5d",
+                "statusGood": "#72f1b8"
+            },
+            "layout": {
+                "radius": 10,
+                "itemRadius": 5,
+                "screenCornerRadius": 12,
+                "panelCornerRadius": 10
+            }
+        },
+        "vesper": {
+            "name": "Vesper",
+            "colors": {
+                "background": "#101010",
+                "foreground": "#b4b4b4",
+                "accent": "#ffc799",
+                "red": "#f5a191",
+                "green": "#8fc8bb",
+                "yellow": "#ffc799",
+                "orange": "#ffb777",
+                "cyan": "#a1cdf1",
+                "statusCritical": "#f5a191",
+                "statusWarning": "#ffb777",
+                "statusMedium": "#ffc799",
+                "statusGood": "#8fc8bb"
+            },
+            "layout": {
+                "radius": 6,
+                "itemRadius": 3,
+                "screenCornerRadius": 8,
+                "panelCornerRadius": 6
+            }
+        }
+=======
+  "$schema": "./themes.schema.json",
+  "themes": {
+    "tokyo-night": {
+      "name": "Tokyo Night",
+      "colors": {
+        "background": "#1a1b26",
+        "foreground": "#c0caf5",
+        "accent": "#7aa2f7",
+        "red": "#f7768e",
+        "green": "#9ece6a",
+        "yellow": "#e0af68",
+        "orange": "#ff9e64",
+        "cyan": "#7dcfff",
+        "statusCritical": "#f7768e",
+        "statusWarning": "#ff9e64",
+        "statusMedium": "#e0af68",
+        "statusGood": "#9ece6a"
+      },
+      "layout": {
+        "radius": 8,
+        "itemRadius": 4,
+        "screenCornerRadius": 10,
+        "panelCornerRadius": 8
+      }
+    },
+    "tokyo-night-storm": {
+      "name": "Tokyo Night Storm",
+      "colors": {
+        "background": "#24283b",
+        "foreground": "#c0caf5",
+        "accent": "#7aa2f7",
+        "red": "#f7768e",
+        "green": "#9ece6a",
+        "yellow": "#e0af68",
+        "orange": "#ff9e64",
+        "cyan": "#7dcfff",
+        "statusCritical": "#f7768e",
+        "statusWarning": "#ff9e64",
+        "statusMedium": "#e0af68",
+        "statusGood": "#9ece6a"
+      },
+      "layout": {
+        "radius": 8,
+        "itemRadius": 4,
+        "screenCornerRadius": 10,
+        "panelCornerRadius": 8
+      }
+    },
+    "catppuccin-mocha": {
+      "name": "Catppuccin Mocha",
+      "colors": {
+        "background": "#1e1e2e",
+        "foreground": "#cdd6f4",
+        "accent": "#89b4fa",
+        "red": "#f38ba8",
+        "green": "#a6e3a1",
+        "yellow": "#f9e2af",
+        "orange": "#fab387",
+        "cyan": "#94e2d5",
+        "statusCritical": "#f38ba8",
+        "statusWarning": "#fab387",
+        "statusMedium": "#f9e2af",
+        "statusGood": "#a6e3a1"
+      },
+      "layout": {
+        "radius": 14,
+        "itemRadius": 8,
+        "screenCornerRadius": 16,
+        "panelCornerRadius": 14
+      }
+    },
+    "catppuccin-macchiato": {
+      "name": "Catppuccin Macchiato",
+      "colors": {
+        "background": "#24273a",
+        "foreground": "#cad3f5",
+        "accent": "#8aadf4",
+        "red": "#ed8796",
+        "green": "#a6da95",
+        "yellow": "#eed49f",
+        "orange": "#f5a97f",
+        "cyan": "#8bd5ca",
+        "statusCritical": "#ed8796",
+        "statusWarning": "#f5a97f",
+        "statusMedium": "#eed49f",
+        "statusGood": "#a6da95"
+      },
+      "layout": {
+        "radius": 14,
+        "itemRadius": 8,
+        "screenCornerRadius": 16,
+        "panelCornerRadius": 14
+      }
+    },
+    "catppuccin-frappe": {
+      "name": "Catppuccin Frappé",
+      "colors": {
+        "background": "#303446",
+        "foreground": "#c6d0f5",
+        "accent": "#8caaee",
+        "red": "#e78284",
+        "green": "#a6d189",
+        "yellow": "#e5c890",
+        "orange": "#ef9f76",
+        "cyan": "#81c8be",
+        "statusCritical": "#e78284",
+        "statusWarning": "#ef9f76",
+        "statusMedium": "#e5c890",
+        "statusGood": "#a6d189"
+      },
+      "layout": {
+        "radius": 14,
+        "itemRadius": 8,
+        "screenCornerRadius": 16,
+        "panelCornerRadius": 14
+      }
+    },
+    "catppuccin-latte": {
+      "name": "Catppuccin Latte",
+      "colors": {
+        "background": "#eff1f5",
+        "foreground": "#4c4f69",
+        "accent": "#1e66f5",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "yellow": "#df8e1d",
+        "orange": "#fe640b",
+        "cyan": "#179299",
+        "statusCritical": "#d20f39",
+        "statusWarning": "#fe640b",
+        "statusMedium": "#df8e1d",
+        "statusGood": "#40a02b"
+      },
+      "layout": {
+        "radius": 14,
+        "itemRadius": 8,
+        "screenCornerRadius": 16,
+        "panelCornerRadius": 14
+      }
+    },
+    "dracula": {
+      "name": "Dracula",
+      "colors": {
+        "background": "#282a36",
+        "foreground": "#f8f8f2",
+        "accent": "#bd93f9",
+        "red": "#ff5555",
+        "green": "#50fa7b",
+        "yellow": "#f1fa8c",
+        "orange": "#ffb86c",
+        "cyan": "#8be9fd",
+        "statusCritical": "#ff5555",
+        "statusWarning": "#ffb86c",
+        "statusMedium": "#f1fa8c",
+        "statusGood": "#50fa7b"
+      },
+      "layout": {
+        "radius": 8,
+        "itemRadius": 4,
+        "screenCornerRadius": 10,
+        "panelCornerRadius": 8
+      }
+    },
+    "nord": {
+      "name": "Nord",
+      "colors": {
+        "background": "#2e3440",
+        "foreground": "#eceff4",
+        "accent": "#88c0d0",
+        "red": "#bf616a",
+        "green": "#a3be8c",
+        "yellow": "#ebcb8b",
+        "orange": "#d08770",
+        "cyan": "#8fbcbb",
+        "statusCritical": "#bf616a",
+        "statusWarning": "#d08770",
+        "statusMedium": "#ebcb8b",
+        "statusGood": "#a3be8c"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+    },
+    "gruvbox-dark": {
+      "name": "Gruvbox Dark",
+      "colors": {
+        "background": "#282828",
+        "foreground": "#ebdbb2",
+        "accent": "#83a598",
+        "red": "#fb4934",
+        "green": "#b8bb26",
+        "yellow": "#fabd2f",
+        "orange": "#fe8019",
+        "cyan": "#8ec07c",
+        "statusCritical": "#fb4934",
+        "statusWarning": "#fe8019",
+        "statusMedium": "#fabd2f",
+        "statusGood": "#b8bb26"
+      },
+      "layout": {
+        "radius": 0,
+        "itemRadius": 0,
+        "screenCornerRadius": 0,
+        "panelCornerRadius": 0
+      }
+    },
+    "gruvbox-light": {
+      "name": "Gruvbox Light",
+      "colors": {
+        "background": "#fbf1c7",
+        "foreground": "#3c3836",
+        "accent": "#458588",
+        "red": "#cc241d",
+        "green": "#98971a",
+        "yellow": "#d79921",
+        "orange": "#d65d0e",
+        "cyan": "#689d6a",
+        "statusCritical": "#cc241d",
+        "statusWarning": "#d65d0e",
+        "statusMedium": "#d79921",
+        "statusGood": "#98971a"
+      },
+      "layout": {
+        "radius": 0,
+        "itemRadius": 0,
+        "screenCornerRadius": 0,
+        "panelCornerRadius": 0
+      }
+    },
+    "one-dark": {
+      "name": "One Dark",
+      "colors": {
+        "background": "#282c34",
+        "foreground": "#abb2bf",
+        "accent": "#61afef",
+        "red": "#e06c75",
+        "green": "#98c379",
+        "yellow": "#e5c07b",
+        "orange": "#d19a66",
+        "cyan": "#56b6c2",
+        "statusCritical": "#e06c75",
+        "statusWarning": "#d19a66",
+        "statusMedium": "#e5c07b",
+        "statusGood": "#98c379"
+      },
+      "layout": {
+        "radius": 6,
+        "itemRadius": 3,
+        "screenCornerRadius": 8,
+        "panelCornerRadius": 6
+      }
+    },
+    "rose-pine": {
+      "name": "Rosé Pine",
+      "colors": {
+        "background": "#191724",
+        "foreground": "#e0def4",
+        "accent": "#c4a7e7",
+        "red": "#eb6f92",
+        "green": "#9ccfd8",
+        "yellow": "#f6c177",
+        "orange": "#ebbcba",
+        "cyan": "#31748f",
+        "statusCritical": "#eb6f92",
+        "statusWarning": "#ebbcba",
+        "statusMedium": "#f6c177",
+        "statusGood": "#9ccfd8"
+      },
+      "layout": {
+        "radius": 12,
+        "itemRadius": 6,
+        "screenCornerRadius": 14,
+        "panelCornerRadius": 12
+      }
+    },
+    "rose-pine-moon": {
+      "name": "Rosé Pine Moon",
+      "colors": {
+        "background": "#232136",
+        "foreground": "#e0def4",
+        "accent": "#c4a7e7",
+        "red": "#eb6f92",
+        "green": "#9ccfd8",
+        "yellow": "#f6c177",
+        "orange": "#ea9a97",
+        "cyan": "#3e8fb0",
+        "statusCritical": "#eb6f92",
+        "statusWarning": "#ea9a97",
+        "statusMedium": "#f6c177",
+        "statusGood": "#9ccfd8"
+      },
+      "layout": {
+        "radius": 12,
+        "itemRadius": 6,
+        "screenCornerRadius": 14,
+        "panelCornerRadius": 12
+      }
+    },
+    "rose-pine-dawn": {
+      "name": "Rosé Pine Dawn",
+      "colors": {
+        "background": "#faf4ed",
+        "foreground": "#575279",
+        "accent": "#907aa9",
+        "red": "#b4637a",
+        "green": "#56949f",
+        "yellow": "#ea9d34",
+        "orange": "#d7827e",
+        "cyan": "#286983",
+        "statusCritical": "#b4637a",
+        "statusWarning": "#d7827e",
+        "statusMedium": "#ea9d34",
+        "statusGood": "#56949f"
+      },
+      "layout": {
+        "radius": 12,
+        "itemRadius": 6,
+        "screenCornerRadius": 14,
+        "panelCornerRadius": 12
+      }
+    },
+    "solarized-dark": {
+      "name": "Solarized Dark",
+      "colors": {
+        "background": "#002b36",
+        "foreground": "#839496",
+        "accent": "#268bd2",
+        "red": "#dc322f",
+        "green": "#859900",
+        "yellow": "#b58900",
+        "orange": "#cb4b16",
+        "cyan": "#2aa198",
+        "statusCritical": "#dc322f",
+        "statusWarning": "#cb4b16",
+        "statusMedium": "#b58900",
+        "statusGood": "#859900"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+    },
+    "everforest": {
+      "name": "Everforest",
+      "colors": {
+        "background": "#2d353b",
+        "foreground": "#d3c6aa",
+        "accent": "#a7c080",
+        "red": "#e67e80",
+        "green": "#a7c080",
+        "yellow": "#dbbc7f",
+        "orange": "#e69875",
+        "cyan": "#83c092",
+        "statusCritical": "#e67e80",
+        "statusWarning": "#e69875",
+        "statusMedium": "#dbbc7f",
+        "statusGood": "#a7c080"
+      },
+      "layout": {
+        "radius": 10,
+        "itemRadius": 5,
+        "screenCornerRadius": 12,
+        "panelCornerRadius": 10
+      }
+    },
+    "ayu-dark": {
+      "name": "Ayu Dark",
+      "colors": {
+        "background": "#0d1017",
+        "foreground": "#bfbdb6",
+        "accent": "#e6b450",
+        "red": "#d95757",
+        "green": "#7fd962",
+        "yellow": "#e6b450",
+        "orange": "#ff8f40",
+        "cyan": "#73b8ff",
+        "statusCritical": "#d95757",
+        "statusWarning": "#ff8f40",
+        "statusMedium": "#e6b450",
+        "statusGood": "#7fd962"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+    },
+    "ayu-light": {
+      "name": "Ayu Light",
+      "colors": {
+        "background": "#fafafa",
+        "foreground": "#575f66",
+        "accent": "#ff9940",
+        "red": "#f51818",
+        "green": "#86b300",
+        "yellow": "#f2ae49",
+        "orange": "#ff9940",
+        "cyan": "#55b4d4",
+        "statusCritical": "#f51818",
+        "statusWarning": "#ff9940",
+        "statusMedium": "#f2ae49",
+        "statusGood": "#86b300"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+    },
+    "ayu-mirage": {
+      "name": "Ayu Mirage",
+      "colors": {
+        "background": "#1f2430",
+        "foreground": "#cbccc6",
+        "accent": "#ffcc66",
+        "red": "#f28779",
+        "green": "#bae67e",
+        "yellow": "#ffd580",
+        "orange": "#ffad66",
+        "cyan": "#5ccfe6",
+        "statusCritical": "#f28779",
+        "statusWarning": "#ffad66",
+        "statusMedium": "#ffd580",
+        "statusGood": "#bae67e"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+    },
+    "dawnfox": {
+      "name": "Dawnfox",
+      "colors": {
+        "background": "#faf4ed",
+        "foreground": "#575279",
+        "accent": "#286983",
+        "red": "#b4637a",
+        "green": "#618774",
+        "yellow": "#ea9d34",
+        "orange": "#d7827e",
+        "cyan": "#56949f",
+        "statusCritical": "#b4637a",
+        "statusWarning": "#d7827e",
+        "statusMedium": "#ea9d34",
+        "statusGood": "#618774"
+      },
+      "layout": {
+        "radius": 8,
+        "itemRadius": 4,
+        "screenCornerRadius": 10,
+        "panelCornerRadius": 8
+      }
+    },
+    "github-dark": {
+      "name": "GitHub Dark",
+      "colors": {
+        "background": "#0d1117",
+        "foreground": "#c9d1d9",
+        "accent": "#58a6ff",
+        "red": "#f85149",
+        "green": "#3fb950",
+        "yellow": "#d29922",
+        "orange": "#db6d28",
+        "cyan": "#39c5cf",
+        "statusCritical": "#f85149",
+        "statusWarning": "#db6d28",
+        "statusMedium": "#d29922",
+        "statusGood": "#3fb950"
+      },
+      "layout": {
+        "radius": 6,
+        "itemRadius": 3,
+        "screenCornerRadius": 8,
+        "panelCornerRadius": 6
+      }
+    },
+    "github-dark-dimmed": {
+      "name": "GitHub Dark Dimmed",
+      "colors": {
+        "background": "#22272e",
+        "foreground": "#adbac7",
+        "accent": "#539bf5",
+        "red": "#f47067",
+        "green": "#57ab5a",
+        "yellow": "#c69026",
+        "orange": "#cc6b2c",
+        "cyan": "#39c5cf",
+        "statusCritical": "#f47067",
+        "statusWarning": "#cc6b2c",
+        "statusMedium": "#c69026",
+        "statusGood": "#57ab5a"
+      },
+      "layout": {
+        "radius": 6,
+        "itemRadius": 3,
+        "screenCornerRadius": 8,
+        "panelCornerRadius": 6
+      }
+    },
+    "github-light": {
+      "name": "GitHub Light",
+      "colors": {
+        "background": "#ffffff",
+        "foreground": "#24292f",
+        "accent": "#0969da",
+        "red": "#cf222e",
+        "green": "#1a7f37",
+        "yellow": "#9a6700",
+        "orange": "#bc4c00",
+        "cyan": "#0598bc",
+        "statusCritical": "#cf222e",
+        "statusWarning": "#bc4c00",
+        "statusMedium": "#9a6700",
+        "statusGood": "#1a7f37"
+      },
+      "layout": {
+        "radius": 6,
+        "itemRadius": 3,
+        "screenCornerRadius": 8,
+        "panelCornerRadius": 6
+      }
+    },
+    "kanagawa": {
+      "name": "Kanagawa",
+      "colors": {
+        "background": "#1f1f28",
+        "foreground": "#dcd7ba",
+        "accent": "#7e9cd8",
+        "red": "#c34043",
+        "green": "#76946a",
+        "yellow": "#c0a36e",
+        "orange": "#ffa066",
+        "cyan": "#6a9589",
+        "statusCritical": "#c34043",
+        "statusWarning": "#ffa066",
+        "statusMedium": "#c0a36e",
+        "statusGood": "#76946a"
+      },
+      "layout": {
+        "radius": 8,
+        "itemRadius": 4,
+        "screenCornerRadius": 10,
+        "panelCornerRadius": 8
+      }
+    },
+    "kanagawa-lotus": {
+      "name": "Kanagawa Lotus",
+      "colors": {
+        "background": "#f2ecbc",
+        "foreground": "#545464",
+        "accent": "#4d699b",
+        "red": "#c84053",
+        "green": "#6f894e",
+        "yellow": "#77713f",
+        "orange": "#cc6d00",
+        "cyan": "#597b75",
+        "statusCritical": "#c84053",
+        "statusWarning": "#cc6d00",
+        "statusMedium": "#77713f",
+        "statusGood": "#6f894e"
+      },
+      "layout": {
+        "radius": 8,
+        "itemRadius": 4,
+        "screenCornerRadius": 10,
+        "panelCornerRadius": 8
+      }
+    },
+    "kanagawa-wave": {
+      "name": "Kanagawa Wave",
+      "colors": {
+        "background": "#223249",
+        "foreground": "#dcd7ba",
+        "accent": "#7fb4ca",
+        "red": "#c34043",
+        "green": "#76946a",
+        "yellow": "#c0a36e",
+        "orange": "#ffa066",
+        "cyan": "#7aa89f",
+        "statusCritical": "#c34043",
+        "statusWarning": "#ffa066",
+        "statusMedium": "#c0a36e",
+        "statusGood": "#76946a"
+      },
+      "layout": {
+        "radius": 8,
+        "itemRadius": 4,
+        "screenCornerRadius": 10,
+        "panelCornerRadius": 8
+      }
+    },
+    "material-dark": {
+      "name": "Material Dark",
+      "colors": {
+        "background": "#212121",
+        "foreground": "#eeffff",
+        "accent": "#82aaff",
+        "red": "#f07178",
+        "green": "#c3e88d",
+        "yellow": "#ffcb6b",
+        "orange": "#f78c6c",
+        "cyan": "#89ddff",
+        "statusCritical": "#f07178",
+        "statusWarning": "#f78c6c",
+        "statusMedium": "#ffcb6b",
+        "statusGood": "#c3e88d"
+      },
+      "layout": {
+        "radius": 12,
+        "itemRadius": 6,
+        "screenCornerRadius": 14,
+        "panelCornerRadius": 12
+      }
+    },
+    "material-ocean": {
+      "name": "Material Ocean",
+      "colors": {
+        "background": "#0f111a",
+        "foreground": "#8f93a2",
+        "accent": "#84ffff",
+        "red": "#f07178",
+        "green": "#c3e88d",
+        "yellow": "#ffcb6b",
+        "orange": "#f78c6c",
+        "cyan": "#89ddff",
+        "statusCritical": "#f07178",
+        "statusWarning": "#f78c6c",
+        "statusMedium": "#ffcb6b",
+        "statusGood": "#c3e88d"
+      },
+      "layout": {
+        "radius": 12,
+        "itemRadius": 6,
+        "screenCornerRadius": 14,
+        "panelCornerRadius": 12
+      }
+    },
+    "material-palenight": {
+      "name": "Material Palenight",
+      "colors": {
+        "background": "#292d3e",
+        "foreground": "#a6accd",
+        "accent": "#c792ea",
+        "red": "#f07178",
+        "green": "#c3e88d",
+        "yellow": "#ffcb6b",
+        "orange": "#f78c6c",
+        "cyan": "#89ddff",
+        "statusCritical": "#f07178",
+        "statusWarning": "#f78c6c",
+        "statusMedium": "#ffcb6b",
+        "statusGood": "#c3e88d"
+      },
+      "layout": {
+        "radius": 12,
+        "itemRadius": 6,
+        "screenCornerRadius": 14,
+        "panelCornerRadius": 12
+      }
+    },
+    "monokai-classic": {
+      "name": "Monokai Classic",
+      "colors": {
+        "background": "#272822",
+        "foreground": "#f8f8f2",
+        "accent": "#f92672",
+        "red": "#f92672",
+        "green": "#a6e22e",
+        "yellow": "#e6db74",
+        "orange": "#fd971f",
+        "cyan": "#66d9ef",
+        "statusCritical": "#f92672",
+        "statusWarning": "#fd971f",
+        "statusMedium": "#e6db74",
+        "statusGood": "#a6e22e"
+      },
+      "layout": {
+        "radius": 2,
+        "itemRadius": 1,
+        "screenCornerRadius": 4,
+        "panelCornerRadius": 2
+      }
+    },
+    "monokai-pro": {
+      "name": "Monokai Pro",
+      "colors": {
+        "background": "#2d2a2e",
+        "foreground": "#fcfcfa",
+        "accent": "#ffd866",
+        "red": "#ff6188",
+        "green": "#a9dc76",
+        "yellow": "#ffd866",
+        "orange": "#fc9867",
+        "cyan": "#78dce8",
+        "statusCritical": "#ff6188",
+        "statusWarning": "#fc9867",
+        "statusMedium": "#ffd866",
+        "statusGood": "#a9dc76"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+    },
+    "nightfox": {
+      "name": "Nightfox",
+      "colors": {
+        "background": "#192330",
+        "foreground": "#cdcecf",
+        "accent": "#719cd6",
+        "red": "#c94f6d",
+        "green": "#81b29a",
+        "yellow": "#dbc074",
+        "orange": "#f4a261",
+        "cyan": "#63cdcf",
+        "statusCritical": "#c94f6d",
+        "statusWarning": "#f4a261",
+        "statusMedium": "#dbc074",
+        "statusGood": "#81b29a"
+      },
+      "layout": {
+        "radius": 8,
+        "itemRadius": 4,
+        "screenCornerRadius": 10,
+        "panelCornerRadius": 8
+      }
+    },
+    "onedark-pro": {
+      "name": "One Dark Pro",
+      "colors": {
+        "background": "#23272e",
+        "foreground": "#abb2bf",
+        "accent": "#61afef",
+        "red": "#e06c75",
+        "green": "#98c379",
+        "yellow": "#e5c07b",
+        "orange": "#d19a66",
+        "cyan": "#56b6c2",
+        "statusCritical": "#e06c75",
+        "statusWarning": "#e5c07b",
+        "statusMedium": "#d19a66",
+        "statusGood": "#98c379"
+      },
+      "layout": {
+        "radius": 6,
+        "itemRadius": 3,
+        "screenCornerRadius": 8,
+        "panelCornerRadius": 6
+      }
+    },
+    "oxocarbon": {
+      "name": "Oxocarbon",
+      "colors": {
+        "background": "#161616",
+        "foreground": "#f2f4f8",
+        "accent": "#78a9ff",
+        "red": "#ee5396",
+        "green": "#42be65",
+        "yellow": "#ffe97b",
+        "orange": "#ff7eb6",
+        "cyan": "#3ddbd9",
+        "statusCritical": "#ee5396",
+        "statusWarning": "#ff7eb6",
+        "statusMedium": "#ffe97b",
+        "statusGood": "#42be65"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+    },
+    "solarized-light": {
+      "name": "Solarized Light",
+      "colors": {
+        "background": "#fdf6e3",
+        "foreground": "#657b83",
+        "accent": "#268bd2",
+        "red": "#dc322f",
+        "green": "#859900",
+        "yellow": "#b58900",
+        "orange": "#cb4b16",
+        "cyan": "#2aa198",
+        "statusCritical": "#dc322f",
+        "statusWarning": "#cb4b16",
+        "statusMedium": "#b58900",
+        "statusGood": "#859900"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+    },
+    "synthwave-84": {
+      "name": "Synthwave '84",
+      "colors": {
+        "background": "#262335",
+        "foreground": "#ffffff",
+        "accent": "#ff7edb",
+        "red": "#fe4450",
+        "green": "#72f1b8",
+        "yellow": "#fede5d",
+        "orange": "#f97e72",
+        "cyan": "#36f9f6",
+        "statusCritical": "#fe4450",
+        "statusWarning": "#f97e72",
+        "statusMedium": "#fede5d",
+        "statusGood": "#72f1b8"
+      },
+      "layout": {
+        "radius": 16,
+        "itemRadius": 8,
+        "screenCornerRadius": 18,
+        "panelCornerRadius": 16
+      }
+    },
+    "vesper": {
+      "name": "Vesper",
+      "colors": {
+        "background": "#101010",
+        "foreground": "#b4b4b4",
+        "accent": "#ffc799",
+        "red": "#f5a191",
+        "green": "#8fc8bb",
+        "yellow": "#ffc799",
+        "orange": "#ffb777",
+        "cyan": "#a1cdf1",
+        "statusCritical": "#f5a191",
+        "statusWarning": "#ffb777",
+        "statusMedium": "#ffc799",
+        "statusGood": "#8fc8bb"
+      },
+      "layout": {
+        "radius": 4,
+        "itemRadius": 2,
+        "screenCornerRadius": 6,
+        "panelCornerRadius": 4
+      }
+>>>>>>>
+    }
+}

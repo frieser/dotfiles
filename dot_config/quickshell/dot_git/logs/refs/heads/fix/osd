@@ -1,0 +1,31 @@
+0000000000000000000000000000000000000000 6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 Hector <frieserpaldi@gmail.com> 1766916857 +0100	branch: Created from HEAD
+6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 0814eee8e39cb7aa01b075e0aa2deb2584a379e4 Hector <frieserpaldi@gmail.com> 1766919484 +0100	commit: refactor
+0814eee8e39cb7aa01b075e0aa2deb2584a379e4 b28f1174588d0cd9c5fbffc850430128a2ecbe7e Hector <frieserpaldi@gmail.com> 1766921195 +0100	commit: refactor StatusIndicators
+b28f1174588d0cd9c5fbffc850430128a2ecbe7e 77821c3e81f98ffa3671cff1d9f9a4a5f1175a84 Hector <frieserpaldi@gmail.com> 1766927706 +0100	commit: created Panel
+77821c3e81f98ffa3671cff1d9f9a4a5f1175a84 827f8b7fed8b2d2816eff522f838da776a9c440d Hector <frieserpaldi@gmail.com> 1766937843 +0100	commit: add radious border to panel
+827f8b7fed8b2d2816eff522f838da776a9c440d 6b4a9a6e340e8eb5a7443ff3951d1ac8566795dc Hector <frieserpaldi@gmail.com> 1766939943 +0100	commit: add rounded corners to the panel
+6b4a9a6e340e8eb5a7443ff3951d1ac8566795dc d4c16ff1d0cd47f4011b4d084268d8bfdb608600 Hector <frieserpaldi@gmail.com> 1766940374 +0100	commit: shadows
+d4c16ff1d0cd47f4011b4d084268d8bfdb608600 6b2104da9657bc5b3091dbc3daa2cfcdd2665413 Hector <frieserpaldi@gmail.com> 1766940630 +0100	commit: migrated launcher to panel
+6b2104da9657bc5b3091dbc3daa2cfcdd2665413 ffcf084a3d2318dbc90a4cf2ab1ffd6787ca2444 Hector <frieserpaldi@gmail.com> 1766946735 +0100	commit: migrated workspaces to panel
+ffcf084a3d2318dbc90a4cf2ab1ffd6787ca2444 9dd945854b7bc7cc0f8a5acf3450399911f3f7fc Hector <frieserpaldi@gmail.com> 1766947105 +0100	commit: migrated all osd components to the new panel system
+9dd945854b7bc7cc0f8a5acf3450399911f3f7fc 70e1de00ba65d39d06ad5d09301d16a92ee58ff9 Hector <frieserpaldi@gmail.com> 1766948620 +0100	commit: move the panel background to a separate component
+70e1de00ba65d39d06ad5d09301d16a92ee58ff9 fe3829cdee47df40c0ac99ef74639ed6a8594753 Hector <frieserpaldi@gmail.com> 1766949177 +0100	commit: alternate between menu and app view
+fe3829cdee47df40c0ac99ef74639ed6a8594753 3eea85f2d9cea1d3f3cf19b8e21db34612288239 Hector <frieserpaldi@gmail.com> 1766949537 +0100	commit: fix workspaces height
+3eea85f2d9cea1d3f3cf19b8e21db34612288239 4d99725636480bd5db50d508d756e4d96986db36 Hector <frieserpaldi@gmail.com> 1766950741 +0100	commit: fix clock panel
+4d99725636480bd5db50d508d756e4d96986db36 1f78050d4b9ab1ec6843fcf82bbdf2e8bec2cb37 Hector <frieserpaldi@gmail.com> 1766950880 +0100	commit: feat(panel): add preventEdgeReveal property to disable edge hover trigger
+1f78050d4b9ab1ec6843fcf82bbdf2e8bec2cb37 2890e112d79ca951739211b6b50c8934e3045f45 Hector <frieserpaldi@gmail.com> 1766951003 +0100	commit: feat(panel): implement edgeRevealDelay to prevent accidental triggers
+2890e112d79ca951739211b6b50c8934e3045f45 a32690537da9d40635d47f5cb5c77b24152737e0 Hector <frieserpaldi@gmail.com> 1766951416 +0100	commit: fix clock panel
+a32690537da9d40635d47f5cb5c77b24152737e0 43a97219b53158febe68be53dfb8193a6b5bbc79 Hector <frieserpaldi@gmail.com> 1766954047 +0100	commit: fix status panel
+43a97219b53158febe68be53dfb8193a6b5bbc79 c2baaa5796ca111530b356318e97bdc52dfa52c5 Hector <frieserpaldi@gmail.com> 1766954239 +0100	commit: fix workspaces
+c2baaa5796ca111530b356318e97bdc52dfa52c5 34f6a61abe85b114cfd2e85d61afee9824a6b70d Hector <frieserpaldi@gmail.com> 1766956375 +0100	commit: implement extended mode for launcher
+34f6a61abe85b114cfd2e85d61afee9824a6b70d 863ec7e9db9eebaa9ed499b60e3bc3bc73a204e4 Hector <frieserpaldi@gmail.com> 1766957094 +0100	commit: fix extended mode
+863ec7e9db9eebaa9ed499b60e3bc3bc73a204e4 d69ae69be5d40ac7407e4ffdd7f41ece99f092fa Hector <frieserpaldi@gmail.com> 1766957392 +0100	commit: fix panel
+d69ae69be5d40ac7407e4ffdd7f41ece99f092fa 7472d13c5423b8597413c24efd641f2f47a04ef2 Hector <frieserpaldi@gmail.com> 1766958507 +0100	commit: fix status extended mode
+7472d13c5423b8597413c24efd641f2f47a04ef2 5f0997f56117e4ed2a14a1686595c93884eabba0 Hector <frieserpaldi@gmail.com> 1766959054 +0100	commit: focus and persistent mode for panel in extended mode
+5f0997f56117e4ed2a14a1686595c93884eabba0 8bb3212813509ab15745d1245cacadf1c644eeda Hector <frieserpaldi@gmail.com> 1766962350 +0100	commit: fix panel extended mode with focus
+8bb3212813509ab15745d1245cacadf1c644eeda 4c667f1253d83b885a8818fd1149cb59f155ef66 Hector <frieserpaldi@gmail.com> 1766964512 +0100	commit: fix status indicators alignment
+4c667f1253d83b885a8818fd1149cb59f155ef66 704790493aaa7c076dfc02864b8124006cd99059 Hector <frieserpaldi@gmail.com> 1766964997 +0100	commit: fix widget width
+704790493aaa7c076dfc02864b8124006cd99059 6e9a03e484192a2d16f487f0cffa1507892ed6af Hector <frieserpaldi@gmail.com> 1766965205 +0100	commit: fix keys navigation in status panel
+6e9a03e484192a2d16f487f0cffa1507892ed6af 5dd1089602d2aad77c2d0fce479e3837e71544d8 Hector <frieserpaldi@gmail.com> 1766965699 +0100	commit (amend): fix keys navigation in status panel
+5dd1089602d2aad77c2d0fce479e3837e71544d8 590b643ed47355caee51b6ca130bda867aa4711f Hector <frieserpaldi@gmail.com> 1766965783 +0100	commit (amend): fix keys navigation in status panel
+590b643ed47355caee51b6ca130bda867aa4711f cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 Hector <frieserpaldi@gmail.com> 1766965926 +0100	commit (amend): fix keys navigation in status panel

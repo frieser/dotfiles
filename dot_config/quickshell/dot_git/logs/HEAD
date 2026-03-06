@@ -1,0 +1,536 @@
+0000000000000000000000000000000000000000 359f1c050d9a32668f0100b332c6e68f2a356011 Hector <frieserpaldi@gmail.com> 1766348384 +0100	commit (initial): initial commit
+359f1c050d9a32668f0100b332c6e68f2a356011 79fedddfb669d3240968c1d188b4cf92fd9c4fca Hector <frieserpaldi@gmail.com> 1766348971 +0100	commit: first preview of the launcher
+79fedddfb669d3240968c1d188b4cf92fd9c4fca 79fedddfb669d3240968c1d188b4cf92fd9c4fca Hector <frieserpaldi@gmail.com> 1766349811 +0100	reset: moving to HEAD
+79fedddfb669d3240968c1d188b4cf92fd9c4fca ac7a78a6ac4f9839f4582a6f1dad6b9d3eecc984 Hector <frieserpaldi@gmail.com> 1766350821 +0100	commit: docs: add AGENTS.md with development guidelines
+ac7a78a6ac4f9839f4582a6f1dad6b9d3eecc984 6a706265fa8abe9733ec62a9c0121255517a865e Hector <frieserpaldi@gmail.com> 1766351025 +0100	commit: fix: enable keyboard focus for bottom osd window
+6a706265fa8abe9733ec62a9c0121255517a865e 651f65a44d85485653c04003f888f00d67b1e552 Hector <frieserpaldi@gmail.com> 1766352386 +0100	commit: fix: update launcher dimensions, focus behavior, and trigger zone
+651f65a44d85485653c04003f888f00d67b1e552 21eb07e31f452a4426a11fb69fa6f26275087e6b Hector <frieserpaldi@gmail.com> 1766353363 +0100	commit: fix: improve launcher focus management and implement IPC toggle
+21eb07e31f452a4426a11fb69fa6f26275087e6b cc2c1714fbdbadd66a18616c0e9e22881bc5141c Hector <frieserpaldi@gmail.com> 1766354699 +0100	commit: feat: replace internal app model with Elephant querying
+cc2c1714fbdbadd66a18616c0e9e22881bc5141c 7f689e9edf41c58c038a33d4ab96d24e6bb65e07 Hector <frieserpaldi@gmail.com> 1766354830 +0100	commit: feat: add keyboard navigation and dynamic activation via Elephant
+7f689e9edf41c58c038a33d4ab96d24e6bb65e07 df5f2e51067184d2fe821946e9c4959e0bbc5a2f Hector <frieserpaldi@gmail.com> 1766355220 +0100	commit: feat: refine launcher UI and add menus IPC mode
+df5f2e51067184d2fe821946e9c4959e0bbc5a2f b8b49d586bc22e2c23b10ec2b1d96ee763efd740 Hector <frieserpaldi@gmail.com> 1766355444 +0100	commit: fix: support font icons and improve text alignment in launcher
+b8b49d586bc22e2c23b10ec2b1d96ee763efd740 6c5e9ca085361f1e7644d2bc8d24e048948ec190 Hector <frieserpaldi@gmail.com> 1766355619 +0100	commit: fix: make VolumeOsd more compact and cap visual volume at 100%
+6c5e9ca085361f1e7644d2bc8d24e048948ec190 422bb379f04a8ef9cd93947de69fe17fd0a3b2b0 Hector <frieserpaldi@gmail.com> 1766360160 +0100	commit: refactor: modularize components into hierarchical subdirectories with per-directory qmldirs
+422bb379f04a8ef9cd93947de69fe17fd0a3b2b0 422bb379f04a8ef9cd93947de69fe17fd0a3b2b0 Hector <frieserpaldi@gmail.com> 1766364191 +0100	reset: moving to HEAD
+422bb379f04a8ef9cd93947de69fe17fd0a3b2b0 20ccbb151d91e20af0eca2f75dff21c7ea3c1b5d Hector <frieserpaldi@gmail.com> 1766364819 +0100	commit: feat: implement dynamic height and improved icon detection in launcher
+20ccbb151d91e20af0eca2f75dff21c7ea3c1b5d 01993289ca2bd32835bea70bc0e08c444e0107ee Hector <frieserpaldi@gmail.com> 1766364869 +0100	commit (amend): feat: implement dynamic height and improved icon detection in launcher
+01993289ca2bd32835bea70bc0e08c444e0107ee d7fe90928da67d6f9ab48f9470d29b5de32795c0 Hector <frieserpaldi@gmail.com> 1766364880 +0100	commit (amend): feat: implement dynamic height and improved icon detection in launcher
+d7fe90928da67d6f9ab48f9470d29b5de32795c0 d7fe90928da67d6f9ab48f9470d29b5de32795c0 Hector <frieserpaldi@gmail.com> 1766366201 +0100	reset: moving to HEAD
+d7fe90928da67d6f9ab48f9470d29b5de32795c0 d7fe90928da67d6f9ab48f9470d29b5de32795c0 Hector <frieserpaldi@gmail.com> 1766368512 +0100	reset: moving to HEAD
+d7fe90928da67d6f9ab48f9470d29b5de32795c0 db4d489038d6671e50f6d906199305ec1f31bdfa Hector <frieserpaldi@gmail.com> 1766369577 +0100	commit: feat: enhance VolumeOsd with interactive mouse controls and dynamic icons
+db4d489038d6671e50f6d906199305ec1f31bdfa 8998140f655b33bc547d4dd316201ae160e074d4 Hector <frieserpaldi@gmail.com> 1766401643 +0100	commit: feat: Add clock/calendar and notification OSDs with base components
+8998140f655b33bc547d4dd316201ae160e074d4 8998140f655b33bc547d4dd316201ae160e074d4 Hector <frieserpaldi@gmail.com> 1766403493 +0100	reset: moving to HEAD
+8998140f655b33bc547d4dd316201ae160e074d4 282b2e8e78c41646ec0dc94da7a1c3438086d532 Hector <frieserpaldi@gmail.com> 1766422288 +0100	commit: feat: add Pomodoro OSD and TopLeftOsd base component
+282b2e8e78c41646ec0dc94da7a1c3438086d532 5ba58157a50a629ddd78a5f692791ee488cfd2f6 Hector <frieserpaldi@gmail.com> 1766423580 +0100	commit: feat: enhance pomodoro timer with circular progress indicator
+5ba58157a50a629ddd78a5f692791ee488cfd2f6 e82fbeced86a428e04e172d027452367e1a96656 Hector <frieserpaldi@gmail.com> 1766434468 +0100	commit: fix: resolve QML warnings and property reference errors
+e82fbeced86a428e04e172d027452367e1a96656 9cded9354c4f1236f5401d61f91216a22d62fe89 Hector <frieserpaldi@gmail.com> 1766434468 +0100	commit: feat: add dynamic wallpaper and secure lockscreen components
+9cded9354c4f1236f5401d61f91216a22d62fe89 98cb7d219946ef9b3c3a16b270759225f05b1a12 Hector <frieserpaldi@gmail.com> 1766434856 +0100	commit: chore: translate all Spanish comments to English
+98cb7d219946ef9b3c3a16b270759225f05b1a12 b463e66686395d437f180d1beedfae30550f99d9 Hector <frieserpaldi@gmail.com> 1766502355 +0100	commit: ✨ feat: add logout confirmation overlay with system actions
+b463e66686395d437f180d1beedfae30550f99d9 94e8aa444a0b69b7c5413db1fc48a297acbe3022 Hector <frieserpaldi@gmail.com> 1766502781 +0100	commit: ✨ feat: add lockscreen with fingerprint and password authentication
+94e8aa444a0b69b7c5413db1fc48a297acbe3022 9be6e1e7eb9f7c4ac0a01bdf789bd054f7411974 Hector <frieserpaldi@gmail.com> 1766503246 +0100	commit: 🐛 fix: resolve Variants visible property error
+9be6e1e7eb9f7c4ac0a01bdf789bd054f7411974 89358664442beb12235adce9750c34e8b3fb6524 Hector <frieserpaldi@gmail.com> 1766503252 +0100	commit (amend): 🐛 fix: resolve Variants visible property error
+89358664442beb12235adce9750c34e8b3fb6524 e8e968c64d4eab14ac43974fd5ed14ecb5722638 Hector <frieserpaldi@gmail.com> 1766503265 +0100	commit (amend): 🐛 fix: resolve Variants visible property error
+e8e968c64d4eab14ac43974fd5ed14ecb5722638 d9807adce3b5340bc4ee438847ca138e04577d99 Hector <frieserpaldi@gmail.com> 1766503284 +0100	commit (amend): 🐛 fix: resolve Variants visible property error
+d9807adce3b5340bc4ee438847ca138e04577d99 47586cafc7069927f8771bc488c67fd25f207bb8 Hector <frieserpaldi@gmail.com> 1766503407 +0100	commit: 🐛 fix: password input focus and mask issues
+47586cafc7069927f8771bc488c67fd25f207bb8 447b16cbdf9a8fcc5ecf8c200daa3492af878dbb Hector <frieserpaldi@gmail.com> 1766504299 +0100	commit: 🐛 fix: ESC key always works and simplify PAM config
+447b16cbdf9a8fcc5ecf8c200daa3492af878dbb 15c4e717a11317eadf170a5238a1e7f6fd0ecf1a Hector <frieserpaldi@gmail.com> 1766504928 +0100	commit: 🐛 fix: ESC always works even during PAM authentication
+15c4e717a11317eadf170a5238a1e7f6fd0ecf1a 02882e6b53f53978d7309cf56ec11b9a30dcc4a8 Hector <frieserpaldi@gmail.com> 1766515644 +0100	commit: 🐛 fix: password input focus and PAM config path
+02882e6b53f53978d7309cf56ec11b9a30dcc4a8 48f8682bf400c44d91a25c7bdd6faba99d634c74 Hector <frieserpaldi@gmail.com> 1766518308 +0100	commit: 🐛 fix: add extensive PAM debugging and nullok option
+48f8682bf400c44d91a25c7bdd6faba99d634c74 a98034a6143849daf7b6c0c28078660e7b0d79f3 Hector <frieserpaldi@gmail.com> 1766518871 +0100	commit: 🐛 fix: PAM path and clock/date errors
+a98034a6143849daf7b6c0c28078660e7b0d79f3 2d283a08e628306cb59d9ea80b53f46f9eac8980 Hector <frieserpaldi@gmail.com> 1766518965 +0100	commit: 🐛 fix: simplify PAM to password-only for testing
+2d283a08e628306cb59d9ea80b53f46f9eac8980 e9372851c085c52e6fd242dc1dc017ac677cacc6 Hector <frieserpaldi@gmail.com> 1766519277 +0100	commit: 🎨 refactor: simplify lockscreen UI and remove delays
+e9372851c085c52e6fd242dc1dc017ac677cacc6 6e25a02c5c755aa7e6c74db91f7ef9a36d444c62 Hector <frieserpaldi@gmail.com> 1766519640 +0100	commit: ✨ feat: add fingerprint authentication with pulsing icon
+6e25a02c5c755aa7e6c74db91f7ef9a36d444c62 e1ae40b166156edce4b856fe410fa2270c4432b7 Hector <frieserpaldi@gmail.com> 1766519956 +0100	commit: 🐛 fix: PAM undefined error and add fingerprint scan lines
+e1ae40b166156edce4b856fe410fa2270c4432b7 17558efa597014433babf72cb7ffe804570f4daa Hector <frieserpaldi@gmail.com> 1766520135 +0100	commit: 🐛 fix: simplify PAM config to match system-auth
+17558efa597014433babf72cb7ffe804570f4daa e2d881b93327202f40cbca692536d64e02cf8b0f Hector <frieserpaldi@gmail.com> 1766520253 +0100	commit: 🐛 fix: simplify PAM config for fingerprint or password
+e2d881b93327202f40cbca692536d64e02cf8b0f 1e2630ac6e143d004f5b08de95385c7d5e3345e6 Hector <frieserpaldi@gmail.com> 1766520527 +0100	commit: Fix focus timing and simplify authentication flow
+1e2630ac6e143d004f5b08de95385c7d5e3345e6 7d3b42f6dd03c2d24ee5382192e2a1229b74bec4 Hector <frieserpaldi@gmail.com> 1766520735 +0100	commit: Increase PAM timeouts and restore fingerprint support
+7d3b42f6dd03c2d24ee5382192e2a1229b74bec4 c5161c0a799ff49bba89dd21857e1cb799bee04a Hector <frieserpaldi@gmail.com> 1766520790 +0100	commit: Add detailed PAM debugging logs
+c5161c0a799ff49bba89dd21857e1cb799bee04a 65c199edfee3d87467c75de20ce158b6d6067f09 Hector <frieserpaldi@gmail.com> 1766520949 +0100	commit: Fix PAM authentication issues
+65c199edfee3d87467c75de20ce158b6d6067f09 8b391ef592314c55e85ccaecab02100bfa721979 Hector <frieserpaldi@gmail.com> 1766520994 +0100	commit: Fix PamMessage handler according to Quickshell docs
+8b391ef592314c55e85ccaecab02100bfa721979 1e781ed41fb64e50c0e7c1b222ae2132042c0cda Hector <frieserpaldi@gmail.com> 1766521392 +0100	commit: Match official Quickshell lockscreen example implementation
+1e781ed41fb64e50c0e7c1b222ae2132042c0cda 7aa5016412e426511dfc201b50b6b6828e894599 Hector <frieserpaldi@gmail.com> 1766521619 +0100	commit: Add detailed logging to debug PAM flow
+7aa5016412e426511dfc201b50b6b6828e894599 f79a63565d58a2fea97265f75c4ad9d1f9c049b1 Hector <frieserpaldi@gmail.com> 1766522107 +0100	commit: Fix lockscreen not unlocking after successful authentication
+f79a63565d58a2fea97265f75c4ad9d1f9c049b1 d7d71ad56a0568d41d04078f25fb1dbe79b36cee Hector <frieserpaldi@gmail.com> 1766522232 +0100	commit: Add fingerprint authentication support to lockscreen
+d7d71ad56a0568d41d04078f25fb1dbe79b36cee e9b86a3ce41d2e650959ec979af858c5bb366606 Hector <frieserpaldi@gmail.com> 1766522262 +0100	commit: Fix duplicate onCompleted handler in LockContext.qml
+e9b86a3ce41d2e650959ec979af858c5bb366606 36b98381e72be9d84d2a76547340198d80d926ad Hector <frieserpaldi@gmail.com> 1766522272 +0100	commit: Cleanup unused PAM configuration file
+36b98381e72be9d84d2a76547340198d80d926ad 6c9ff58adbbd1f2015832c5096362b3109f36038 Hector <frieserpaldi@gmail.com> 1766522292 +0100	commit: Clean up debug logging in LockContext.qml
+6c9ff58adbbd1f2015832c5096362b3109f36038 f11fa251a5668ab0e476b405deece904a7cf0743 Hector <frieserpaldi@gmail.com> 1766522591 +0100	commit: Fix password input focus and authentication logic
+f11fa251a5668ab0e476b405deece904a7cf0743 3da2e91d6256b8c6edb2934738bc5e286b7d8bad Hector <frieserpaldi@gmail.com> 1766522645 +0100	commit: Add MouseArea to allow clicking to focus password input
+3da2e91d6256b8c6edb2934738bc5e286b7d8bad 64fb5e8d7528f426a6ed14746819272e915d6be5 Hector <frieserpaldi@gmail.com> 1766522700 +0100	commit: Final cleanup of LockSurface.qml structure and focus logic
+64fb5e8d7528f426a6ed14746819272e915d6be5 e7642b1f5ba61f70486fbfe03e5edcabb0b9bc01 Hector <frieserpaldi@gmail.com> 1766522859 +0100	commit: Fix password submission when PAM is busy with fingerprint
+e7642b1f5ba61f70486fbfe03e5edcabb0b9bc01 b99a2822c655bd10d73351239d96f11e28a51fbb Hector <frieserpaldi@gmail.com> 1766522865 +0100	commit: Ensure password is sent as soon as PAM requests it
+b99a2822c655bd10d73351239d96f11e28a51fbb acb00908795cef68feaec519cf6508f35cf85f11 Hector <frieserpaldi@gmail.com> 1766522876 +0100	commit: Restart PAM on failure to keep fingerprint listener active
+acb00908795cef68feaec519cf6508f35cf85f11 cfa4905992aa4fa2906a99b4f0e14596d329ed32 Hector <frieserpaldi@gmail.com> 1766522907 +0100	commit: Fix PAM restart logic and structure cleanup
+cfa4905992aa4fa2906a99b4f0e14596d329ed32 495f756f93e89d96e603b7ae45a3ff993690e261 Hector <frieserpaldi@gmail.com> 1766522915 +0100	commit: Remove redundant comment in LockContext.qml
+495f756f93e89d96e603b7ae45a3ff993690e261 35a920f79b67ab72c41902f3bc1e92e79c6803e0 Hector <frieserpaldi@gmail.com> 1766522921 +0100	commit: Reset readyToSubmit after responding to PAM
+35a920f79b67ab72c41902f3bc1e92e79c6803e0 9606eb9e515d3334965f5d2041d93e34990e5ff7 Hector <frieserpaldi@gmail.com> 1766522952 +0100	commit: Reset unlockInProgress after responding to PAM
+9606eb9e515d3334965f5d2041d93e34990e5ff7 2a5b17d68ef55397cfd75f5c61c183cdf4d36475 Hector <frieserpaldi@gmail.com> 1766522961 +0100	commit: Remove redundant unlockInProgress reset in onCompleted
+2a5b17d68ef55397cfd75f5c61c183cdf4d36475 840ab275ba20f300ad7364446ac1f668b93a998e Hector <frieserpaldi@gmail.com> 1766522979 +0100	commit: Remove redundant Connections in LockSurface.qml
+840ab275ba20f300ad7364446ac1f668b93a998e b37e31ae0cf44dbcc87447eaa273516c65bc5a01 Hector <frieserpaldi@gmail.com> 1766522988 +0100	commit: Improve text synchronization across monitors
+b37e31ae0cf44dbcc87447eaa273516c65bc5a01 9f4f5b82c7e2321daa7b8c5dcd81cc37e180af98 Hector <frieserpaldi@gmail.com> 1766522992 +0100	commit: Reset readyToSubmit in tryUnlock after responding
+9f4f5b82c7e2321daa7b8c5dcd81cc37e180af98 a617c907e0bb002a465675c974ca7a1383a78ead Hector <frieserpaldi@gmail.com> 1766522998 +0100	commit: Reset unlockInProgress in tryUnlock after responding
+a617c907e0bb002a465675c974ca7a1383a78ead 48c9d481ef3834e6e8e62e2d8e14676f6ac4b1c0 Hector <frieserpaldi@gmail.com> 1766523004 +0100	commit: Remove redundant unlockInProgress set in tryUnlock
+48c9d481ef3834e6e8e62e2d8e14676f6ac4b1c0 b021bd68a0bc0c6dd8127e1b73707204d36fb2d8 Hector <frieserpaldi@gmail.com> 1766523009 +0100	commit: Remove redundant unlockInProgress set in onPamMessage
+b021bd68a0bc0c6dd8127e1b73707204d36fb2d8 2c1bf14b811268da63339640a17a3ae2a79ed96a Hector <frieserpaldi@gmail.com> 1766523023 +0100	commit: Keep unlockInProgress true while waiting for PAM completion
+2c1bf14b811268da63339640a17a3ae2a79ed96a 7b6b76fb90cf978bd42a69def7e442b585bc90a3 Hector <frieserpaldi@gmail.com> 1766523028 +0100	commit: Prevent empty password submission
+7b6b76fb90cf978bd42a69def7e442b585bc90a3 b4a4ec485ab7396227042ae678a638b4cd43d069 Hector <frieserpaldi@gmail.com> 1766523929 +0100	commit: 🐛 fix: improve lockscreen authentication flow and UX
+b4a4ec485ab7396227042ae678a638b4cd43d069 0a26ce3fb493d1392ab2f4468c84ecd63d766d16 Hector <frieserpaldi@gmail.com> 1766564048 +0100	commit: ✨ feat: add system quicksettings panel with power controls
+0a26ce3fb493d1392ab2f4468c84ecd63d766d16 2f179e8fc0dba6bb3a81c6b34f61a3b59d234235 Hector <frieserpaldi@gmail.com> 1766564656 +0100	commit: 🐛 fix: resolve QML syntax errors and panel window warnings
+2f179e8fc0dba6bb3a81c6b34f61a3b59d234235 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766564974 +0100	commit: ✨ feat: integrate system buttons into VolumeOsd
+3d1ef8f400d142eb2673020b12c4452d88efdf29 a3a1d54986ab799b0a1a049530b3c8ca369645f9 Hector <frieserpaldi@gmail.com> 1766565873 +0100	commit: ✨ feat: add MPRIS music player widget to VolumeOsd
+a3a1d54986ab799b0a1a049530b3c8ca369645f9 269d664c1739a2db93eb4ef0315c99120ff65011 Hector <frieserpaldi@gmail.com> 1766566118 +0100	commit: 🐛 fix: correct Mpris module import for music player
+269d664c1739a2db93eb4ef0315c99120ff65011 7b63f398fdae2d30cdb2742ef0fdd91d1d307e5a Hector <frieserpaldi@gmail.com> 1766566386 +0100	commit: 🐛 fix: make Mpris player detection reactive
+7b63f398fdae2d30cdb2742ef0fdd91d1d307e5a 3637be651f5d7e5f65384b165f2522217ac5aa95 Hector <frieserpaldi@gmail.com> 1766566560 +0100	commit: 🐛 fix: remove remaining mprisPlayer reference
+3637be651f5d7e5f65384b165f2522217ac5aa95 73e1dac6b7a6160b8f9f3687aca4f58f27903f90 Hector <frieserpaldi@gmail.com> 1766566927 +0100	commit: 🐛 fix: add null guards for MPRIS player property access
+73e1dac6b7a6160b8f9f3687aca4f58f27903f90 c0a45b91dee57426ccfa1684649273b6bcdb8f00 Hector <frieserpaldi@gmail.com> 1766567355 +0100	commit: 🐛 fix: prevent undefined assignment errors in MPRIS widget
+c0a45b91dee57426ccfa1684649273b6bcdb8f00 0f7adedb3e9321cdee6d99db7e1aba86a1c63e06 Hector <frieserpaldi@gmail.com> 1766567710 +0100	commit: ✨ feat: show OSD when MPRIS player is active
+0f7adedb3e9321cdee6d99db7e1aba86a1c63e06 dadaa5f45087972e91109f7c608578e46f3ad627 Hector <frieserpaldi@gmail.com> 1766569418 +0100	commit: 🐛 fix: correct notification reference scope in timer
+dadaa5f45087972e91109f7c608578e46f3ad627 df6a3973f338a129603e4bb55f5b2b6f2fbb5db6 Hector <frieserpaldi@gmail.com> 1766569689 +0100	commit: 🐛 fix: add null guards for player.length property
+df6a3973f338a129603e4bb55f5b2b6f2fbb5db6 50a9dfc987f08bbc518ff5848e4f145232cdf714 Hector <frieserpaldi@gmail.com> 1766574517 +0100	commit: fix(audio): resolve MPRIS signals and UI deprecation warnings
+50a9dfc987f08bbc518ff5848e4f145232cdf714 af401736cfaa989c1fb4a0f3fcdd5f3c3f571351 Hector <frieserpaldi@gmail.com> 1766574531 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+af401736cfaa989c1fb4a0f3fcdd5f3c3f571351 fbb9682d6fb4085ceec3354d786f27a06c704efe Hector <frieserpaldi@gmail.com> 1766574536 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+fbb9682d6fb4085ceec3354d786f27a06c704efe 74ed1649d9a1eb9f3ba20fe275fde4872bdd2879 Hector <frieserpaldi@gmail.com> 1766574541 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+74ed1649d9a1eb9f3ba20fe275fde4872bdd2879 8ce90ba892f59d3215e6fd14641bd4403da5e234 Hector <frieserpaldi@gmail.com> 1766574558 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+8ce90ba892f59d3215e6fd14641bd4403da5e234 e9f42f687de708610f7752d63d004c3b9f0b0b6f Hector <frieserpaldi@gmail.com> 1766574577 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+e9f42f687de708610f7752d63d004c3b9f0b0b6f ff646f8b5f045816c70956572fb066c1d993edc6 Hector <frieserpaldi@gmail.com> 1766574590 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+ff646f8b5f045816c70956572fb066c1d993edc6 96edd4f01199570c803d3469d2480c611706364d Hector <frieserpaldi@gmail.com> 1766574598 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+96edd4f01199570c803d3469d2480c611706364d 547bcbb5c66e04d5e3fb885ba8eadb12d6e8813e Hector <frieserpaldi@gmail.com> 1766574605 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+547bcbb5c66e04d5e3fb885ba8eadb12d6e8813e 7804f7dcf51a1bca4d74ee132b4e3a6313fe3a1e Hector <frieserpaldi@gmail.com> 1766574613 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+7804f7dcf51a1bca4d74ee132b4e3a6313fe3a1e 80f81486a5b6d5dbab62b5c68a8099d68b8d30b9 Hector <frieserpaldi@gmail.com> 1766574626 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+80f81486a5b6d5dbab62b5c68a8099d68b8d30b9 c658e543d8ada4fe39c06216a5548a28a303c8f8 Hector <frieserpaldi@gmail.com> 1766574648 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+c658e543d8ada4fe39c06216a5548a28a303c8f8 5f1899562df83ecfaf38b027c46cc73e4fe842df Hector <frieserpaldi@gmail.com> 1766574658 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+5f1899562df83ecfaf38b027c46cc73e4fe842df ad69dc06b2bf45e33603faae9337ca21f4b2bb51 Hector <frieserpaldi@gmail.com> 1766574670 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+ad69dc06b2bf45e33603faae9337ca21f4b2bb51 df2159acb65ef5830d65a464da1384eacabe0b7a Hector <frieserpaldi@gmail.com> 1766574682 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+df2159acb65ef5830d65a464da1384eacabe0b7a 25ab73c6228c2e8bc85a9254b4fea4583511723f Hector <frieserpaldi@gmail.com> 1766574708 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+25ab73c6228c2e8bc85a9254b4fea4583511723f b2869aa851defd8226e3fc752769ecbcefb4a247 Hector <frieserpaldi@gmail.com> 1766574717 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+b2869aa851defd8226e3fc752769ecbcefb4a247 e2026e8f8ae2896aa9bd1aed6121b37baac9c01e Hector <frieserpaldi@gmail.com> 1766574730 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+e2026e8f8ae2896aa9bd1aed6121b37baac9c01e 000b9904df0b8c49f4aed8db31600e65aa1c8d4f Hector <frieserpaldi@gmail.com> 1766574742 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+000b9904df0b8c49f4aed8db31600e65aa1c8d4f 393d68517760b029a05a26eff2f6b21dfc23d821 Hector <frieserpaldi@gmail.com> 1766574765 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+393d68517760b029a05a26eff2f6b21dfc23d821 fb36b9aaa3885b75e882ae7ecbef0eb68e90d6b2 Hector <frieserpaldi@gmail.com> 1766574778 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+fb36b9aaa3885b75e882ae7ecbef0eb68e90d6b2 9a29c26dce789ade6b49100d8bb0348db3cf06b1 Hector <frieserpaldi@gmail.com> 1766574800 +0100	commit (amend): fix(audio): resolve MPRIS signals and UI deprecation warnings
+9a29c26dce789ade6b49100d8bb0348db3cf06b1 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766575234 +0100	reset: moving to 3d1ef8f
+3d1ef8f400d142eb2673020b12c4452d88efdf29 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766575621 +0100	checkout: moving from master to fix/superpositions
+3d1ef8f400d142eb2673020b12c4452d88efdf29 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766661648 +0100	reset: moving to HEAD
+3d1ef8f400d142eb2673020b12c4452d88efdf29 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766827491 +0100	reset: moving to HEAD
+3d1ef8f400d142eb2673020b12c4452d88efdf29 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766833738 +0100	checkout: moving from fix/superpositions to master
+3d1ef8f400d142eb2673020b12c4452d88efdf29 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766833750 +0100	checkout: moving from master to fix/superpositions
+3d1ef8f400d142eb2673020b12c4452d88efdf29 90fdc703a4c869bc826ab1ec2b8ecb238d2c013b Hector <frieserpaldi@gmail.com> 1766833783 +0100	commit: fix(osd): resize windows when hidden to prevent click blocking
+90fdc703a4c869bc826ab1ec2b8ecb238d2c013b 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766833784 +0100	checkout: moving from fix/superpositions to master
+3d1ef8f400d142eb2673020b12c4452d88efdf29 90fdc703a4c869bc826ab1ec2b8ecb238d2c013b Hector <frieserpaldi@gmail.com> 1766833784 +0100	merge fix/superpositions: Fast-forward
+90fdc703a4c869bc826ab1ec2b8ecb238d2c013b 90fdc703a4c869bc826ab1ec2b8ecb238d2c013b Hector <frieserpaldi@gmail.com> 1766833852 +0100	checkout: moving from master to fix/focus-steelh
+90fdc703a4c869bc826ab1ec2b8ecb238d2c013b 887ad912704a5bb506af7395afc04ce8b47fa46f Hector <frieserpaldi@gmail.com> 1766833956 +0100	commit: fix(top-osd): disable exclusive keyboard focus by default to prevent stealing focus
+887ad912704a5bb506af7395afc04ce8b47fa46f 9bf0e6deade9e95cd28f8887cdb45d15203ae682 Hector <frieserpaldi@gmail.com> 1766834577 +0100	commit: feat(clock): integrate pomodoro widget and progress bar
+9bf0e6deade9e95cd28f8887cdb45d15203ae682 609fb9195887e262e773cf34012c49e9a2096aea Hector <frieserpaldi@gmail.com> 1766834580 +0100	commit: refactor: remove deprecated PomodoroOsd component
+609fb9195887e262e773cf34012c49e9a2096aea 7d6e7f074f2c6a003c9b54f784511a1ab26c4d06 Hector <frieserpaldi@gmail.com> 1766834631 +0100	commit: refactor: cleanup unused pomodoro component references
+7d6e7f074f2c6a003c9b54f784511a1ab26c4d06 81d671f5241b986239a038326bc845a38c42d118 Hector <frieserpaldi@gmail.com> 1766834834 +0100	commit: feat(notifications): integrate notifications into TopOsd (ClockOsd)
+81d671f5241b986239a038326bc845a38c42d118 99829c280f5fbe7bfda7b97ce9051502c3a82433 Hector <frieserpaldi@gmail.com> 1766834956 +0100	commit: feat(clock): fully integrate pomodoro into clock header and remove widget
+99829c280f5fbe7bfda7b97ce9051502c3a82433 ae25fbc1584af7d452991dd973ab02a62d832527 Hector <frieserpaldi@gmail.com> 1766835238 +0100	commit: fix(clock): allow osd to hide even when pomodoro is active
+ae25fbc1584af7d452991dd973ab02a62d832527 699d7f54cec80ced043aae1fe951593bccca8a68 Hector <frieserpaldi@gmail.com> 1766835376 +0100	commit: feat(clock): add persistent pomodoro progress bar when osd is hidden
+699d7f54cec80ced043aae1fe951593bccca8a68 09b6cd298a04e0c8c3c710989488300ca2d67319 Hector <frieserpaldi@gmail.com> 1766835450 +0100	commit: fix(clock): remove behavior on width for persistent progress bar
+09b6cd298a04e0c8c3c710989488300ca2d67319 4ffc43158087da6077bac1b8f90aff053a3fbdb7 Hector <frieserpaldi@gmail.com> 1766835582 +0100	commit: fix(osd): ensure persistent content is drawn on top and fills hidden window
+4ffc43158087da6077bac1b8f90aff053a3fbdb7 90fdc703a4c869bc826ab1ec2b8ecb238d2c013b Hector <frieserpaldi@gmail.com> 1766835703 +0100	checkout: moving from fix/focus-steelh to master
+90fdc703a4c869bc826ab1ec2b8ecb238d2c013b 4ffc43158087da6077bac1b8f90aff053a3fbdb7 Hector <frieserpaldi@gmail.com> 1766835714 +0100	merge fix/focus-steelh: Fast-forward
+4ffc43158087da6077bac1b8f90aff053a3fbdb7 4ffc43158087da6077bac1b8f90aff053a3fbdb7 Hector <frieserpaldi@gmail.com> 1766835807 +0100	checkout: moving from master to fix/audio-bar
+4ffc43158087da6077bac1b8f90aff053a3fbdb7 3e072bf90dc2dbc43b044cc095d1f51dd580776e Hector <frieserpaldi@gmail.com> 1766835961 +0100	commit: feat(volume-osd): replace power menu with direct profile cycling and add battery percentage
+3e072bf90dc2dbc43b044cc095d1f51dd580776e dcf458ce701fe8fcb7b6b7c02553a682f798e585 Hector <frieserpaldi@gmail.com> 1766835963 +0100	commit: refactor: remove unused PowerMenu component
+dcf458ce701fe8fcb7b6b7c02553a682f798e585 7abc0dee2f02124722c14a7835a48e2ddcc405f1 Hector <frieserpaldi@gmail.com> 1766836070 +0100	commit: feat(volume-osd): update power button to show profile icon and percentage at top
+7abc0dee2f02124722c14a7835a48e2ddcc405f1 9f019c675900d0898227d3fb20d1fe0c72a2400d Hector <frieserpaldi@gmail.com> 1766836232 +0100	commit: fix(volume-osd): increase width to fix alignment and reposition battery info
+9f019c675900d0898227d3fb20d1fe0c72a2400d a1c1ce4447521850ef0e2a8634fa7182610099bf Hector <frieserpaldi@gmail.com> 1766836350 +0100	commit: feat(volume-osd): replace update button with caffeine toggle (systemd-inhibit)
+a1c1ce4447521850ef0e2a8634fa7182610099bf 3563aaa405b53d663487815f5dececb77d1fee80 Hector <frieserpaldi@gmail.com> 1766836437 +0100	commit: fix(volume-osd): keep osd visible while hovering
+3563aaa405b53d663487815f5dececb77d1fee80 cceeb85a8f645e6a5d1711ba5e37012e9aee841f Hector <frieserpaldi@gmail.com> 1766836553 +0100	commit: fix(volume-osd): increase visibility timeout and prevent hiding while hovered
+cceeb85a8f645e6a5d1711ba5e37012e9aee841f 9ee4232d0c62da674feb7802e3a2159fab8aa490 Hector <frieserpaldi@gmail.com> 1766836633 +0100	commit: fix(volume-osd): force hover detection with explicit MouseArea
+9ee4232d0c62da674feb7802e3a2159fab8aa490 31e382c5c3b7f4c705a08766699f5ed138398cc2 Hector <frieserpaldi@gmail.com> 1766836988 +0100	commit: fix(volume-osd): simplify power button, remove percentage and center icons
+31e382c5c3b7f4c705a08766699f5ed138398cc2 cdd57e1e7554001c6c69e303d6493304a445d2d7 Hector <frieserpaldi@gmail.com> 1766837140 +0100	commit: feat(volume-osd): update battery button with vertical fill level, color coding and new profile icons
+cdd57e1e7554001c6c69e303d6493304a445d2d7 fa1f68a228b631bc592add6e5385097ab36f7093 Hector <frieserpaldi@gmail.com> 1766837318 +0100	commit: feat(volume-osd): refine battery button with liquid fill effect and updated icons
+fa1f68a228b631bc592add6e5385097ab36f7093 5682d96634939cd9ebcfe126794fdf89a0a053e3 Hector <frieserpaldi@gmail.com> 1766837417 +0100	commit: fix(volume-osd): replace OpacityMask with MultiEffect masking for battery button
+5682d96634939cd9ebcfe126794fdf89a0a053e3 c50377cfdc69a84f6d0383db05ad877a6690d54f Hector <frieserpaldi@gmail.com> 1766838508 +0100	commit: fix(volume-osd): update balanced icon, thin level line and increase liquid opacity
+c50377cfdc69a84f6d0383db05ad877a6690d54f 3d4436015265f4e1687c67062e380aa10906be2f Hector <frieserpaldi@gmail.com> 1766838635 +0100	commit: feat(volume-osd): update battery button to match iOS style (solid colors, vivid palette)
+3d4436015265f4e1687c67062e380aa10906be2f 1be3c08cf7d0777d5a79144d8c0ecab20ef075ab Hector <frieserpaldi@gmail.com> 1766838782 +0100	commit: refactor(osd): fix deprecation warnings by using implicitWidth/Height
+1be3c08cf7d0777d5a79144d8c0ecab20ef075ab 19ede1f2a4424a508d9c75b6368170ff78bda425 Hector <frieserpaldi@gmail.com> 1766839118 +0100	commit: fix(osd): restore missing properties and resolve deprecation warnings
+19ede1f2a4424a508d9c75b6368170ff78bda425 b588b75078f6d17bcac712cb27cc30ccde103ee1 Hector <frieserpaldi@gmail.com> 1766839152 +0100	commit: fix(clock): use Connections for onFocusLost signal
+b588b75078f6d17bcac712cb27cc30ccde103ee1 240710c7f2f4c6471aae3169f4eee18025b59a78 Hector <frieserpaldi@gmail.com> 1766839186 +0100	commit: fix(top-osd): restore missing properties contentHeight, shadowSpace and animator
+240710c7f2f4c6471aae3169f4eee18025b59a78 13e68f1dd6f50d773221644ac7ea68a085ee92f8 Hector <frieserpaldi@gmail.com> 1766839226 +0100	commit: fix(top-osd): restore missing triggerArea definition
+13e68f1dd6f50d773221644ac7ea68a085ee92f8 18d2c53320c1ca5ce9b773f0a602d70a0d9ca17a Hector <frieserpaldi@gmail.com> 1766839279 +0100	commit: fix(top-osd): add focusLost signal and detection logic
+18d2c53320c1ca5ce9b773f0a602d70a0d9ca17a 93d494a658d48f457d3aa95a06c3723e4f79dd76 Hector <frieserpaldi@gmail.com> 1766839363 +0100	commit: fix(top-osd): anchor window to top edge and silence signal warning
+93d494a658d48f457d3aa95a06c3723e4f79dd76 fc0f40df0b621dbb7ef19f8a044b658fe279733b Hector <frieserpaldi@gmail.com> 1766839515 +0100	commit: refactor(volume-osd): replace shell commands with Quickshell.Services.UPower
+fc0f40df0b621dbb7ef19f8a044b658fe279733b 923f59ccfc5cba5d9c08b59913c4ce5120641e0f Hector <frieserpaldi@gmail.com> 1766839555 +0100	commit: fix(volume-osd): restore missing function definition for cyclePowerProfile
+923f59ccfc5cba5d9c08b59913c4ce5120641e0f f2b569ffc660655f5dddf88cb98f9568f20007a6 Hector <frieserpaldi@gmail.com> 1766839674 +0100	commit: fix(volume-osd): resolve syntax error in cyclePowerProfile
+f2b569ffc660655f5dddf88cb98f9568f20007a6 ebba157e176f2eb952ace22cfab0611f6900812a Hector <frieserpaldi@gmail.com> 1766841342 +0100	commit: fix audio bar
+ebba157e176f2eb952ace22cfab0611f6900812a 4ffc43158087da6077bac1b8f90aff053a3fbdb7 Hector <frieserpaldi@gmail.com> 1766841351 +0100	checkout: moving from fix/audio-bar to master
+4ffc43158087da6077bac1b8f90aff053a3fbdb7 ebba157e176f2eb952ace22cfab0611f6900812a Hector <frieserpaldi@gmail.com> 1766841356 +0100	merge fix/audio-bar: Fast-forward
+ebba157e176f2eb952ace22cfab0611f6900812a ebba157e176f2eb952ace22cfab0611f6900812a Hector <frieserpaldi@gmail.com> 1766841365 +0100	checkout: moving from master to fix/launcher
+ebba157e176f2eb952ace22cfab0611f6900812a 5f157d4ad2c38135de8ff96c560836fe13126579 Hector <frieserpaldi@gmail.com> 1766851496 +0100	commit: fix launcher
+5f157d4ad2c38135de8ff96c560836fe13126579 ebba157e176f2eb952ace22cfab0611f6900812a Hector <frieserpaldi@gmail.com> 1766851506 +0100	checkout: moving from fix/launcher to master
+ebba157e176f2eb952ace22cfab0611f6900812a 5f157d4ad2c38135de8ff96c560836fe13126579 Hector <frieserpaldi@gmail.com> 1766851513 +0100	merge fix/launcher: Fast-forward
+5f157d4ad2c38135de8ff96c560836fe13126579 5f157d4ad2c38135de8ff96c560836fe13126579 Hector <frieserpaldi@gmail.com> 1766851564 +0100	checkout: moving from master to task/refactor
+5f157d4ad2c38135de8ff96c560836fe13126579 5f157d4ad2c38135de8ff96c560836fe13126579 Hector <frieserpaldi@gmail.com> 1766857003 +0100	reset: moving to master
+5f157d4ad2c38135de8ff96c560836fe13126579 5f157d4ad2c38135de8ff96c560836fe13126579 Hector <frieserpaldi@gmail.com> 1766863132 +0100	checkout: moving from task/refactor to master
+5f157d4ad2c38135de8ff96c560836fe13126579 46e63e8a825c08b9a978f2fd16ad0b406b721623 Hector <frieserpaldi@gmail.com> 1766863138 +0100	commit: some refactoring
+46e63e8a825c08b9a978f2fd16ad0b406b721623 46e63e8a825c08b9a978f2fd16ad0b406b721623 Hector <frieserpaldi@gmail.com> 1766863177 +0100	checkout: moving from master to task/status-monitor
+46e63e8a825c08b9a978f2fd16ad0b406b721623 30dc96583ef9ae34968cc7006e2f8155ef8a590d Hector <frieserpaldi@gmail.com> 1766865778 +0100	commit: improve status monitor
+30dc96583ef9ae34968cc7006e2f8155ef8a590d 46e63e8a825c08b9a978f2fd16ad0b406b721623 Hector <frieserpaldi@gmail.com> 1766865796 +0100	checkout: moving from task/status-monitor to master
+46e63e8a825c08b9a978f2fd16ad0b406b721623 30dc96583ef9ae34968cc7006e2f8155ef8a590d Hector <frieserpaldi@gmail.com> 1766865803 +0100	merge task/status-monitor: Fast-forward
+30dc96583ef9ae34968cc7006e2f8155ef8a590d 30dc96583ef9ae34968cc7006e2f8155ef8a590d Hector <frieserpaldi@gmail.com> 1766865813 +0100	checkout: moving from master to task/clock-osd
+30dc96583ef9ae34968cc7006e2f8155ef8a590d 95254aa3080f69c3adeac9eb52b2b6a9a79805ac Hector <frieserpaldi@gmail.com> 1766872227 +0100	commit: make audio bar floating
+95254aa3080f69c3adeac9eb52b2b6a9a79805ac 5808f93493fd0e0d70c16ec8b31201b3bde385f1 Hector <frieserpaldi@gmail.com> 1766872970 +0100	commit: audiobar behavior when switching between vertical and floating modes
+5808f93493fd0e0d70c16ec8b31201b3bde385f1 de52d63796d36ee64d68092cff2a0c825f3f9946 Hector <frieserpaldi@gmail.com> 1766873740 +0100	commit: add media player support
+de52d63796d36ee64d68092cff2a0c825f3f9946 fdb3d74f75287f61a837ab7e5b01982f609fe560 Hector <frieserpaldi@gmail.com> 1766874159 +0100	commit: fix mediaplayer
+fdb3d74f75287f61a837ab7e5b01982f609fe560 58bb778efbba46d1a4ac91165ded716f0e6e2659 Hector <frieserpaldi@gmail.com> 1766876199 +0100	commit: fix media player artwork
+58bb778efbba46d1a4ac91165ded716f0e6e2659 3dfddad10677c4f36f87cc2fa149ddebbf2ef3f6 Hector <frieserpaldi@gmail.com> 1766876663 +0100	commit: mediaplayer animation
+3dfddad10677c4f36f87cc2fa149ddebbf2ef3f6 da2e0c63922b5ff28b57db70ff8d8c4458049917 Hector <frieserpaldi@gmail.com> 1766878521 +0100	commit: refactorize audio indicators
+da2e0c63922b5ff28b57db70ff8d8c4458049917 45ae3d2e7e46b6c8674bf32b79bdab3774da90b9 Hector <frieserpaldi@gmail.com> 1766881303 +0100	commit: refactor
+45ae3d2e7e46b6c8674bf32b79bdab3774da90b9 30dc96583ef9ae34968cc7006e2f8155ef8a590d Hector <frieserpaldi@gmail.com> 1766881316 +0100	checkout: moving from task/clock-osd to master
+30dc96583ef9ae34968cc7006e2f8155ef8a590d 45ae3d2e7e46b6c8674bf32b79bdab3774da90b9 Hector <frieserpaldi@gmail.com> 1766881331 +0100	merge task/clock-osd: Fast-forward
+45ae3d2e7e46b6c8674bf32b79bdab3774da90b9 fe57bec3a6d7a8066428b95cddc8d05ebb8c6f0b Hector <frieserpaldi@gmail.com> 1766911034 +0100	commit: other refactoring
+fe57bec3a6d7a8066428b95cddc8d05ebb8c6f0b fe57bec3a6d7a8066428b95cddc8d05ebb8c6f0b Hector <frieserpaldi@gmail.com> 1766911053 +0100	checkout: moving from master to fix/notifications
+fe57bec3a6d7a8066428b95cddc8d05ebb8c6f0b 9e22c163eabbdba3f21649e65f1b4b356a132497 Hector <frieserpaldi@gmail.com> 1766913720 +0100	commit: style for notifications
+9e22c163eabbdba3f21649e65f1b4b356a132497 6ba16fc9fad1f0832ec008a87f9ba0554f639db2 Hector <frieserpaldi@gmail.com> 1766914110 +0100	commit: some notifications style changes
+6ba16fc9fad1f0832ec008a87f9ba0554f639db2 6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 Hector <frieserpaldi@gmail.com> 1766916317 +0100	commit: refactor Config and add notifications
+6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 fe57bec3a6d7a8066428b95cddc8d05ebb8c6f0b Hector <frieserpaldi@gmail.com> 1766916837 +0100	checkout: moving from fix/notifications to master
+fe57bec3a6d7a8066428b95cddc8d05ebb8c6f0b 6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 Hector <frieserpaldi@gmail.com> 1766916845 +0100	merge fix/notifications: Fast-forward
+6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 Hector <frieserpaldi@gmail.com> 1766916857 +0100	checkout: moving from master to fix/osd
+6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 Hector <frieserpaldi@gmail.com> 1766918848 +0100	reset: moving to HEAD
+6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 0814eee8e39cb7aa01b075e0aa2deb2584a379e4 Hector <frieserpaldi@gmail.com> 1766919484 +0100	commit: refactor
+0814eee8e39cb7aa01b075e0aa2deb2584a379e4 0814eee8e39cb7aa01b075e0aa2deb2584a379e4 Hector <frieserpaldi@gmail.com> 1766920137 +0100	reset: moving to HEAD
+0814eee8e39cb7aa01b075e0aa2deb2584a379e4 b28f1174588d0cd9c5fbffc850430128a2ecbe7e Hector <frieserpaldi@gmail.com> 1766921195 +0100	commit: refactor StatusIndicators
+b28f1174588d0cd9c5fbffc850430128a2ecbe7e 77821c3e81f98ffa3671cff1d9f9a4a5f1175a84 Hector <frieserpaldi@gmail.com> 1766927706 +0100	commit: created Panel
+77821c3e81f98ffa3671cff1d9f9a4a5f1175a84 827f8b7fed8b2d2816eff522f838da776a9c440d Hector <frieserpaldi@gmail.com> 1766937843 +0100	commit: add radious border to panel
+827f8b7fed8b2d2816eff522f838da776a9c440d 827f8b7fed8b2d2816eff522f838da776a9c440d Hector <frieserpaldi@gmail.com> 1766938182 +0100	reset: moving to HEAD
+827f8b7fed8b2d2816eff522f838da776a9c440d 6b4a9a6e340e8eb5a7443ff3951d1ac8566795dc Hector <frieserpaldi@gmail.com> 1766939943 +0100	commit: add rounded corners to the panel
+6b4a9a6e340e8eb5a7443ff3951d1ac8566795dc 6b4a9a6e340e8eb5a7443ff3951d1ac8566795dc Hector <frieserpaldi@gmail.com> 1766939994 +0100	reset: moving to HEAD
+6b4a9a6e340e8eb5a7443ff3951d1ac8566795dc d4c16ff1d0cd47f4011b4d084268d8bfdb608600 Hector <frieserpaldi@gmail.com> 1766940374 +0100	commit: shadows
+d4c16ff1d0cd47f4011b4d084268d8bfdb608600 6b2104da9657bc5b3091dbc3daa2cfcdd2665413 Hector <frieserpaldi@gmail.com> 1766940630 +0100	commit: migrated launcher to panel
+6b2104da9657bc5b3091dbc3daa2cfcdd2665413 ffcf084a3d2318dbc90a4cf2ab1ffd6787ca2444 Hector <frieserpaldi@gmail.com> 1766946735 +0100	commit: migrated workspaces to panel
+ffcf084a3d2318dbc90a4cf2ab1ffd6787ca2444 9dd945854b7bc7cc0f8a5acf3450399911f3f7fc Hector <frieserpaldi@gmail.com> 1766947105 +0100	commit: migrated all osd components to the new panel system
+9dd945854b7bc7cc0f8a5acf3450399911f3f7fc 70e1de00ba65d39d06ad5d09301d16a92ee58ff9 Hector <frieserpaldi@gmail.com> 1766948620 +0100	commit: move the panel background to a separate component
+70e1de00ba65d39d06ad5d09301d16a92ee58ff9 fe3829cdee47df40c0ac99ef74639ed6a8594753 Hector <frieserpaldi@gmail.com> 1766949177 +0100	commit: alternate between menu and app view
+fe3829cdee47df40c0ac99ef74639ed6a8594753 3eea85f2d9cea1d3f3cf19b8e21db34612288239 Hector <frieserpaldi@gmail.com> 1766949537 +0100	commit: fix workspaces height
+3eea85f2d9cea1d3f3cf19b8e21db34612288239 4d99725636480bd5db50d508d756e4d96986db36 Hector <frieserpaldi@gmail.com> 1766950741 +0100	commit: fix clock panel
+4d99725636480bd5db50d508d756e4d96986db36 1f78050d4b9ab1ec6843fcf82bbdf2e8bec2cb37 Hector <frieserpaldi@gmail.com> 1766950880 +0100	commit: feat(panel): add preventEdgeReveal property to disable edge hover trigger
+1f78050d4b9ab1ec6843fcf82bbdf2e8bec2cb37 2890e112d79ca951739211b6b50c8934e3045f45 Hector <frieserpaldi@gmail.com> 1766951003 +0100	commit: feat(panel): implement edgeRevealDelay to prevent accidental triggers
+2890e112d79ca951739211b6b50c8934e3045f45 a32690537da9d40635d47f5cb5c77b24152737e0 Hector <frieserpaldi@gmail.com> 1766951416 +0100	commit: fix clock panel
+a32690537da9d40635d47f5cb5c77b24152737e0 43a97219b53158febe68be53dfb8193a6b5bbc79 Hector <frieserpaldi@gmail.com> 1766954047 +0100	commit: fix status panel
+43a97219b53158febe68be53dfb8193a6b5bbc79 c2baaa5796ca111530b356318e97bdc52dfa52c5 Hector <frieserpaldi@gmail.com> 1766954239 +0100	commit: fix workspaces
+c2baaa5796ca111530b356318e97bdc52dfa52c5 34f6a61abe85b114cfd2e85d61afee9824a6b70d Hector <frieserpaldi@gmail.com> 1766956375 +0100	commit: implement extended mode for launcher
+34f6a61abe85b114cfd2e85d61afee9824a6b70d 863ec7e9db9eebaa9ed499b60e3bc3bc73a204e4 Hector <frieserpaldi@gmail.com> 1766957094 +0100	commit: fix extended mode
+863ec7e9db9eebaa9ed499b60e3bc3bc73a204e4 d69ae69be5d40ac7407e4ffdd7f41ece99f092fa Hector <frieserpaldi@gmail.com> 1766957392 +0100	commit: fix panel
+d69ae69be5d40ac7407e4ffdd7f41ece99f092fa 7472d13c5423b8597413c24efd641f2f47a04ef2 Hector <frieserpaldi@gmail.com> 1766958507 +0100	commit: fix status extended mode
+7472d13c5423b8597413c24efd641f2f47a04ef2 5f0997f56117e4ed2a14a1686595c93884eabba0 Hector <frieserpaldi@gmail.com> 1766959054 +0100	commit: focus and persistent mode for panel in extended mode
+5f0997f56117e4ed2a14a1686595c93884eabba0 8bb3212813509ab15745d1245cacadf1c644eeda Hector <frieserpaldi@gmail.com> 1766962350 +0100	commit: fix panel extended mode with focus
+8bb3212813509ab15745d1245cacadf1c644eeda 4c667f1253d83b885a8818fd1149cb59f155ef66 Hector <frieserpaldi@gmail.com> 1766964512 +0100	commit: fix status indicators alignment
+4c667f1253d83b885a8818fd1149cb59f155ef66 704790493aaa7c076dfc02864b8124006cd99059 Hector <frieserpaldi@gmail.com> 1766964997 +0100	commit: fix widget width
+704790493aaa7c076dfc02864b8124006cd99059 6e9a03e484192a2d16f487f0cffa1507892ed6af Hector <frieserpaldi@gmail.com> 1766965205 +0100	commit: fix keys navigation in status panel
+6e9a03e484192a2d16f487f0cffa1507892ed6af 5dd1089602d2aad77c2d0fce479e3837e71544d8 Hector <frieserpaldi@gmail.com> 1766965699 +0100	commit (amend): fix keys navigation in status panel
+5dd1089602d2aad77c2d0fce479e3837e71544d8 590b643ed47355caee51b6ca130bda867aa4711f Hector <frieserpaldi@gmail.com> 1766965783 +0100	commit (amend): fix keys navigation in status panel
+590b643ed47355caee51b6ca130bda867aa4711f cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 Hector <frieserpaldi@gmail.com> 1766965926 +0100	commit (amend): fix keys navigation in status panel
+cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 Hector <frieserpaldi@gmail.com> 1766966122 +0100	reset: moving to HEAD
+cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 Hector <frieserpaldi@gmail.com> 1766966236 +0100	checkout: moving from fix/osd to master
+6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 Hector <frieserpaldi@gmail.com> 1766966248 +0100	merge fix/osd: Fast-forward
+cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 Hector <frieserpaldi@gmail.com> 1766966267 +0100	checkout: moving from master to fix/notifications-margins
+cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 8ad508c49329db848f4fd296f49e819d891a2c79 Hector <frieserpaldi@gmail.com> 1767000956 +0100	commit: fix panel layout
+8ad508c49329db848f4fd296f49e819d891a2c79 5b13726c89454d90cfa081f15e1b81995caac800 Hector <frieserpaldi@gmail.com> 1767001270 +0100	commit: fix layout for notifications, launcher and workspaces
+5b13726c89454d90cfa081f15e1b81995caac800 adc73f5f7b8b6cbcc99382c359932a5059247cdb Hector <frieserpaldi@gmail.com> 1767001490 +0100	commit: fix status layouts
+adc73f5f7b8b6cbcc99382c359932a5059247cdb cf0e42a1cc8f4f73218ce78f601f705357213307 Hector <frieserpaldi@gmail.com> 1767002870 +0100	commit: fix logout button
+cf0e42a1cc8f4f73218ce78f601f705357213307 200a7880ce6feec572dbb3c85f0699ab88c89d99 Hector <frieserpaldi@gmail.com> 1767003473 +0100	commit: fix notifications animations
+200a7880ce6feec572dbb3c85f0699ab88c89d99 2e48b512a073b0f0c523435aa8ccca8b1fb24bbf Hector <frieserpaldi@gmail.com> 1767004500 +0100	commit: fix notifications animation
+2e48b512a073b0f0c523435aa8ccca8b1fb24bbf 36cc6c984f3bf26ba2669cbc0d6e63e8c1ab0ccf Hector <frieserpaldi@gmail.com> 1767009029 +0100	commit: bluetooth indicator
+36cc6c984f3bf26ba2669cbc0d6e63e8c1ab0ccf 700150efdb98d2d58d8b6cfd1217cf6ee52d2e25 Hector <frieserpaldi@gmail.com> 1767015271 +0100	commit: add wifi indicator
+700150efdb98d2d58d8b6cfd1217cf6ee52d2e25 700150efdb98d2d58d8b6cfd1217cf6ee52d2e25 Hector <frieserpaldi@gmail.com> 1767024755 +0100	reset: moving to HEAD
+700150efdb98d2d58d8b6cfd1217cf6ee52d2e25 8ca0cb970a67beeb0f4924ab7c01f68689a39415 Hector <frieserpaldi@gmail.com> 1767025148 +0100	commit: fix panel focus
+8ca0cb970a67beeb0f4924ab7c01f68689a39415 54f461a7f43c2ac940cf45be81084245f4365dd7 Hector <frieserpaldi@gmail.com> 1767028042 +0100	commit: fix notifition icon
+54f461a7f43c2ac940cf45be81084245f4365dd7 f1cf005cd43ca336598155e0ef3a31430a595201 Hector <frieserpaldi@gmail.com> 1767029186 +0100	commit: add bluettoth icons
+f1cf005cd43ca336598155e0ef3a31430a595201 7edfe3e22e3cbe69a563547b62c0ba0f1efcd42a Hector <frieserpaldi@gmail.com> 1767031247 +0100	commit: try to fix wifi
+7edfe3e22e3cbe69a563547b62c0ba0f1efcd42a 35dd6ea2a2d15b01344694f636f992c0b7aba940 Hector <frieserpaldi@gmail.com> 1767034952 +0100	commit: show systemtray
+35dd6ea2a2d15b01344694f636f992c0b7aba940 e7db4c20fb1ca74cb17e5fed2b80f0dd828f7969 Hector <frieserpaldi@gmail.com> 1767036998 +0100	commit: monochromatic icons in system tray
+e7db4c20fb1ca74cb17e5fed2b80f0dd828f7969 e7db4c20fb1ca74cb17e5fed2b80f0dd828f7969 Hector <frieserpaldi@gmail.com> 1767037891 +0100	reset: moving to HEAD
+e7db4c20fb1ca74cb17e5fed2b80f0dd828f7969 f4d95485654e9593f6baceb2e94319a33f370d17 Hector <frieserpaldi@gmail.com> 1767038234 +0100	commit: fix media player
+f4d95485654e9593f6baceb2e94319a33f370d17 5c161e58e6f61aa2946c2454a001c7d851b798f5 Hector <frieserpaldi@gmail.com> 1767039042 +0100	commit: redesigned lockscreen and fix status animations
+5c161e58e6f61aa2946c2454a001c7d851b798f5 70ee456894c61142234234cee274de0957cce407 Hector <frieserpaldi@gmail.com> 1767040124 +0100	commit: redesign logout screen
+70ee456894c61142234234cee274de0957cce407 3307149cd09e8e26be4bdbbddb9e277850a4e0eb Hector <frieserpaldi@gmail.com> 1767040373 +0100	commit: improve logout
+3307149cd09e8e26be4bdbbddb9e277850a4e0eb 5c370a76670ea9922d1dfb95bd2b65cf498812ec Hector <frieserpaldi@gmail.com> 1767041649 +0100	commit: implement pomodoro cycles
+5c370a76670ea9922d1dfb95bd2b65cf498812ec e452907bdacb598fe0b17bcf03d8970dbf9aebea Hector <frieserpaldi@gmail.com> 1767042129 +0100	commit: implement pomodoro overlay counter
+e452907bdacb598fe0b17bcf03d8970dbf9aebea 89c3357051a71966abab7c3d3d156958f1be49ed Hector <frieserpaldi@gmail.com> 1767044004 +0100	commit: add speech recognition component
+89c3357051a71966abab7c3d3d156958f1be49ed 12fdaf94cbdfa6cc66cb2f3867642fd35aabba91 Hector <frieserpaldi@gmail.com> 1767044197 +0100	commit: refactor lockscreen
+12fdaf94cbdfa6cc66cb2f3867642fd35aabba91 08f14da313da6870ef56a728b77711547044a6fe Hector <frieserpaldi@gmail.com> 1767044235 +0100	commit: fix wifi icion
+08f14da313da6870ef56a728b77711547044a6fe 0d18112b4d26bf0386ff3b96fa6d918cee6e3aa8 Hector <frieserpaldi@gmail.com> 1767044556 +0100	commit: paste animation in voice dictation
+0d18112b4d26bf0386ff3b96fa6d918cee6e3aa8 160b5d07a9c9f09a7e5e337df4d283a9a8e1401c Hector <frieserpaldi@gmail.com> 1767048838 +0100	commit: hey
+160b5d07a9c9f09a7e5e337df4d283a9a8e1401c cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 Hector <frieserpaldi@gmail.com> 1767048845 +0100	checkout: moving from fix/notifications-margins to master
+cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 160b5d07a9c9f09a7e5e337df4d283a9a8e1401c Hector <frieserpaldi@gmail.com> 1767048857 +0100	merge fix/notifications-margins: Fast-forward
+160b5d07a9c9f09a7e5e337df4d283a9a8e1401c 160b5d07a9c9f09a7e5e337df4d283a9a8e1401c Hector <frieserpaldi@gmail.com> 1767053133 +0100	checkout: moving from master to fix/lock
+160b5d07a9c9f09a7e5e337df4d283a9a8e1401c 160b5d07a9c9f09a7e5e337df4d283a9a8e1401c Hector <frieserpaldi@gmail.com> 1767115395 +0100	checkout: moving from fix/lock to master
+160b5d07a9c9f09a7e5e337df4d283a9a8e1401c 160b5d07a9c9f09a7e5e337df4d283a9a8e1401c Hector <frieserpaldi@gmail.com> 1767115434 +0100	checkout: moving from master to fix/pomodoro-countdown
+160b5d07a9c9f09a7e5e337df4d283a9a8e1401c 4196b15575a210193ca0c2df098fdecde0591bf5 Hector <frieserpaldi@gmail.com> 1767116320 +0100	commit: avoid pomodoro countdown disappearing during break
+4196b15575a210193ca0c2df098fdecde0591bf5 160b5d07a9c9f09a7e5e337df4d283a9a8e1401c Hector <frieserpaldi@gmail.com> 1767116344 +0100	checkout: moving from fix/pomodoro-countdown to master
+160b5d07a9c9f09a7e5e337df4d283a9a8e1401c 4196b15575a210193ca0c2df098fdecde0591bf5 Hector <frieserpaldi@gmail.com> 1767116357 +0100	merge fix/pomodoro-countdown: Fast-forward
+4196b15575a210193ca0c2df098fdecde0591bf5 4196b15575a210193ca0c2df098fdecde0591bf5 Hector <frieserpaldi@gmail.com> 1767116403 +0100	checkout: moving from master to fix/background
+4196b15575a210193ca0c2df098fdecde0591bf5 4196b15575a210193ca0c2df098fdecde0591bf5 Hector <frieserpaldi@gmail.com> 1767117114 +0100	checkout: moving from fix/background to master
+4196b15575a210193ca0c2df098fdecde0591bf5 4196b15575a210193ca0c2df098fdecde0591bf5 Hector <frieserpaldi@gmail.com> 1767117169 +0100	checkout: moving from master to feature/menus
+4196b15575a210193ca0c2df098fdecde0591bf5 b7263bdcd706472909b0de79bafb103596100186 Hector <frieserpaldi@gmail.com> 1767124885 +0100	commit: implement menu provider
+b7263bdcd706472909b0de79bafb103596100186 4906b187cadd4b584d4f62a4fe38167176b5c6f4 Hector <frieserpaldi@gmail.com> 1767126360 +0100	commit: add chat preview
+4906b187cadd4b584d4f62a4fe38167176b5c6f4 275414f83ab3a7dbcb9b13f88ba879f9a6ac248c Hector <frieserpaldi@gmail.com> 1767128999 +0100	commit: add screensavers, fix hotkeys config parser
+275414f83ab3a7dbcb9b13f88ba879f9a6ac248c 275414f83ab3a7dbcb9b13f88ba879f9a6ac248c Hector <frieserpaldi@gmail.com> 1767131986 +0100	reset: moving to HEAD
+275414f83ab3a7dbcb9b13f88ba879f9a6ac248c 41b168bc4fec42451bc339920bfac572e48a2d6d Hector <frieserpaldi@gmail.com> 1767132005 +0100	commit: fix cheatsheet and screensaver
+41b168bc4fec42451bc339920bfac572e48a2d6d 41b168bc4fec42451bc339920bfac572e48a2d6d Hector <frieserpaldi@gmail.com> 1767132021 +0100	reset: moving to HEAD
+41b168bc4fec42451bc339920bfac572e48a2d6d 41b168bc4fec42451bc339920bfac572e48a2d6d Hector <frieserpaldi@gmail.com> 1767132039 +0100	reset: moving to HEAD
+41b168bc4fec42451bc339920bfac572e48a2d6d 81136ac5cca23fff1511077b0fcfffd398808046 Hector <frieserpaldi@gmail.com> 1767171882 +0100	commit: remove chat
+81136ac5cca23fff1511077b0fcfffd398808046 81136ac5cca23fff1511077b0fcfffd398808046 Hector <frieserpaldi@gmail.com> 1767171928 +0100	reset: moving to HEAD
+81136ac5cca23fff1511077b0fcfffd398808046 201644e087608d94e6e49c276140b929f501ccff Hector <frieserpaldi@gmail.com> 1767174451 +0100	commit: fix wallpaper and add toggle menu
+201644e087608d94e6e49c276140b929f501ccff 5057c548a8582c42f953a7835bae418d6b0a3fd2 Hector <frieserpaldi@gmail.com> 1767174836 +0100	commit: cheatsheet componenet
+5057c548a8582c42f953a7835bae418d6b0a3fd2 a242a35b3e85ccf01411df54c3d5f53232086bb9 Hector <frieserpaldi@gmail.com> 1767175085 +0100	commit: final cheatsheet component
+a242a35b3e85ccf01411df54c3d5f53232086bb9 cb7b49d36dfe3eab68a051e1648cb9db88b582f5 Hector <frieserpaldi@gmail.com> 1767177365 +0100	commit: added battery indicator panel
+cb7b49d36dfe3eab68a051e1648cb9db88b582f5 519915989966e709354aabf1ba3a5a4fdc696cce Hector <frieserpaldi@gmail.com> 1767179661 +0100	commit: changes
+519915989966e709354aabf1ba3a5a4fdc696cce 519915989966e709354aabf1ba3a5a4fdc696cce Hector <frieserpaldi@gmail.com> 1767208478 +0100	reset: moving to HEAD
+519915989966e709354aabf1ba3a5a4fdc696cce 4196b15575a210193ca0c2df098fdecde0591bf5 Hector <frieserpaldi@gmail.com> 1767208494 +0100	checkout: moving from feature/menus to master
+4196b15575a210193ca0c2df098fdecde0591bf5 519915989966e709354aabf1ba3a5a4fdc696cce Hector <frieserpaldi@gmail.com> 1767208510 +0100	merge feature/menus: Fast-forward
+519915989966e709354aabf1ba3a5a4fdc696cce 44ddbffbbd20e94aa1bd4e2a44641bd8cccd373a Hector <frieserpaldi@gmail.com> 1767210120 +0100	commit: remove escape key from lockscreen
+44ddbffbbd20e94aa1bd4e2a44641bd8cccd373a bca578ff6c57ade9e3e33cf435bd84837230841f Hector <frieserpaldi@gmail.com> 1767210409 +0100	commit: add netspedd indicator
+bca578ff6c57ade9e3e33cf435bd84837230841f bca578ff6c57ade9e3e33cf435bd84837230841f Hector <frieserpaldi@gmail.com> 1767210433 +0100	checkout: moving from master to fix/notifications-panel
+bca578ff6c57ade9e3e33cf435bd84837230841f d517cda0278a617bf47f4a1df137163f8118d98d Hector <frieserpaldi@gmail.com> 1767211211 +0100	commit: fix caffeine indicator
+d517cda0278a617bf47f4a1df137163f8118d98d 6ce8eccb86b2c71207501da88c75fe68419c9039 Hector <frieserpaldi@gmail.com> 1767211447 +0100	commit: add indicators panel to notifications
+6ce8eccb86b2c71207501da88c75fe68419c9039 0f1202f13fc05e013162ac4fac5d2bb5729b1665 Hector <frieserpaldi@gmail.com> 1767218302 +0100	commit: refactor messages
+0f1202f13fc05e013162ac4fac5d2bb5729b1665 0f1202f13fc05e013162ac4fac5d2bb5729b1665 Hector <frieserpaldi@gmail.com> 1767221776 +0100	reset: moving to HEAD
+0f1202f13fc05e013162ac4fac5d2bb5729b1665 a433e3c2b2b6c25e5b585da65816b97374662f7a Hector <frieserpaldi@gmail.com> 1767224283 +0100	commit: add border
+a433e3c2b2b6c25e5b585da65816b97374662f7a 20153b51a2b0acde49c6e5daa58104f68e5f3771 Hector <frieserpaldi@gmail.com> 1767224915 +0100	commit: fix inverted orientation of the corners
+20153b51a2b0acde49c6e5daa58104f68e5f3771 8424fb3b5250c3e69410075e77bb564ff2854b00 Hector <frieserpaldi@gmail.com> 1767225108 +0100	commit: fix inverted corners
+8424fb3b5250c3e69410075e77bb564ff2854b00 8424fb3b5250c3e69410075e77bb564ff2854b00 Hector <frieserpaldi@gmail.com> 1767228373 +0100	reset: moving to HEAD
+8424fb3b5250c3e69410075e77bb564ff2854b00 62053e4a1bd075d057b609b025289f0edcdf8b11 Hector <frieserpaldi@gmail.com> 1767231841 +0100	commit: refactor launcher
+62053e4a1bd075d057b609b025289f0edcdf8b11 62053e4a1bd075d057b609b025289f0edcdf8b11 Hector <frieserpaldi@gmail.com> 1767233390 +0100	reset: moving to HEAD
+62053e4a1bd075d057b609b025289f0edcdf8b11 6a801664abe707f57bf517cf859c6a9ab4e10388 Hector <frieserpaldi@gmail.com> 1767266458 +0100	commit: some background edits
+6a801664abe707f57bf517cf859c6a9ab4e10388 02427069dd5ded1928b277eb1d42435a416f7d4d Hector <frieserpaldi@gmail.com> 1767347759 +0100	commit: add theme provider
+02427069dd5ded1928b277eb1d42435a416f7d4d 307ec2ccbfce8d7992af88a19d978bc833ecf7f2 Hector <frieserpaldi@gmail.com> 1767375661 +0100	commit: fixes
+307ec2ccbfce8d7992af88a19d978bc833ecf7f2 9d97e343812762104bbb79246af3a22022790750 Hector <frieserpaldi@gmail.com> 1767381979 +0100	commit: fonts from config
+9d97e343812762104bbb79246af3a22022790750 9d97e343812762104bbb79246af3a22022790750 Hector <frieserpaldi@gmail.com> 1767383431 +0100	reset: moving to HEAD
+9d97e343812762104bbb79246af3a22022790750 aec6de0b9e307b29844ff84e35ff6e6e2a0d7b04 Hector <frieserpaldi@gmail.com> 1767383918 +0100	commit: AGENTS.md
+aec6de0b9e307b29844ff84e35ff6e6e2a0d7b04 bca578ff6c57ade9e3e33cf435bd84837230841f Hector <frieserpaldi@gmail.com> 1767383937 +0100	checkout: moving from fix/notifications-panel to master
+bca578ff6c57ade9e3e33cf435bd84837230841f aec6de0b9e307b29844ff84e35ff6e6e2a0d7b04 Hector <frieserpaldi@gmail.com> 1767383946 +0100	merge fix/notifications-panel: Fast-forward
+aec6de0b9e307b29844ff84e35ff6e6e2a0d7b04 c544b65355287075e031eb0ca4184cb003f29723 Hector <frieserpaldi@gmail.com> 1767386722 +0100	merge fix/panel-animations: Fast-forward
+c544b65355287075e031eb0ca4184cb003f29723 6f83d8855095a7719cb3c2cb796997b29765613a Hector <frieserpaldi@gmail.com> 1767398477 +0100	commit: add git ignore
+6f83d8855095a7719cb3c2cb796997b29765613a 6f83d8855095a7719cb3c2cb796997b29765613a Hector <frieserpaldi@gmail.com> 1767398484 +0100	reset: moving to HEAD
+6f83d8855095a7719cb3c2cb796997b29765613a 6f83d8855095a7719cb3c2cb796997b29765613a Hector <frieserpaldi@gmail.com> 1767398494 +0100	checkout: moving from master to master
+6f83d8855095a7719cb3c2cb796997b29765613a 6f83d8855095a7719cb3c2cb796997b29765613a Hector <frieserpaldi@gmail.com> 1767398610 +0100	checkout: moving from master to master
+6f83d8855095a7719cb3c2cb796997b29765613a a956a771c7b96e2dd40ab0566b775ab0fec67519 Hector <frieserpaldi@gmail.com> 1767398685 +0100	merge colors: Merge made by the 'ort' strategy.
+a956a771c7b96e2dd40ab0566b775ab0fec67519 d1305ee45df78f24abdd8f35453d54cce47b85bf Hector <frieserpaldi@gmail.com> 1767400702 +0100	commit: update workmux config
+d1305ee45df78f24abdd8f35453d54cce47b85bf d1305ee45df78f24abdd8f35453d54cce47b85bf Hector <frieserpaldi@gmail.com> 1767400723 +0100	reset: moving to HEAD
+d1305ee45df78f24abdd8f35453d54cce47b85bf b01cdb3b8efbab1733178428ad0e4fc550cb35e8 Hector <frieserpaldi@gmail.com> 1767400726 +0100	merge navigation: Merge made by the 'ort' strategy.
+b01cdb3b8efbab1733178428ad0e4fc550cb35e8 b01cdb3b8efbab1733178428ad0e4fc550cb35e8 Hector <frieserpaldi@gmail.com> 1767433621 +0100	checkout: moving from master to master
+b01cdb3b8efbab1733178428ad0e4fc550cb35e8 62d33e703715d947ce22bd3d7f84468a4cf4504b Hector <frieserpaldi@gmail.com> 1767433621 +0100	merge messages-animation: Fast-forward
+62d33e703715d947ce22bd3d7f84468a4cf4504b 62d33e703715d947ce22bd3d7f84468a4cf4504b Hector <frieserpaldi@gmail.com> 1767433786 +0100	checkout: moving from master to master
+62d33e703715d947ce22bd3d7f84468a4cf4504b 62d33e703715d947ce22bd3d7f84468a4cf4504b Hector <frieserpaldi@gmail.com> 1767433803 +0100	checkout: moving from master to master
+62d33e703715d947ce22bd3d7f84468a4cf4504b 62d33e703715d947ce22bd3d7f84468a4cf4504b Hector <frieserpaldi@gmail.com> 1767433841 +0100	checkout: moving from master to master
+62d33e703715d947ce22bd3d7f84468a4cf4504b 62d33e703715d947ce22bd3d7f84468a4cf4504b Hector <frieserpaldi@gmail.com> 1767433912 +0100	checkout: moving from master to master
+62d33e703715d947ce22bd3d7f84468a4cf4504b 62d33e703715d947ce22bd3d7f84468a4cf4504b Hector <frieserpaldi@gmail.com> 1767433966 +0100	checkout: moving from master to master
+62d33e703715d947ce22bd3d7f84468a4cf4504b 62d33e703715d947ce22bd3d7f84468a4cf4504b Hector <frieserpaldi@gmail.com> 1767433994 +0100	checkout: moving from master to master
+62d33e703715d947ce22bd3d7f84468a4cf4504b 62d33e703715d947ce22bd3d7f84468a4cf4504b Hector <frieserpaldi@gmail.com> 1767434054 +0100	checkout: moving from master to master
+62d33e703715d947ce22bd3d7f84468a4cf4504b 119c1db67e7776dfd9b75c5deac6d3281254f547 Hector <frieserpaldi@gmail.com> 1767434085 +0100	commit (merge): Merge branch 'theme-selector'
+119c1db67e7776dfd9b75c5deac6d3281254f547 207370aab110329f0c97bf61b9516681790b6a0a Hector <frieserpaldi@gmail.com> 1767436287 +0100	commit: deleted duplicated carrrouel
+207370aab110329f0c97bf61b9516681790b6a0a de5f0a84d0b7db59b038bc98e3e6e36a18ea0bdf Hector <frieserpaldi@gmail.com> 1767437714 +0100	commit: fix item selection in carrousel
+de5f0a84d0b7db59b038bc98e3e6e36a18ea0bdf 68aebf9b5e1767a378076fabdb9ca4bd27d56210 Hector <frieserpaldi@gmail.com> 1767438011 +0100	commit: fix warning
+68aebf9b5e1767a378076fabdb9ca4bd27d56210 653234d5c9b9e37ea8e19e87e395d15a50546e3f Hector <frieserpaldi@gmail.com> 1767439609 +0100	commit: fix focus loss on extended panels
+653234d5c9b9e37ea8e19e87e395d15a50546e3f e994f108215e278c7fe5cedf31d2daf4892fd72b Hector <frieserpaldi@gmail.com> 1767439728 +0100	commit: fix laucncher
+e994f108215e278c7fe5cedf31d2daf4892fd72b c823069474795cd0fa260fea1a191974fe2d3b4e Hector <frieserpaldi@gmail.com> 1767440156 +0100	commit: fix panels
+c823069474795cd0fa260fea1a191974fe2d3b4e f7ef490cc20429fe4fb1f0cb45c8cb542f6dc272 Hector <frieserpaldi@gmail.com> 1767440323 +0100	commit: fix mouse area
+f7ef490cc20429fe4fb1f0cb45c8cb542f6dc272 07307956e6d56618750649f06b950d81025edf35 Hector <frieserpaldi@gmail.com> 1767441427 +0100	commit: fix message panel animations
+07307956e6d56618750649f06b950d81025edf35 b4877aa9fae3f611f776296781f1fb3e0b0f7a42 Hector <frieserpaldi@gmail.com> 1767441708 +0100	commit: fix panel edge reveal delay
+b4877aa9fae3f611f776296781f1fb3e0b0f7a42 f3211a00cac8925d593b64139040cb3c4627d33a Hector <frieserpaldi@gmail.com> 1767442226 +0100	commit: add more themes
+f3211a00cac8925d593b64139040cb3c4627d33a f3211a00cac8925d593b64139040cb3c4627d33a Hector <frieserpaldi@gmail.com> 1767554555 +0100	checkout: moving from master to master
+f3211a00cac8925d593b64139040cb3c4627d33a 2c83c878f67c47a71f87f6369cdd79a6049ac701 Hector <frieserpaldi@gmail.com> 1767554555 +0100	commit: Renombrar nombre de ipcs (vibe-kanban 6fabf15e)
+2c83c878f67c47a71f87f6369cdd79a6049ac701 2c83c878f67c47a71f87f6369cdd79a6049ac701 Hector <frieserpaldi@gmail.com> 1767554930 +0100	checkout: moving from master to fix/shortcuts
+2c83c878f67c47a71f87f6369cdd79a6049ac701 2c83c878f67c47a71f87f6369cdd79a6049ac701 Hector <frieserpaldi@gmail.com> 1767554940 +0100	reset: moving to HEAD
+2c83c878f67c47a71f87f6369cdd79a6049ac701 2c83c878f67c47a71f87f6369cdd79a6049ac701 Hector <frieserpaldi@gmail.com> 1767554942 +0100	checkout: moving from fix/shortcuts to master
+2c83c878f67c47a71f87f6369cdd79a6049ac701 04a6645a22e33617d1d2d9f99616a76edc401649 Hector <frieserpaldi@gmail.com> 1767554942 +0100	merge ipc: Fast-forward
+04a6645a22e33617d1d2d9f99616a76edc401649 04a6645a22e33617d1d2d9f99616a76edc401649 Hector <frieserpaldi@gmail.com> 1767727492 +0100	reset: moving to HEAD
+04a6645a22e33617d1d2d9f99616a76edc401649 04a6645a22e33617d1d2d9f99616a76edc401649 Hector <frieserpaldi@gmail.com> 1767727540 +0100	reset: moving to HEAD
+04a6645a22e33617d1d2d9f99616a76edc401649 1c3a9093a7220fa412178f4cdf5b87a9cb189dbb Hector <frieserpaldi@gmail.com> 1767727552 +0100	commit: add fuck
+1c3a9093a7220fa412178f4cdf5b87a9cb189dbb 1c3a9093a7220fa412178f4cdf5b87a9cb189dbb Hector <frieserpaldi@gmail.com> 1767727560 +0100	checkout: moving from master to master
+1c3a9093a7220fa412178f4cdf5b87a9cb189dbb dc03430154c7fc9d0e2b89e53d74462cb8b2186b Hector <frieserpaldi@gmail.com> 1767727586 +0100	commit (merge): Merge branch 'mouse-area'
+dc03430154c7fc9d0e2b89e53d74462cb8b2186b dc03430154c7fc9d0e2b89e53d74462cb8b2186b Hector <frieserpaldi@gmail.com> 1767728214 +0100	reset: moving to HEAD
+dc03430154c7fc9d0e2b89e53d74462cb8b2186b dc03430154c7fc9d0e2b89e53d74462cb8b2186b Hector <frieserpaldi@gmail.com> 1767728217 +0100	checkout: moving from master to master
+dc03430154c7fc9d0e2b89e53d74462cb8b2186b 412ca0336c067aa8b6217e2b448431b5d9f1b45a Hector <frieserpaldi@gmail.com> 1767728217 +0100	merge font-selector: Fast-forward
+412ca0336c067aa8b6217e2b448431b5d9f1b45a 412ca0336c067aa8b6217e2b448431b5d9f1b45a Hector <frieserpaldi@gmail.com> 1767779927 +0100	reset: moving to HEAD
+412ca0336c067aa8b6217e2b448431b5d9f1b45a 412ca0336c067aa8b6217e2b448431b5d9f1b45a Hector <frieserpaldi@gmail.com> 1767779930 +0100	checkout: moving from master to master
+412ca0336c067aa8b6217e2b448431b5d9f1b45a 21cfb90d7275b1e2aeb29ebf5ca0f9837dc30cfd Hector <frieserpaldi@gmail.com> 1767779930 +0100	merge niri-sessions: Fast-forward
+21cfb90d7275b1e2aeb29ebf5ca0f9837dc30cfd 21cfb90d7275b1e2aeb29ebf5ca0f9837dc30cfd Hector <frieserpaldi@gmail.com> 1767796195 +0100	checkout: moving from master to master
+21cfb90d7275b1e2aeb29ebf5ca0f9837dc30cfd fe144520dd120b43a49d5975800a378ee14731cc Hector <frieserpaldi@gmail.com> 1767796195 +0100	merge menu-chat: Fast-forward
+fe144520dd120b43a49d5975800a378ee14731cc fe144520dd120b43a49d5975800a378ee14731cc Hector <frieserpaldi@gmail.com> 1767799125 +0100	reset: moving to HEAD
+fe144520dd120b43a49d5975800a378ee14731cc fe144520dd120b43a49d5975800a378ee14731cc Hector <frieserpaldi@gmail.com> 1767799127 +0100	checkout: moving from master to master
+fe144520dd120b43a49d5975800a378ee14731cc cbf84897636c7dabd19e6ab165c23cf1dd68dc38 Hector <frieserpaldi@gmail.com> 1767799127 +0100	merge remove-deps: Fast-forward
+cbf84897636c7dabd19e6ab165c23cf1dd68dc38 cbf84897636c7dabd19e6ab165c23cf1dd68dc38 Hector <frieserpaldi@gmail.com> 1767802215 +0100	checkout: moving from master to master
+cbf84897636c7dabd19e6ab165c23cf1dd68dc38 cbf84897636c7dabd19e6ab165c23cf1dd68dc38 Hector <frieserpaldi@gmail.com> 1767802218 +0100	reset: moving to HEAD
+cbf84897636c7dabd19e6ab165c23cf1dd68dc38 cbf84897636c7dabd19e6ab165c23cf1dd68dc38 Hector <frieserpaldi@gmail.com> 1767802220 +0100	checkout: moving from master to master
+cbf84897636c7dabd19e6ab165c23cf1dd68dc38 cbf84897636c7dabd19e6ab165c23cf1dd68dc38 Hector <frieserpaldi@gmail.com> 1767802223 +0100	reset: moving to HEAD
+cbf84897636c7dabd19e6ab165c23cf1dd68dc38 cbf84897636c7dabd19e6ab165c23cf1dd68dc38 Hector <frieserpaldi@gmail.com> 1767802225 +0100	checkout: moving from master to master
+cbf84897636c7dabd19e6ab165c23cf1dd68dc38 cbf84897636c7dabd19e6ab165c23cf1dd68dc38 Hector <frieserpaldi@gmail.com> 1767802231 +0100	checkout: moving from master to master
+cbf84897636c7dabd19e6ab165c23cf1dd68dc38 6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 Hector <frieserpaldi@gmail.com> 1767802231 +0100	merge config-override: Fast-forward
+6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 Hector <frieserpaldi@gmail.com> 1767802482 +0100	checkout: moving from master to fixes
+6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 afff7d1b586440c7c9adb19fdceac330817a86db Hector <frieserpaldi@gmail.com> 1767802917 +0100	commit: fix menu provider
+afff7d1b586440c7c9adb19fdceac330817a86db 75677ec90538783deed62732ed809a0e6e73b4d9 Hector <frieserpaldi@gmail.com> 1767805657 +0100	commit: extract more config
+75677ec90538783deed62732ed809a0e6e73b4d9 4f00679a518c26b9b288984db860ff9a8ef40bee Hector <frieserpaldi@gmail.com> 1767813011 +0100	commit: fix bluetooth manager and wifi manager
+4f00679a518c26b9b288984db860ff9a8ef40bee 6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 Hector <frieserpaldi@gmail.com> 1767813028 +0100	checkout: moving from fixes to master
+6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 Hector <frieserpaldi@gmail.com> 1767813035 +0100	reset: moving to HEAD
+6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 Hector <frieserpaldi@gmail.com> 1767813048 +0100	reset: moving to HEAD
+6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 4f00679a518c26b9b288984db860ff9a8ef40bee Hector <frieserpaldi@gmail.com> 1767813050 +0100	merge fixes: Fast-forward
+4f00679a518c26b9b288984db860ff9a8ef40bee 4f00679a518c26b9b288984db860ff9a8ef40bee Hector <frieserpaldi@gmail.com> 1767813092 +0100	checkout: moving from master to qml-tests
+4f00679a518c26b9b288984db860ff9a8ef40bee efde9e3eb1bec07b3c7cca14468163fed25688f8 Hector <frieserpaldi@gmail.com> 1767819415 +0100	commit: implementing the qml-tests
+efde9e3eb1bec07b3c7cca14468163fed25688f8 4f00679a518c26b9b288984db860ff9a8ef40bee Hector <frieserpaldi@gmail.com> 1767819453 +0100	checkout: moving from qml-tests to master
+4f00679a518c26b9b288984db860ff9a8ef40bee efde9e3eb1bec07b3c7cca14468163fed25688f8 Hector <frieserpaldi@gmail.com> 1767819454 +0100	merge qml-tests: Fast-forward
+efde9e3eb1bec07b3c7cca14468163fed25688f8 efde9e3eb1bec07b3c7cca14468163fed25688f8 Hector <frieserpaldi@gmail.com> 1767819466 +0100	checkout: moving from master to refactor
+efde9e3eb1bec07b3c7cca14468163fed25688f8 62a108f2aee84e0b67b2c8c15515462e2a2d5bb8 Hector <frieserpaldi@gmail.com> 1767819703 +0100	commit: remove duplicated code
+62a108f2aee84e0b67b2c8c15515462e2a2d5bb8 26d7f1075b7e4f2fdb1d3eb07003a34056d6bca6 Hector <frieserpaldi@gmail.com> 1767819983 +0100	commit: refactor
+26d7f1075b7e4f2fdb1d3eb07003a34056d6bca6 9d05bff66806cec05c6a52635cc7e8d356ad27c5 Hector <frieserpaldi@gmail.com> 1767826519 +0100	commit: extract components
+9d05bff66806cec05c6a52635cc7e8d356ad27c5 8acea08334e0faddd368ca3faa833759e658ce8f Hector <frieserpaldi@gmail.com> 1767828925 +0100	commit: refactor components
+8acea08334e0faddd368ca3faa833759e658ce8f efde9e3eb1bec07b3c7cca14468163fed25688f8 Hector <frieserpaldi@gmail.com> 1767828942 +0100	checkout: moving from refactor to master
+efde9e3eb1bec07b3c7cca14468163fed25688f8 8acea08334e0faddd368ca3faa833759e658ce8f Hector <frieserpaldi@gmail.com> 1767828949 +0100	merge refactor: Fast-forward
+8acea08334e0faddd368ca3faa833759e658ce8f 3ed9dbeae69967939460d8eb47f7450b6850a20e Hector <frieserpaldi@gmail.com> 1767860111 +0100	commit: refactor tests
+3ed9dbeae69967939460d8eb47f7450b6850a20e 078b10fc9f9150bd2bed40a797b58e02ba52630e Hector <frieserpaldi@gmail.com> 1767864743 +0100	commit: refactor config
+078b10fc9f9150bd2bed40a797b58e02ba52630e 078b10fc9f9150bd2bed40a797b58e02ba52630e Hector <frieserpaldi@gmail.com> 1767870616 +0100	reset: moving to HEAD
+078b10fc9f9150bd2bed40a797b58e02ba52630e 078b10fc9f9150bd2bed40a797b58e02ba52630e Hector <frieserpaldi@gmail.com> 1767870625 +0100	checkout: moving from master to dynamic-theme
+078b10fc9f9150bd2bed40a797b58e02ba52630e 078b10fc9f9150bd2bed40a797b58e02ba52630e Hector <frieserpaldi@gmail.com> 1767871687 +0100	reset: moving to HEAD
+078b10fc9f9150bd2bed40a797b58e02ba52630e 078b10fc9f9150bd2bed40a797b58e02ba52630e Hector <frieserpaldi@gmail.com> 1767872870 +0100	reset: moving to HEAD
+078b10fc9f9150bd2bed40a797b58e02ba52630e 3ed9dbeae69967939460d8eb47f7450b6850a20e Hector <frieserpaldi@gmail.com> 1767872906 +0100	reset: moving to 3ed9dbeae69967939460d8eb47f7450b6850a20e
+3ed9dbeae69967939460d8eb47f7450b6850a20e 8acea08334e0faddd368ca3faa833759e658ce8f Hector <frieserpaldi@gmail.com> 1767873064 +0100	reset: moving to 8acea08334e0faddd368ca3faa833759e658ce8f
+8acea08334e0faddd368ca3faa833759e658ce8f 8acea08334e0faddd368ca3faa833759e658ce8f Hector <frieserpaldi@gmail.com> 1767873069 +0100	reset: moving to 8acea08334e0faddd368ca3faa833759e658ce8f
+8acea08334e0faddd368ca3faa833759e658ce8f 8acea08334e0faddd368ca3faa833759e658ce8f Hector <frieserpaldi@gmail.com> 1767885928 +0100	reset: moving to HEAD
+8acea08334e0faddd368ca3faa833759e658ce8f 9d05bff66806cec05c6a52635cc7e8d356ad27c5 Hector <frieserpaldi@gmail.com> 1767886300 +0100	reset: moving to 9d05bff66806cec05c6a52635cc7e8d356ad27c5
+9d05bff66806cec05c6a52635cc7e8d356ad27c5 26d7f1075b7e4f2fdb1d3eb07003a34056d6bca6 Hector <frieserpaldi@gmail.com> 1767886362 +0100	reset: moving to 26d7f1075b7e4f2fdb1d3eb07003a34056d6bca6
+26d7f1075b7e4f2fdb1d3eb07003a34056d6bca6 62a108f2aee84e0b67b2c8c15515462e2a2d5bb8 Hector <frieserpaldi@gmail.com> 1767886407 +0100	reset: moving to 62a108f2aee84e0b67b2c8c15515462e2a2d5bb8
+62a108f2aee84e0b67b2c8c15515462e2a2d5bb8 078b10fc9f9150bd2bed40a797b58e02ba52630e Hector <frieserpaldi@gmail.com> 1767886461 +0100	checkout: moving from dynamic-theme to master
+078b10fc9f9150bd2bed40a797b58e02ba52630e 62a108f2aee84e0b67b2c8c15515462e2a2d5bb8 Hector <frieserpaldi@gmail.com> 1767886590 +0100	checkout: moving from master to dynamic-theme
+62a108f2aee84e0b67b2c8c15515462e2a2d5bb8 b55dc00743200c5dc7832d9a97ad04bd9374c7cd Hector <frieserpaldi@gmail.com> 1767890612 +0100	commit: dynamic-theme
+b55dc00743200c5dc7832d9a97ad04bd9374c7cd 078b10fc9f9150bd2bed40a797b58e02ba52630e Hector <frieserpaldi@gmail.com> 1767890622 +0100	checkout: moving from dynamic-theme to master
+078b10fc9f9150bd2bed40a797b58e02ba52630e 078b10fc9f9150bd2bed40a797b58e02ba52630e Hector <frieserpaldi@gmail.com> 1767890652 +0100	reset: moving to HEAD
+078b10fc9f9150bd2bed40a797b58e02ba52630e eddc8740614d11ca5afa0434f4a60e382eea5f46 Hector <frieserpaldi@gmail.com> 1767890954 +0100	commit (merge): Merge dynamic-theme branch: Add dynamic theme generation from wallpaper
+eddc8740614d11ca5afa0434f4a60e382eea5f46 dd07bd46af00816f6d8c6f93190e21d9fb41ab3a Hector <frieserpaldi@gmail.com> 1767891010 +0100	commit (amend): Merge dynamic-theme branch: Add dynamic theme generation from wallpaper
+dd07bd46af00816f6d8c6f93190e21d9fb41ab3a d52b7c143390c50702e2f3ccc7ec856e5677bba6 Hector <frieserpaldi@gmail.com> 1767892113 +0100	commit: fix some warnings
+d52b7c143390c50702e2f3ccc7ec856e5677bba6 d52b7c143390c50702e2f3ccc7ec856e5677bba6 Hector <frieserpaldi@gmail.com> 1767892531 +0100	checkout: moving from master to dynamic-rounded-corner
+d52b7c143390c50702e2f3ccc7ec856e5677bba6 b8129ba85958eaa3422d43a59f77c8a476311728 Hector <frieserpaldi@gmail.com> 1767893175 +0100	commit: customize themes border radius
+b8129ba85958eaa3422d43a59f77c8a476311728 d52b7c143390c50702e2f3ccc7ec856e5677bba6 Hector <frieserpaldi@gmail.com> 1767893191 +0100	checkout: moving from dynamic-rounded-corner to master
+d52b7c143390c50702e2f3ccc7ec856e5677bba6 b8129ba85958eaa3422d43a59f77c8a476311728 Hector <frieserpaldi@gmail.com> 1767893195 +0100	merge dynamic-rounded-corner: Fast-forward
+b8129ba85958eaa3422d43a59f77c8a476311728 1e489c1ee08d2ae8fea2b8a221049858f94ae820 Hector <frieserpaldi@gmail.com> 1767893543 +0100	commit: fix quickbutton size
+1e489c1ee08d2ae8fea2b8a221049858f94ae820 1e489c1ee08d2ae8fea2b8a221049858f94ae820 Hector <frieserpaldi@gmail.com> 1767893559 +0100	checkout: moving from master to pomodoro-active
+1e489c1ee08d2ae8fea2b8a221049858f94ae820 174549d785fa6458ec2b2a319cdb06f505f1cbdd Hector <frieserpaldi@gmail.com> 1767896109 +0100	commit: prevent pomodoro auto-hide when panel is active
+174549d785fa6458ec2b2a319cdb06f505f1cbdd 1e489c1ee08d2ae8fea2b8a221049858f94ae820 Hector <frieserpaldi@gmail.com> 1767896172 +0100	checkout: moving from pomodoro-active to master
+1e489c1ee08d2ae8fea2b8a221049858f94ae820 174549d785fa6458ec2b2a319cdb06f505f1cbdd Hector <frieserpaldi@gmail.com> 1767896177 +0100	merge pomodoro-active: Fast-forward
+174549d785fa6458ec2b2a319cdb06f505f1cbdd 174549d785fa6458ec2b2a319cdb06f505f1cbdd Hector <frieserpaldi@gmail.com> 1767897065 +0100	checkout: moving from master to dynamic-componentes
+174549d785fa6458ec2b2a319cdb06f505f1cbdd fdbed7543612c82e363c246152a634aacbcb2353 Hector <frieserpaldi@gmail.com> 1767900197 +0100	commit: made components checks for missing dependencies
+fdbed7543612c82e363c246152a634aacbcb2353 174549d785fa6458ec2b2a319cdb06f505f1cbdd Hector <frieserpaldi@gmail.com> 1767900237 +0100	checkout: moving from dynamic-componentes to master
+174549d785fa6458ec2b2a319cdb06f505f1cbdd fdbed7543612c82e363c246152a634aacbcb2353 Hector <frieserpaldi@gmail.com> 1767900243 +0100	merge dynamic-componentes: Fast-forward
+fdbed7543612c82e363c246152a634aacbcb2353 fdbed7543612c82e363c246152a634aacbcb2353 Hector <frieserpaldi@gmail.com> 1767900285 +0100	checkout: moving from master to screensavers
+fdbed7543612c82e363c246152a634aacbcb2353 3994282224f8c0958a18fec1a16749bf5cb4b1b0 Hector <frieserpaldi@gmail.com> 1767901344 +0100	commit: add more screensavers
+3994282224f8c0958a18fec1a16749bf5cb4b1b0 d74c73d1c1657539ac52475135be489748cfd54f Hector <frieserpaldi@gmail.com> 1767902312 +0100	commit: more screensavers
+d74c73d1c1657539ac52475135be489748cfd54f 58ab6ee90f432fcb8c5e08beb534470d330d23fc Hector <frieserpaldi@gmail.com> 1767903111 +0100	commit: more screensavers
+58ab6ee90f432fcb8c5e08beb534470d330d23fc 58ab6ee90f432fcb8c5e08beb534470d330d23fc Hector <frieserpaldi@gmail.com> 1767904810 +0100	reset: moving to HEAD
+58ab6ee90f432fcb8c5e08beb534470d330d23fc fdbed7543612c82e363c246152a634aacbcb2353 Hector <frieserpaldi@gmail.com> 1767904820 +0100	checkout: moving from screensavers to master
+fdbed7543612c82e363c246152a634aacbcb2353 58ab6ee90f432fcb8c5e08beb534470d330d23fc Hector <frieserpaldi@gmail.com> 1767904826 +0100	merge screensavers: Fast-forward
+58ab6ee90f432fcb8c5e08beb534470d330d23fc 2c065aa0c5f2115f05c4465e2c9c5a358a1e6351 Hector <frieserpaldi@gmail.com> 1767944374 +0100	commit: fix some errores
+2c065aa0c5f2115f05c4465e2c9c5a358a1e6351 c6782989dcb0d5e1f3672811960ee23885911b1f Hector <frieserpaldi@gmail.com> 1767945541 +0100	commit: fix status animation
+c6782989dcb0d5e1f3672811960ee23885911b1f aad8fe6ac1d55460e31556996329ae69a747935e Hector <frieserpaldi@gmail.com> 1767950837 +0100	commit: smooth snimatin status
+aad8fe6ac1d55460e31556996329ae69a747935e 2038b589f2a38006e778eb8e3895c54d77d2bfa4 Hector <frieserpaldi@gmail.com> 1767951324 +0100	commit: fixes
+2038b589f2a38006e778eb8e3895c54d77d2bfa4 549f4181fb5889e57f4fbaeeda1f9484ae31ebaf Hector <frieserpaldi@gmail.com> 1767953284 +0100	commit: fixes
+549f4181fb5889e57f4fbaeeda1f9484ae31ebaf a3719d7a0256112d37367479bfcd26a39d50ea5d Hector <frieserpaldi@gmail.com> 1767954436 +0100	commit: fix net speed icons
+a3719d7a0256112d37367479bfcd26a39d50ea5d aeba03f38b4b7e274f87039326d6f06e83f4b741 Hector <frieserpaldi@gmail.com> 1767959682 +0100	commit: config animations
+aeba03f38b4b7e274f87039326d6f06e83f4b741 81bb8c7f269b8d63d5e2c57f49ea564d3f6bae28 Hector <frieserpaldi@gmail.com> 1767966357 +0100	commit: improve animations
+81bb8c7f269b8d63d5e2c57f49ea564d3f6bae28 960963e2ae56b7e75d03a0c834680dec1a7f0651 Hector <frieserpaldi@gmail.com> 1767966999 +0100	commit: add panel review
+960963e2ae56b7e75d03a0c834680dec1a7f0651 abf2eeafe4496bd8d5a48f1ecc7247bae363de7b Hector <frieserpaldi@gmail.com> 1767968677 +0100	commit: animation perfection
+abf2eeafe4496bd8d5a48f1ecc7247bae363de7b b0089f94fa8263e65b413fb64b50a1620f8c4cc7 Hector <frieserpaldi@gmail.com> 1767974191 +0100	commit: fix status animation
+b0089f94fa8263e65b413fb64b50a1620f8c4cc7 41bd8629159a3e915eb51bbcee95f99886692ca2 Hector <frieserpaldi@gmail.com> 1767974632 +0100	commit: rounded corners animation
+41bd8629159a3e915eb51bbcee95f99886692ca2 574d1ad05ff9378ab93bc37157a164405fef0274 Hector <frieserpaldi@gmail.com> 1767974987 +0100	commit: fix media player animation
+574d1ad05ff9378ab93bc37157a164405fef0274 c259f6592cdccc6e9aee84578e384891b964871f Hector <frieserpaldi@gmail.com> 1767975459 +0100	commit: fix animation
+c259f6592cdccc6e9aee84578e384891b964871f f8c3b91535d1945ff977ee5426dac6cc8989f573 Hector <frieserpaldi@gmail.com> 1767976624 +0100	commit: fix all animations
+f8c3b91535d1945ff977ee5426dac6cc8989f573 f8c3b91535d1945ff977ee5426dac6cc8989f573 Hector <frieserpaldi@gmail.com> 1767976682 +0100	checkout: moving from master to components
+f8c3b91535d1945ff977ee5426dac6cc8989f573 f8c3b91535d1945ff977ee5426dac6cc8989f573 Hector <frieserpaldi@gmail.com> 1767988754 +0100	checkout: moving from components to master
+f8c3b91535d1945ff977ee5426dac6cc8989f573 f8c3b91535d1945ff977ee5426dac6cc8989f573 Hector <frieserpaldi@gmail.com> 1767988763 +0100	checkout: moving from master to user-config
+f8c3b91535d1945ff977ee5426dac6cc8989f573 9f88ae6acd62a02e5ed6b26defbc68e9115c501d Hector <frieserpaldi@gmail.com> 1767990041 +0100	commit: user config
+9f88ae6acd62a02e5ed6b26defbc68e9115c501d 52c5e36f30c69aa676ea68e856880179105f7872 Hector <frieserpaldi@gmail.com> 1768030690 +0100	commit: chat response
+52c5e36f30c69aa676ea68e856880179105f7872 52c5e36f30c69aa676ea68e856880179105f7872 Hector <frieserpaldi@gmail.com> 1768033480 +0100	reset: moving to HEAD
+52c5e36f30c69aa676ea68e856880179105f7872 14b891087b228340ea41ed9b70921ddb6be4bd99 Hector <frieserpaldi@gmail.com> 1768034977 +0100	commit: fix chat animation
+14b891087b228340ea41ed9b70921ddb6be4bd99 15dfb0e6948e520ddcf154218c849c30520a5f59 Hector <frieserpaldi@gmail.com> 1768035384 +0100	commit: fixes
+15dfb0e6948e520ddcf154218c849c30520a5f59 76670885b294ef49b9ee1e7ed5f50a1b551d8098 Hector <frieserpaldi@gmail.com> 1768035759 +0100	commit: auto scroll chat
+76670885b294ef49b9ee1e7ed5f50a1b551d8098 5204a735b4083febe7185a5897ea0b41825ca90f Hector <frieserpaldi@gmail.com> 1768036620 +0100	commit: center chat view
+5204a735b4083febe7185a5897ea0b41825ca90f 9c6fa988bb51f56a171a78303e166f843867531c Hector <frieserpaldi@gmail.com> 1768038421 +0100	commit: add debug panel
+9c6fa988bb51f56a171a78303e166f843867531c c79e8bdba77279cc137127dcce12ee45bf74c95e Hector <frieserpaldi@gmail.com> 1768038799 +0100	commit: fix tests
+c79e8bdba77279cc137127dcce12ee45bf74c95e bd0d5288d2884f84ff97ba1e2d4eb15f85e0200d Hector <frieserpaldi@gmail.com> 1768040951 +0100	commit: fix cheatsheet layout
+bd0d5288d2884f84ff97ba1e2d4eb15f85e0200d 5db08887d9a80d9a25ea3ed92a02a25a39ffdc11 Hector <frieserpaldi@gmail.com> 1768042973 +0100	commit: fix panel position
+5db08887d9a80d9a25ea3ed92a02a25a39ffdc11 5db08887d9a80d9a25ea3ed92a02a25a39ffdc11 Hector <frieserpaldi@gmail.com> 1768043959 +0100	reset: moving to HEAD
+5db08887d9a80d9a25ea3ed92a02a25a39ffdc11 c6a4bb09ae761995241c9e4729b29f57b0daecc5 Hector <frieserpaldi@gmail.com> 1768047275 +0100	commit: fix json
+c6a4bb09ae761995241c9e4729b29f57b0daecc5 4be9f84f74acf34f1d47b293611a77b4b45ea006 Hector <frieserpaldi@gmail.com> 1768047835 +0100	commit: remove panel shadow when panel is hidden
+4be9f84f74acf34f1d47b293611a77b4b45ea006 f74d8c5e6560706fa713fc7c2f963b72df950320 Hector <frieserpaldi@gmail.com> 1768048022 +0100	commit: remove background rectangle
+f74d8c5e6560706fa713fc7c2f963b72df950320 415448632e1e41f3d3ab7ee1891de6f75e41704c Hector <frieserpaldi@gmail.com> 1768048679 +0100	commit: fix music player
+415448632e1e41f3d3ab7ee1891de6f75e41704c e0f564f40622fb38de77107a63eb3927d56270d6 Hector <frieserpaldi@gmail.com> 1768067145 +0100	commit: fix warnings
+e0f564f40622fb38de77107a63eb3927d56270d6 e0f564f40622fb38de77107a63eb3927d56270d6 Hector <frieserpaldi@gmail.com> 1768067157 +0100	reset: moving to HEAD
+e0f564f40622fb38de77107a63eb3927d56270d6 dc3d5ee043313a36535c379e87bf3ea2870bbf9c Hector <frieserpaldi@gmail.com> 1768080819 +0100	commit: lot
+dc3d5ee043313a36535c379e87bf3ea2870bbf9c fdea6991f49548a6c77267ef9ed5a6678778d027 Hector <frieserpaldi@gmail.com> 1768082458 +0100	commit: fix warnings
+fdea6991f49548a6c77267ef9ed5a6678778d027 bc4d0099cda32c5e4eb2c76330fb6df1c805f350 Hector <frieserpaldi@gmail.com> 1768083420 +0100	commit: accent colors
+bc4d0099cda32c5e4eb2c76330fb6df1c805f350 bc4d0099cda32c5e4eb2c76330fb6df1c805f350 Hector <frieserpaldi@gmail.com> 1768091303 +0100	reset: moving to HEAD
+bc4d0099cda32c5e4eb2c76330fb6df1c805f350 5bcdff12dd37c74fdc1fab3480b9e07e729265a2 Hector <frieserpaldi@gmail.com> 1768092234 +0100	commit: sync dynamic theme with wallpaper
+5bcdff12dd37c74fdc1fab3480b9e07e729265a2 ab0f76fbc0916b015e732016cd4798d486a896b4 Hector <frieserpaldi@gmail.com> 1768092957 +0100	commit: change process state color
+ab0f76fbc0916b015e732016cd4798d486a896b4 7380f2502ac3a2dfb42cca6037d547f2cdc8d834 Hector <frieserpaldi@gmail.com> 1768125722 +0100	commit: search in cheatsheet
+7380f2502ac3a2dfb42cca6037d547f2cdc8d834 ad9b6476fc87ff46ef266aea053a4c65132fed26 Hector <frieserpaldi@gmail.com> 1768126713 +0100	commit: filter search in wallpapers and themes
+ad9b6476fc87ff46ef266aea053a4c65132fed26 753a001e4c9556a4c479ccdcb2cc6b18f65b4f0e Hector <frieserpaldi@gmail.com> 1768127082 +0100	commit: fix wallpapers
+753a001e4c9556a4c479ccdcb2cc6b18f65b4f0e d6ab1bd5b2457ce0efb39ebd94665271ae21bf81 Hector <frieserpaldi@gmail.com> 1768127478 +0100	commit: speed up the generation of the theme colors
+d6ab1bd5b2457ce0efb39ebd94665271ae21bf81 1c5154b546131076e18e1af802cd7b609adc5447 Hector <frieserpaldi@gmail.com> 1768129313 +0100	commit: fix error
+1c5154b546131076e18e1af802cd7b609adc5447 ef6ec68d681b93d3be6e65744456d40fb2ffec87 Hector <frieserpaldi@gmail.com> 1768154740 +0100	commit: change icon theme
+ef6ec68d681b93d3be6e65744456d40fb2ffec87 9df79400fede98adbab3218a6ec8693330ca0f0d Hector <frieserpaldi@gmail.com> 1768226673 +0100	commit: big refactor
+9df79400fede98adbab3218a6ec8693330ca0f0d 9df79400fede98adbab3218a6ec8693330ca0f0d Hector <frieserpaldi@gmail.com> 1768231320 +0100	reset: moving to HEAD
+9df79400fede98adbab3218a6ec8693330ca0f0d 9945382084d6714bdf6cec701f3dc9587cc0fdf4 Hector <frieserpaldi@gmail.com> 1768240901 +0100	commit: big refactor
+9945382084d6714bdf6cec701f3dc9587cc0fdf4 c0175f74c9e16e22eb88aca4fabcf48e84fd5828 Hector <frieserpaldi@gmail.com> 1768241202 +0100	commit (amend): big refactor
+c0175f74c9e16e22eb88aca4fabcf48e84fd5828 f8c3b91535d1945ff977ee5426dac6cc8989f573 Hector <frieserpaldi@gmail.com> 1768241208 +0100	checkout: moving from user-config to master
+f8c3b91535d1945ff977ee5426dac6cc8989f573 c0175f74c9e16e22eb88aca4fabcf48e84fd5828 Hector <frieserpaldi@gmail.com> 1768241212 +0100	merge user-config: Fast-forward
+c0175f74c9e16e22eb88aca4fabcf48e84fd5828 7b639a331c1ed4fbb9429ea216fe1f0753006d98 Hector <frieserpaldi@gmail.com> 1768241569 +0100	commit: add inverted dynamic theme
+7b639a331c1ed4fbb9429ea216fe1f0753006d98 af39361839b60c0a9e46dbde34637d665dc3494c Hector <frieserpaldi@gmail.com> 1768242105 +0100	commit: fix json
+af39361839b60c0a9e46dbde34637d665dc3494c 5557d3d671c35d22fad8242d0d94a26f3ed894b4 Hector <frieserpaldi@gmail.com> 1768406755 +0100	commit: add pomodoro widget in lockscreen
+5557d3d671c35d22fad8242d0d94a26f3ed894b4 1500be3a7789f4295f80783a2ba04fe3d3f92f6c Hector <frieserpaldi@gmail.com> 1768407046 +0100	commit: add mediaplayer to lockscreen
+1500be3a7789f4295f80783a2ba04fe3d3f92f6c 6695630022db416c7312919a291064d6c6551ed2 Hector <frieserpaldi@gmail.com> 1768407483 +0100	commit (amend): add mediaplayer to lockscreen
+6695630022db416c7312919a291064d6c6551ed2 8ee7b1950e0610738a40f24e915bcdb1c38ea98d Hector <frieserpaldi@gmail.com> 1768411392 +0100	commit: smooth transition between work ending and break
+8ee7b1950e0610738a40f24e915bcdb1c38ea98d 4a806fd09658f07ab81b26adf1423b28c2ae85d1 Hector <frieserpaldi@gmail.com> 1768415264 +0100	commit: add notifications to lockscreen
+4a806fd09658f07ab81b26adf1423b28c2ae85d1 77b0001c18ac15dc8364ad98993924266b45f3eb Hector <frieserpaldi@gmail.com> 1768416745 +0100	commit: add border to lockscreen
+77b0001c18ac15dc8364ad98993924266b45f3eb 77b0001c18ac15dc8364ad98993924266b45f3eb Hector <frieserpaldi@gmail.com> 1768419179 +0100	reset: moving to HEAD
+77b0001c18ac15dc8364ad98993924266b45f3eb d56d026b72f288e37391127ddbe5d809b3ba16c5 Hector <frieserpaldi@gmail.com> 1768503061 +0100	commit: fix ipc calls
+d56d026b72f288e37391127ddbe5d809b3ba16c5 63d7666d65b8b2a8a9156a760dada7fff47e88fc Hector <frieserpaldi@gmail.com> 1768503528 +0100	commit: fix pomodoro countdown
+63d7666d65b8b2a8a9156a760dada7fff47e88fc aea81929bff2bb645f11a8bd4371c285e146f746 Hector <frieserpaldi@gmail.com> 1768519653 +0100	commit: fix borderscreen in full screen apps
+aea81929bff2bb645f11a8bd4371c285e146f746 dd55fd58f90d4e631f0da09fbd7d12746086f285 Hector <frieserpaldi@gmail.com> 1768566214 +0100	commit: add theme sync
+dd55fd58f90d4e631f0da09fbd7d12746086f285 8ed36efe6a0c58f805c66b9102a4a0e130089142 Hector <frieserpaldi@gmail.com> 1768581876 +0100	commit: fix tmux plugin colors
+8ed36efe6a0c58f805c66b9102a4a0e130089142 c8e21dbb19f3c2208dfba0829b5d10ea919c7bcf Hector <frieserpaldi@gmail.com> 1768585379 +0100	commit: theme sync
+c8e21dbb19f3c2208dfba0829b5d10ea919c7bcf cd5a679d761ab295c485bc8bff3b4a235f867be9 Hector <frieserpaldi@gmail.com> 1768597179 +0100	commit: dynamic theme
+cd5a679d761ab295c485bc8bff3b4a235f867be9 390817f975ad752866cc9e9c9a1e2fcfda63daae Hector <frieserpaldi@gmail.com> 1768597822 +0100	commit: ok
+390817f975ad752866cc9e9c9a1e2fcfda63daae ad628a9b7b79453f0b3dad78e86dfb25228885ae Hector <frieserpaldi@gmail.com> 1768642401 +0100	commit: change only shell theme
+ad628a9b7b79453f0b3dad78e86dfb25228885ae 5f50ef43ae789ab675e2ccbf329126d3a964fcc4 Hector <frieserpaldi@gmail.com> 1768644152 +0100	commit: polar theme
+5f50ef43ae789ab675e2ccbf329126d3a964fcc4 f17cd47b4582da0af6f129896bbaf085ebad3640 Hector <frieserpaldi@gmail.com> 1768648073 +0100	commit: fix theme selection
+f17cd47b4582da0af6f129896bbaf085ebad3640 2d3c053b87710adc398857f1f81d450a53d1546b Hector <frieserpaldi@gmail.com> 1768651855 +0100	commit: fix themes
+2d3c053b87710adc398857f1f81d450a53d1546b 22f2ebbf277b1b35a8b5718b99a7fb09f0684172 Hector <frieserpaldi@gmail.com> 1768661206 +0100	commit: fix opencode themes
+22f2ebbf277b1b35a8b5718b99a7fb09f0684172 135abd6d06022521485be856a819bf0c48c3244c Hector <frieserpaldi@gmail.com> 1768661937 +0100	commit: fix theems
+135abd6d06022521485be856a819bf0c48c3244c ea1cf70d82188b60e816fc84899b91d1029d2c45 Hector <frieserpaldi@gmail.com> 1768683565 +0100	commit: fix niri radius
+ea1cf70d82188b60e816fc84899b91d1029d2c45 6b40f8a7fc7795d04d03d6f2166370537d1d2feb Hector <frieserpaldi@gmail.com> 1768898989 +0100	commit: fix caffeine
+6b40f8a7fc7795d04d03d6f2166370537d1d2feb 8bb67cf161d4953c8e3c6410d8012a0d836f26dc Hector <frieserpaldi@gmail.com> 1768918334 +0100	commit: add voxtype to voice dictation
+8bb67cf161d4953c8e3c6410d8012a0d836f26dc b678ebe49e04a5f1e643f7f52361e68beb74116b Hector <frieserpaldi@gmail.com> 1768942795 +0100	commit: add mcp
+b678ebe49e04a5f1e643f7f52361e68beb74116b 8419d51e589f99ad6f3eb8e30caaa561b74bc7fa Hector <frieserpaldi@gmail.com> 1768943158 +0100	commit: add cpu and gpu temps
+8419d51e589f99ad6f3eb8e30caaa561b74bc7fa 0511d3890d47578ad5def4dfd165658fd40ce810 Hector <frieserpaldi@gmail.com> 1768950312 +0100	commit: add system voice dictation and add name workspaces
+0511d3890d47578ad5def4dfd165658fd40ce810 85272216ede061da3b6b9c8101cf4f1d87e7f568 Hector <frieserpaldi@gmail.com> 1768950772 +0100	commit: show workspace tooptip on change
+85272216ede061da3b6b9c8101cf4f1d87e7f568 8ff841752b2385629b7d40acebf312b81dca25f7 Hector <frieserpaldi@gmail.com> 1768952914 +0100	commit: dont disturb mode and fix about
+8ff841752b2385629b7d40acebf312b81dca25f7 1bc765d176beba5896fb4253f19d0bccf11d2940 Hector <frieserpaldi@gmail.com> 1768954088 +0100	commit: some
+1bc765d176beba5896fb4253f19d0bccf11d2940 1bc765d176beba5896fb4253f19d0bccf11d2940 Hector <frieserpaldi@gmail.com> 1768955409 +0100	reset: moving to HEAD
+1bc765d176beba5896fb4253f19d0bccf11d2940 ed8007e4945edb02ec5e721ed1d59fb7de967638 Hector <frieserpaldi@gmail.com> 1768955797 +0100	commit: feat: sync launcher icons with system theme on startup
+ed8007e4945edb02ec5e721ed1d59fb7de967638 820164413f740372f2c703c51a5f15182fa79878 Hector <frieserpaldi@gmail.com> 1768956186 +0100	commit: fix(launcher): use python-based icon resolution to respect system theme
+820164413f740372f2c703c51a5f15182fa79878 29e3e42fe13ee874c3142b1b4970e1cae664debb Hector <frieserpaldi@gmail.com> 1768956362 +0100	commit: fix(icons): continuously monitor and enforce system icon theme
+29e3e42fe13ee874c3142b1b4970e1cae664debb be3386d677882e352a9d0f5a5372dce4fb11284e Hector <frieserpaldi@gmail.com> 1768956613 +0100	commit: fix(launcher): refresh apps list on icon theme change
+be3386d677882e352a9d0f5a5372dce4fb11284e 1bc765d176beba5896fb4253f19d0bccf11d2940 Hector <frieserpaldi@gmail.com> 1768956899 +0100	reset: moving to 1bc765d
+1bc765d176beba5896fb4253f19d0bccf11d2940 be3386d677882e352a9d0f5a5372dce4fb11284e Hector <frieserpaldi@gmail.com> 1768956933 +0100	reset: moving to be3386d
+be3386d677882e352a9d0f5a5372dce4fb11284e b1049e9059f77dd7ac30f6b4dd793d3ef40766da Hector <frieserpaldi@gmail.com> 1768957000 +0100	commit: all runing
+b1049e9059f77dd7ac30f6b4dd793d3ef40766da b1049e9059f77dd7ac30f6b4dd793d3ef40766da Hector <frieserpaldi@gmail.com> 1768993647 +0100	reset: moving to HEAD
+b1049e9059f77dd7ac30f6b4dd793d3ef40766da 7db511fc86e29a7d5ed15b18efca058de8d1781b Hector <frieserpaldi@gmail.com> 1769005009 +0100	commit: rename workspaces
+7db511fc86e29a7d5ed15b18efca058de8d1781b 64d7eb396fb43a2e456e40ca0015f317a6dd5759 Hector <frieserpaldi@gmail.com> 1769007120 +0100	commit: remove named workspace
+64d7eb396fb43a2e456e40ca0015f317a6dd5759 fe95c63ba22c205674cd9853de57ac222abf63bf Hector <frieserpaldi@gmail.com> 1769021700 +0100	commit: fix launcher
+fe95c63ba22c205674cd9853de57ac222abf63bf 7903002dcc661157d1c0d3191a82ec4015212a70 Hector <frieserpaldi@gmail.com> 1769449847 +0100	commit: fix workspaces
+7903002dcc661157d1c0d3191a82ec4015212a70 62404478a230148e06345fa1a9b68658c0cc0e16 Hector <frieserpaldi@gmail.com> 1769450536 +0100	commit: show battery status when charge/uncharged
+62404478a230148e06345fa1a9b68658c0cc0e16 f58eb769b09ca62eb4aad5c5f848cca9d13d2a12 Hector <frieserpaldi@gmail.com> 1769524675 +0100	commit: pip mode
+f58eb769b09ca62eb4aad5c5f848cca9d13d2a12 38fbfaff0c63dc46d0414f7358b03b40bb6c12d2 Hector <frieserpaldi@gmail.com> 1769529705 +0100	commit: improve pip mode
+38fbfaff0c63dc46d0414f7358b03b40bb6c12d2 8d3e3a84fd7c9d87f2897f97e10f07a5d728b811 Hector <frieserpaldi@gmail.com> 1769530538 +0100	commit: fix pip mode
+8d3e3a84fd7c9d87f2897f97e10f07a5d728b811 dad6a6eea9a4b41f8e86ed4ae31ccfc70546cba4 Hector <frieserpaldi@gmail.com> 1770309343 +0100	commit: feat: show active workspace name during niri overlay
+dad6a6eea9a4b41f8e86ed4ae31ccfc70546cba4 170e4bfb5b1bd9b1de0a10b8ba64a63616092423 Hector <frieserpaldi@gmail.com> 1770310532 +0100	commit: update: add clock date display and hide pomodoro progress background when idle/work
+170e4bfb5b1bd9b1de0a10b8ba64a63616092423 170e4bfb5b1bd9b1de0a10b8ba64a63616092423 Hector <frieserpaldi@gmail.com> 1770314187 +0100	reset: moving to HEAD
+170e4bfb5b1bd9b1de0a10b8ba64a63616092423 809c907a4ae99abf303629618863a594173ce0c9 Hector <frieserpaldi@gmail.com> 1772468582 +0100	commit: implement clipboard provider
+809c907a4ae99abf303629618863a594173ce0c9 274e3223fb41a0a9689a963c45bbd5fafdba54a8 Hector <frieserpaldi@gmail.com> 1772471240 +0100	commit: fix multiscreen
+274e3223fb41a0a9689a963c45bbd5fafdba54a8 f52fe5d09a10eb1f8ed987d90002fb977a004b36 Hector <frieserpaldi@gmail.com> 1772481872 +0100	commit: fix voice dictation
+f52fe5d09a10eb1f8ed987d90002fb977a004b36 f52fe5d09a10eb1f8ed987d90002fb977a004b36 Hector <frieserpaldi@gmail.com> 1772481879 +0100	reset: moving to HEAD
+f52fe5d09a10eb1f8ed987d90002fb977a004b36 f52fe5d09a10eb1f8ed987d90002fb977a004b36 Hector <frieserpaldi@gmail.com> 1772524857 +0100	reset: moving to HEAD
+f52fe5d09a10eb1f8ed987d90002fb977a004b36 16ee623b36566e24315656d7924c47f4b672fcbf Hector <frieserpaldi@gmail.com> 1772527980 +0100	commit: fix workspaces

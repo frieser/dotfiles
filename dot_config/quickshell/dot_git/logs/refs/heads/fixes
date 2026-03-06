@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 Hector <frieserpaldi@gmail.com> 1767802482 +0100	branch: Created from HEAD
+6bf4b8a38d7841beb7927edc4c5d1eb5bdbd78f5 afff7d1b586440c7c9adb19fdceac330817a86db Hector <frieserpaldi@gmail.com> 1767802917 +0100	commit: fix menu provider
+afff7d1b586440c7c9adb19fdceac330817a86db 75677ec90538783deed62732ed809a0e6e73b4d9 Hector <frieserpaldi@gmail.com> 1767805657 +0100	commit: extract more config
+75677ec90538783deed62732ed809a0e6e73b4d9 4f00679a518c26b9b288984db860ff9a8ef40bee Hector <frieserpaldi@gmail.com> 1767813011 +0100	commit: fix bluetooth manager and wifi manager

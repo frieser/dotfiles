@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 30dc96583ef9ae34968cc7006e2f8155ef8a590d Hector <frieserpaldi@gmail.com> 1766865813 +0100	branch: Created from HEAD
+30dc96583ef9ae34968cc7006e2f8155ef8a590d 95254aa3080f69c3adeac9eb52b2b6a9a79805ac Hector <frieserpaldi@gmail.com> 1766872227 +0100	commit: make audio bar floating
+95254aa3080f69c3adeac9eb52b2b6a9a79805ac 5808f93493fd0e0d70c16ec8b31201b3bde385f1 Hector <frieserpaldi@gmail.com> 1766872970 +0100	commit: audiobar behavior when switching between vertical and floating modes
+5808f93493fd0e0d70c16ec8b31201b3bde385f1 de52d63796d36ee64d68092cff2a0c825f3f9946 Hector <frieserpaldi@gmail.com> 1766873740 +0100	commit: add media player support
+de52d63796d36ee64d68092cff2a0c825f3f9946 fdb3d74f75287f61a837ab7e5b01982f609fe560 Hector <frieserpaldi@gmail.com> 1766874159 +0100	commit: fix mediaplayer
+fdb3d74f75287f61a837ab7e5b01982f609fe560 58bb778efbba46d1a4ac91165ded716f0e6e2659 Hector <frieserpaldi@gmail.com> 1766876199 +0100	commit: fix media player artwork
+58bb778efbba46d1a4ac91165ded716f0e6e2659 3dfddad10677c4f36f87cc2fa149ddebbf2ef3f6 Hector <frieserpaldi@gmail.com> 1766876663 +0100	commit: mediaplayer animation
+3dfddad10677c4f36f87cc2fa149ddebbf2ef3f6 da2e0c63922b5ff28b57db70ff8d8c4458049917 Hector <frieserpaldi@gmail.com> 1766878521 +0100	commit: refactorize audio indicators
+da2e0c63922b5ff28b57db70ff8d8c4458049917 45ae3d2e7e46b6c8674bf32b79bdab3774da90b9 Hector <frieserpaldi@gmail.com> 1766881303 +0100	commit: refactor

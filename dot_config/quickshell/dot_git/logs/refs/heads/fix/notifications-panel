@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 bca578ff6c57ade9e3e33cf435bd84837230841f Hector <frieserpaldi@gmail.com> 1767210433 +0100	branch: Created from HEAD
+bca578ff6c57ade9e3e33cf435bd84837230841f d517cda0278a617bf47f4a1df137163f8118d98d Hector <frieserpaldi@gmail.com> 1767211211 +0100	commit: fix caffeine indicator
+d517cda0278a617bf47f4a1df137163f8118d98d 6ce8eccb86b2c71207501da88c75fe68419c9039 Hector <frieserpaldi@gmail.com> 1767211447 +0100	commit: add indicators panel to notifications
+6ce8eccb86b2c71207501da88c75fe68419c9039 0f1202f13fc05e013162ac4fac5d2bb5729b1665 Hector <frieserpaldi@gmail.com> 1767218302 +0100	commit: refactor messages
+0f1202f13fc05e013162ac4fac5d2bb5729b1665 a433e3c2b2b6c25e5b585da65816b97374662f7a Hector <frieserpaldi@gmail.com> 1767224283 +0100	commit: add border
+a433e3c2b2b6c25e5b585da65816b97374662f7a 20153b51a2b0acde49c6e5daa58104f68e5f3771 Hector <frieserpaldi@gmail.com> 1767224915 +0100	commit: fix inverted orientation of the corners
+20153b51a2b0acde49c6e5daa58104f68e5f3771 8424fb3b5250c3e69410075e77bb564ff2854b00 Hector <frieserpaldi@gmail.com> 1767225108 +0100	commit: fix inverted corners
+8424fb3b5250c3e69410075e77bb564ff2854b00 62053e4a1bd075d057b609b025289f0edcdf8b11 Hector <frieserpaldi@gmail.com> 1767231841 +0100	commit: refactor launcher
+62053e4a1bd075d057b609b025289f0edcdf8b11 6a801664abe707f57bf517cf859c6a9ab4e10388 Hector <frieserpaldi@gmail.com> 1767266458 +0100	commit: some background edits
+6a801664abe707f57bf517cf859c6a9ab4e10388 02427069dd5ded1928b277eb1d42435a416f7d4d Hector <frieserpaldi@gmail.com> 1767347759 +0100	commit: add theme provider
+02427069dd5ded1928b277eb1d42435a416f7d4d 307ec2ccbfce8d7992af88a19d978bc833ecf7f2 Hector <frieserpaldi@gmail.com> 1767375661 +0100	commit: fixes
+307ec2ccbfce8d7992af88a19d978bc833ecf7f2 9d97e343812762104bbb79246af3a22022790750 Hector <frieserpaldi@gmail.com> 1767381979 +0100	commit: fonts from config
+9d97e343812762104bbb79246af3a22022790750 aec6de0b9e307b29844ff84e35ff6e6e2a0d7b04 Hector <frieserpaldi@gmail.com> 1767383918 +0100	commit: AGENTS.md

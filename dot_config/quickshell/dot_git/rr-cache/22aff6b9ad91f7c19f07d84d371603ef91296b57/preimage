@@ -1,0 +1,340 @@
+pragma Singleton
+import QtQuick
+import Quickshell
+import Quickshell.Io
+
+Item {
+    id: root
+
+    // ConfigLoader reference
+    property var loader: ConfigLoader
+
+    // Dynamic theme enabled
+    property bool dynamicThemeEnabled: false
+
+    // Reload function
+    function reload() {
+        ConfigLoader.reload();
+    }
+
+    // Helper to resolve ~ paths
+    function resolvePath(path) {
+        if (!path) return "";
+        if (path.startsWith("~")) {
+            return Quickshell.env("HOME") + path.substring(1);
+        }
+        return path;
+    }
+
+    // Apply config when ConfigLoader finishes
+    Connections {
+        target: ConfigLoader
+        function onConfigReloaded() {
+            root._applyConfig();
+        }
+    }
+
+    // Apply dynamic theme colors when generated
+    Connections {
+        target: DynamicThemeGenerator
+        function onColorsGenerated() {
+            if (root.dynamicThemeEnabled) {
+                root._applyDynamicColors();
+            }
+        }
+    }
+
+    // Apply colors from DynamicThemeGenerator
+    function _applyDynamicColors() {
+        if (!DynamicThemeGenerator.ready) return;
+
+        root.background = DynamicThemeGenerator.background;
+        root.foreground = DynamicThemeGenerator.foreground;
+        root.accent = DynamicThemeGenerator.accent;
+        root.red = DynamicThemeGenerator.red;
+        root.green = DynamicThemeGenerator.green;
+        root.yellow = DynamicThemeGenerator.yellow;
+        root.orange = DynamicThemeGenerator.orange;
+        root.cyan = DynamicThemeGenerator.cyan;
+        root.statusCritical = DynamicThemeGenerator.statusCritical;
+        root.statusWarning = DynamicThemeGenerator.statusWarning;
+        root.statusMedium = DynamicThemeGenerator.statusMedium;
+        root.statusGood = DynamicThemeGenerator.statusGood;
+    }
+
+    // Apply merged config and themes
+    // Order: Config.qml defaults → config.json → themes.json (theme wins for colors/layout)
+    function _applyConfig() {
+        var cfg = ConfigLoader.config || {};
+        var themes = ConfigLoader.themes || {};
+
+<<<<<<<
+        // 1. Apply config values FIRST (these are base values)
+        
+        // Wallpaper from config
+=======
+        // Apply wallpaper first (needed for dynamic theme)
+>>>>>>>
+        if (cfg.wallpaper) {
+            root.wallpaperPath = root.resolvePath(cfg.wallpaper);
+        }
+
+<<<<<<<
+        // Check if dynamic theme is selected (theme === "dynamic")
+        root.dynamicThemeEnabled = (cfg.theme === "dynamic");
+
+        if (root.dynamicThemeEnabled) {
+            // Dynamic theme: generate colors from wallpaper
+            root.currentTheme = "dynamic";
+            DynamicThemeGenerator.wallpaperPath = root.wallpaperPath;
+            // Force regeneration in case wallpaper path didn't change
+            DynamicThemeGenerator.regenerate();
+            // Colors will be applied via onColorsGenerated signal
+        } else {
+            // Apply static theme
+            if (cfg.theme && themes[cfg.theme]) {
+                root.currentTheme = cfg.theme;
+                var theme = themes[cfg.theme];
+
+                // Apply theme colors
+                if (theme.colors) {
+                    if (theme.colors.background) root.background = theme.colors.background;
+                    if (theme.colors.foreground) root.foreground = theme.colors.foreground;
+                    if (theme.colors.accent) root.accent = theme.colors.accent;
+                    if (theme.colors.red) root.red = theme.colors.red;
+                    if (theme.colors.green) root.green = theme.colors.green;
+                    if (theme.colors.yellow) root.yellow = theme.colors.yellow;
+                    if (theme.colors.orange) root.orange = theme.colors.orange;
+                    if (theme.colors.cyan) root.cyan = theme.colors.cyan;
+                    if (theme.colors.statusCritical) root.statusCritical = theme.colors.statusCritical;
+                    if (theme.colors.statusWarning) root.statusWarning = theme.colors.statusWarning;
+                    if (theme.colors.statusMedium) root.statusMedium = theme.colors.statusMedium;
+                    if (theme.colors.statusGood) root.statusGood = theme.colors.statusGood;
+                }
+
+                // Apply theme layout
+                if (theme.layout) {
+                    if (theme.layout.radius !== undefined) root.radius = theme.layout.radius;
+                    if (theme.layout.itemRadius !== undefined) root.itemRadius = theme.layout.itemRadius;
+                    if (theme.layout.screenCornerRadius !== undefined) root.screenCornerRadius = theme.layout.screenCornerRadius;
+                    if (theme.layout.panelCornerRadius !== undefined) root.panelCornerRadius = theme.layout.panelCornerRadius;
+                }
+            }
+
+            // Override with explicit config values (colors override theme)
+            if (cfg.colors) {
+                if (cfg.colors.background) root.background = cfg.colors.background;
+                if (cfg.colors.foreground) root.foreground = cfg.colors.foreground;
+                if (cfg.colors.accent) root.accent = cfg.colors.accent;
+                if (cfg.colors.red) root.red = cfg.colors.red;
+                if (cfg.colors.green) root.green = cfg.colors.green;
+                if (cfg.colors.yellow) root.yellow = cfg.colors.yellow;
+                if (cfg.colors.orange) root.orange = cfg.colors.orange;
+                if (cfg.colors.cyan) root.cyan = cfg.colors.cyan;
+                if (cfg.colors.statusCritical) root.statusCritical = cfg.colors.statusCritical;
+                if (cfg.colors.statusWarning) root.statusWarning = cfg.colors.statusWarning;
+                if (cfg.colors.statusMedium) root.statusMedium = cfg.colors.statusMedium;
+                if (cfg.colors.statusGood) root.statusGood = cfg.colors.statusGood;
+            }
+=======
+        // Colors from config (base)
+        if (cfg.colors) {
+            if (cfg.colors.background) root.background = cfg.colors.background;
+            if (cfg.colors.foreground) root.foreground = cfg.colors.foreground;
+            if (cfg.colors.accent) root.accent = cfg.colors.accent;
+            if (cfg.colors.red) root.red = cfg.colors.red;
+            if (cfg.colors.green) root.green = cfg.colors.green;
+            if (cfg.colors.yellow) root.yellow = cfg.colors.yellow;
+            if (cfg.colors.orange) root.orange = cfg.colors.orange;
+            if (cfg.colors.cyan) root.cyan = cfg.colors.cyan;
+            if (cfg.colors.statusCritical) root.statusCritical = cfg.colors.statusCritical;
+            if (cfg.colors.statusWarning) root.statusWarning = cfg.colors.statusWarning;
+            if (cfg.colors.statusMedium) root.statusMedium = cfg.colors.statusMedium;
+            if (cfg.colors.statusGood) root.statusGood = cfg.colors.statusGood;
+>>>>>>>
+        }
+
+<<<<<<<
+        // Layout from config (base)
+=======
+        // Layout overrides (always apply, even with dynamic theme)
+>>>>>>>
+        if (cfg.layout) {
+            if (cfg.layout.radius !== undefined) root.radius = cfg.layout.radius;
+            if (cfg.layout.itemRadius !== undefined) root.itemRadius = cfg.layout.itemRadius;
+            if (cfg.layout.screenCornerRadius !== undefined) root.screenCornerRadius = cfg.layout.screenCornerRadius;
+            if (cfg.layout.panelCornerRadius !== undefined) root.panelCornerRadius = cfg.layout.panelCornerRadius;
+            if (cfg.layout.panelEdgeRevealDelay !== undefined) root.panelEdgeRevealDelay = cfg.layout.panelEdgeRevealDelay;
+            if (cfg.layout.padding !== undefined) root.padding = cfg.layout.padding;
+            if (cfg.layout.spacing !== undefined) root.spacing = cfg.layout.spacing;
+            if (cfg.layout.buttonSize !== undefined) root.buttonSize = cfg.layout.buttonSize;
+            if (cfg.layout.iconSize !== undefined) root.iconSize = cfg.layout.iconSize;
+            if (cfg.layout.panelWidth !== undefined) root.panelWidth = cfg.layout.panelWidth;
+        }
+
+        // Animation from config
+        if (cfg.animations) {
+            if (cfg.animations.duration !== undefined) root.animationDuration = cfg.animations.duration;
+            if (cfg.animations.durationLong !== undefined) root.animationDurationLong = cfg.animations.durationLong;
+            if (cfg.animations.autoHideDelay !== undefined) root.autoHideDelay = cfg.animations.autoHideDelay;
+        }
+
+        // Fonts from config
+        if (cfg.fonts) {
+            if (cfg.fonts.family) root.fontFamily = cfg.fonts.family;
+            if (cfg.fonts.iconFamily) root.iconFontFamily = cfg.fonts.iconFamily;
+        }
+
+        // Pomodoro from config
+        if (cfg.pomodoro) {
+            if (cfg.pomodoro.duration !== undefined) root.pomodoroDuration = cfg.pomodoro.duration;
+            if (cfg.pomodoro.breakDuration !== undefined) root.pomodoroBreakDuration = cfg.pomodoro.breakDuration;
+            if (cfg.pomodoro.longBreakDuration !== undefined) root.pomodoroLongBreakDuration = cfg.pomodoro.longBreakDuration;
+            if (cfg.pomodoro.cycleCount !== undefined) root.pomodoroCycleCount = cfg.pomodoro.cycleCount;
+        }
+
+        // 2. Apply theme LAST (theme overrides config for colors and layout)
+        if (cfg.theme && themes[cfg.theme]) {
+            root.currentTheme = cfg.theme;
+            var theme = themes[cfg.theme];
+
+            // Theme colors override config colors
+            if (theme.colors) {
+                if (theme.colors.background) root.background = theme.colors.background;
+                if (theme.colors.foreground) root.foreground = theme.colors.foreground;
+                if (theme.colors.accent) root.accent = theme.colors.accent;
+                if (theme.colors.red) root.red = theme.colors.red;
+                if (theme.colors.green) root.green = theme.colors.green;
+                if (theme.colors.yellow) root.yellow = theme.colors.yellow;
+                if (theme.colors.orange) root.orange = theme.colors.orange;
+                if (theme.colors.cyan) root.cyan = theme.colors.cyan;
+                if (theme.colors.statusCritical) root.statusCritical = theme.colors.statusCritical;
+                if (theme.colors.statusWarning) root.statusWarning = theme.colors.statusWarning;
+                if (theme.colors.statusMedium) root.statusMedium = theme.colors.statusMedium;
+                if (theme.colors.statusGood) root.statusGood = theme.colors.statusGood;
+            }
+
+            // Theme layout overrides config layout
+            if (theme.layout) {
+                if (theme.layout.radius !== undefined) root.radius = theme.layout.radius;
+                if (theme.layout.itemRadius !== undefined) root.itemRadius = theme.layout.itemRadius;
+                if (theme.layout.screenCornerRadius !== undefined) root.screenCornerRadius = theme.layout.screenCornerRadius;
+                if (theme.layout.panelCornerRadius !== undefined) root.panelCornerRadius = theme.layout.panelCornerRadius;
+            }
+        }
+
+        console.log("Config applied: theme=" + root.currentTheme + " radius=" + root.radius + " panelCornerRadius=" + root.panelCornerRadius + " screenCornerRadius=" + root.screenCornerRadius);
+    }
+
+    // Wallpaper path (resolved to absolute)
+    property string wallpaperPath: Quickshell.env("HOME") + "/.config/quickshell/assets/wallpaper.png"
+
+    // Current theme name
+    property string currentTheme: "tokyo-night"
+
+    // Colors (defaults from Tokyo Night)
+    property color background: "#1a1b26"
+    Behavior on background { ColorAnimation { duration: root.animationDuration } }
+
+    property color foreground: "#c0caf5"
+    Behavior on foreground { ColorAnimation { duration: root.animationDuration } }
+
+    // Color for text or inactive elements (50% opacity)
+    property color dimmed: Qt.alpha(foreground, 0.5)
+
+    property color accent: "#7aa2f7"
+    Behavior on accent { ColorAnimation { duration: root.animationDuration } }
+
+    property color red: "#f7768e"
+    Behavior on red { ColorAnimation { duration: root.animationDuration } }
+
+    property color green: "#9ece6a"
+    Behavior on green { ColorAnimation { duration: root.animationDuration } }
+
+    property color yellow: "#e0af68"
+    Behavior on yellow { ColorAnimation { duration: root.animationDuration } }
+
+    property color orange: "#ff9e64"
+    Behavior on orange { ColorAnimation { duration: root.animationDuration } }
+
+    property color cyan: "#7dcfff"
+    Behavior on cyan { ColorAnimation { duration: root.animationDuration } }
+
+    // Status colors
+    property color statusCritical: "#f7768e"
+    Behavior on statusCritical { ColorAnimation { duration: root.animationDuration } }
+
+    property color statusWarning: "#ff9e64"
+    Behavior on statusWarning { ColorAnimation { duration: root.animationDuration } }
+
+    property color statusMedium: "#e0af68"
+    Behavior on statusMedium { ColorAnimation { duration: root.animationDuration } }
+
+    property color statusGood: "#9ece6a"
+    Behavior on statusGood { ColorAnimation { duration: root.animationDuration } }
+
+    // Detect if theme is light based on background luminance
+    // Luminance formula: 0.299*R + 0.587*G + 0.114*B
+    property bool isLightTheme: {
+        var r = background.r;
+        var g = background.g;
+        var b = background.b;
+        var luminance = 0.299 * r + 0.587 * g + 0.114 * b;
+        return luminance > 0.5;
+    }
+
+    // Icon color: dark for light themes, foreground for dark themes
+    property color iconColor: isLightTheme ? Qt.darker(foreground, 1.5) : foreground
+
+    // Radius for main window (large)
+    property int radius: 10
+    Behavior on radius { NumberAnimation { duration: root.animationDuration } }
+
+    // Radius for internal elements (small, e.g. volume bar, workspaces)
+    property int itemRadius: 4
+    Behavior on itemRadius { NumberAnimation { duration: root.animationDuration } }
+
+    // Corner radius for screen borders
+    property int screenCornerRadius: 12
+    Behavior on screenCornerRadius { NumberAnimation { duration: root.animationDuration } }
+
+    // Corner radius for panel inverted corners
+    property int panelCornerRadius: 10
+    Behavior on panelCornerRadius { NumberAnimation { duration: root.animationDuration } }
+
+    // Screen border size (thickness of edge decorations)
+    property int screenBorderSize: 4
+
+    // Panel edge reveal delay (ms to hover before panel appears)
+    property int panelEdgeRevealDelay: 300
+
+    // Standard Layout Properties
+    property int padding: 10
+    property int spacing: 10
+    property int buttonSize: 40
+    property int iconSize: 18
+    property int panelWidth: 320
+
+    // Animation Properties
+    property int animationDuration: 200
+    property int animationDurationLong: 500
+    property int autoHideDelay: 5000
+
+    // Font configuration
+    property string fontFamily: "Cascadia Code"
+    property string iconFontFamily: "Symbols Nerd Font, FontAwesome, Cascadia Code"
+
+    // Pomodoro
+    property int pomodoroDuration: 52
+    property int pomodoroBreakDuration: 17
+    property int pomodoroLongBreakDuration: 30
+    property int pomodoroCycleCount: 4
+
+    // Chat persistence
+    property string lastChatAgent: ""
+    property string lastChatProvider: ""
+    property string lastChatModel: ""
+    
+    // Shadow color (defaults to 50% transparent black)
+    property color shadow: "#80000000"
+}

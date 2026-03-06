@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 efde9e3eb1bec07b3c7cca14468163fed25688f8 Hector <frieserpaldi@gmail.com> 1767819466 +0100	branch: Created from HEAD
+efde9e3eb1bec07b3c7cca14468163fed25688f8 62a108f2aee84e0b67b2c8c15515462e2a2d5bb8 Hector <frieserpaldi@gmail.com> 1767819703 +0100	commit: remove duplicated code
+62a108f2aee84e0b67b2c8c15515462e2a2d5bb8 26d7f1075b7e4f2fdb1d3eb07003a34056d6bca6 Hector <frieserpaldi@gmail.com> 1767819983 +0100	commit: refactor
+26d7f1075b7e4f2fdb1d3eb07003a34056d6bca6 9d05bff66806cec05c6a52635cc7e8d356ad27c5 Hector <frieserpaldi@gmail.com> 1767826519 +0100	commit: extract components
+9d05bff66806cec05c6a52635cc7e8d356ad27c5 8acea08334e0faddd368ca3faa833759e658ce8f Hector <frieserpaldi@gmail.com> 1767828925 +0100	commit: refactor components

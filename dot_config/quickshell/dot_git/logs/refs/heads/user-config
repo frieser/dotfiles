@@ -1,0 +1,30 @@
+0000000000000000000000000000000000000000 f8c3b91535d1945ff977ee5426dac6cc8989f573 Hector <frieserpaldi@gmail.com> 1767988763 +0100	branch: Created from HEAD
+f8c3b91535d1945ff977ee5426dac6cc8989f573 9f88ae6acd62a02e5ed6b26defbc68e9115c501d Hector <frieserpaldi@gmail.com> 1767990041 +0100	commit: user config
+9f88ae6acd62a02e5ed6b26defbc68e9115c501d 52c5e36f30c69aa676ea68e856880179105f7872 Hector <frieserpaldi@gmail.com> 1768030690 +0100	commit: chat response
+52c5e36f30c69aa676ea68e856880179105f7872 14b891087b228340ea41ed9b70921ddb6be4bd99 Hector <frieserpaldi@gmail.com> 1768034977 +0100	commit: fix chat animation
+14b891087b228340ea41ed9b70921ddb6be4bd99 15dfb0e6948e520ddcf154218c849c30520a5f59 Hector <frieserpaldi@gmail.com> 1768035384 +0100	commit: fixes
+15dfb0e6948e520ddcf154218c849c30520a5f59 76670885b294ef49b9ee1e7ed5f50a1b551d8098 Hector <frieserpaldi@gmail.com> 1768035759 +0100	commit: auto scroll chat
+76670885b294ef49b9ee1e7ed5f50a1b551d8098 5204a735b4083febe7185a5897ea0b41825ca90f Hector <frieserpaldi@gmail.com> 1768036620 +0100	commit: center chat view
+5204a735b4083febe7185a5897ea0b41825ca90f 9c6fa988bb51f56a171a78303e166f843867531c Hector <frieserpaldi@gmail.com> 1768038421 +0100	commit: add debug panel
+9c6fa988bb51f56a171a78303e166f843867531c c79e8bdba77279cc137127dcce12ee45bf74c95e Hector <frieserpaldi@gmail.com> 1768038799 +0100	commit: fix tests
+c79e8bdba77279cc137127dcce12ee45bf74c95e bd0d5288d2884f84ff97ba1e2d4eb15f85e0200d Hector <frieserpaldi@gmail.com> 1768040951 +0100	commit: fix cheatsheet layout
+bd0d5288d2884f84ff97ba1e2d4eb15f85e0200d 5db08887d9a80d9a25ea3ed92a02a25a39ffdc11 Hector <frieserpaldi@gmail.com> 1768042973 +0100	commit: fix panel position
+5db08887d9a80d9a25ea3ed92a02a25a39ffdc11 c6a4bb09ae761995241c9e4729b29f57b0daecc5 Hector <frieserpaldi@gmail.com> 1768047275 +0100	commit: fix json
+c6a4bb09ae761995241c9e4729b29f57b0daecc5 4be9f84f74acf34f1d47b293611a77b4b45ea006 Hector <frieserpaldi@gmail.com> 1768047835 +0100	commit: remove panel shadow when panel is hidden
+4be9f84f74acf34f1d47b293611a77b4b45ea006 f74d8c5e6560706fa713fc7c2f963b72df950320 Hector <frieserpaldi@gmail.com> 1768048022 +0100	commit: remove background rectangle
+f74d8c5e6560706fa713fc7c2f963b72df950320 415448632e1e41f3d3ab7ee1891de6f75e41704c Hector <frieserpaldi@gmail.com> 1768048679 +0100	commit: fix music player
+415448632e1e41f3d3ab7ee1891de6f75e41704c e0f564f40622fb38de77107a63eb3927d56270d6 Hector <frieserpaldi@gmail.com> 1768067145 +0100	commit: fix warnings
+e0f564f40622fb38de77107a63eb3927d56270d6 dc3d5ee043313a36535c379e87bf3ea2870bbf9c Hector <frieserpaldi@gmail.com> 1768080819 +0100	commit: lot
+dc3d5ee043313a36535c379e87bf3ea2870bbf9c fdea6991f49548a6c77267ef9ed5a6678778d027 Hector <frieserpaldi@gmail.com> 1768082458 +0100	commit: fix warnings
+fdea6991f49548a6c77267ef9ed5a6678778d027 bc4d0099cda32c5e4eb2c76330fb6df1c805f350 Hector <frieserpaldi@gmail.com> 1768083420 +0100	commit: accent colors
+bc4d0099cda32c5e4eb2c76330fb6df1c805f350 5bcdff12dd37c74fdc1fab3480b9e07e729265a2 Hector <frieserpaldi@gmail.com> 1768092234 +0100	commit: sync dynamic theme with wallpaper
+5bcdff12dd37c74fdc1fab3480b9e07e729265a2 ab0f76fbc0916b015e732016cd4798d486a896b4 Hector <frieserpaldi@gmail.com> 1768092957 +0100	commit: change process state color
+ab0f76fbc0916b015e732016cd4798d486a896b4 7380f2502ac3a2dfb42cca6037d547f2cdc8d834 Hector <frieserpaldi@gmail.com> 1768125722 +0100	commit: search in cheatsheet
+7380f2502ac3a2dfb42cca6037d547f2cdc8d834 ad9b6476fc87ff46ef266aea053a4c65132fed26 Hector <frieserpaldi@gmail.com> 1768126713 +0100	commit: filter search in wallpapers and themes
+ad9b6476fc87ff46ef266aea053a4c65132fed26 753a001e4c9556a4c479ccdcb2cc6b18f65b4f0e Hector <frieserpaldi@gmail.com> 1768127082 +0100	commit: fix wallpapers
+753a001e4c9556a4c479ccdcb2cc6b18f65b4f0e d6ab1bd5b2457ce0efb39ebd94665271ae21bf81 Hector <frieserpaldi@gmail.com> 1768127478 +0100	commit: speed up the generation of the theme colors
+d6ab1bd5b2457ce0efb39ebd94665271ae21bf81 1c5154b546131076e18e1af802cd7b609adc5447 Hector <frieserpaldi@gmail.com> 1768129313 +0100	commit: fix error
+1c5154b546131076e18e1af802cd7b609adc5447 ef6ec68d681b93d3be6e65744456d40fb2ffec87 Hector <frieserpaldi@gmail.com> 1768154740 +0100	commit: change icon theme
+ef6ec68d681b93d3be6e65744456d40fb2ffec87 9df79400fede98adbab3218a6ec8693330ca0f0d Hector <frieserpaldi@gmail.com> 1768226673 +0100	commit: big refactor
+9df79400fede98adbab3218a6ec8693330ca0f0d 9945382084d6714bdf6cec701f3dc9587cc0fdf4 Hector <frieserpaldi@gmail.com> 1768240901 +0100	commit: big refactor
+9945382084d6714bdf6cec701f3dc9587cc0fdf4 c0175f74c9e16e22eb88aca4fabcf48e84fd5828 Hector <frieserpaldi@gmail.com> 1768241202 +0100	commit (amend): big refactor

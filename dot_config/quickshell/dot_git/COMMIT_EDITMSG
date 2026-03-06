@@ -1,0 +1,78 @@
+fix workspaces
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	modified:   shell.qml
+#	modified:   static-colors.json
+#
+# Untracked files:
+#	generate_shell_image.sh
+#	response.sse
+#	response_openai.json
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/shell.qml b/shell.qml
+index 5b27396..575b574 100644
+--- a/shell.qml
++++ b/shell.qml
+@@ -24,6 +24,7 @@ Scope {
+     ThemeSync { id: themeSync }
+     // Initialize Theme Sync
+     id: root
++    property var niriService: niri
+ 
+     Niri {
+         id: niri
+@@ -78,7 +79,7 @@ Scope {
+         delegate: Workspaces {
+             required property var modelData
+             screen: modelData
+-            niri: niri
++            niri: niriService
+         }
+     }
+     
+diff --git a/static-colors.json b/static-colors.json
+index 05275a0..fbd3452 100644
+--- a/static-colors.json
++++ b/static-colors.json
+@@ -1,20 +1,20 @@
+ {
+   "current": {
+-    "name": "Catppuccin Mocha",
++    "name": "Polar Dark",
+     "colors": {
+-      "name": "Catppuccin Mocha",
+-      "background": "#1e1e2e",
+-      "foreground": "#cdd6f4",
+-      "accent": "#89b4fa",
+-      "red": "#f38ba8",
+-      "green": "#a6e3a1",
+-      "yellow": "#f9e2af",
+-      "orange": "#fab387",
+-      "cyan": "#94e2d5",
+-      "statusCritical": "#f38ba8",
+-      "statusWarning": "#fab387",
+-      "statusMedium": "#f9e2af",
+-      "statusGood": "#a6e3a1"
++      "name": "Polar Dark",
++      "background": "#0c1520",
++      "foreground": "#d8e4f0",
++      "accent": "#28b8a0",
++      "red": "#e84060",
++      "green": "#20cc80",
++      "yellow": "#e0c040",
++      "orange": "#e88040",
++      "cyan": "#20bcd4",
++      "statusCritical": "#e84060",
++      "statusWarning": "#e88040",
++      "statusMedium": "#e0c040",
++      "statusGood": "#20cc80"
+     }
+   }
+ }
+\ No newline at end of file

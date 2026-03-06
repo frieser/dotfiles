@@ -1,0 +1,371 @@
+{
+    "$schema": "./menus.schema.json",
+    "menus": [
+        {
+            "name": "Power",
+            "icon": "󰐥",
+            "desc": "Power and session options",
+            "action": "submenu:system",
+            "enabled": true
+        },
+        {
+            "name": "Capture",
+            "icon": "󰄀",
+            "desc": "Screenshot and recording",
+            "action": "submenu:capture",
+            "enabled": true
+        },
+        {
+            "name": "Style",
+            "icon": "󰸌",
+            "desc": "Appearance settings",
+            "action": "submenu:style",
+            "enabled": true
+        },
+        {
+            "name": "Setup",
+            "icon": "󰉉",
+            "desc": "System configuration",
+            "action": "submenu:setup",
+            "enabled": true
+        },
+        {
+            "name": "Tools",
+            "icon": "󰠲",
+            "desc": "Utilities and tools",
+            "action": "submenu:tools",
+            "enabled": true
+        },
+        {
+            "name": "Toggle",
+            "icon": "󰔡",
+            "desc": "Toggle UI elements",
+            "action": "submenu:toggle",
+            "enabled": true
+        },
+        {
+            "name": "Learn",
+            "icon": "󰋖",
+            "desc": "Documentation links",
+            "action": "submenu:learn",
+            "enabled": true
+        },
+        {
+            "name": "Sessions",
+            "icon": "󰕰",
+            "desc": "Launch app sessions",
+            "action": "ipc:ui.dialog.launcher.sessions.toggle",
+            "enabled": true
+        },
+        {
+            "name": "About",
+            "icon": "󰋽",
+            "desc": "System information",
+            "action": "ipc:ui.dialog.about.toggle",
+            "enabled": true
+        },
+        {
+            "name": "Update",
+            "icon": "󰚰",
+            "desc": "System update",
+            "action": "exec:uwsm app -- ghostty --class=local.floating -e yoyo update",
+            "enabled": true
+        }
+    ],
+    "submenus": {
+        "system": [
+            {
+                "name": "Lock",
+                "icon": "󰌾",
+                "desc": "Lock screen",
+                "action": "ipc:ui.overlay.lockscreen.lock",
+                "enabled": true
+            },
+            {
+                "name": "Screensaver",
+                "icon": "󰖔",
+                "desc": "Start screensaver",
+                "action": "exec:niri msg action power-off-monitors",
+                "enabled": true
+            },
+            {
+                "name": "Suspend",
+                "icon": "󰤄",
+                "desc": "Sleep mode",
+                "action": "exec:systemctl suspend",
+                "enabled": true
+            },
+            {
+                "name": "Relaunch",
+                "icon": "󰑓",
+                "desc": "Restart session",
+                "action": "exec:uwsm stop",
+                "enabled": true
+            },
+            {
+                "name": "Restart",
+                "icon": "󰜉",
+                "desc": "Reboot system",
+                "action": "exec:systemctl reboot",
+                "enabled": true
+            },
+            {
+                "name": "Shutdown",
+                "icon": "󰐥",
+                "desc": "Power off",
+                "action": "exec:systemctl poweroff",
+                "enabled": true
+            }
+        ],
+        "capture": [
+            {
+                "name": "Area → Clipboard",
+                "icon": "󰩭",
+                "desc": "Screenshot selected area",
+                "action": "exec:niri msg action screenshot",
+                "enabled": true
+            },
+            {
+                "name": "Window → Clipboard",
+                "icon": "󰖯",
+                "desc": "Screenshot active window",
+                "action": "exec:niri msg action screenshot-window",
+                "enabled": true
+            },
+            {
+                "name": "Fullscreen → Clipboard",
+                "icon": "󰍹",
+                "desc": "Screenshot entire screen",
+                "action": "exec:niri msg action screenshot-screen",
+                "enabled": true
+            },
+            {
+                "name": "Record",
+                "icon": "󰑋",
+                "desc": "Screen recording",
+                "action": "exec:uwsm app -- flatpak run io.github.seadve.Kooha",
+                "enabled": true
+            }
+        ],
+        "style": [
+            {
+                "name": "Background",
+                "icon": "󰸉",
+                "desc": "Change wallpaper",
+                "action": "ipc:ui.dialog.launcher.wallpapers.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Polar theme",
+                "icon": "󰔎",
+                "desc": "Change Polar theme",
+                "action": "ipc:ui.dialog.launcher.themes.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Change Shell Theme",
+                "icon": "󰏘",
+                "desc": "Change shell colors only",
+                "action": "ipc:ui.dialog.launcher.shellthemes.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Font",
+                "icon": "󰛖",
+                "desc": "Change system font",
+                "action": "ipc:ui.dialog.launcher.fonts.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Icons",
+                "icon": "󰈔",
+                "desc": "Change system icon theme",
+                "action": "ipc:ui.dialog.launcher.icons.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Reload Config",
+                "icon": "󰑓",
+                "desc": "Reload Quickshell config",
+                "action": "ipc:ui.config.reload",
+                "enabled": true
+            }
+        ],
+        "setup": [
+            {
+                "name": "Wifi",
+                "icon": "󰖩",
+                "desc": "Network settings",
+                "action": "ipc:ui.panel.wifi.open",
+                "enabled": true
+            },
+            {
+                "name": "Bluetooth",
+                "icon": "󰂯",
+                "desc": "Bluetooth settings",
+                "action": "ipc:ui.panel.bluetooth.open",
+                "enabled": true
+            },
+            {
+                "name": "Audio",
+                "icon": "󰕾",
+                "desc": "Sound settings",
+                "action": "ipc:ui.panel.audio.open",
+                "enabled": true
+            },
+            {
+                "name": "Display",
+                "icon": "󰍹",
+                "desc": "Monitor settings",
+                "action": "exec:uwsm app -- gnome-control-center display",
+                "enabled": true
+            },
+            {
+                "name": "Printers",
+                "icon": "󰐪",
+                "desc": "Printer settings",
+                "action": "exec:uwsm app -- system-config-printer",
+                "enabled": true
+            },
+            {
+                "name": "Battery",
+                "icon": "󰂄",
+                "desc": "Battery settings",
+                "action": "ipc:ui.panel.battery.open",
+                "enabled": true
+            },
+            {
+                "name": "CPU",
+                "icon": "󰻠",
+                "desc": "CPU settings",
+                "action": "ipc:ui.panel.cpu.open",
+                "enabled": true
+            }
+        ],
+        "tools": [
+            {
+                "name": "Chat",
+                "icon": "󰭹",
+                "desc": "AI assistant",
+                "action": "ipc:ui.dialog.launcher.chat.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Calculator",
+                "icon": "󰃬",
+                "desc": "Calculator",
+                "action": "exec:uwsm app -- gnome-calculator",
+                "enabled": true
+            },
+            {
+                "name": "Files",
+                "icon": "󰉋",
+                "desc": "File manager",
+                "action": "exec:uwsm app -- nautilus",
+                "enabled": true
+            },
+            {
+                "name": "Clipboard",
+                "icon": "󰅍",
+                "desc": "Clipboard history",
+                "action": "ipc:ui.dialog.launcher.clipboard.toggle",
+                "enabled": true
+            }
+        ],
+        "learn": [
+            {
+                "name": "Keybindings",
+                "icon": "󰌌",
+                "desc": "Show keyboard shortcuts",
+                "action": "ipc:ui.dialog.cheatsheet.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Fedora Docs",
+                "icon": "󰣛",
+                "desc": "Fedora documentation",
+                "action": "exec:uwsm app -- xdg-open https://docs.fedoraproject.org",
+                "enabled": true
+            },
+            {
+                "name": "Niri Docs",
+                "icon": "󰖲",
+                "desc": "Niri window manager",
+                "action": "exec:uwsm app -- xdg-open https://github.com/YaLTeR/niri/wiki",
+                "enabled": true
+            },
+            {
+                "name": "Quickshell Docs",
+                "icon": "󰘳",
+                "desc": "Quickshell documentation",
+                "action": "exec:uwsm app -- xdg-open https://quickshell.org/docs",
+                "enabled": true
+            },
+            {
+                "name": "Neovim Docs",
+                "icon": "󰈔",
+                "desc": "Neovim documentation",
+                "action": "exec:uwsm app -- xdg-open https://neovim.io/doc",
+                "enabled": true
+            }
+        ],
+        "toggle": [
+            {
+                "name": "Screensaver",
+                "icon": "󰖔",
+                "desc": "Toggle screensaver",
+                "action": "ipc:ui.overlay.screensaver.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Messages",
+                "icon": "󰂚",
+                "desc": "Toggle messages panel",
+                "action": "ipc:ui.panel.notifications.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Status",
+                "icon": "󰕾",
+                "desc": "Toggle status panel",
+                "action": "ipc:ui.panel.status.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Lock",
+                "icon": "󰌾",
+                "desc": "Toggle lock screen",
+                "action": "ipc:ui.overlay.lockscreen.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Logout",
+                "icon": "󰐥",
+                "desc": "Toggle logout menu",
+                "action": "ipc:ui.dialog.logout.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Keybindings",
+                "icon": "󰌌",
+                "desc": "Toggle keybindings",
+                "action": "ipc:ui.dialog.cheatsheet.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Voice",
+                "icon": "󰔊",
+                "desc": "Toggle voice dictation",
+                "action": "ipc:ui.overlay.voice.toggle",
+                "enabled": true
+            },
+            {
+                "name": "Launcher",
+                "icon": "󰀻",
+                "desc": "Toggle launcher",
+                "action": "ipc:ui.dialog.launcher.toggle",
+                "enabled": true
+            }
+        ]
+    }
+}

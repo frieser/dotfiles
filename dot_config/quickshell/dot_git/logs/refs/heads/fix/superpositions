@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 3d1ef8f400d142eb2673020b12c4452d88efdf29 Hector <frieserpaldi@gmail.com> 1766575621 +0100	branch: Created from HEAD
+3d1ef8f400d142eb2673020b12c4452d88efdf29 90fdc703a4c869bc826ab1ec2b8ecb238d2c013b Hector <frieserpaldi@gmail.com> 1766833783 +0100	commit: fix(osd): resize windows when hidden to prevent click blocking

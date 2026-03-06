@@ -1,0 +1,26 @@
+0000000000000000000000000000000000000000 cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 Hector <frieserpaldi@gmail.com> 1766966267 +0100	branch: Created from HEAD
+cb3442cf2f949dc94da19e7c60e8edfa52b0cc60 8ad508c49329db848f4fd296f49e819d891a2c79 Hector <frieserpaldi@gmail.com> 1767000956 +0100	commit: fix panel layout
+8ad508c49329db848f4fd296f49e819d891a2c79 5b13726c89454d90cfa081f15e1b81995caac800 Hector <frieserpaldi@gmail.com> 1767001270 +0100	commit: fix layout for notifications, launcher and workspaces
+5b13726c89454d90cfa081f15e1b81995caac800 adc73f5f7b8b6cbcc99382c359932a5059247cdb Hector <frieserpaldi@gmail.com> 1767001490 +0100	commit: fix status layouts
+adc73f5f7b8b6cbcc99382c359932a5059247cdb cf0e42a1cc8f4f73218ce78f601f705357213307 Hector <frieserpaldi@gmail.com> 1767002870 +0100	commit: fix logout button
+cf0e42a1cc8f4f73218ce78f601f705357213307 200a7880ce6feec572dbb3c85f0699ab88c89d99 Hector <frieserpaldi@gmail.com> 1767003473 +0100	commit: fix notifications animations
+200a7880ce6feec572dbb3c85f0699ab88c89d99 2e48b512a073b0f0c523435aa8ccca8b1fb24bbf Hector <frieserpaldi@gmail.com> 1767004500 +0100	commit: fix notifications animation
+2e48b512a073b0f0c523435aa8ccca8b1fb24bbf 36cc6c984f3bf26ba2669cbc0d6e63e8c1ab0ccf Hector <frieserpaldi@gmail.com> 1767009029 +0100	commit: bluetooth indicator
+36cc6c984f3bf26ba2669cbc0d6e63e8c1ab0ccf 700150efdb98d2d58d8b6cfd1217cf6ee52d2e25 Hector <frieserpaldi@gmail.com> 1767015271 +0100	commit: add wifi indicator
+700150efdb98d2d58d8b6cfd1217cf6ee52d2e25 8ca0cb970a67beeb0f4924ab7c01f68689a39415 Hector <frieserpaldi@gmail.com> 1767025148 +0100	commit: fix panel focus
+8ca0cb970a67beeb0f4924ab7c01f68689a39415 54f461a7f43c2ac940cf45be81084245f4365dd7 Hector <frieserpaldi@gmail.com> 1767028042 +0100	commit: fix notifition icon
+54f461a7f43c2ac940cf45be81084245f4365dd7 f1cf005cd43ca336598155e0ef3a31430a595201 Hector <frieserpaldi@gmail.com> 1767029186 +0100	commit: add bluettoth icons
+f1cf005cd43ca336598155e0ef3a31430a595201 7edfe3e22e3cbe69a563547b62c0ba0f1efcd42a Hector <frieserpaldi@gmail.com> 1767031247 +0100	commit: try to fix wifi
+7edfe3e22e3cbe69a563547b62c0ba0f1efcd42a 35dd6ea2a2d15b01344694f636f992c0b7aba940 Hector <frieserpaldi@gmail.com> 1767034952 +0100	commit: show systemtray
+35dd6ea2a2d15b01344694f636f992c0b7aba940 e7db4c20fb1ca74cb17e5fed2b80f0dd828f7969 Hector <frieserpaldi@gmail.com> 1767036998 +0100	commit: monochromatic icons in system tray
+e7db4c20fb1ca74cb17e5fed2b80f0dd828f7969 f4d95485654e9593f6baceb2e94319a33f370d17 Hector <frieserpaldi@gmail.com> 1767038234 +0100	commit: fix media player
+f4d95485654e9593f6baceb2e94319a33f370d17 5c161e58e6f61aa2946c2454a001c7d851b798f5 Hector <frieserpaldi@gmail.com> 1767039042 +0100	commit: redesigned lockscreen and fix status animations
+5c161e58e6f61aa2946c2454a001c7d851b798f5 70ee456894c61142234234cee274de0957cce407 Hector <frieserpaldi@gmail.com> 1767040124 +0100	commit: redesign logout screen
+70ee456894c61142234234cee274de0957cce407 3307149cd09e8e26be4bdbbddb9e277850a4e0eb Hector <frieserpaldi@gmail.com> 1767040373 +0100	commit: improve logout
+3307149cd09e8e26be4bdbbddb9e277850a4e0eb 5c370a76670ea9922d1dfb95bd2b65cf498812ec Hector <frieserpaldi@gmail.com> 1767041649 +0100	commit: implement pomodoro cycles
+5c370a76670ea9922d1dfb95bd2b65cf498812ec e452907bdacb598fe0b17bcf03d8970dbf9aebea Hector <frieserpaldi@gmail.com> 1767042129 +0100	commit: implement pomodoro overlay counter
+e452907bdacb598fe0b17bcf03d8970dbf9aebea 89c3357051a71966abab7c3d3d156958f1be49ed Hector <frieserpaldi@gmail.com> 1767044004 +0100	commit: add speech recognition component
+89c3357051a71966abab7c3d3d156958f1be49ed 12fdaf94cbdfa6cc66cb2f3867642fd35aabba91 Hector <frieserpaldi@gmail.com> 1767044197 +0100	commit: refactor lockscreen
+12fdaf94cbdfa6cc66cb2f3867642fd35aabba91 08f14da313da6870ef56a728b77711547044a6fe Hector <frieserpaldi@gmail.com> 1767044235 +0100	commit: fix wifi icion
+08f14da313da6870ef56a728b77711547044a6fe 0d18112b4d26bf0386ff3b96fa6d918cee6e3aa8 Hector <frieserpaldi@gmail.com> 1767044556 +0100	commit: paste animation in voice dictation
+0d18112b4d26bf0386ff3b96fa6d918cee6e3aa8 160b5d07a9c9f09a7e5e337df4d283a9a8e1401c Hector <frieserpaldi@gmail.com> 1767048838 +0100	commit: hey

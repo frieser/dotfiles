@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 90fdc703a4c869bc826ab1ec2b8ecb238d2c013b Hector <frieserpaldi@gmail.com> 1766833852 +0100	branch: Created from HEAD
+90fdc703a4c869bc826ab1ec2b8ecb238d2c013b 887ad912704a5bb506af7395afc04ce8b47fa46f Hector <frieserpaldi@gmail.com> 1766833956 +0100	commit: fix(top-osd): disable exclusive keyboard focus by default to prevent stealing focus
+887ad912704a5bb506af7395afc04ce8b47fa46f 9bf0e6deade9e95cd28f8887cdb45d15203ae682 Hector <frieserpaldi@gmail.com> 1766834577 +0100	commit: feat(clock): integrate pomodoro widget and progress bar
+9bf0e6deade9e95cd28f8887cdb45d15203ae682 609fb9195887e262e773cf34012c49e9a2096aea Hector <frieserpaldi@gmail.com> 1766834580 +0100	commit: refactor: remove deprecated PomodoroOsd component
+609fb9195887e262e773cf34012c49e9a2096aea 7d6e7f074f2c6a003c9b54f784511a1ab26c4d06 Hector <frieserpaldi@gmail.com> 1766834631 +0100	commit: refactor: cleanup unused pomodoro component references
+7d6e7f074f2c6a003c9b54f784511a1ab26c4d06 81d671f5241b986239a038326bc845a38c42d118 Hector <frieserpaldi@gmail.com> 1766834834 +0100	commit: feat(notifications): integrate notifications into TopOsd (ClockOsd)
+81d671f5241b986239a038326bc845a38c42d118 99829c280f5fbe7bfda7b97ce9051502c3a82433 Hector <frieserpaldi@gmail.com> 1766834956 +0100	commit: feat(clock): fully integrate pomodoro into clock header and remove widget
+99829c280f5fbe7bfda7b97ce9051502c3a82433 ae25fbc1584af7d452991dd973ab02a62d832527 Hector <frieserpaldi@gmail.com> 1766835238 +0100	commit: fix(clock): allow osd to hide even when pomodoro is active
+ae25fbc1584af7d452991dd973ab02a62d832527 699d7f54cec80ced043aae1fe951593bccca8a68 Hector <frieserpaldi@gmail.com> 1766835376 +0100	commit: feat(clock): add persistent pomodoro progress bar when osd is hidden
+699d7f54cec80ced043aae1fe951593bccca8a68 09b6cd298a04e0c8c3c710989488300ca2d67319 Hector <frieserpaldi@gmail.com> 1766835450 +0100	commit: fix(clock): remove behavior on width for persistent progress bar
+09b6cd298a04e0c8c3c710989488300ca2d67319 4ffc43158087da6077bac1b8f90aff053a3fbdb7 Hector <frieserpaldi@gmail.com> 1766835582 +0100	commit: fix(osd): ensure persistent content is drawn on top and fills hidden window

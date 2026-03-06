@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 4196b15575a210193ca0c2df098fdecde0591bf5 Hector <frieserpaldi@gmail.com> 1767117169 +0100	branch: Created from HEAD
+4196b15575a210193ca0c2df098fdecde0591bf5 b7263bdcd706472909b0de79bafb103596100186 Hector <frieserpaldi@gmail.com> 1767124885 +0100	commit: implement menu provider
+b7263bdcd706472909b0de79bafb103596100186 4906b187cadd4b584d4f62a4fe38167176b5c6f4 Hector <frieserpaldi@gmail.com> 1767126360 +0100	commit: add chat preview
+4906b187cadd4b584d4f62a4fe38167176b5c6f4 275414f83ab3a7dbcb9b13f88ba879f9a6ac248c Hector <frieserpaldi@gmail.com> 1767128999 +0100	commit: add screensavers, fix hotkeys config parser
+275414f83ab3a7dbcb9b13f88ba879f9a6ac248c 41b168bc4fec42451bc339920bfac572e48a2d6d Hector <frieserpaldi@gmail.com> 1767132005 +0100	commit: fix cheatsheet and screensaver
+41b168bc4fec42451bc339920bfac572e48a2d6d 81136ac5cca23fff1511077b0fcfffd398808046 Hector <frieserpaldi@gmail.com> 1767171882 +0100	commit: remove chat
+81136ac5cca23fff1511077b0fcfffd398808046 201644e087608d94e6e49c276140b929f501ccff Hector <frieserpaldi@gmail.com> 1767174451 +0100	commit: fix wallpaper and add toggle menu
+201644e087608d94e6e49c276140b929f501ccff 5057c548a8582c42f953a7835bae418d6b0a3fd2 Hector <frieserpaldi@gmail.com> 1767174836 +0100	commit: cheatsheet componenet
+5057c548a8582c42f953a7835bae418d6b0a3fd2 a242a35b3e85ccf01411df54c3d5f53232086bb9 Hector <frieserpaldi@gmail.com> 1767175085 +0100	commit: final cheatsheet component
+a242a35b3e85ccf01411df54c3d5f53232086bb9 cb7b49d36dfe3eab68a051e1648cb9db88b582f5 Hector <frieserpaldi@gmail.com> 1767177365 +0100	commit: added battery indicator panel
+cb7b49d36dfe3eab68a051e1648cb9db88b582f5 519915989966e709354aabf1ba3a5a4fdc696cce Hector <frieserpaldi@gmail.com> 1767179661 +0100	commit: changes

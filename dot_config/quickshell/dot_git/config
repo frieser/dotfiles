@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[branch "testing"]
+	workmux-base = master
+[branch "colors"]
+	workmux-base = master
+[branch "theme-selector"]
+	workmux-base = master
+[branch "mouse-area"]
+	workmux-base = master
+[remote "origin"]
+	url = git@gitlab.homelab.frieserlabs.dev:polar/polar-shell.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

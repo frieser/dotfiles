@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 fe57bec3a6d7a8066428b95cddc8d05ebb8c6f0b Hector <frieserpaldi@gmail.com> 1766911053 +0100	branch: Created from HEAD
+fe57bec3a6d7a8066428b95cddc8d05ebb8c6f0b 9e22c163eabbdba3f21649e65f1b4b356a132497 Hector <frieserpaldi@gmail.com> 1766913720 +0100	commit: style for notifications
+9e22c163eabbdba3f21649e65f1b4b356a132497 6ba16fc9fad1f0832ec008a87f9ba0554f639db2 Hector <frieserpaldi@gmail.com> 1766914110 +0100	commit: some notifications style changes
+6ba16fc9fad1f0832ec008a87f9ba0554f639db2 6b5a6bc47c0c3c987cfce768a6e5ef127f754da4 Hector <frieserpaldi@gmail.com> 1766916317 +0100	commit: refactor Config and add notifications

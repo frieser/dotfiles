@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 1e489c1ee08d2ae8fea2b8a221049858f94ae820 Hector <frieserpaldi@gmail.com> 1767893559 +0100	branch: Created from HEAD
+1e489c1ee08d2ae8fea2b8a221049858f94ae820 174549d785fa6458ec2b2a319cdb06f505f1cbdd Hector <frieserpaldi@gmail.com> 1767896109 +0100	commit: prevent pomodoro auto-hide when panel is active
