@@ -2,7 +2,9 @@
 # Script to generate Catppuccin-compatible tmux colors from a base16 shell script
 # Usage: tinty-tmux-fix.sh <path_to_tmux_theme_file>
 
-LOG_FILE="/var/home/frieser/.local/bin/tinty-debug.log"
+LOG_FILE="${XDG_STATE_HOME:-$HOME/.local/state}/tinty/tinty-debug.log"
+mkdir -p "$(dirname "$LOG_FILE")"
+touch "$LOG_FILE"
 echo "----------------------------------------" >> "$LOG_FILE"
 echo "[$(date)] Script called with args: $@" >> "$LOG_FILE"
 
