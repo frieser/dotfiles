@@ -6,8 +6,8 @@ import "../config"
 Item {
     id: root
 
-    readonly property string matugenPath: Quickshell.env("HOME") + "/.cargo/bin/matugen"
-    readonly property string tintyPath: Quickshell.env("HOME") + "/.cargo/bin/tinty"
+    readonly property string matugenPath: "matugen"
+    readonly property string tintyPath: "tinty"
     readonly property string niriPath: "niri"
     readonly property string tmuxPath: "tmux"
 
