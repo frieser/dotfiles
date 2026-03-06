@@ -1,8 +1,9 @@
 {
-  "default_agent": "architect",
+  "default_agent": "product-manager",
   "plugin": [
     "opencode-discord-notification@0.1.1",
-    "@tarquinen/opencode-dcp@latest"
+    "@tarquinen/opencode-dcp@latest",
+    "opencode-antigravity-image"
   ],
   "permission": {
     "read": {
@@ -55,7 +56,7 @@
       "type": "local",
       "command": [
         "node",
-        "{{ .chezmoi.homeDir }}/.config/opencode/mcp/system.js"
+        "/var/home/frieser/.config/opencode/mcp/system.js"
       ],
       "enabled": true
     },
@@ -78,6 +79,20 @@
         "--pull=always",
         "mcr.microsoft.com/playwright/mcp"
       ],
+      "enabled": true
+    },
+    "plane": {
+      "type": "local",
+      "command": [
+        "uvx",
+        "plane-mcp-server",
+        "stdio"
+      ],
+      "environment": {
+        "PLANE_API_KEY": "plane_api_10c5de4cad4349e2a3f65effabc971ff",
+        "PLANE_WORKSPACE_SLUG": "frieserlabs",
+        "PLANE_BASE_URL": "https://management.homelab.frieserlabs.dev/"
+      },
       "enabled": true
     }
   },

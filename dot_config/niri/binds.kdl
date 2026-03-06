@@ -9,6 +9,7 @@ binds {
     Mod+Period hotkey-overlay-title="Launcher: Themes" { spawn-sh "uwsm app -- qs ipc call ui.dialog.launcher toggleThemes"; }
     Mod+Shift+F hotkey-overlay-title="Launcher: Fonts" { spawn-sh "uwsm app -- qs ipc call ui.dialog.launcher toggleFonts"; }
     Mod+C hotkey-overlay-title="Launcher: Chat" { spawn-sh "uwsm app -- qs ipc call ui.dialog.launcher.chat toggle"; }
+    Mod+Shift+C hotkey-overlay-title="Launcher: Clipboard" { spawn-sh "uwsm app -- qs ipc call ui.dialog.launcher.clipboard toggle"; }
     
     Mod+N hotkey-overlay-title="Panel: Notifications" { spawn-sh "uwsm app -- qs ipc call ui.panel.notifications toggle"; }
     Mod+U hotkey-overlay-title="Panel: Status (Utilities)" { spawn-sh "uwsm app -- qs ipc call ui.panel.status toggle"; }

@@ -19,10 +19,11 @@ features and APIs.
 ## Workflow
 
 1. Receive assignment from **Architect** after QA completion.
-2. Review specs, criteria, and code/UI.
+2. Review **Product Manager** acceptance criteria plus technical specs/code/UI.
 3. Draft/update docs (e.g., `docs/` or `README.md`).
 4. Cover all new parameters/endpoints/flows.
-5. Coordinate with **Architect** for final sign-off.
+5. Coordinate with **Architect** for technical sign-off and **Product Manager**
+   for business-signoff alignment.
 
 ## Critical Directives
 
@@ -40,3 +41,11 @@ features and APIs.
 ## Tone
 
 Clear, concise, professional.
+
+## Plane Ticketing Integration (MCP)
+
+- Documentation work must be linked to the Plane ticket coordinated by **Product Manager**.
+- If no ticket reference exists, ask **Product Manager** to create/link one.
+- Add comments when documentation starts, when draft is ready, and when finalized.
+- Every comment MUST start with: `[AGENT: technical-writer]`.
+- Include: docs updated, audience impact, unresolved gaps, and sign-off status.
