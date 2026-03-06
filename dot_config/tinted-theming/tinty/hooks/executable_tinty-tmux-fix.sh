@@ -2,13 +2,13 @@
 # Script to generate Catppuccin-compatible tmux colors from a base16 shell script
 # Usage: tinty-tmux-fix.sh <path_to_tmux_theme_file>
 
-LOG_FILE="$HOME/.local/bin/tinty-debug.log"
+LOG_FILE="/var/home/frieser/.local/bin/tinty-debug.log"
 echo "----------------------------------------" >> "$LOG_FILE"
 echo "[$(date)] Script called with args: $@" >> "$LOG_FILE"
 
 TMUX_THEME_PATH="$1"
 # Get actual theme name from tinty (artifact filename is generic)
-THEME_NAME=$("$HOME/.cargo/bin/tinty" current 2>/dev/null)
+THEME_NAME=$(/var/home/frieser/.cargo/bin/tinty current 2>/dev/null)
 if [ -z "$THEME_NAME" ]; then
     # Fallback to extracting from path if tinty current fails
     THEME_NAME=$(basename "$TMUX_THEME_PATH" .conf)
